@@ -85,8 +85,7 @@ peuvent aussi être édités à la main dans `data/content.json`.
 - **Compo Path of Vengeance** : les 5 commandants de ta collection placés par position (avant / milieu / arrière).
 - **Codes** : liste vérifiée avec date, statut (actif / à tester), expiration et copie en un clic. Les codes expirés sont masqués.
 - **Boutique** : classement des packs payants (S / A / B), plans par budget (0 / 5 / 10 / 15 €) et liste de ce qu'il faut éviter.
-- **Technologie** : **arbre visuel façon jeu** (médaillons, icônes, paliers T1→T4, branches colorées, lignes dorées) avec onglets **Militaire / Économie**, puis chemins de recherche prioritaires.
-- **Plans de base** : schémas par tranche d'HDV (1-5, 6-10, 11-15, 16-20, 21-25) + **galerie d'images** de dispositions.
+- **Technologie** : **arbre visuel façon jeu** (médaillons, icônes, paliers, branches colorées, lignes dorées) avec menus déroulants **Arbre** (Militaire / Économie / Farm) et **Troupe** (Auto / Infanterie / Cavalerie / Archers / Siège). Le **chemin de progression global** (4 paliers) couvre **tous les nœuds des 3 arbres** avec un ordre **interleavé** (économie → recherche → discipline → ta troupe → production → unités → avancées...), adapté aux commandants possédés et aux builds recommandés. Le farm est regroupé en **optionnel** à la fin — la récolte se fait avec les gatherers (talents Récolte).
 - **Interface mobile** : filtres, builds, compos, arbre technologique et galeries s'adaptent au téléphone (l'arbre techno passe en défilement horizontal pour rester lisible).
 - **Version des données** affichée en haut et en bas ; bouton de vérification de mise à jour.
 
@@ -239,7 +238,7 @@ Le serveur officiel peut refuser les bots. Trois solutions :
 Le script parcourt jusqu'à `-Limit` messages (300 par défaut), accepte les codes avec ou sans
 chiffres, et n'utilise que l'API bot officielle (pas de token utilisateur).
 
-## Codes, boutique, techno, plans de base
+## Codes, boutique, techno
 
 Ces contenus vivent dans `data/content.json` et sont régénérés dans `data/content.js` par
 `scripts/build-data.ps1` (ou `npm run update`).
@@ -250,8 +249,6 @@ Ces contenus vivent dans `data/content.json` et sont régénérés dans `data/co
   dans l'onglet Codes.
 - **Boutique** : liste classée par intérêt (`rank`), avec prix, contenu, raison et budget conseillé.
 - **Technologie** : chemins ordonnés par objectif (`paths[].steps`).
-- **Plans de base** : un schéma par tranche d'HDV (`layouts.brackets`), avec zones hors muraille,
-  muraille, intérieur et cœur de ville.
 
 > Les codes expirent très vite et changent souvent : la liste est un instantané vérifié à la date
 > indiquée. Pour la rafraîchir, mets à jour `data/content.json` puis relance le build.

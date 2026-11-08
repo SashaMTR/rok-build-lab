@@ -24,9 +24,10 @@
     onlyOwned: false,
     tab: 'collection',
     showUnknownCodes: false,
-    layoutId: null,
     buildModes: {},
-    techTree: 'militaire'
+    techTree: 'militaire',
+    techStage: 1,
+    techTroop: 'auto'
   };
 
   const $ = (sel) => document.querySelector(sel);
@@ -61,9 +62,6 @@
     offersAvoid: $('#offersAvoid'),
     techNote: $('#techNote'),
     techPaths: $('#techPaths'),
-    layoutsNote: $('#layoutsNote'),
-    layoutTabs: $('#layoutTabs'),
-    layoutView: $('#layoutView'),
     footerVersion: $('#footerVersion'),
     footerDate: $('#footerDate'),
     toast: $('#toast')
@@ -1556,8 +1554,123 @@
           { id: 'prosperite', label: 'Prospérité', icon: '👑', big: true, parents: ['construction', 'recherche', 'stockage', 'logistique'], sub: 'Bonus globaux' }
         ]
       ]
+    },
+    {
+      id: 'farm',
+      label: 'Arbre farm / récolte',
+      icon: '🌾',
+      hint: 'Optionnel : la récolte se fait avec tes commandants gatherers (talents Récolte). La techno farm n’améliore que la production des bâtiments.',
+      levels: [
+        [{ id: 'farmroot', label: 'Techniques de récolte', icon: '🌾', big: true, sub: 'Racine' }],
+        [
+          { id: 'farm-food', label: 'Fermes', icon: '🌾', parent: 'farmroot', sub: 'Nourriture' },
+          { id: 'farm-wood', label: 'Scieries', icon: '🪵', parent: 'farmroot', sub: 'Bois' },
+          { id: 'farm-stone', label: 'Carrières', icon: '🪨', parent: 'farmroot', sub: 'Pierre' },
+          { id: 'farm-gold', label: 'Mines d’or', icon: '🪙', parent: 'farmroot', sub: 'Or' }
+        ],
+        [
+          { id: 'farm-speed', label: 'Vitesse de récolte', icon: '⚡', parent: 'farm-food' },
+          { id: 'farm-load', label: 'Charge des troupes', icon: '🎒', parent: 'farm-wood' },
+          { id: 'farm-tools', label: 'Outils améliorés', icon: '🛠️', parent: 'farm-stone' },
+          { id: 'farm-storage', label: 'Capacité de stockage', icon: '🏺', parent: 'farm-gold' }
+        ],
+        [
+          { id: 'farm-mastery', label: 'Maîtrise de la récolte', icon: '🌟', big: true, parents: ['farm-speed', 'farm-load', 'farm-tools', 'farm-storage'], sub: 'Bonus globaux' }
+        ]
+      ]
     }
   ];
+
+  const TECH_BRANCHES = {
+    infanterie: { branch: 'fer', unit: 'epeiste', advanced: 'mailles', label: 'Infanterie' },
+    cavalerie: { branch: 'equitation', unit: 'cav-legere', advanced: 'cav-lourde', label: 'Cavalerie' },
+    archers: { branch: 'fleches', unit: 'archer', advanced: 'arc-long', label: 'Archers' },
+    siege: { branch: 'projectile', unit: 'scorpion', advanced: 'baliste', label: 'Siège' }
+  };
+
+  function buildTechProgression(troop) {
+    const focusKey = TECH_BRANCHES[troop] ? troop : 'cavalerie';
+    const focus = TECH_BRANCHES[focusKey];
+    const others = Object.entries(TECH_BRANCHES).filter(([key]) => key !== focusKey);
+    const step = (tree, id, extra = {}) => ({ tree, id, ...extra });
+
+    return [
+      {
+        title: 'Démarrage — économie & armée',
+        note: 'Agriculture → recherche → discipline → ta troupe. Le socle de départ.',
+        steps: [
+          step('economie', 'eco'),
+          step('economie', 'agri'),
+          step('economie', 'recherche'),
+          step('militaire', 'disc'),
+          step('militaire', focus.branch, { troop: focusKey }),
+          step('economie', 'construction'),
+          step('militaire', focus.unit, { troop: focusKey }),
+          step('economie', 'foret'),
+          step('economie', 'stockage'),
+          step('economie', 'pierre'),
+          step('militaire', others[0][1].branch, { troop: others[0][0] })
+        ]
+      },
+      {
+        title: 'Développement — production & autres branches',
+        note: 'Alterne économie et branches militaires secondaires.',
+        steps: [
+          step('economie', 'or'),
+          step('militaire', others[0][1].unit, { troop: others[0][0] }),
+          step('economie', 'irrigation'),
+          step('militaire', others[1][1].branch, { troop: others[1][0] }),
+          step('economie', 'scierie'),
+          step('militaire', others[1][1].unit, { troop: others[1][0] }),
+          step('economie', 'taille'),
+          step('militaire', others[2][1].branch, { troop: others[2][0] }),
+          step('economie', 'fonderie'),
+          step('militaire', others[2][1].unit, { troop: others[2][0] })
+        ]
+      },
+      {
+        title: 'Spécialisation — avancées & farm optionnel',
+        note: 'Ta troupe avancée d’abord ; le farm reste optionnel.',
+        steps: [
+          step('militaire', focus.advanced, { troop: focusKey }),
+          step('militaire', others[0][1].advanced, { troop: others[0][0] }),
+          step('economie', 'logistique'),
+          step('militaire', others[1][1].advanced, { troop: others[1][0] }),
+          step('farm', 'farmroot', { optional: true }),
+          step('militaire', others[2][1].advanced, { troop: others[2][0] }),
+          step('farm', 'farm-food', { optional: true }),
+          step('farm', 'farm-wood', { optional: true }),
+          step('farm', 'farm-stone', { optional: true })
+        ]
+      },
+      {
+        title: 'Finalisation — science & farm optionnel',
+        note: 'Science et prospérité, puis le farm si tu veux optimiser la ville.',
+        steps: [
+          step('militaire', 'science'),
+          step('economie', 'prosperite'),
+          step('farm', 'farm-gold', { optional: true }),
+          step('farm', 'farm-speed', { optional: true }),
+          step('farm', 'farm-load', { optional: true }),
+          step('farm', 'farm-tools', { optional: true }),
+          step('farm', 'farm-storage', { optional: true }),
+          step('farm', 'farm-mastery', { optional: true })
+        ]
+      }
+    ];
+  }
+
+  const TECH_TREE_META = {
+    farm: { label: 'Farm', color: '#57d38c' },
+    economie: { label: 'Économie', color: '#e7b75f' },
+    militaire: { label: 'Militaire', color: '#ff7b6b' }
+  };
+
+  function findTechNode(treeId, nodeId) {
+    const tree = TECH_TREES.find((item) => item.id === treeId);
+    if (!tree) return null;
+    return flattenTechNodes(tree).get(nodeId) || null;
+  }
 
   function wrapTechLabel(label, maxChars) {
     const words = String(label).split(/\s+/);
@@ -1584,7 +1697,10 @@
   ];
   const TECH_GOLD = { main: '#e7b75f', light: '#f6dfa8' };
 
-  function renderTechTreeSvg(tree) {
+  function renderTechTreeSvg(tree, highlightTroop = null) {
+    const TROOP_BRANCH = { infanterie: 0, archers: 1, cavalerie: 2, siege: 3 };
+    const isMilitary = tree.id === 'militaire';
+    const focusBranch = isMilitary && highlightTroop ? TROOP_BRANCH[highlightTroop] : null;
     const width = 1000;
     const marginX = 92;
     const top = 66;
@@ -1646,8 +1762,14 @@
         const y2 = child.cy - child.r;
         const mid = (y2 - y1) * 0.5;
         const d = `M ${x1.toFixed(1)} ${y1.toFixed(1)} C ${x1.toFixed(1)} ${(y1 + mid).toFixed(1)}, ${x2.toFixed(1)} ${(y2 - mid).toFixed(1)}, ${x2.toFixed(1)} ${y2.toFixed(1)}`;
-        edgeGlow.push(`<path d="${d}" class="tech-edge-glow"></path>`);
-        edges.push(`<path d="${d}" class="tech-edge" marker-end="url(#tech-arrow-${esc(tree.id)})"></path>`);
+        const childBranch = branchOf(node.id);
+        const parentBranch = branchOf(parentId);
+        const dimEdge = isMilitary && focusBranch !== null && (
+          (childBranch >= 0 && childBranch !== focusBranch) ||
+          (parentBranch >= 0 && parentBranch !== focusBranch)
+        );
+        edgeGlow.push(`<path d="${d}" class="tech-edge-glow${dimEdge ? ' is-dimmed' : ''}"></path>`);
+        edges.push(`<path d="${d}" class="tech-edge${dimEdge ? ' is-dimmed' : ''}" marker-end="url(#tech-arrow-${esc(tree.id)})"></path>`);
       });
     }));
 
@@ -1668,6 +1790,8 @@
       const branch = branchOf(node.id);
       const palette = branch >= 0 ? TECH_BRANCH_COLORS[branch] : TECH_GOLD;
       const isGold = branch < 0 || node.big;
+      const dimNode = isMilitary && focusBranch !== null && branch >= 0 && branch !== focusBranch;
+      const focusedNode = isMilitary && focusBranch !== null && branch === focusBranch;
       const gradientId = isGold ? `tech-grad-${esc(tree.id)}-gold` : `tech-grad-${esc(tree.id)}-${branch}`;
       const icon = node.icon || '⚙️';
       const maxChars = node.big ? 22 : Math.max(12, Math.floor((p.slot - 22) / 6.4));
@@ -1685,7 +1809,7 @@
       const badgeY = p.cy - p.r * 0.72;
 
       boxes.push(`
-        <g class="tech-node${isGold ? ' is-gold' : ''}" data-branch="${branch}">
+        <g class="tech-node${isGold ? ' is-gold' : ''}${dimNode ? ' is-dimmed' : ''}${focusedNode ? ' is-focused' : ''}" data-branch="${branch}">
           <circle class="tech-halo" cx="${p.cx.toFixed(1)}" cy="${p.cy.toFixed(1)}" r="${(p.r + 7).toFixed(1)}" stroke="${palette.main}"></circle>
           <circle class="tech-medal" cx="${p.cx.toFixed(1)}" cy="${p.cy.toFixed(1)}" r="${p.r.toFixed(1)}" fill="url(#${gradientId})" stroke="${palette.main}"></circle>
           <circle class="tech-medal-inner" cx="${p.cx.toFixed(1)}" cy="${p.cy.toFixed(1)}" r="${Math.max(8, p.r - 6).toFixed(1)}" stroke="${palette.light}"></circle>
@@ -1746,73 +1870,145 @@
       </figure>`;
   }
 
+  function flattenTechNodes(tree) {
+    const map = new Map();
+    (tree.levels || []).forEach((nodes) => nodes.forEach((node) => map.set(node.id, node)));
+    return map;
+  }
+
+  const TECH_TROOPS = ['infanterie', 'cavalerie', 'archers', 'siege'];
+
+  function recommendedTechTroop() {
+    const scores = {};
+    coreRoster().forEach((entry) => {
+      const c = entry.c;
+      if (!TECH_TROOPS.includes(c.troops)) return;
+      const combat = combatOf(c);
+      let weight = combat.damage * 0.5 + combat.tank * 0.3 + combat.support * 0.3;
+      if (entry.tags.has('PvP')) weight += 6;
+      if (entry.tags.has('Vengeance')) weight += 3;
+      if (entry.tags.has('Farm')) weight += 0.5;
+      scores[c.troops] = (scores[c.troops] || 0) + weight;
+    });
+    const best = Object.entries(scores).sort((a, b) => b[1] - a[1])[0];
+    return best ? best[0] : bestPvPMarch()?.troop || null;
+  }
+
+  function techTroopNames(troop) {
+    return coreRoster()
+      .filter((entry) => entry.c.troops === troop)
+      .sort((a, b) => combatOf(b.c).score - combatOf(a.c).score)
+      .slice(0, 2)
+      .map((entry) => entry.c.name);
+  }
+
+  function effectiveTechTroop() {
+    const manual = state.techTroop;
+    const troop = manual !== 'auto' ? manual : recommendedTechTroop();
+    return TECH_TROOPS.includes(troop) ? troop : null;
+  }
+
+  function renderTechPriority(stage = 1) {
+    const mainTroop = effectiveTechTroop();
+    const autoTroop = state.techTroop === 'auto';
+    const focusedTroop = mainTroop;
+    const progression = buildTechProgression(focusedTroop);
+    const index = Math.min(Math.max(0, Number(stage) - 1), progression.length - 1);
+    const current = progression[index];
+    const shape = ['circle', 'hex', 'diamond', 'star'][index] || 'circle';
+    const options = progression.map((item, i) => `
+      <option value="${i}" ${i === index ? 'selected' : ''}>Palier ${i + 1} · ${esc(item.title)}</option>`).join('');
+    const hasTroopSteps = current.steps.some((step) => step.troop);
+    const stepsData = current.steps;
+    const steps = stepsData.map((step, i) => {
+      const node = findTechNode(step.tree, step.id);
+      if (!node) return '';
+      const meta = TECH_TREE_META[step.tree] || { label: step.tree, color: TECH_GOLD.main };
+      const optional = Boolean(step.optional);
+      return `
+        <div class="tech-path-step${optional ? ' is-optional' : ''}">
+          <span class="tech-path-num">${i + 1}</span>
+          <div class="tech-path-shape shape-${shape}">
+            <span class="tech-path-icon">${esc(node.icon || '⚙️')}</span>
+          </div>
+          <span class="tech-path-name">${esc(node.label)}</span>
+          ${node.sub ? `<span class="tech-path-sub">${esc(node.sub)}</span>` : ''}
+          <span class="tech-path-cat" style="--cat:${meta.color}">${esc(meta.label)}${optional ? ' · optionnel' : ''}</span>
+        </div>`;
+    }).join('<span class="tech-path-arrow" aria-hidden="true">→</span>');
+    const categories = [...new Set(stepsData.map((step) => step.tree))]
+      .map((treeId) => TECH_TREE_META[treeId])
+      .filter(Boolean)
+      .map((meta) => `<span><i style="background:${meta.color}"></i>${esc(meta.label)}</span>`)
+      .join('');
+    const focusNames = focusedTroop ? techTroopNames(focusedTroop) : [];
+    const focusText = focusedTroop
+      ? `${autoTroop ? 'Auto' : 'Branche'} : ${TROOP_LABEL[focusedTroop] || focusedTroop}` + (focusNames.length ? ` · ${focusNames.join(', ')}` : '')
+      : '';
+    const focus = hasTroopSteps && focusedTroop
+      ? `<span class="tech-focus" title="Selon tes commandants et les builds recommandés">${esc(focusText)}</span>`
+      : '';
+
+    return `
+      <section class="tech-priority shape-${shape}">
+        <div class="tech-priority-head">
+          <div>
+            <h3>Chemin de progression</h3>
+            <p>${esc(current.note || '')}</p>
+            <div class="tech-priority-cats">${categories}${focus}</div>
+            <p class="tech-farm-note">Farm : la récolte se fait avec tes commandants gatherers (talents Récolte) — la techno farm est secondaire.</p>
+          </div>
+          <label class="tech-stage-select">
+            <span>Palier</span>
+            <select id="techStageSelect">${options}</select>
+          </label>
+        </div>
+        <div class="tech-path">${steps}</div>
+      </section>`;
+  }
+
   function renderTech() {
     const cfg = CONTENT.tech || {};
     els.techNote.textContent = cfg.note || '';
     const selectedId = TECH_TREES.some((tree) => tree.id === state.techTree) ? state.techTree : TECH_TREES[0].id;
     const selected = TECH_TREES.find((tree) => tree.id === selectedId) || TECH_TREES[0];
-    const tabs = TECH_TREES.map((tree) => `
-      <button type="button" class="tag ${tree.id === selectedId ? 'ok' : ''}" data-tech="${esc(tree.id)}">${esc(tree.icon || '')} ${esc(tree.label)}</button>`).join('');
-    const advice = (cfg.paths || []).map((p) => `
+    const treeOptions = TECH_TREES.map((tree) => `
+      <option value="${esc(tree.id)}" ${tree.id === selectedId ? 'selected' : ''}>${esc(tree.icon || '')} ${esc(tree.label)}</option>`).join('');
+    const troopOptions = [
+      ['auto', 'Auto (meilleure marche)'],
+      ['infanterie', TROOP_LABEL.infanterie],
+      ['cavalerie', TROOP_LABEL.cavalerie],
+      ['archers', TROOP_LABEL.archers],
+      ['siege', TROOP_LABEL.siege]
+    ].map(([value, label]) => `<option value="${value}" ${state.techTroop === value ? 'selected' : ''}>${esc(label)}</option>`).join('');
+    const showTroop = true;
+    const controls = `
+      <div class="tech-controls">
+        <label class="tech-control">
+          <span>Arbre</span>
+          <select id="techTreeSelect">${treeOptions}</select>
+        </label>
+        ${showTroop ? `<label class="tech-control">
+          <span>Troupe</span>
+          <select id="techTroopSelect">${troopOptions}</select>
+        </label>` : ''}
+      </div>`;
+    const highlightTroop = showTroop ? effectiveTechTroop() : null;
+    const adviceItems = (cfg.paths || []).filter((p) => {
+      if (selected.id === 'farm') return p.id === 'farm';
+      if (selected.id === 'economie') return p.id === 'eco';
+      return !['farm', 'eco'].includes(p.id);
+    });
+    const advice = adviceItems.map((p) => `
       <article class="comp-card tech-card">
         <h3>${esc(p.icon || '')} ${esc(p.label)}</h3>
         <ol class="steps">${(p.steps || []).map((s) => `<li>${esc(s)}</li>`).join('')}</ol>
       </article>`).join('');
     els.techPaths.innerHTML = `
-      <div class="chips tech-tabs">${tabs}</div>
-      ${renderTechTreeSvg(selected)}
+      ${controls}
+      ${renderTechPriority(state.techStage)}
+      ${renderTechTreeSvg(selected, highlightTroop)}
       ${advice ? `<h2 class="tech-subhead">Priorités de recherche</h2>${advice}` : ''}`;
-  }
-
-  function renderLayouts() {
-    const cfg = CONTENT.layouts || {};
-    els.layoutsNote.textContent = cfg.note || '';
-    const brackets = cfg.brackets || [];
-    if (!brackets.length) {
-      els.layoutTabs.innerHTML = '';
-      els.layoutView.innerHTML = '';
-      return;
-    }
-    if (!brackets.some((b) => b.id === state.layoutId)) state.layoutId = brackets[0].id;
-    els.layoutTabs.innerHTML = brackets.map((b) => `
-      <button class="tag ${b.id === state.layoutId ? 'ok' : ''}" data-layout="${esc(b.id)}" type="button">${esc(b.label)}</button>`).join('');
-
-    const b = brackets.find((x) => x.id === state.layoutId) || brackets[0];
-    els.layoutView.innerHTML = `
-      <div class="layout-head">
-        <h3>${esc(b.label)}</h3>
-        <span class="tag">${esc(b.level || '')}</span>
-      </div>
-      <div class="schematic">
-        <div class="zone outside">
-          <span class="zone-label">Hors muraille</span>
-          <div class="chips">${(b.outside || []).map((x) => `<span class="tag">${esc(x)}</span>`).join('')}</div>
-        </div>
-        <div class="zone wall">
-          <span class="zone-label">Muraille · ${(b.wall || []).join(' · ')}</span>
-          <div class="zone inside">
-            <div class="chips">${(b.inside || []).map((x) => `<span class="tag">${esc(x)}</span>`).join('')}</div>
-          </div>
-          <div class="zone core">
-            <span class="zone-label">Cœur de ville</span>
-            <div class="chips">${(b.core || []).map((x) => `<span class="tag ok">${esc(x)}</span>`).join('')}</div>
-          </div>
-        </div>
-      </div>
-      <div class="tips">${(b.tips || []).map((t) => `<p>• ${esc(t)}</p>`).join('')}</div>
-      ${(cfg.gallery || []).length ? `
-        <div class="layout-gallery">
-          ${cfg.gallery.map((g) => `
-            <figure class="layout-shot">
-              <a href="${esc(g.src)}" target="_blank" rel="noopener">
-                <img src="${esc(g.src)}" alt="${esc(g.label)}" loading="lazy" />
-              </a>
-              <figcaption>
-                <strong>${esc(g.label)}</strong>
-                ${g.note ? `<span>${esc(g.note)}</span>` : ''}
-              </figcaption>
-            </figure>`).join('')}
-        </div>` : ''}`;
   }
 
   function renderAll() {
@@ -1824,7 +2020,6 @@
     renderCodes();
     renderOffers();
     renderTech();
-    renderLayouts();
   }
 
   /* ---------------- events ---------------- */
@@ -1951,21 +2146,19 @@
       });
     }
 
-    if (els.layoutTabs) {
-      els.layoutTabs.addEventListener('click', (event) => {
-        const btn = event.target.closest('[data-layout]');
-        if (!btn) return;
-        state.layoutId = btn.dataset.layout;
-        renderLayouts();
-      });
-    }
-
     if (els.techPaths) {
-      els.techPaths.addEventListener('click', (event) => {
-        const btn = event.target.closest('[data-tech]');
-        if (!btn) return;
-        state.techTree = btn.dataset.tech;
-        renderTech();
+      els.techPaths.addEventListener('change', (event) => {
+        const id = event.target.id;
+        if (id === 'techStageSelect') {
+          state.techStage = Number(event.target.value) + 1;
+          renderTech();
+        } else if (id === 'techTreeSelect') {
+          state.techTree = event.target.value;
+          renderTech();
+        } else if (id === 'techTroopSelect') {
+          state.techTroop = event.target.value;
+          renderTech();
+        }
       });
     }
   }
@@ -1989,7 +2182,7 @@
 
       if (contentRes && contentRes.ok) {
         const content = await contentRes.json();
-        if (content && (content.codes || content.offers || content.tech || content.layouts)) {
+        if (content && (content.codes || content.offers || content.tech)) {
           CONTENT = content;
           changed = true;
         }

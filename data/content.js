@@ -155,6 +155,17 @@ window.ROK_CONTENT = {
         ]
       },
       {
+        "id": "farm",
+        "label": "Farm — secondaire (gatherers)",
+        "icon": "🌾",
+        "steps": [
+          "Le farm optimal = commandants gatherers avec talents Récolte, pas la technologie.",
+          "La techno farm améliore seulement la production des bâtiments (fermes, scieries, carrières, mines).",
+          "Priorité basse dans le chemin de progression.",
+          "À monter seulement si tu veux optimiser la production de ta ville."
+        ]
+      },
+      {
         "id": "cav",
         "label": "Militaire — Cavalerie",
         "icon": "🐎",
@@ -200,197 +211,6 @@ window.ROK_CONTENT = {
           "Military Science",
           "Technologies de combat de ta troupe principale",
           "Économie de fin : stockage et vitesses"
-        ]
-      }
-    ]
-  },
-  "layouts": {
-    "verified": "2026-11-08",
-    "note": "Schémas indicatifs : adapte selon ta ville et ton alliance. Principe de base : ressources à l'extérieur de la muraille, bâtiments militaires et hôpital à l'intérieur.",
-    "gallery": [
-      {
-        "src": "assets/layouts/plans-early-mid-late.svg",
-        "label": "3 plans types : début, milieu, fin de jeu",
-        "note": "Organisation quotidienne, croissance, accès guerre."
-      },
-      {
-        "src": "assets/layouts/city-layout-guide.jpg",
-        "label": "Plan de ville complet (guide)",
-        "note": "Vue d'ensemble d'une ville développée."
-      },
-      {
-        "src": "assets/layouts/city-layout-1.jpg",
-        "label": "Disposition intérieure",
-        "note": "Bâtiments militaires regroupés autour du château."
-      },
-      {
-        "src": "assets/layouts/city-layout-2.jpg",
-        "label": "Disposition extérieure",
-        "note": "Ressources et bâtiments secondaires hors muraille."
-      },
-      {
-        "src": "assets/layouts/city-layout-editor.jpg",
-        "label": "Éditeur de disposition",
-        "note": "Comment déplacer et enregistrer ta ville."
-      }
-    ],
-    "brackets": [
-      {
-        "id": "hdv1-5",
-        "label": "HDV 1 → 5",
-        "level": "Début",
-        "outside": [
-          "Fermes",
-          "Scieries",
-          "Carrières",
-          "Mines d'or"
-        ],
-        "wall": [
-          "Tour de guet"
-        ],
-        "core": [
-          "Château",
-          "Centre d'alliance"
-        ],
-        "inside": [
-          "Hôpital",
-          "Caserne",
-          "Camp de scout"
-        ],
-        "tips": [
-          "Ressources à l'extérieur de la muraille.",
-          "Hôpital et caserne près du château.",
-          "Priorité : Château → Hôpital → Caserne."
-        ]
-      },
-      {
-        "id": "hdv6-10",
-        "label": "HDV 6 → 10",
-        "level": "Début / milieu",
-        "outside": [
-          "Fermes",
-          "Scieries",
-          "Carrières",
-          "Mines d'or"
-        ],
-        "wall": [
-          "2 tours de guet"
-        ],
-        "core": [
-          "Château",
-          "Centre d'alliance"
-        ],
-        "inside": [
-          "Hôpital",
-          "Caserne",
-          "Écurie",
-          "Stand de tir",
-          "Taverne"
-        ],
-        "tips": [
-          "Commence à regrouper les bâtiments militaires autour du château.",
-          "Garde l'hôpital protégé : c'est ta capacité de soin.",
-          "Ressources et camp de scout dehors."
-        ]
-      },
-      {
-        "id": "hdv11-15",
-        "label": "HDV 11 → 15",
-        "level": "Milieu",
-        "outside": [
-          "Fermes",
-          "Scieries",
-          "Carrières",
-          "Mines d'or",
-          "Camp de scout"
-        ],
-        "wall": [
-          "4 tours de guet"
-        ],
-        "core": [
-          "Château",
-          "Centre d'alliance"
-        ],
-        "inside": [
-          "2 hôpitaux",
-          "Caserne",
-          "Écurie",
-          "Stand de tir",
-          "Atelier de siège",
-          "Taverne"
-        ],
-        "tips": [
-          "Deuxième hôpital : indispensable pour encaisser les guerres.",
-          "Atelier de siège à l'intérieur, mais protégé.",
-          "Commence à spécialiser tes bâtiments militaires selon ta troupe."
-        ]
-      },
-      {
-        "id": "hdv16-20",
-        "label": "HDV 16 → 20",
-        "level": "Milieu / avancé",
-        "outside": [
-          "Fermes",
-          "Scieries",
-          "Carrières",
-          "Mines d'or",
-          "Camp de scout"
-        ],
-        "wall": [
-          "6 tours de guet"
-        ],
-        "core": [
-          "Château",
-          "Centre d'alliance",
-          "Académie"
-        ],
-        "inside": [
-          "2 hôpitaux",
-          "2 casernes",
-          "Écurie",
-          "Stand de tir",
-          "Atelier de siège",
-          "Taverne",
-          "Forge"
-        ],
-        "tips": [
-          "Priorité aux bâtiments militaires de ta troupe principale.",
-          "La forge reste à l'intérieur : elle produit ton équipement.",
-          "Étale les ressources pour éviter les pertes en cas de raid."
-        ]
-      },
-      {
-        "id": "hdv21-25",
-        "label": "HDV 21 → 25",
-        "level": "Avancé",
-        "outside": [
-          "Fermes",
-          "Scieries",
-          "Carrières",
-          "Mines d'or",
-          "Camp de scout"
-        ],
-        "wall": [
-          "8 tours de guet"
-        ],
-        "core": [
-          "Château",
-          "Centre d'alliance",
-          "Académie"
-        ],
-        "inside": [
-          "2 hôpitaux",
-          "2 casernes",
-          "2 écuries",
-          "2 stands de tir",
-          "Atelier de siège",
-          "Taverne",
-          "Forge"
-        ],
-        "tips": [
-          "Maximise les bâtiments de ta troupe principale avant les autres.",
-          "Garde l'hôpital et la forge au centre.",
-          "Adapte les positions selon les événements KvK et les attaques de ta zone."
         ]
       }
     ]
