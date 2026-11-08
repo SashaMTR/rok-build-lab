@@ -85,7 +85,7 @@ peuvent aussi être édités à la main dans `data/content.json`.
 - **Compo Path of Vengeance** : les 5 commandants de ta collection placés par position (avant / milieu / arrière).
 - **Codes** : liste vérifiée avec date, statut (actif / à tester), expiration et copie en un clic. Les codes expirés sont masqués.
 - **Boutique** : classement des packs payants (S / A / B), plans par budget (0 / 5 / 10 / 15 €) et liste de ce qu'il faut éviter.
-- **Technologie** : **arbre visuel** (militaire + économique) avec les branches réelles, puis chemins de recherche prioritaires (économie, cavalerie, infanterie, archers, fin de jeu).
+- **Technologie** : **arbre visuel façon jeu** (médaillons, icônes, paliers T1→T4, branches colorées, lignes dorées) avec onglets **Militaire / Économie**, puis chemins de recherche prioritaires.
 - **Plans de base** : schémas par tranche d'HDV (1-5, 6-10, 11-15, 16-20, 21-25) + **galerie d'images** de dispositions.
 - **Interface mobile** : filtres, builds, compos, arbre technologique et galeries s'adaptent au téléphone (l'arbre techno passe en défilement horizontal pour rester lisible).
 - **Version des données** affichée en haut et en bas ; bouton de vérification de mise à jour.

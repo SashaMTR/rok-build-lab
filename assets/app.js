@@ -25,7 +25,8 @@
     tab: 'collection',
     showUnknownCodes: false,
     layoutId: null,
-    buildModes: {}
+    buildModes: {},
+    techTree: 'militaire'
   };
 
   const $ = (sel) => document.querySelector(sel);
@@ -1575,70 +1576,132 @@
     return lines.slice(0, 2);
   }
 
+  const TECH_BRANCH_COLORS = [
+    { main: '#5aa9ff', light: '#a8d4ff' },
+    { main: '#57d38c', light: '#a9f0c7' },
+    { main: '#ff7b6b', light: '#ffb4aa' },
+    { main: '#c58cff', light: '#e3c7ff' }
+  ];
+  const TECH_GOLD = { main: '#e7b75f', light: '#f6dfa8' };
+
   function renderTechTreeSvg(tree) {
-    const marginX = 70;
     const width = 1000;
-    const top = 34;
-    const step = 122;
-    const nodeH = 62;
+    const marginX = 92;
+    const top = 66;
+    const step = 136;
+    const levels = tree.levels || [];
     const positions = new Map();
 
-    tree.levels.forEach((nodes, levelIndex) => {
+    const parentOf = new Map();
+    levels.forEach((nodes) => nodes.forEach((node) => {
+      const parents = node.parents || (node.parent ? [node.parent] : []);
+      if (parents.length) parentOf.set(node.id, parents[0]);
+    }));
+
+    const branchRoots = new Map();
+    (levels[1] || []).forEach((node, index) => branchRoots.set(node.id, index));
+    const branchOf = (id) => {
+      let current = id;
+      let guard = 0;
+      while (current && guard < 20) {
+        if (branchRoots.has(current)) return branchRoots.get(current);
+        current = parentOf.get(current);
+        guard += 1;
+      }
+      return -1;
+    };
+
+    levels.forEach((nodes, levelIndex) => {
       const n = nodes.length;
       const available = width - marginX * 2;
       const slot = available / Math.max(n, 1);
-      const nodeW = Math.max(118, Math.min(214, slot - 26));
       nodes.forEach((node, i) => {
+        const big = Boolean(node.big);
+        const r = big ? 38 : 27;
         const cx = n === 1 ? width / 2 : marginX + slot * i + slot / 2;
-        const cy = top + levelIndex * step + nodeH / 2;
-        positions.set(node.id, { cx, cy, w: nodeW });
+        const cy = top + levelIndex * step + r;
+        positions.set(node.id, { cx, cy, r, big, slot });
       });
     });
 
-    const height = top + (tree.levels.length - 1) * step + nodeH + 34;
+    const lastLevel = levels[levels.length - 1] || [];
+    const lastPositions = lastLevel.map((node) => positions.get(node.id)).filter(Boolean);
+    const maxBottom = lastPositions.length
+      ? Math.max(...lastPositions.map((p) => p.cy + p.r + 86))
+      : top + 220;
+    const height = Math.max(maxBottom + 18, 420);
+
+    const edgeGlow = [];
     const edges = [];
-
-    tree.levels.forEach((nodes) => {
-      nodes.forEach((node) => {
-        const parents = node.parents || (node.parent ? [node.parent] : []);
-        const child = positions.get(node.id);
-        parents.forEach((parentId) => {
-          const parent = positions.get(parentId);
-          if (!parent) return;
-          const y1 = parent.cy + nodeH / 2;
-          const y2 = child.cy - nodeH / 2;
-          const mid = (y2 - y1) / 2;
-          edges.push(`<path d="M ${parent.cx.toFixed(1)} ${y1.toFixed(1)} C ${parent.cx.toFixed(1)} ${(y1 + mid).toFixed(1)}, ${child.cx.toFixed(1)} ${(y2 - mid).toFixed(1)}, ${child.cx.toFixed(1)} ${y2.toFixed(1)}"></path>`);
-        });
+    levels.forEach((nodes) => nodes.forEach((node) => {
+      const child = positions.get(node.id);
+      if (!child) return;
+      const parents = node.parents || (node.parent ? [node.parent] : []);
+      parents.forEach((parentId) => {
+        const parent = positions.get(parentId);
+        if (!parent) return;
+        const x1 = parent.cx;
+        const y1 = parent.cy + parent.r;
+        const x2 = child.cx;
+        const y2 = child.cy - child.r;
+        const mid = (y2 - y1) * 0.5;
+        const d = `M ${x1.toFixed(1)} ${y1.toFixed(1)} C ${x1.toFixed(1)} ${(y1 + mid).toFixed(1)}, ${x2.toFixed(1)} ${(y2 - mid).toFixed(1)}, ${x2.toFixed(1)} ${y2.toFixed(1)}`;
+        edgeGlow.push(`<path d="${d}" class="tech-edge-glow"></path>`);
+        edges.push(`<path d="${d}" class="tech-edge" marker-end="url(#tech-arrow-${esc(tree.id)})"></path>`);
       });
-    });
+    }));
+
+    const gradients = TECH_BRANCH_COLORS.map((color, index) => `
+      <linearGradient id="tech-grad-${esc(tree.id)}-${index}" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="${color.main}" stop-opacity="0.38"/>
+        <stop offset="1" stop-color="${color.main}" stop-opacity="0.07"/>
+      </linearGradient>`).join('');
+
+    const tiers = levels.map((nodes, index) => {
+      const y = top + index * step + 12;
+      return `<text class="tech-tier" x="28" y="${y.toFixed(1)}">${index === 0 ? 'BASE' : `T${index}`}</text>`;
+    }).join('');
 
     const boxes = [];
-    tree.levels.forEach((nodes) => {
-      nodes.forEach((node) => {
-        const p = positions.get(node.id);
-        const x = p.cx - p.w / 2;
-        const y = p.cy - nodeH / 2;
-        const maxChars = Math.max(12, Math.floor((p.w - 20) / 6.4));
-        const lines = wrapTechLabel(node.label, maxChars);
-        const lineHeight = 14;
-        const hasSub = Boolean(node.sub);
-        const labelStart = p.cy - (lines.length - 1) * (lineHeight / 2) - (hasSub ? 4 : 0);
-        const text = lines
-          .map((line, i) => `<tspan x="${p.cx.toFixed(1)}" y="${(labelStart + i * lineHeight).toFixed(1)}">${esc(line)}</tspan>`)
-          .join('');
-        const sub = hasSub
-          ? `<text class="tech-sub" x="${p.cx.toFixed(1)}" y="${(labelStart + lines.length * lineHeight + 1).toFixed(1)}">${esc(node.sub)}</text>`
-          : '';
-        boxes.push(`
-          <g class="tech-node${node.big ? ' is-root' : ''}">
-            <rect x="${x.toFixed(1)}" y="${y.toFixed(1)}" width="${p.w.toFixed(1)}" height="${nodeH}" rx="12"></rect>
-            <text class="tech-label" text-anchor="middle">${text}</text>
-            ${sub}
-            <title>${esc(node.label)}${node.sub ? ' — ' + esc(node.sub) : ''}</title>
-          </g>`);
-      });
-    });
+    levels.forEach((nodes) => nodes.forEach((node) => {
+      const p = positions.get(node.id);
+      const branch = branchOf(node.id);
+      const palette = branch >= 0 ? TECH_BRANCH_COLORS[branch] : TECH_GOLD;
+      const isGold = branch < 0 || node.big;
+      const gradientId = isGold ? `tech-grad-${esc(tree.id)}-gold` : `tech-grad-${esc(tree.id)}-${branch}`;
+      const icon = node.icon || '⚙️';
+      const maxChars = node.big ? 22 : Math.max(12, Math.floor((p.slot - 22) / 6.4));
+      const lines = wrapTechLabel(node.label, maxChars);
+      const labelY = p.cy + p.r + 19;
+      const lineHeight = 12.5;
+      const label = lines
+        .map((line, index) => `<tspan x="${p.cx.toFixed(1)}" y="${(labelY + index * lineHeight).toFixed(1)}">${esc(line)}</tspan>`)
+        .join('');
+      const subY = labelY + lines.length * lineHeight + 1;
+      const sub = node.sub
+        ? `<text class="tech-sub" x="${p.cx.toFixed(1)}" y="${subY.toFixed(1)}">${esc(node.sub)}</text>`
+        : '';
+      const badgeX = p.cx + p.r * 0.72;
+      const badgeY = p.cy - p.r * 0.72;
+
+      boxes.push(`
+        <g class="tech-node${isGold ? ' is-gold' : ''}" data-branch="${branch}">
+          <circle class="tech-halo" cx="${p.cx.toFixed(1)}" cy="${p.cy.toFixed(1)}" r="${(p.r + 7).toFixed(1)}" stroke="${palette.main}"></circle>
+          <circle class="tech-medal" cx="${p.cx.toFixed(1)}" cy="${p.cy.toFixed(1)}" r="${p.r.toFixed(1)}" fill="url(#${gradientId})" stroke="${palette.main}"></circle>
+          <circle class="tech-medal-inner" cx="${p.cx.toFixed(1)}" cy="${p.cy.toFixed(1)}" r="${Math.max(8, p.r - 6).toFixed(1)}" stroke="${palette.light}"></circle>
+          <text class="tech-icon" x="${p.cx.toFixed(1)}" y="${p.cy.toFixed(1)}" text-anchor="middle" dominant-baseline="central" font-size="${(p.r * 0.92).toFixed(1)}">${esc(icon)}</text>
+          <circle class="tech-level-badge" cx="${badgeX.toFixed(1)}" cy="${badgeY.toFixed(1)}" r="9" stroke="${palette.main}"></circle>
+          <text class="tech-level-text" x="${badgeX.toFixed(1)}" y="${(badgeY + 3.2).toFixed(1)}" text-anchor="middle" fill="${palette.light}">5</text>
+          <text class="tech-name" text-anchor="middle">${label}</text>
+          ${sub}
+          <title>${esc(node.label)}${node.sub ? ' — ' + esc(node.sub) : ''}</title>
+        </g>`);
+    }));
+
+    const legend = (levels[1] || []).map((node, index) => {
+      const color = TECH_BRANCH_COLORS[index] || TECH_GOLD;
+      return `<span class="tech-legend-item"><i style="background:${color.main};box-shadow:0 0 8px ${color.main}"></i>${esc(node.icon || '')} ${esc(node.sub || node.label)}</span>`;
+    }).join('');
 
     return `
       <figure class="tech-tree">
@@ -1646,21 +1709,59 @@
           <span>${esc(tree.icon || '')} ${esc(tree.label)}</span>
           <small>${esc(tree.hint || '')}</small>
         </figcaption>
-        <svg class="tech-svg" viewBox="0 0 ${width} ${height}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="${esc(tree.label)}">
-          <g class="tech-edges">${edges.join('')}</g>
-          <g class="tech-boxes">${boxes.join('')}</g>
-        </svg>
+        <div class="tech-legend">${legend}</div>
+        <div class="tech-scroll">
+          <svg class="tech-svg" viewBox="0 0 ${width} ${height}" preserveAspectRatio="xMidYMid meet" role="img" aria-label="${esc(tree.label)}">
+            <defs>
+              <radialGradient id="tech-bg-${esc(tree.id)}" cx="50%" cy="0%" r="100%">
+                <stop offset="0" stop-color="#17263f"/>
+                <stop offset="0.55" stop-color="#0e192b"/>
+                <stop offset="1" stop-color="#080f1a"/>
+              </radialGradient>
+              <pattern id="tech-grid-${esc(tree.id)}" width="46" height="46" patternUnits="userSpaceOnUse">
+                <path d="M 46 0 L 0 0 0 46" fill="none" stroke="#ffffff" stroke-opacity="0.035" stroke-width="1"/>
+              </pattern>
+              <linearGradient id="tech-grad-${esc(tree.id)}-gold" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="${TECH_GOLD.main}" stop-opacity="0.45"/>
+                <stop offset="1" stop-color="${TECH_GOLD.main}" stop-opacity="0.08"/>
+              </linearGradient>
+              ${gradients}
+              <marker id="tech-arrow-${esc(tree.id)}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+                <path d="M 0 0 L 10 5 L 0 10 z" fill="${TECH_GOLD.main}" fill-opacity="0.85"/>
+              </marker>
+            </defs>
+            <rect width="${width}" height="${height}" fill="url(#tech-bg-${esc(tree.id)})"></rect>
+            <rect width="${width}" height="${height}" fill="url(#tech-grid-${esc(tree.id)})"></rect>
+            <g class="tech-corners">
+              <path d="M 22 52 L 22 22 L 52 22"></path>
+              <path d="M ${width - 52} 22 L ${width - 22} 22 L ${width - 22} 52"></path>
+              <path d="M 22 ${height - 52} L 22 ${height - 22} L 52 ${height - 22}"></path>
+              <path d="M ${width - 52} ${height - 22} L ${width - 22} ${height - 22} L ${width - 22} ${height - 52}"></path>
+            </g>
+            <g class="tech-tiers">${tiers}</g>
+            <g class="tech-edges">${edgeGlow.join('')}${edges.join('')}</g>
+            <g class="tech-boxes">${boxes.join('')}</g>
+          </svg>
+        </div>
       </figure>`;
   }
 
   function renderTech() {
     const cfg = CONTENT.tech || {};
     els.techNote.textContent = cfg.note || '';
-    els.techPaths.innerHTML = TECH_TREES.map(renderTechTreeSvg).join('') + (cfg.paths || []).map((p) => `
+    const selectedId = TECH_TREES.some((tree) => tree.id === state.techTree) ? state.techTree : TECH_TREES[0].id;
+    const selected = TECH_TREES.find((tree) => tree.id === selectedId) || TECH_TREES[0];
+    const tabs = TECH_TREES.map((tree) => `
+      <button type="button" class="tag ${tree.id === selectedId ? 'ok' : ''}" data-tech="${esc(tree.id)}">${esc(tree.icon || '')} ${esc(tree.label)}</button>`).join('');
+    const advice = (cfg.paths || []).map((p) => `
       <article class="comp-card tech-card">
         <h3>${esc(p.icon || '')} ${esc(p.label)}</h3>
         <ol class="steps">${(p.steps || []).map((s) => `<li>${esc(s)}</li>`).join('')}</ol>
       </article>`).join('');
+    els.techPaths.innerHTML = `
+      <div class="chips tech-tabs">${tabs}</div>
+      ${renderTechTreeSvg(selected)}
+      ${advice ? `<h2 class="tech-subhead">Priorités de recherche</h2>${advice}` : ''}`;
   }
 
   function renderLayouts() {
@@ -1856,6 +1957,15 @@
         if (!btn) return;
         state.layoutId = btn.dataset.layout;
         renderLayouts();
+      });
+    }
+
+    if (els.techPaths) {
+      els.techPaths.addEventListener('click', (event) => {
+        const btn = event.target.closest('[data-tech]');
+        if (!btn) return;
+        state.techTree = btn.dataset.tech;
+        renderTech();
       });
     }
   }

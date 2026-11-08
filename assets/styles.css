@@ -595,26 +595,59 @@ path { display: block; }
 .steps li { margin-bottom: 5px; }
 .steps li::marker { color: var(--gold); font-weight: 700; }
 
+.tech-tabs { margin: 0 0 10px; }
+.tech-tabs .tag { cursor: pointer; font-family: inherit; }
+.tech-subhead { font-size: 15px; margin: 18px 0 10px; color: var(--gold-soft); }
+
 .tech-tree {
-  margin: 0 0 14px;
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  background: linear-gradient(180deg, var(--bg-card), var(--bg-soft));
-  padding: 14px 16px 10px;
+  position: relative;
+  margin: 0 0 16px;
+  border: 1px solid rgba(231, 183, 95, 0.28);
+  border-radius: calc(var(--radius) + 2px);
+  background: linear-gradient(180deg, #101b2c, #0a111d);
+  padding: 14px 16px 12px;
   overflow: hidden;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.025), 0 14px 40px rgba(0, 0, 0, 0.28);
 }
-.tech-tree-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; margin-bottom: 6px; }
+.tech-tree::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(600px 160px at 50% 0%, rgba(231, 183, 95, 0.10), transparent 70%);
+}
+.tech-tree-head { position: relative; display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 16px; margin-bottom: 6px; }
 .tech-tree-head span { font-size: 15px; font-weight: 800; color: var(--gold-soft); }
 .tech-tree-head small { color: var(--muted-2); font-size: 11.5px; }
-.tech-svg { width: 100%; height: auto; display: block; }
-.tech-edges path { fill: none; stroke: #3a4258; stroke-width: 1.4; }
-.tech-node rect { fill: #1b2233; stroke: #3a4258; stroke-width: 1.2; transition: fill 0.15s ease, stroke 0.15s ease; }
-.tech-node:hover rect { fill: #232c41; stroke: var(--gold); }
-.tech-node.is-root rect { fill: rgba(231, 183, 95, 0.12); stroke: rgba(231, 183, 95, 0.65); }
-.tech-node.is-root:hover rect { fill: rgba(231, 183, 95, 0.2); }
-.tech-label { fill: #e3e8f3; font-size: 12.5px; font-weight: 600; }
-.tech-node.is-root .tech-label { fill: var(--gold-soft); font-weight: 800; }
-.tech-sub { fill: var(--muted-2); font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.04em; }
+.tech-legend { position: relative; display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 2px 0 8px; }
+.tech-legend-item { display: inline-flex; align-items: center; gap: 5px; font-size: 11px; color: var(--muted); }
+.tech-legend-item i { width: 8px; height: 8px; border-radius: 50%; box-shadow: 0 0 8px currentColor; }
+.tech-scroll { overflow-x: auto; overflow-y: hidden; scrollbar-width: thin; }
+.tech-svg { width: 100%; min-width: 720px; height: auto; display: block; }
+
+.tech-corners path { fill: none; stroke: var(--gold); stroke-opacity: 0.32; stroke-width: 1.2; }
+.tech-tier { fill: var(--muted-2); font-size: 10px; font-weight: 800; letter-spacing: 0.12em; }
+
+.tech-edge { fill: none; stroke: #c9a45c; stroke-opacity: 0.62; stroke-width: 1.5; }
+.tech-edge-glow { fill: none; stroke: #e7b75f; stroke-opacity: 0.13; stroke-width: 7; stroke-linecap: round; }
+
+.tech-halo { fill: none; stroke-opacity: 0.16; stroke-width: 2; transition: stroke-opacity 0.18s ease; }
+.tech-node { animation: tech-node-in 0.4s ease both; }
+@keyframes tech-node-in {
+  from { opacity: 0; transform: translateY(5px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.tech-medal { stroke-width: 1.8; transition: filter 0.18s ease, stroke-width 0.18s ease; }
+.tech-node:hover .tech-name { fill: #fff; }
+.tech-medal-inner { fill: none; stroke-opacity: 0.28; stroke-width: 0.9; }
+.tech-icon { pointer-events: none; filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.55)); }
+.tech-level-badge { fill: #0c1524; stroke-width: 1.2; }
+.tech-level-text { font-size: 8.5px; font-weight: 800; }
+.tech-name { fill: #e8edf8; font-size: 11.5px; font-weight: 700; }
+.tech-node.is-gold .tech-name { fill: var(--gold-soft); font-weight: 800; }
+.tech-sub { fill: var(--muted-2); font-size: 8.5px; text-transform: uppercase; letter-spacing: 0.05em; }
+.tech-node:hover .tech-medal { stroke-width: 2.6; filter: brightness(1.18); }
+.tech-node:hover .tech-halo { stroke-opacity: 0.4; }
 
 /* ---------- Layouts ---------- */
 .layout-tabs { margin-bottom: 14px; }
@@ -799,8 +832,8 @@ path { display: block; }
   .invest-item .chips { width: 100%; justify-content: flex-start; }
   .invest-who { flex-basis: calc(100% - 80px); }
 
-  .tech-tree { overflow-x: auto; }
-  .tech-svg { min-width: 640px; }
+  .tech-scroll { overflow-x: auto; }
+  .tech-svg { min-width: 760px; }
   .tech-tree-head small { display: none; }
 
   .layout-gallery { grid-template-columns: 1fr; }
