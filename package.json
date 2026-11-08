@@ -1,0 +1,15 @@
+{
+  "name": "rok-build-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Builds et compositions Rise of Kingdoms selon la collection du joueur.",
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "build": "node scripts/update.mjs --no-bump",
+    "update": "node scripts/update.mjs",
+    "update:data": "node scripts/fetch-talents.mjs && node scripts/fetch-commander-data.mjs && node scripts/update.mjs --no-bump",
+    "update:codes": "node scripts/fetch-discord-codes.mjs",
+    "check": "node scripts/update.mjs --check"
+  }
+}

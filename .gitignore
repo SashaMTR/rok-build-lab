@@ -1,0 +1,10 @@
+.env
+.gh-token
+node_modules/
+data/*.bak
+screenshots/
+_site/
+tmp-*
+*.log
+.DS_Store
+Thumbs.db

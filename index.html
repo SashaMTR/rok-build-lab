@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>RoK Build Lab — builds & compos</title>
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">⚔</span>
+      <div>
+        <strong>RoK Build Lab</strong>
+        <small>Builds &amp; compos selon ta collection</small>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <span id="versionChip" class="chip chip-version" title="Version des données">v—</span>
+      <button id="refreshBtn" class="btn btn-ghost" type="button">Actualiser les données</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Tes meilleurs builds, sans chercher pendant des heures.</h1>
+        <p>
+          Coche les commandants que tu possèdes : le site leur attribue un rôle et un build complet
+          (talents, compétences, équipement), puis calcule les duos et les marches possibles avec
+          <em>ta</em> collection.
+        </p>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span id="statOwned">0</span>
+          <small>possédés</small>
+        </div>
+        <div class="stat">
+          <span id="statTotal">0</span>
+          <small>commandants</small>
+        </div>
+        <div class="stat">
+          <span id="statComps">0</span>
+          <small>compos possibles</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="toolbar" aria-label="Filtres">
+      <label class="search">
+        <span aria-hidden="true">⌕</span>
+        <input id="searchInput" type="search" placeholder="Rechercher un commandant, une spécialité…" autocomplete="off" />
+      </label>
+      <label class="field">
+        <span>Rareté</span>
+        <select id="rarityFilter">
+          <option value="all">Toutes</option>
+          <option value="legendaire">Légendaire</option>
+          <option value="epique">Épique</option>
+          <option value="elite">Élite</option>
+          <option value="avance">Avancé</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>Troupes</span>
+        <select id="troopFilter">
+          <option value="all">Tous</option>
+          <option value="cavalerie">Cavalerie</option>
+          <option value="infanterie">Infanterie</option>
+          <option value="archers">Archers</option>
+          <option value="polyvalent">Polyvalent</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>Trier</span>
+        <select id="sortFilter">
+          <option value="tier">Tier (S → D)</option>
+          <option value="name">Nom (A → Z)</option>
+          <option value="grade">Grade global</option>
+          <option value="troop">Type de troupe</option>
+          <option value="rarity">Rareté</option>
+          <option value="build">Build officiel d'abord</option>
+          <option value="owned">Possédés d'abord</option>
+        </select>
+      </label>
+      <label class="field">
+        <span>Grade</span>
+        <select id="gradeFilter">
+          <option value="all">Tous</option>
+          <option value="S">S</option>
+          <option value="A">A</option>
+          <option value="B">B</option>
+          <option value="C">C</option>
+          <option value="D">D</option>
+        </select>
+      </label>
+      <label class="switch">
+        <input id="ownedOnly" type="checkbox" />
+        <span>Possédés seulement</span>
+      </label>
+      <button id="clearBtn" class="btn btn-ghost" type="button">Tout décocher</button>
+    </section>
+
+    <nav class="tabs" role="tablist">
+      <button class="tab is-active" data-tab="collection" role="tab">1 · Sélection</button>
+      <button class="tab" data-tab="builds" role="tab">2 · Mes builds</button>
+      <button class="tab" data-tab="comps" role="tab">3 · Mes compos</button>
+      <button class="tab" data-tab="codes" role="tab">4 · Codes</button>
+      <button class="tab" data-tab="offers" role="tab">5 · Boutique</button>
+      <button class="tab" data-tab="tech" role="tab">6 · Technologie</button>
+      <button class="tab" data-tab="layouts" role="tab">7 · Plans de base</button>
+    </nav>
+
+    <section id="panel-collection" class="panel">
+      <div class="panel-head">
+        <h2>Catalogue</h2>
+        <p>Coche ce que tu as. Tout est sauvegardé dans ton navigateur.</p>
+      </div>
+      <div id="catalogue" class="grid-cmd"></div>
+      <p id="catalogueEmpty" class="empty" hidden>Aucun commandant ne correspond aux filtres.</p>
+    </section>
+
+    <section id="panel-builds" class="panel" hidden>
+      <div class="panel-head">
+        <h2>Mes builds</h2>
+        <p>Rôle attribué automatiquement + build complet pour chaque commandant possédé. Seuls les arbres avec des points sont affichés.</p>
+      </div>
+      <div id="builds" class="stack"></div>
+      <p id="buildsEmpty" class="empty" hidden>Coche d'abord des commandants dans l'onglet « Sélection ».</p>
+    </section>
+
+    <section id="panel-comps" class="panel" hidden>
+      <div class="panel-head">
+        <h2>Mes compos</h2>
+        <p>Duos et marches calculés avec ta collection : compétences (dégâts, tank, soutien, debuff), arbres de talents, bonus anti-barbares et synergies officielles.</p>
+      </div>
+      <div id="comps" class="stack"></div>
+      <p id="compsEmpty" class="empty" hidden>Pas encore assez de commandants cochés pour proposer une compo.</p>
+    </section>
+
+    <section id="panel-codes" class="panel" hidden>
+      <div class="panel-head">
+        <h2>Codes cadeaux</h2>
+        <p id="codesMeta">—</p>
+      </div>
+      <div class="inline-tools">
+        <label class="switch">
+          <input id="showUnknownCodes" type="checkbox" />
+          <span>Afficher aussi les codes « à tester »</span>
+        </label>
+        <button id="copyAllCodes" class="btn btn-ghost" type="button">Copier les codes actifs</button>
+      </div>
+      <div id="codesList" class="stack"></div>
+      <p id="codesEmpty" class="empty" hidden>Aucun code actif pour le moment.</p>
+    </section>
+
+    <section id="panel-offers" class="panel" hidden>
+      <div class="panel-head">
+        <h2>Boutique — que vaut chaque pack ?</h2>
+        <p id="offersNote">—</p>
+      </div>
+      <div id="offersTiers" class="grid-offers"></div>
+
+      <div class="panel-head" style="margin-top:22px"><h2>Plans par budget</h2></div>
+      <div id="offersPlans" class="stack"></div>
+
+      <div class="panel-head" style="margin-top:22px"><h2>À éviter</h2></div>
+      <div id="offersAvoid" class="chips"></div>
+    </section>
+
+    <section id="panel-tech" class="panel" hidden>
+      <div class="panel-head">
+        <h2>Technologie — chemins prioritaires</h2>
+        <p id="techNote">—</p>
+      </div>
+      <div id="techPaths" class="stack"></div>
+    </section>
+
+    <section id="panel-layouts" class="panel" hidden>
+      <div class="panel-head">
+        <h2>Plans de base</h2>
+        <p id="layoutsNote">—</p>
+      </div>
+      <div id="layoutTabs" class="chips layout-tabs"></div>
+      <div id="layoutView" class="layout-view"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      Données <span id="footerVersion">—</span> · <span id="footerDate">—</span>
+    </p>
+    <p class="muted">
+      Outil communautaire non officiel, non affilié à Lilith Games. Données : RokBuilder /
+      Rokstats / GachaData ; géométrie des arbres : SimonHo (GPL-3.0) ; codes :
+      RiseOfKingdomsGuides. Portraits © Lilith Games. Les builds restent indicatifs.
+    </p>
+  </footer>
+
+  <div id="toast" class="toast" hidden></div>
+
+  <script src="data/commanders.js"></script>
+  <script src="data/content.js"></script>
+  <script src="data/talents.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

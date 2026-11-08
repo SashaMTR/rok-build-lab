@@ -1,0 +1,26421 @@
+window.ROK_DATA = {
+  "meta": {
+    "version": "2026.11.08",
+    "updatedAt": "2026-11-08",
+    "gameVersion": "Rise of Kingdoms — dataset communautaire",
+    "source": "Dataset local (RoK Build Lab)",
+    "disclaimer": "Builds indicatifs : la méta évolue à chaque mise à jour. Les entrées marquées non vérifiées sont des recommandations par rôle, à confirmer selon ta version du jeu.",
+    "dataSource": "rokbuilder.com",
+    "dataUpdatedAt": "2026-11-08"
+  },
+  "commanders": [
+    {
+      "id": "minamoto",
+      "name": "Minamoto no Yoshitsune",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Maintien de la paix",
+        "Compétence"
+      ],
+      "role": "Nuke cavalerie / barbares",
+      "roleKey": "nuker",
+      "tier": "A",
+      "firstTalent": "Dragon Saber",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Dragon Saber (3/3)",
+            "Halberd (3/3)",
+            "Galea (3/3)",
+            "Undying Fury (3/3)",
+            "Disarm (4/4)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Burning Blood (3/3)",
+            "Heraldic Shield (3/3)",
+            "Latent Power (3/3)",
+            "All For One (3/3)",
+            "Tactical Mastery (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Kyohachiryu » (active) à 5 en premier, puis « Trial in Kurama-dera » → « Master of Kendo » → « Warlord », enfin « Kyohachiryu Kiwami » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie (Windswept → Vanguard), priorité attaque puis santé.",
+      "notes": "Monstre du début de jeu (+50 % vs barbares). En secondaire, ses talents ne comptent pas.",
+      "pairings": [
+        "cao-cao",
+        "pelagius"
+      ],
+      "usage": [
+        "pvp",
+        "barbares",
+        "forts"
+      ],
+      "invest": {
+        "level": "yes",
+        "reason": "Carry cavalerie du début de jeu : priorité tant qu'il est ta marche principale."
+      },
+      "verified": true,
+      "skills": [
+        {
+          "name": "Kyohachiryu",
+          "type": "Active"
+        },
+        {
+          "name": "Trial in Kurama-dera",
+          "type": "Passive"
+        },
+        {
+          "name": "Master of Kendo",
+          "type": "Passive"
+        },
+        {
+          "name": "Warlord",
+          "type": "Passive"
+        },
+        {
+          "name": "Kyohachiryu Kiwami",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "minamoto-no-yoshitsune",
+      "grades": {
+        "overall": "A",
+        "field": "A",
+        "rally": "C+",
+        "garrison": "D+",
+        "canyon": "A+"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        8,
+        11
+      ],
+      "build": {
+        "id": "official-1",
+        "name": "Double Dragon",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "306": 3,
+          "308": 3,
+          "309": 3,
+          "311": 1,
+          "312": 2,
+          "315": 1,
+          "316": 3,
+          "317": 4,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1105": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1400,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 20,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 10,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 30,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 50,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Kyohachiryu",
+        "tags": [
+          "damage",
+          "debuff",
+          "barbares"
+        ],
+        "summary": "dégâts monocible · buff attaque · debuff · anti-barbares"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 0,
+        "support": 2,
+        "utility": 3.7,
+        "secondary": 0,
+        "role": "damage",
+        "score": 15.4,
+        "tags": [
+          "damage",
+          "debuff",
+          "barbares"
+        ],
+        "summary": "dégâts monocible · buff attaque · debuff · anti-barbares"
+      },
+      "officialPairings": [
+        {
+          "partner": "cao-cao",
+          "name": "Double Dragon",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "Minamoto no Yoshitsune's Warlord skill increases the enemy's damage received. Combine it with the Kyohachiryu and Dragon Rider skills to deal massive burst damage."
+        },
+        {
+          "partner": "pelagius-legendary",
+          "name": "Pelagius Garrison",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Cavalry",
+          "description": "One of the few garrison-focused Legendary cavalry commanders obtainable early on in the game, Pelagius can combine garrison talents and his Rough Terrain skill to effectively defend strongholds with cavalry units."
+        }
+      ]
+    },
+    {
+      "id": "cao-cao",
+      "name": "Cao Cao",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Maintien de la paix",
+        "Mobilité"
+      ],
+      "role": "Cavalerie / farm / vitesse",
+      "tier": "C",
+      "firstTalent": "Dragon Saber",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Dragon Saber (3/3)",
+            "Undying Fury (3/3)"
+          ]
+        },
+        {
+          "name": "Maintien de la paix",
+          "path": [
+            "Insight (3/3)",
+            "Quick Study (3/3)",
+            "Domination (3/3)",
+            "Killer Instinct (3/3)",
+            "Trophy Hunter (3/3)",
+            "Mighty Force (3/3)",
+            "Thoroughbreds (3/3)",
+            "Double-Edged Sword (3/3)",
+            "Curing Chant (5/5)"
+          ]
+        },
+        {
+          "name": "Mobilité",
+          "path": [
+            "Saving Cross (3/3)",
+            "Lightning Charge (3/3)",
+            "Swiftness (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Dragon Rider » (active) à 5 en premier, puis « The Qingzhou Army » → « Tiger Knight » → « Lofty Ambition », enfin « Emperor Wu of Wei » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie (Windswept → Vanguard).",
+      "notes": "Ses sculptures tombent des coffres d'or : n'utilise pas d'universelles. Build vitesse : Hasty Departure + Lightning Charge → Thoroughbreds → Charge → Time Management.",
+      "pairings": [
+        "belisaire",
+        "minamoto"
+      ],
+      "usage": [
+        "pvp",
+        "barbares",
+        "forts"
+      ],
+      "invest": {
+        "level": "yes",
+        "reason": "Secondaire de Minamoto ; ses sculptures tombent des coffres d'or, inutile d'utiliser des universelles."
+      },
+      "verified": true,
+      "skills": [
+        {
+          "name": "Dragon Rider",
+          "type": "Active"
+        },
+        {
+          "name": "The Qingzhou Army",
+          "type": "Passive"
+        },
+        {
+          "name": "Tiger Knight",
+          "type": "Passive"
+        },
+        {
+          "name": "Lofty Ambition",
+          "type": "Passive"
+        },
+        {
+          "name": "Emperor Wu of Wei",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "cao-cao",
+      "grades": {
+        "overall": "C",
+        "field": "B",
+        "rally": "D+",
+        "garrison": "F",
+        "canyon": "B"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        8,
+        15
+      ],
+      "build": {
+        "id": "official-3",
+        "name": "Beginner Peacekeeping",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "304": 2,
+          "305": 3,
+          "311": 1,
+          "316": 3,
+          "801": 1,
+          "802": 3,
+          "803": 3,
+          "804": 3,
+          "805": 3,
+          "806": 3,
+          "807": 3,
+          "808": 2,
+          "809": 1,
+          "810": 3,
+          "811": 3,
+          "812": 1,
+          "813": 2,
+          "814": 2,
+          "817": 2,
+          "818": 3,
+          "819": 3,
+          "820": 5,
+          "1501": 1,
+          "1502": 2,
+          "1503": 1,
+          "1504": 2,
+          "1505": 3,
+          "1507": 3,
+          "1509": 3,
+          "1510": 1
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1400,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 1000,
+        "selfAttack": 30,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 10,
+        "selfSpeed": 20,
+        "selfRage": 100,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 40,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 10,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 50,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Dragon Rider",
+        "tags": [
+          "damage",
+          "heal",
+          "debuff",
+          "rage",
+          "barbares"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque · debuff · rage · anti-barbares"
+      },
+      "combat": {
+        "damage": 10.8,
+        "tank": 1.7,
+        "support": 4.1,
+        "utility": 8.6,
+        "secondary": 0,
+        "role": "damage",
+        "score": 19.8,
+        "tags": [
+          "damage",
+          "heal",
+          "debuff",
+          "rage",
+          "barbares"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque · debuff · rage · anti-barbares"
+      },
+      "officialPairings": [
+        {
+          "partner": "belisarius",
+          "name": "Beginner Peacekeeping",
+          "role": "primary",
+          "scenario": "Peacekeeping",
+          "troop": "Cavalry",
+          "description": "Cao Cao's The Qingzhou Army and Belisarius's Irresistible skills can stack with one another, making them a fantastic pair for cutting down barbarians."
+        },
+        {
+          "partner": "minamoto-no-yoshitsune",
+          "name": "Double Dragon",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "Minamoto no Yoshitsune's Warlord skill increases the enemy's damage received. Combine it with the Kyohachiryu and Dragon Rider skills to deal massive burst damage."
+        }
+      ]
+    },
+    {
+      "id": "sun-tzu",
+      "name": "Sun Tzu",
+      "rarity": "epique",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Garnison",
+        "Compétence"
+      ],
+      "role": "AoE infanterie / rage",
+      "tier": "S",
+      "firstTalent": "Call of the Pack",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (3/3)"
+          ]
+        },
+        {
+          "name": "Garnison",
+          "path": [
+            "Impenetrable Fortifications (3/3)",
+            "City Guardian (3/3)",
+            "King's Guard (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Art of War » (active) à 5 en premier, puis « Philosophy of War » → « Master Strategist » → « Ever-changing Tactics », enfin « Book of Aeons » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie (santé/défense) ou mixte selon la marche.",
+      "notes": "Le meilleur épique du jeu. Garnison : Nowhere to Turn → Impregnable si tu défends une ville.",
+      "pairings": [
+        "pericles",
+        "charles-martel",
+        "richard"
+      ],
+      "usage": [
+        "pvp",
+        "barbares"
+      ],
+      "invest": {
+        "level": "yes",
+        "reason": "Meilleur épique du jeu, carry infanterie : à monter sans hésiter."
+      },
+      "verified": true,
+      "skills": [
+        {
+          "name": "Art of War",
+          "type": "Active"
+        },
+        {
+          "name": "Philosophy of War",
+          "type": "Passive"
+        },
+        {
+          "name": "Master Strategist",
+          "type": "Passive"
+        },
+        {
+          "name": "Ever-changing Tactics",
+          "type": "Passive"
+        },
+        {
+          "name": "Book of Aeons",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "sun-tzu",
+      "grades": {
+        "overall": "S",
+        "field": "S",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "A+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        7,
+        11
+      ],
+      "build": {
+        "id": "official-72",
+        "name": "Brilliant Minds",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "104": 3,
+          "105": 3,
+          "108": 2,
+          "112": 3,
+          "701": 1,
+          "703": 3,
+          "704": 2,
+          "708": 3,
+          "711": 2,
+          "712": 2,
+          "713": 2,
+          "718": 3,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 800,
+        "aoe": true,
+        "targets": 5,
+        "skillDamageBonus": 20,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 10,
+        "selfDamageReduction": 10,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 50,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Art of War",
+        "tags": [
+          "damage",
+          "aoe",
+          "tank",
+          "rage",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · tank · rage · garnison"
+      },
+      "combat": {
+        "damage": 10.2,
+        "tank": 5.6,
+        "support": 0,
+        "utility": 0.6,
+        "secondary": 0,
+        "role": "damage",
+        "score": 15.5,
+        "tags": [
+          "damage",
+          "aoe",
+          "tank",
+          "rage",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · tank · rage · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "pericles",
+          "name": "Brilliant Minds",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Infantry",
+          "description": "With Sun Tzu's Philosophy of War and Pericles's First Citizen, any garrison led by this duo will hit harder and last longer."
+        },
+        {
+          "partner": "charles-martel",
+          "name": "Charles Martel AoE",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "The damage bonus from Charles Martel's Shield of Francia combines with Sun Tzu's Art of War to deal early AoE burst damage."
+        },
+        {
+          "partner": "richard-i",
+          "name": "Remedial Lessons",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "Richard I's healing and defensive skills prolong his troop's survivability, allowing more chances for Sun Tzu to unleash his Art of War."
+        }
+      ]
+    },
+    {
+      "id": "jeanne",
+      "name": "Jeanne d'Arc",
+      "rarity": "epique",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Récolte",
+        "Soutien"
+      ],
+      "role": "Soutien / récolte",
+      "tier": "S",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Divine Revelation » (active) à 5 en premier, puis « The Maid of Orléans » → « Holy Refuge » → « Saint », enfin « Descent of the Goddess » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set Harvest pour la récolte, sinon rien de dédié.",
+      "notes": "S-tier soutien : buffe toute la marche et les alliés. En secondaire, ses talents ne comptent pas.",
+      "pairings": [
+        "seondeok"
+      ],
+      "usage": [
+        "pvp",
+        "recolte"
+      ],
+      "invest": {
+        "level": "yes",
+        "reason": "Soutien S-tier, utile toute la partie, même en secondaire."
+      },
+      "verified": false,
+      "skills": [
+        {
+          "name": "Divine Revelation",
+          "type": "Active"
+        },
+        {
+          "name": "The Maid of Orléans",
+          "type": "Passive"
+        },
+        {
+          "name": "Holy Refuge",
+          "type": "Passive"
+        },
+        {
+          "name": "Saint",
+          "type": "Passive"
+        },
+        {
+          "name": "Descent of the Goddess",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "joan-of-arc",
+      "grades": {
+        "overall": "S",
+        "field": "S",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "S"
+      },
+      "gear": [
+        "Coiffe de moissonneur",
+        "Robe de moissonneur",
+        "Sceptre du gardien de la forêt",
+        "Gants de moissonneur",
+        "Pantalon de moissonneur",
+        "Bottes de moissonneur"
+      ],
+      "treeIds": [
+        4,
+        9,
+        14
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 450,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 30,
+        "teamDefense": 30,
+        "teamHealth": 30,
+        "teamDamageReduction": 0,
+        "teamRage": 50,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Divine Revelation",
+        "tags": [
+          "heal",
+          "support",
+          "rage"
+        ],
+        "summary": "soin · buffs d’équipe · rage"
+      },
+      "combat": {
+        "damage": 0,
+        "tank": 1.1,
+        "support": 10.1,
+        "utility": 0.6,
+        "secondary": 0,
+        "role": "support",
+        "score": 9.4,
+        "tags": [
+          "heal",
+          "support",
+          "rage"
+        ],
+        "summary": "soin · buffs d’équipe · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "seondeok",
+          "name": "Seondeok Gathering",
+          "role": "secondary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "This pair gains huge bonuses to Gold Gathering Speed, making them a powerful boon to a developing governor."
+        }
+      ]
+    },
+    {
+      "id": "boudica",
+      "name": "Boadicée",
+      "rarity": "epique",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Maintien de la paix",
+        "Compétence"
+      ],
+      "role": "Barbares / forts / XP",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Lament of the Insurgent » (active) à 5 en premier, puis « Group Battle » → « Celtic Blood » → « Queen of the Iceni », enfin « Roar of the Insurgent » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Aucun équipement dédié nécessaire.",
+      "notes": "Spécialiste barbares/forts : +dégâts et +XP. PvP : Rejuvenate (Burning Blood, All For One) → Thoroughbreds → Feral Nature.",
+      "pairings": [
+        "lohar"
+      ],
+      "usage": [
+        "barbares",
+        "forts"
+      ],
+      "invest": {
+        "level": "situational",
+        "reason": "Spécialiste barbares/forts : monte-la si tu farmes, pas pour le PvP."
+      },
+      "verified": false,
+      "skills": [
+        {
+          "name": "Lament of the Insurgent",
+          "type": "Active"
+        },
+        {
+          "name": "Group Battle",
+          "type": "Passive"
+        },
+        {
+          "name": "Celtic Blood",
+          "type": "Passive"
+        },
+        {
+          "name": "Queen of the Iceni",
+          "type": "Passive"
+        },
+        {
+          "name": "Roar of the Insurgent",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "boudica",
+      "grades": {
+        "overall": "C",
+        "field": "C",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "C"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        4,
+        8,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1000,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 400,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 50,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Lament of the Insurgent",
+        "tags": [
+          "damage",
+          "heal",
+          "rage"
+        ],
+        "summary": "dégâts monocible · soin · rage"
+      },
+      "combat": {
+        "damage": 7,
+        "tank": 1,
+        "support": 0.6,
+        "utility": 0.6,
+        "secondary": 0,
+        "role": "damage",
+        "score": 8.7,
+        "tags": [
+          "damage",
+          "heal",
+          "rage"
+        ],
+        "summary": "dégâts monocible · soin · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "lohar",
+          "name": "Lohar Peacekeeping",
+          "role": "secondary",
+          "scenario": "Peacekeeping",
+          "troop": "Multi",
+          "description": "This duo deals a ton of extra damage to barbarians, making them a great fit for clearing the field."
+        }
+      ]
+    },
+    {
+      "id": "tomoe",
+      "name": "Tomoe Gozen",
+      "rarity": "elite",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Polyvalence",
+        "Attaque"
+      ],
+      "role": "Soutien archer (secondaire)",
+      "roleKey": "support",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Blood Sakura » (active) à 5 en premier, puis « Divine Bow » → « Beauty in Chaos » → « Eternal Love ». Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archer si tu la joues en principale.",
+      "notes": "Bien meilleure en secondaire : +15 % dégâts de compétence (Beauty in Chaos) et +30 % attaque (Blood Sakura). Ses talents ne comptent pas en secondaire.",
+      "pairings": [
+        "markswoman"
+      ],
+      "usage": [
+        "pvp",
+        "barbares"
+      ],
+      "invest": {
+        "level": "situational",
+        "reason": "Bon secondaire archer, mais ne dépense pas trop dedans."
+      },
+      "verified": false,
+      "skills": [
+        {
+          "name": "Blood Sakura",
+          "type": "Active"
+        },
+        {
+          "name": "Divine Bow",
+          "type": "Passive"
+        },
+        {
+          "name": "Beauty in Chaos",
+          "type": "Passive"
+        },
+        {
+          "name": "Eternal Love",
+          "type": "Passive"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "tomoe-gozen",
+      "grades": {},
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        10,
+        12
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 30,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 5,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 15,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 15,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Blood Sakura",
+        "tags": [
+          "debuff",
+          "secondary"
+        ],
+        "summary": "buff attaque · debuff · bonus en secondaire"
+      },
+      "combat": {
+        "damage": 4.8,
+        "tank": 0,
+        "support": 1,
+        "utility": 1.8,
+        "secondary": 1.5,
+        "role": "damage",
+        "score": 7.2,
+        "tags": [
+          "debuff",
+          "secondary"
+        ],
+        "summary": "buff attaque · debuff · bonus en secondaire"
+      },
+      "officialPairings": [
+        {
+          "partner": "markswoman",
+          "name": "Quick and Cheap Archers",
+          "role": "secondary",
+          "scenario": "Peacekeeping",
+          "troop": "Archers",
+          "description": "The low training cost of this pair make them an easy option for clearing early barbarian quests."
+        }
+      ]
+    },
+    {
+      "id": "lancelot",
+      "name": "Lancelot",
+      "rarity": "elite",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Polyvalence",
+        "Mobilité"
+      ],
+      "role": "Coursier / mobilité",
+      "tier": "B",
+      "firstTalent": "Undying Fury",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Undying Fury (3/3)",
+            "Dragon Saber (3/3)",
+            "Galea (3/3)",
+            "Emblazoned Shield (4/4)",
+            "Charge (3/3)",
+            "Disarm (4/4)",
+            "Halberd (3/3)",
+            "Rallying Cry (3/5)"
+          ]
+        },
+        {
+          "name": "Polyvalence",
+          "path": [
+            "Insight (2/3)",
+            "Marionette (3/3)",
+            "City Guardian (3/3)"
+          ]
+        },
+        {
+          "name": "Mobilité",
+          "path": [
+            "Vortex (3/3)",
+            "Saving Cross (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Quarrel » (active) à 5 en premier, puis « Knight of the Round Table » → « Forbidden Love » → « Battle of Sorrow ». Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Aucun équipement dédié.",
+      "notes": "Utilitaire : runes, objectifs, chasser les gatherers. Ne pas investir au-delà du minimum.",
+      "pairings": [
+        "dragon-lancer"
+      ],
+      "usage": [
+        "utilitaire"
+      ],
+      "invest": {
+        "level": "no",
+        "reason": "Coursier uniquement : aucune valeur en combat."
+      },
+      "verified": true,
+      "skills": [
+        {
+          "name": "Quarrel",
+          "type": "Active"
+        },
+        {
+          "name": "Knight of the Round Table",
+          "type": "Passive"
+        },
+        {
+          "name": "Forbidden Love",
+          "type": "Passive"
+        },
+        {
+          "name": "Battle of Sorrow",
+          "type": "Passive"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "lancelot",
+      "grades": {},
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        10,
+        15
+      ],
+      "build": {
+        "id": "official-5",
+        "name": "Quick and Cheap Cavalry",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "306": 3,
+          "307": 3,
+          "308": 3,
+          "309": 3,
+          "310": 3,
+          "311": 1,
+          "312": 2,
+          "313": 1,
+          "314": 2,
+          "315": 1,
+          "316": 3,
+          "317": 4,
+          "318": 4,
+          "320": 3,
+          "1001": 1,
+          "1002": 3,
+          "1003": 3,
+          "1007": 2,
+          "1008": 3,
+          "1011": 1,
+          "1013": 1,
+          "1501": 1,
+          "1502": 2,
+          "1503": 1,
+          "1504": 2,
+          "1505": 3,
+          "1506": 3,
+          "1511": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 600,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 15,
+        "healFactor": 0,
+        "selfAttack": 5,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 40,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Quarrel",
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 5.4,
+        "tank": 6.7,
+        "support": 0,
+        "utility": 2,
+        "secondary": 0,
+        "role": "tank",
+        "score": 12.4,
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "dragon-lancer",
+          "name": "Quick and Cheap Cavalry",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "Though cheap to train, the cavalry March Speed bonuses from Fine Horse and Knight of the Round Table allow this pairing to zoom across the battlefield."
+        }
+      ]
+    },
+    {
+      "id": "city-keeper",
+      "name": "Gardien de la ville",
+      "rarity": "avance",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Polyvalence",
+        "Attaque"
+      ],
+      "role": "Tank début de jeu",
+      "roleKey": "tank",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Hard Shield » (active) à 5 en premier, puis « Vitality » → « Sharp Blade » → « Resilient ». Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Rien de dédié.",
+      "notes": "Bouche-trou : ne pas mettre de sculptures universelles ni d'équipement. Remplacer dès que possible.",
+      "pairings": [
+        "sun-tzu",
+        "eulji"
+      ],
+      "usage": [
+        "garnison"
+      ],
+      "invest": {
+        "level": "no",
+        "reason": "Tank de début de jeu, remplaçable : ne pas investir."
+      },
+      "verified": false,
+      "skills": [
+        {
+          "name": "Hard Shield",
+          "type": "Active"
+        },
+        {
+          "name": "Vitality",
+          "type": "Passive"
+        },
+        {
+          "name": "Sharp Blade",
+          "type": "Passive"
+        },
+        {
+          "name": "Resilient",
+          "type": "Passive"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "city-keeper",
+      "grades": {},
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        10,
+        12
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 5,
+        "selfDefense": 15,
+        "selfHealth": 5,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Hard Shield",
+        "tags": [
+          "tank"
+        ],
+        "summary": "buff attaque · tank"
+      },
+      "combat": {
+        "damage": 1.9,
+        "tank": 3.5,
+        "support": 0,
+        "utility": 0,
+        "secondary": 0,
+        "role": "tank",
+        "score": 5,
+        "tags": [
+          "tank"
+        ],
+        "summary": "buff attaque · tank"
+      }
+    },
+    {
+      "id": "markswoman",
+      "name": "Tireuse d'élite",
+      "rarity": "avance",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Maintien de la paix",
+        "Compétence"
+      ],
+      "role": "Farm barbares",
+      "roleKey": "peacekeeper",
+      "tier": "B",
+      "firstTalent": "Rejuvenate",
+      "trees": [
+        {
+          "name": "Compétence",
+          "path": [
+            "Rejuvenate (3/3)",
+            "Tactical Mastery (3/3)",
+            "All For One (3/3)",
+            "Burning Blood (3/3)",
+            "Heraldic Shield (3/3)"
+          ]
+        },
+        {
+          "name": "Maintien de la paix",
+          "path": [
+            "Insight (3/3)",
+            "Quick Study (3/3)",
+            "Domination (3/3)",
+            "Killer Instinct (3/3)",
+            "Trophy Hunter (3/3)",
+            "Mighty Force (3/3)",
+            "Thoroughbreds (3/3)",
+            "Double-Edged Sword (3/3)",
+            "Curing Chant (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Raid » (active) à 5 en premier, puis « Poison Arrow » → « Accuracy » → « Agility ». Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Rien de dédié.",
+      "notes": "Remplacée par Boadicée/Lohar. Ses talents ne comptent que si elle est principale.",
+      "pairings": [
+        "tomoe",
+        "keira"
+      ],
+      "usage": [
+        "barbares"
+      ],
+      "invest": {
+        "level": "no",
+        "reason": "Remplacée par Boadicée/Lohar pour les barbares."
+      },
+      "verified": true,
+      "skills": [
+        {
+          "name": "Raid",
+          "type": "Active"
+        },
+        {
+          "name": "Poison Arrow",
+          "type": "Passive"
+        },
+        {
+          "name": "Accuracy",
+          "type": "Passive"
+        },
+        {
+          "name": "Agility",
+          "type": "Passive"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "markswoman",
+      "grades": {},
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        8,
+        11
+      ],
+      "build": {
+        "id": "official-16",
+        "name": "Quick and Cheap Archers",
+        "points": {
+          "801": 1,
+          "802": 3,
+          "803": 3,
+          "804": 3,
+          "805": 3,
+          "806": 3,
+          "807": 3,
+          "808": 2,
+          "809": 1,
+          "810": 3,
+          "811": 3,
+          "812": 1,
+          "813": 2,
+          "814": 2,
+          "817": 2,
+          "818": 3,
+          "819": 3,
+          "820": 5,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1111": 2,
+          "1113": 2,
+          "1114": 2,
+          "1117": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 100,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 5,
+        "selfDefense": 5,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 10,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Raid",
+        "tags": [
+          "tank",
+          "barbares"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · anti-barbares"
+      },
+      "combat": {
+        "damage": 3.2,
+        "tank": 0.6,
+        "support": 0,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 3.7,
+        "tags": [
+          "tank",
+          "barbares"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · anti-barbares"
+      },
+      "officialPairings": [
+        {
+          "partner": "tomoe-gozen",
+          "name": "Quick and Cheap Archers",
+          "role": "primary",
+          "scenario": "Peacekeeping",
+          "troop": "Archers",
+          "description": "The low training cost of this pair make them an easy option for clearing early barbarian quests."
+        },
+        {
+          "partner": "keira",
+          "name": "Keira Peacekeeping",
+          "role": "secondary",
+          "scenario": "Peacekeeping",
+          "troop": "Archers",
+          "description": "This duo deals a ton of extra damage to barbarians, making them a great fit for clearing the field."
+        }
+      ]
+    },
+    {
+      "id": "dragon-lancer",
+      "name": "Lancier dragon",
+      "rarity": "avance",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Polyvalence",
+        "Mobilité"
+      ],
+      "role": "Coursier",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Deterrent » (active) à 5 en premier, puis « Fine Horse » → « Lance of Freedom » → « Metal Armor ». Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Rien de dédié.",
+      "notes": "Uniquement runes/objectifs. Aucune valeur en combat.",
+      "pairings": [
+        "lancelot"
+      ],
+      "usage": [
+        "utilitaire"
+      ],
+      "invest": {
+        "level": "no",
+        "reason": "Coursier sans valeur de combat."
+      },
+      "verified": false,
+      "skills": [
+        {
+          "name": "Deterrent",
+          "type": "Active"
+        },
+        {
+          "name": "Fine Horse",
+          "type": "Passive"
+        },
+        {
+          "name": "Lance of Freedom",
+          "type": "Passive"
+        },
+        {
+          "name": "Metal Armor",
+          "type": "Passive"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "dragon-lancer",
+      "grades": {},
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        10,
+        15
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 75,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 5,
+        "selfDefense": 5,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 10,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Deterrent",
+        "tags": [
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 1.5,
+        "tank": 0.6,
+        "support": 0,
+        "utility": 1.7,
+        "secondary": 0,
+        "role": "damage",
+        "score": 2.9,
+        "tags": [
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "lancelot",
+          "name": "Quick and Cheap Cavalry",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "Though cheap to train, the cavalry March Speed bonuses from Fine Horse and Knight of the Round Table allow this pairing to zoom across the battlefield."
+        }
+      ]
+    },
+    {
+      "id": "lohar",
+      "name": "Lohar",
+      "rarity": "epique",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Maintien de la paix",
+        "Soutien"
+      ],
+      "role": "XP / barbares (carry)",
+      "tier": "D",
+      "firstTalent": "Insight",
+      "trees": [
+        {
+          "name": "Maintien de la paix",
+          "path": [
+            "Insight (3/3)",
+            "Quick Study (3/3)",
+            "Domination (3/3)",
+            "Killer Instinct (3/3)",
+            "Trophy Hunter (3/3)",
+            "Mighty Force (3/3)",
+            "Thoroughbreds (3/3)",
+            "Double-Edged Sword (3/3)",
+            "Curing Chant (5/5)"
+          ]
+        },
+        {
+          "name": "Soutien",
+          "path": [
+            "Burning Blood (3/3)",
+            "Hasty Departure (3/3)",
+            "Elixir (3/3)",
+            "Loose Formation (3/3)",
+            "Rejuvenate (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Overwhelming Force » (active) à 5 en premier, puis « Sanction » → « Lohar's Trial » → « Unruly Blood », enfin « Unyielding Spirit » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Aucun.",
+      "notes": "LE carry pour monter les autres : jusqu'à +70 % d'XP et du soin. Mets-le en principal, le perso à monter en secondaire.",
+      "pairings": [
+        "boudica"
+      ],
+      "usage": [
+        "xp",
+        "barbares",
+        "forts"
+      ],
+      "invest": {
+        "level": "yes",
+        "reason": "Le meilleur pour monter les autres commandants (+70 % d'XP)."
+      },
+      "verified": true,
+      "skills": [
+        {
+          "name": "Overwhelming Force",
+          "type": "Active"
+        },
+        {
+          "name": "Sanction",
+          "type": "Passive"
+        },
+        {
+          "name": "Lohar's Trial",
+          "type": "Passive"
+        },
+        {
+          "name": "Unruly Blood",
+          "type": "Passive"
+        },
+        {
+          "name": "Unyielding Spirit",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "lohar",
+      "grades": {
+        "overall": "D",
+        "field": "D",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "D"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        4,
+        8,
+        14
+      ],
+      "build": {
+        "id": "official-63",
+        "name": "Lohar Peacekeeping",
+        "points": {
+          "801": 1,
+          "802": 3,
+          "803": 3,
+          "804": 3,
+          "805": 3,
+          "806": 3,
+          "807": 3,
+          "808": 2,
+          "809": 1,
+          "810": 3,
+          "811": 3,
+          "812": 1,
+          "813": 2,
+          "814": 2,
+          "817": 2,
+          "818": 3,
+          "819": 3,
+          "820": 5,
+          "1401": 1,
+          "1402": 3,
+          "1403": 3,
+          "1404": 3,
+          "1405": 3,
+          "1406": 3,
+          "1407": 3,
+          "1408": 2,
+          "1411": 1,
+          "1412": 1,
+          "1416": 2,
+          "1418": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 450,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 2000,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 35,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Overwhelming Force",
+        "tags": [
+          "damage",
+          "heal",
+          "barbares"
+        ],
+        "summary": "dégâts monocible · soin · anti-barbares"
+      },
+      "combat": {
+        "damage": 2.3,
+        "tank": 5,
+        "support": 4.4,
+        "utility": 0,
+        "secondary": 0,
+        "role": "tank",
+        "score": 10.2,
+        "tags": [
+          "damage",
+          "heal",
+          "barbares"
+        ],
+        "summary": "dégâts monocible · soin · anti-barbares"
+      },
+      "officialPairings": [
+        {
+          "partner": "boudica",
+          "name": "Lohar Peacekeeping",
+          "role": "primary",
+          "scenario": "Peacekeeping",
+          "troop": "Multi",
+          "description": "This duo deals a ton of extra damage to barbarians, making them a great fit for clearing the field."
+        }
+      ]
+    },
+    {
+      "id": "belisaire",
+      "name": "Bélisaire",
+      "rarity": "epique",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Maintien de la paix",
+        "Mobilité"
+      ],
+      "role": "Cavalerie / mobilité",
+      "tier": "A",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Deception » (active) à 5 en premier, puis « Irresistible » → « Bucellarii » → « Oblique Tactics », enfin « Bloodthirsty Bucellarii » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie léger.",
+      "notes": "Bon coursier et farm ; tombe ensuite.",
+      "pairings": [
+        "baibars",
+        "cao-cao",
+        "pelagius"
+      ],
+      "usage": [
+        "utilitaire",
+        "barbares"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Deception",
+          "type": "Active"
+        },
+        {
+          "name": "Irresistible",
+          "type": "Passive"
+        },
+        {
+          "name": "Bucellarii",
+          "type": "Passive"
+        },
+        {
+          "name": "Oblique Tactics",
+          "type": "Passive"
+        },
+        {
+          "name": "Bloodthirsty Bucellarii",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "belisarius",
+      "grades": {
+        "overall": "A",
+        "field": "A",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "B+"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        8,
+        15
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 450,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 25,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 30,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 50,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 30,
+        "enemyDefenseDown": 30,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 35,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Deception",
+        "tags": [
+          "damage",
+          "debuff",
+          "tank",
+          "barbares"
+        ],
+        "summary": "dégâts monocible · tank · debuff · anti-barbares"
+      },
+      "combat": {
+        "damage": 5.1,
+        "tank": 3.8,
+        "support": 4,
+        "utility": 10.3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 16.8,
+        "tags": [
+          "damage",
+          "debuff",
+          "tank",
+          "barbares"
+        ],
+        "summary": "dégâts monocible · tank · debuff · anti-barbares"
+      },
+      "officialPairings": [
+        {
+          "partner": "baibars",
+          "name": "Beginner Field",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "The Slow effect from Baibars's Sandstorm paired with Belisarius's Oblique Tactics allows these two to mercilessly run down weakened troops."
+        },
+        {
+          "partner": "cao-cao",
+          "name": "Beginner Peacekeeping",
+          "role": "secondary",
+          "scenario": "Peacekeeping",
+          "troop": "Cavalry",
+          "description": "Cao Cao's The Qingzhou Army and Belisarius's Irresistible skills can stack with one another, making them a fantastic pair for cutting down barbarians."
+        },
+        {
+          "partner": "pelagius",
+          "name": "Beginner Garrison",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Cavalry",
+          "description": "One of the few garrison-focused cavalry commanders in the early game, Pelagius can combine Garrison talents and his Retaking Lost Territory skill to defend your city with elite cavalry units."
+        }
+      ]
+    },
+    {
+      "id": "eulji",
+      "name": "Eulji Mundeok",
+      "rarity": "epique",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Garnison",
+        "Attaque"
+      ],
+      "role": "Infanterie / dégâts",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Water Attack » (active) à 5 en premier, puis « Cold Welcome » → « Battle of Salsu » → « Strike Back », enfin « War and Peace » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie.",
+      "notes": "Bon duo avec Sun Tzu / Björn en début de jeu.",
+      "pairings": [
+        "charles-martel"
+      ],
+      "usage": [
+        "pvp",
+        "garnison"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Water Attack",
+          "type": "Active"
+        },
+        {
+          "name": "Cold Welcome",
+          "type": "Passive"
+        },
+        {
+          "name": "Battle of Salsu",
+          "type": "Passive"
+        },
+        {
+          "name": "Strike Back",
+          "type": "Passive"
+        },
+        {
+          "name": "War and Peace",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "eulji-mundeok",
+      "grades": {
+        "overall": "B",
+        "field": "B",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "B"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        7,
+        12
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 750,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 15,
+        "selfDefense": 15,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Water Attack",
+        "tags": [
+          "damage",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · garnison"
+      },
+      "combat": {
+        "damage": 6.5,
+        "tank": 4.1,
+        "support": 0,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 10.2,
+        "tags": [
+          "damage",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "charles-martel",
+          "name": "Charles Martel Garrison",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Infantry",
+          "description": "Charles Martel and Eulji Mundeok both gain huge bonuses while garrisoned."
+        }
+      ]
+    },
+    {
+      "id": "scipio",
+      "name": "Scipion l'Africain",
+      "rarity": "epique",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Conquête",
+        "Attaque"
+      ],
+      "role": "Marche polyvalente",
+      "tier": "C",
+      "firstTalent": "Strategic Prowess",
+      "trees": [
+        {
+          "name": "Leadership",
+          "path": [
+            "Strategic Prowess (4/4)",
+            "Fresh Recruits (3/3)",
+            "Hidden Wrath (3/3)",
+            "Healing Herbs (3/3)",
+            "Armored To The Teeth (3/3)"
+          ]
+        },
+        {
+          "name": "Conquête",
+          "path": [
+            "Buckler Shield (3/3)",
+            "Marionette (3/3)",
+            "Signal Flare (3/3)"
+          ]
+        },
+        {
+          "name": "Attaque",
+          "path": [
+            "Burning Blood (3/3)",
+            "Effortless (3/3)",
+            "Martial Mastery (2/3)",
+            "Lord of War (3/3)",
+            "Armored Joints (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Military Life » (active) à 5 en premier, puis « Patient Warrior » → « Conqueror of Africa » → « Genuine Aristocracy », enfin « Utter Annihilation » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent (attaque/santé).",
+      "notes": "Bon en début de jeu, remplacé ensuite.",
+      "pairings": [
+        "ragnar"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Military Life",
+          "type": "Active"
+        },
+        {
+          "name": "Patient Warrior",
+          "type": "Passive"
+        },
+        {
+          "name": "Conqueror of Africa",
+          "type": "Passive"
+        },
+        {
+          "name": "Genuine Aristocracy",
+          "type": "Passive"
+        },
+        {
+          "name": "Utter Annihilation",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "scipio-africanus",
+      "grades": {
+        "overall": "C",
+        "field": "C",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "B"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        6,
+        12
+      ],
+      "build": {
+        "id": "official-20",
+        "name": "Raging Sands and Crashing Waves",
+        "points": {
+          "501": 1,
+          "502": 3,
+          "503": 2,
+          "504": 2,
+          "505": 3,
+          "506": 3,
+          "508": 3,
+          "509": 3,
+          "510": 3,
+          "512": 2,
+          "515": 2,
+          "517": 4,
+          "601": 1,
+          "602": 3,
+          "603": 3,
+          "604": 3,
+          "606": 3,
+          "607": 3,
+          "1201": 1,
+          "1202": 3,
+          "1203": 3,
+          "1204": 3,
+          "1205": 3,
+          "1207": 3,
+          "1209": 3,
+          "1211": 1,
+          "1213": 2,
+          "1215": 2,
+          "1216": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 7,
+        "healFactor": 500,
+        "selfAttack": 100,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 25,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Military Life",
+        "tags": [
+          "heal",
+          "tank"
+        ],
+        "summary": "soin · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 10.4,
+        "tank": 6.9,
+        "support": 2.2,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 18.4,
+        "tags": [
+          "heal",
+          "tank"
+        ],
+        "summary": "soin · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "ragnar-lodbrok",
+          "name": "Raging Sands and Crashing Waves",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Multi",
+          "description": "The high damage bonuses from Power of the King and Military Life work in perfect harmony. In addition, this duo's active skills act as a one-two punch, increasing their own damage while reducing their foe's durability."
+        }
+      ]
+    },
+    {
+      "id": "hermann",
+      "name": "Hermann le Chérusque",
+      "rarity": "epique",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Garnison",
+        "Compétence"
+      ],
+      "role": "Archers / garnison",
+      "tier": "A",
+      "firstTalent": "Rapid Fire",
+      "trees": [
+        {
+          "name": "Archers",
+          "path": [
+            "Rapid Fire (3/3)",
+            "Razor Sharp (3/3)",
+            "Venomous Sting (4/4)",
+            "Armed And Armored (3/3)",
+            "Arrows Nocked (3/3)",
+            "Thumb Ring (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Ambush » (active) à 5 en premier, puis « Military Genius » → « Legend of Teutoburg » → « National Hero », enfin « Dead End » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archer.",
+      "notes": "Bon archer épique début/milieu de jeu.",
+      "pairings": [
+        "kusunoki"
+      ],
+      "usage": [
+        "pvp",
+        "garnison"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Ambush",
+          "type": "Active"
+        },
+        {
+          "name": "Military Genius",
+          "type": "Passive"
+        },
+        {
+          "name": "Legend of Teutoburg",
+          "type": "Passive"
+        },
+        {
+          "name": "National Hero",
+          "type": "Passive"
+        },
+        {
+          "name": "Dead End",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "hermann",
+      "grades": {
+        "overall": "A",
+        "field": "A",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "B+"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        7,
+        11
+      ],
+      "build": {
+        "id": "official-14",
+        "name": "Hermann Versatility",
+        "points": {
+          "201": 1,
+          "202": 2,
+          "203": 2,
+          "205": 3,
+          "206": 3,
+          "207": 3,
+          "208": 3,
+          "209": 1,
+          "211": 2,
+          "212": 3,
+          "213": 3,
+          "216": 1,
+          "217": 1,
+          "219": 4,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1150,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 10,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 10,
+        "selfRage": 100,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": true,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Ambush",
+        "tags": [
+          "damage",
+          "debuff",
+          "rage",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · buff attaque · contrôle · rage · garnison"
+      },
+      "combat": {
+        "damage": 9.8,
+        "tank": 1.5,
+        "support": 1.5,
+        "utility": 3.9,
+        "secondary": 0,
+        "role": "damage",
+        "score": 14.3,
+        "tags": [
+          "damage",
+          "debuff",
+          "rage",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · buff attaque · contrôle · rage · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "kusunoki-masashige",
+          "name": "Hermann Versatility",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Archers",
+          "description": "Both Hermann and Kusunoki Masashige have skills that work well in garrison, but their AoE active skills and Silence effect allow them to excel in the field as well."
+        }
+      ]
+    },
+    {
+      "id": "kusunoki",
+      "name": "Kusunoki Masashige",
+      "rarity": "epique",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Garnison",
+        "Compétence"
+      ],
+      "role": "Archers / AoE",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Shichisei Hōkoku » (active) à 5 en premier, puis « The Worthy Man » → « Bravery and Wisdom » → « Tragedy's End », enfin « Soul of the Samurai » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archer.",
+      "notes": "Bon duo avec Hermann / Tomoe.",
+      "pairings": [
+        "hermann",
+        "keira"
+      ],
+      "usage": [
+        "pvp",
+        "garnison"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Shichisei Hōkoku",
+          "type": "Active"
+        },
+        {
+          "name": "The Worthy Man",
+          "type": "Passive"
+        },
+        {
+          "name": "Bravery and Wisdom",
+          "type": "Passive"
+        },
+        {
+          "name": "Tragedy's End",
+          "type": "Passive"
+        },
+        {
+          "name": "Soul of the Samurai",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "kusunoki-masashige",
+      "grades": {
+        "overall": "B+",
+        "field": "B",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "A"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        7,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 450,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 15,
+        "selfDefense": 15,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Shichisei Hōkoku",
+        "tags": [
+          "damage",
+          "aoe",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · garnison"
+      },
+      "combat": {
+        "damage": 8.3,
+        "tank": 3.4,
+        "support": 0,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 11.3,
+        "tags": [
+          "damage",
+          "aoe",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "hermann",
+          "name": "Hermann Versatility",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Archers",
+          "description": "Both Hermann and Kusunoki Masashige have skills that work well in garrison, but their AoE active skills and Silence effect allow them to excel in the field as well."
+        },
+        {
+          "partner": "keira",
+          "name": "Beginner AoE",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Keira and Kusunoki Masashige are some of the few Epic commanders who can deal AoE damage. Their low training cost makes them a great option for clearing the field in the early game."
+        }
+      ]
+    },
+    {
+      "id": "pelagius",
+      "name": "Pélage",
+      "rarity": "epique",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Garnison",
+        "Compétence"
+      ],
+      "role": "Cavalerie / défense",
+      "tier": "B",
+      "firstTalent": "Undying Fury",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Undying Fury (3/3)",
+            "Dragon Saber (3/3)",
+            "Galea (3/3)",
+            "Emblazoned Shield (2/4)",
+            "Charge (3/3)",
+            "Halberd (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Charge » (active) à 5 en premier, puis « Founder of Asturias » → « Retaking Lost Territory » → « The Mutineer », enfin « Oath of Asseuua » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie.",
+      "notes": "Bon secondaire derrière Minamoto/Cao Cao si tu n'as pas mieux.",
+      "pairings": [
+        "belisaire"
+      ],
+      "usage": [
+        "pvp",
+        "garnison"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Charge",
+          "type": "Active"
+        },
+        {
+          "name": "Founder of Asturias",
+          "type": "Passive"
+        },
+        {
+          "name": "Retaking Lost Territory",
+          "type": "Passive"
+        },
+        {
+          "name": "The Mutineer",
+          "type": "Passive"
+        },
+        {
+          "name": "Oath of Asseuua",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "pelagius",
+      "grades": {
+        "overall": "B",
+        "field": "B+",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "C+"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        7,
+        11
+      ],
+      "build": {
+        "id": "official-4",
+        "name": "Beginner Garrison",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "306": 3,
+          "307": 3,
+          "308": 3,
+          "309": 2,
+          "310": 3,
+          "311": 1,
+          "314": 2,
+          "315": 1,
+          "316": 3,
+          "318": 2,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 300,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 450,
+        "selfAttack": 15,
+        "selfDefense": 15,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 100,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Charge",
+        "tags": [
+          "heal",
+          "tank",
+          "rage",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque · tank · rage · garnison"
+      },
+      "combat": {
+        "damage": 6,
+        "tank": 4.5,
+        "support": 0.6,
+        "utility": 1.3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 11.2,
+        "tags": [
+          "heal",
+          "tank",
+          "rage",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque · tank · rage · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "belisarius",
+          "name": "Beginner Garrison",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Cavalry",
+          "description": "One of the few garrison-focused cavalry commanders in the early game, Pelagius can combine Garrison talents and his Retaking Lost Territory skill to defend your city with elite cavalry units."
+        }
+      ]
+    },
+    {
+      "id": "bjorn",
+      "name": "Björn Côtes-de-fer",
+      "rarity": "epique",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Conquête",
+        "Compétence"
+      ],
+      "role": "Infanterie / dégâts",
+      "tier": "A",
+      "firstTalent": "Snare of Thorns",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Snare of Thorns (4/4)",
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (1/3)",
+            "Hold The Line (4/4)",
+            "Elite Soldiers (1/5)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Clarity (2/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Fearless Fighter » (active) à 5 en premier, puis « Longboat Marauder » → « Viking Lord » → « Ambush », enfin « Booming Warsong » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie.",
+      "notes": "Bon duo avec Sun Tzu.",
+      "pairings": [
+        "charlemagne"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Fearless Fighter",
+          "type": "Active"
+        },
+        {
+          "name": "Longboat Marauder",
+          "type": "Passive"
+        },
+        {
+          "name": "Viking Lord",
+          "type": "Passive"
+        },
+        {
+          "name": "Ambush",
+          "type": "Passive"
+        },
+        {
+          "name": "Booming Warsong",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "bjorn-ironside",
+      "grades": {
+        "overall": "A",
+        "field": "A",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        6,
+        11
+      ],
+      "build": {
+        "id": "official-11",
+        "name": "Björn Ironside Skill",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 1,
+          "113": 2,
+          "114": 1,
+          "115": 2,
+          "118": 4,
+          "119": 4,
+          "601": 1,
+          "602": 1,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1116": 2,
+          "1117": 3,
+          "1119": 2
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 800,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 15,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 15,
+        "selfDefense": 10,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Fearless Fighter",
+        "tags": [
+          "damage",
+          "aoe",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 10.5,
+        "tank": 2,
+        "support": 1.5,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 13.5,
+        "tags": [
+          "damage",
+          "aoe",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "charlemagne",
+          "name": "Björn Ironside Skill",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Infantry",
+          "description": "Charlemagne's stackable bonus to skill damage and Björn Ironside's ability to increase an enemy's skill damage received can dramatically increase this duo's damage output."
+        }
+      ]
+    },
+    {
+      "id": "keira",
+      "name": "Keira",
+      "rarity": "epique",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Maintien de la paix",
+        "Compétence"
+      ],
+      "role": "Archers / barbares",
+      "roleKey": "peacekeeper",
+      "tier": "A",
+      "firstTalent": "Rejuvenate",
+      "trees": [
+        {
+          "name": "Compétence",
+          "path": [
+            "Rejuvenate (3/3)",
+            "Tactical Mastery (3/3)",
+            "All For One (3/3)",
+            "Burning Blood (3/3)",
+            "Heraldic Shield (3/3)"
+          ]
+        },
+        {
+          "name": "Maintien de la paix",
+          "path": [
+            "Insight (3/3)",
+            "Quick Study (3/3)",
+            "Domination (3/3)",
+            "Killer Instinct (3/3)",
+            "Trophy Hunter (3/3)",
+            "Mighty Force (3/3)",
+            "Thoroughbreds (3/3)",
+            "Double-Edged Sword (3/3)",
+            "Curing Chant (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Dance of the Flametongue » (active) à 5 en premier, puis « Allies or Enemies? » → « Ceroli Sharpshooter » → « The Mutineer », enfin « Undying Flames » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archer.",
+      "notes": "Correcte pour les barbares en début de partie.",
+      "pairings": [
+        "markswoman",
+        "kusunoki"
+      ],
+      "usage": [
+        "barbares"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Dance of the Flametongue",
+          "type": "Active"
+        },
+        {
+          "name": "Allies or Enemies?",
+          "type": "Passive"
+        },
+        {
+          "name": "Ceroli Sharpshooter",
+          "type": "Passive"
+        },
+        {
+          "name": "The Mutineer",
+          "type": "Passive"
+        },
+        {
+          "name": "Undying Flames",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "keira",
+      "grades": {
+        "overall": "A",
+        "field": "A",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "B+"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        8,
+        11
+      ],
+      "build": {
+        "id": "official-64",
+        "name": "Keira Peacekeeping",
+        "points": {
+          "801": 1,
+          "802": 3,
+          "803": 3,
+          "804": 3,
+          "805": 3,
+          "806": 3,
+          "807": 3,
+          "808": 2,
+          "809": 1,
+          "810": 3,
+          "811": 3,
+          "812": 1,
+          "813": 2,
+          "814": 2,
+          "817": 2,
+          "818": 3,
+          "819": 3,
+          "820": 5,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1111": 2,
+          "1113": 2,
+          "1114": 2,
+          "1117": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1000,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 35,
+        "healFactor": 0,
+        "selfAttack": 10,
+        "selfDefense": 10,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 150,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 35,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Dance of the Flametongue",
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank",
+          "barbares"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · debuff · anti-barbares"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 1.3,
+        "support": 10,
+        "utility": 10,
+        "secondary": 0,
+        "role": "damage",
+        "score": 26.1,
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank",
+          "barbares"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · debuff · anti-barbares"
+      },
+      "officialPairings": [
+        {
+          "partner": "markswoman",
+          "name": "Keira Peacekeeping",
+          "role": "primary",
+          "scenario": "Peacekeeping",
+          "troop": "Archers",
+          "description": "This duo deals a ton of extra damage to barbarians, making them a great fit for clearing the field."
+        },
+        {
+          "partner": "kusunoki-masashige",
+          "name": "Beginner AoE",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Keira and Kusunoki Masashige are some of the few Epic commanders who can deal AoE damage. Their low training cost makes them a great option for clearing the field in the early game."
+        }
+      ]
+    },
+    {
+      "id": "diaochan",
+      "name": "Diaochan",
+      "rarity": "epique",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Maintien de la paix",
+        "Soutien"
+      ],
+      "role": "Barbares / soutien",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Dance of Chaos » (active) à 5 en premier, puis « Dance of the Silver Lotus » → « Dance of the Rose » → « Dance of the Cherry Blossom », enfin « Chain Stratagems » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Aucun.",
+      "notes": "Farm barbares ; moins bonne que Lohar/Boadicée.",
+      "pairings": [
+        "lu-bu"
+      ],
+      "usage": [
+        "barbares"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Dance of Chaos",
+          "type": "Active"
+        },
+        {
+          "name": "Dance of the Silver Lotus",
+          "type": "Passive"
+        },
+        {
+          "name": "Dance of the Rose",
+          "type": "Passive"
+        },
+        {
+          "name": "Dance of the Cherry Blossom",
+          "type": "Passive"
+        },
+        {
+          "name": "Chain Stratagems",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "diaochan",
+      "grades": {
+        "overall": "C",
+        "field": "C",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "C"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        4,
+        8,
+        14
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 400,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 500,
+        "selfAttack": 10,
+        "selfDefense": 10,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Dance of Chaos",
+        "tags": [
+          "damage",
+          "heal",
+          "tank"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 2.8,
+        "tank": 2.5,
+        "support": 2.2,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 6.9,
+        "tags": [
+          "damage",
+          "heal",
+          "tank"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "lu-bu",
+          "name": "Beauty and the Beast",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Multi",
+          "description": "While Diaochan is in his troop, Lu Bu's Man of Men skill grants a massive bonus to Attack."
+        }
+      ]
+    },
+    {
+      "id": "charles-martel",
+      "name": "Charles Martel",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Garnison",
+        "Défense"
+      ],
+      "role": "Tank / garnison",
+      "tier": "C",
+      "firstTalent": "Snare of Thorns",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Snare of Thorns (3/4)",
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (3/3)",
+            "Hold The Line (4/4)"
+          ]
+        },
+        {
+          "name": "Défense",
+          "path": [
+            "Spiked Armor (3/3)",
+            "Master Armorer (3/3)",
+            "Medicinal Supplies (3/3)",
+            "Burning Blood (3/3)",
+            "Balance (3/3)",
+            "No Weaknesses (3/3)",
+            "Loose Formation (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Shield of Francia » (active) à 5 en premier, puis « Heavy Infantry » → « The Uncrowned King » → « Martel's Counterattack », enfin « Rise from the Ashes » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie défense/santé.",
+      "notes": "Mur défensif ; excellent avec Jeanne en secondaire.",
+      "pairings": [
+        "richard",
+        "eulji",
+        "yi-seong-gye",
+        "sun-tzu"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Shield of Francia",
+          "type": "Active"
+        },
+        {
+          "name": "Heavy Infantry",
+          "type": "Passive"
+        },
+        {
+          "name": "The Uncrowned King",
+          "type": "Passive"
+        },
+        {
+          "name": "Martel's Counterattack",
+          "type": "Passive"
+        },
+        {
+          "name": "Rise from the Ashes",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "charles-martel",
+      "grades": {
+        "overall": "C+",
+        "field": "B+",
+        "rally": "C",
+        "garrison": "C+",
+        "canyon": "A+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        7,
+        13
+      ],
+      "build": {
+        "id": "official-9",
+        "name": "Payback Garrison",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 3,
+          "113": 2,
+          "115": 2,
+          "118": 4,
+          "119": 3,
+          "1301": 1,
+          "1302": 3,
+          "1303": 3,
+          "1304": 3,
+          "1305": 3,
+          "1306": 3,
+          "1307": 3,
+          "1308": 3,
+          "1310": 2,
+          "1311": 3,
+          "1312": 1,
+          "1314": 3,
+          "1315": 1,
+          "1317": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1200,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 20,
+        "selfHealth": 20,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": true,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Shield of Francia",
+        "tags": [
+          "damage",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · tank · garnison"
+      },
+      "combat": {
+        "damage": 6,
+        "tank": 11.1,
+        "support": 0,
+        "utility": 1.3,
+        "secondary": 0,
+        "role": "tank",
+        "score": 16.6,
+        "tags": [
+          "damage",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · tank · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "richard-i",
+          "name": "Payback Garrison",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Infantry",
+          "description": "Boosted by their excellent attributes, Charles Martel and Richard I can combine their skills Martel's Counterattack and Chivalry for a huge bump to counterattack damage. With this pair helming your garrison, anyone who attacks your city is in for a nasty surprise."
+        },
+        {
+          "partner": "eulji-mundeok",
+          "name": "Charles Martel Garrison",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Infantry",
+          "description": "Charles Martel and Eulji Mundeok both gain huge bonuses while garrisoned."
+        },
+        {
+          "partner": "yi-seong-gye",
+          "name": "Ambitious Vassals",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "The damage bonus from Charles Martel's Shield of Francia combines with Yi Seong-Gye's Arrow Storm to deal early AoE burst damage."
+        },
+        {
+          "partner": "sun-tzu",
+          "name": "Charles Martel AoE",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "The damage bonus from Charles Martel's Shield of Francia combines with Sun Tzu's Art of War to deal early AoE burst damage."
+        }
+      ]
+    },
+    {
+      "id": "richard",
+      "name": "Richard Ier",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Garnison",
+        "Défense"
+      ],
+      "role": "Tank / garnison",
+      "tier": "C",
+      "firstTalent": "Snare of Thorns",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Snare of Thorns (3/4)",
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (3/3)",
+            "Hold The Line (4/4)"
+          ]
+        },
+        {
+          "name": "Défense",
+          "path": [
+            "Spiked Armor (3/3)",
+            "Master Armorer (3/3)",
+            "Medicinal Supplies (3/3)",
+            "Burning Blood (3/3)",
+            "Balance (3/3)",
+            "No Weaknesses (3/3)",
+            "Loose Formation (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Soul of the Crusaders » (active) à 5 en premier, puis « Chivalry » → « The Lionheart » → « Battle-Hardened », enfin « Tyrannical Lion » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie défense/santé.",
+      "notes": "Très solide en défense ; Jeanne en secondaire.",
+      "pairings": [
+        "pyrrhus",
+        "aethelflaed",
+        "sun-tzu",
+        "charles-martel"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Soul of the Crusaders",
+          "type": "Active"
+        },
+        {
+          "name": "Chivalry",
+          "type": "Passive"
+        },
+        {
+          "name": "The Lionheart",
+          "type": "Passive"
+        },
+        {
+          "name": "Battle-Hardened",
+          "type": "Passive"
+        },
+        {
+          "name": "Tyrannical Lion",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "richard-i",
+      "grades": {
+        "overall": "C",
+        "field": "B",
+        "rally": "D+",
+        "garrison": "C",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        7,
+        13
+      ],
+      "build": {
+        "id": "official-8",
+        "name": "Richard I Pursuit",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 3,
+          "113": 2,
+          "115": 2,
+          "118": 4,
+          "119": 3,
+          "1301": 1,
+          "1302": 3,
+          "1303": 3,
+          "1304": 3,
+          "1305": 3,
+          "1306": 3,
+          "1307": 3,
+          "1308": 3,
+          "1310": 2,
+          "1311": 3,
+          "1312": 1,
+          "1314": 3,
+          "1315": 1,
+          "1317": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": true,
+        "targets": 5,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 2,
+        "healFactor": 1400,
+        "selfAttack": 15,
+        "selfDefense": 15,
+        "selfHealth": 0,
+        "selfDamageReduction": 30,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 15,
+        "enemyDamageDown": 30,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Soul of the Crusaders",
+        "tags": [
+          "aoe",
+          "heal",
+          "debuff",
+          "tank"
+        ],
+        "summary": "soin · buff attaque · tank · debuff"
+      },
+      "combat": {
+        "damage": 3.9,
+        "tank": 12,
+        "support": 4,
+        "utility": 4.5,
+        "secondary": 0,
+        "role": "tank",
+        "score": 20.2,
+        "tags": [
+          "aoe",
+          "heal",
+          "debuff",
+          "tank"
+        ],
+        "summary": "soin · buff attaque · tank · debuff"
+      },
+      "officialPairings": [
+        {
+          "partner": "pyrrhus",
+          "name": "Richard I Pursuit",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "Richard I's Slow effects paired with Pyrrhus's high damage allow their infantry units to pursue and crush fleeing enemies."
+        },
+        {
+          "partner": "aethelflaed",
+          "name": "Blighty Beatdown",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "With Richard I as primary and Æthelflæd as secondary, the Slow effect from his Soul of the Crusaders can trigger her Warrior Queen skill, greatly boosting the damage of Arrow of Iron."
+        },
+        {
+          "partner": "sun-tzu",
+          "name": "Remedial Lessons",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "Richard I's healing and defensive skills prolong his troop's survivability, allowing more chances for Sun Tzu to unleash his Art of War."
+        },
+        {
+          "partner": "charles-martel",
+          "name": "Payback Garrison",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Infantry",
+          "description": "Boosted by their excellent attributes, Charles Martel and Richard I can combine their skills Martel's Counterattack and Chivalry for a huge bump to counterattack damage. With this pair helming your garrison, anyone who attacks your city is in for a nasty surprise."
+        },
+        {
+          "partner": "pericles",
+          "name": "Pericles Sustain",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Infantry",
+          "description": "Pericles's Golden Age of Athens increases healing received, boosting the effects of Richard I's Soul of the Crusaders."
+        }
+      ]
+    },
+    {
+      "id": "alexander",
+      "name": "Alexandre le Grand",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Polyvalence",
+        "Attaque"
+      ],
+      "role": "Infanterie / dégâts",
+      "tier": "B",
+      "firstTalent": "Call of the Pack",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Strong of Body (3/3)",
+            "Elite Soldiers (2/5)",
+            "Fleet Of Foot (3/3)",
+            "Hold The Line (4/4)",
+            "Snare of Thorns (4/4)"
+          ]
+        },
+        {
+          "name": "Attaque",
+          "path": [
+            "Lord of War (3/3)",
+            "Burning Blood (3/3)",
+            "Armored Joints (3/3)",
+            "Fight To The Death (3/3)",
+            "Martial Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Shield of the King » (active) à 5 en premier, puis « Lead the Charge » → « Frontline Commander » → « Battle of Chaeronea », enfin « Son of Amun » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie attaque/santé.",
+      "notes": "Bon nuke infanterie ; Jeanne en secondaire pour la survie.",
+      "pairings": [
+        "constantine",
+        "pyrrhus"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Shield of the King",
+          "type": "Active"
+        },
+        {
+          "name": "Lead the Charge",
+          "type": "Passive"
+        },
+        {
+          "name": "Frontline Commander",
+          "type": "Passive"
+        },
+        {
+          "name": "Battle of Chaeronea",
+          "type": "Passive"
+        },
+        {
+          "name": "Son of Amun",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "alexander-the-great",
+      "grades": {
+        "overall": "B+",
+        "field": "A",
+        "rally": "B",
+        "garrison": "D+",
+        "canyon": "A+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        10,
+        12
+      ],
+      "build": {
+        "id": "official-73",
+        "name": "Shields of the Hellenes",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 3,
+          "113": 2,
+          "114": 2,
+          "115": 2,
+          "116": 3,
+          "118": 4,
+          "119": 4,
+          "1201": 1,
+          "1202": 3,
+          "1203": 3,
+          "1204": 3,
+          "1205": 3,
+          "1207": 3,
+          "1208": 1,
+          "1209": 3,
+          "1211": 1,
+          "1212": 3,
+          "1213": 2,
+          "1215": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1700,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 40,
+        "selfDefense": 30,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 30,
+        "selfRage": 0,
+        "teamAttack": 30,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": true,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Shield of the King",
+        "tags": [
+          "damage",
+          "support",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buffs d’équipe · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 11.5,
+        "tank": 6,
+        "support": 2.5,
+        "utility": 2,
+        "secondary": 0,
+        "role": "damage",
+        "score": 19.9,
+        "tags": [
+          "damage",
+          "support",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buffs d’équipe · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "constantine-i",
+          "name": "Shields of the Hellenes",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "If their troop has less than 50% units remaining, Alexander the Great's active skill can reliably trigger the skill damage reduction from Constantine I's Cross of the Divine, making this pairing a tough one for enemies to finish off."
+        },
+        {
+          "partner": "pyrrhus",
+          "name": "Hellenic Glory",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "Wedge formation and the Skill talent tree can greatly enhance the damage of Lead the Charge and Achilles Reborn."
+        }
+      ]
+    },
+    {
+      "id": "leonidas",
+      "name": "Léonidas Ier",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Polyvalence",
+        "Défense"
+      ],
+      "role": "Infanterie / défense",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« King of Sparta » (active) à 5 en premier, puis « Three Hundred Spartans » → « Honorable Sacrifice » → « Son of the Lion », enfin « Battle of Thermopylae » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie défense/santé.",
+      "notes": "Bon tank de mêlée.",
+      "pairings": [
+        "guan-yu"
+      ],
+      "usage": [
+        "pvp",
+        "garnison"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "King of Sparta",
+          "type": "Active"
+        },
+        {
+          "name": "Three Hundred Spartans",
+          "type": "Passive"
+        },
+        {
+          "name": "Honorable Sacrifice",
+          "type": "Passive"
+        },
+        {
+          "name": "Son of the Lion",
+          "type": "Passive"
+        },
+        {
+          "name": "Battle of Thermopylae",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "leonidas-i",
+      "grades": {
+        "overall": "B",
+        "field": "B+",
+        "rally": "C+",
+        "garrison": "F",
+        "canyon": "A+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        10,
+        13
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 800,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 400,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 30,
+        "selfHealth": 30,
+        "selfDamageReduction": 50,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": true,
+        "shield": true,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "King of Sparta",
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts AoE · tank · contrôle"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 12,
+        "support": 1.5,
+        "utility": 2,
+        "secondary": 0,
+        "role": "tank",
+        "score": 23,
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts AoE · tank · contrôle"
+      },
+      "officialPairings": [
+        {
+          "partner": "guan-yu",
+          "name": "Guan Yu Field",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "Guan Yu's Silence effect can trigger the extra direct damage from Leonidas's King of Sparta skill. In turn, the shield granted by Honorable Sacrifice will trigger the effect of Guan Yu's Lone Rider."
+        }
+      ]
+    },
+    {
+      "id": "constantine",
+      "name": "Constantin Ier",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Garnison",
+        "Soutien"
+      ],
+      "role": "Garnison / soutien",
+      "tier": "B",
+      "firstTalent": "Call of the Pack",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Strong of Body (3/3)",
+            "Elite Soldiers (5/5)",
+            "Fleet Of Foot (3/3)",
+            "Hold The Line (4/4)",
+            "Snare of Thorns (4/4)"
+          ]
+        },
+        {
+          "name": "Soutien",
+          "path": [
+            "Burning Blood (3/3)",
+            "Hasty Departure (3/3)",
+            "Elixir (1/3)",
+            "Loose Formation (3/3)",
+            "Rejuvenate (2/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Edict of Milan » (active) à 5 en premier, puis « Allegiance » → « Impasse » → « Cross of the Divine », enfin « Sole Augustus » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie défense.",
+      "notes": "Défense de ville/bâtiments.",
+      "pairings": [
+        "alexander",
+        "cheok-jun-gyeong"
+      ],
+      "usage": [
+        "garnison"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Edict of Milan",
+          "type": "Active"
+        },
+        {
+          "name": "Allegiance",
+          "type": "Passive"
+        },
+        {
+          "name": "Impasse",
+          "type": "Passive"
+        },
+        {
+          "name": "Cross of the Divine",
+          "type": "Passive"
+        },
+        {
+          "name": "Sole Augustus",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "constantine-i",
+      "grades": {
+        "overall": "D+",
+        "field": "C",
+        "rally": "D",
+        "garrison": "B+",
+        "canyon": "S+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        7,
+        14
+      ],
+      "build": {
+        "id": "official-22",
+        "name": "Constantine I Garrison",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 3,
+          "113": 2,
+          "114": 5,
+          "115": 2,
+          "116": 3,
+          "117": 1,
+          "118": 4,
+          "119": 4,
+          "120": 1,
+          "1401": 1,
+          "1402": 3,
+          "1403": 3,
+          "1404": 3,
+          "1405": 3,
+          "1406": 1,
+          "1407": 3,
+          "1408": 2,
+          "1412": 1,
+          "1416": 2,
+          "1418": 2
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 15000,
+        "selfAttack": 15,
+        "selfDefense": 5,
+        "selfHealth": 40,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 10,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 40,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": true,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Edict of Milan",
+        "tags": [
+          "heal",
+          "support",
+          "debuff",
+          "tank",
+          "garnison"
+        ],
+        "summary": "soin · buffs d’équipe · buff attaque · tank · debuff · garnison"
+      },
+      "combat": {
+        "damage": 1.3,
+        "tank": 12,
+        "support": 11.5,
+        "utility": 4,
+        "secondary": 0,
+        "role": "tank",
+        "score": 23.3,
+        "tags": [
+          "heal",
+          "support",
+          "debuff",
+          "tank",
+          "garnison"
+        ],
+        "summary": "soin · buffs d’équipe · buff attaque · tank · debuff · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "alexander-the-great",
+          "name": "Shields of the Hellenes",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "If their troop has less than 50% units remaining, Alexander the Great's active skill can reliably trigger the skill damage reduction from Constantine I's Cross of the Divine, making this pairing a tough one for enemies to finish off."
+        },
+        {
+          "partner": "cheok-jun-gyeong",
+          "name": "Cheok Jun-gyeong Sustain",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "The high Health bonus from Constantine I's Allegiance and the damage reduction from Cheok Jun-gyeong Vow to the Death makes this a hard pairing to take down in field battles."
+        }
+      ]
+    },
+    {
+      "id": "yi-seong-gye",
+      "name": "Yi Seong-Gye",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Garnison",
+        "Compétence"
+      ],
+      "role": "Archers AoE / nuke",
+      "tier": "A",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Rain of Arrows » (active) à 5 en premier, puis « Art of Archery » → « Joseon Dynasty » → « Destiny », enfin « Arrow Storm » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archer attaque.",
+      "notes": "Un des meilleurs nukes archers ; à jouer avec un secondaire qui buffe les dégâts de compétence.",
+      "pairings": [
+        "thutmose-iii",
+        "charles-martel",
+        "zhuge-liang",
+        "saladin"
+      ],
+      "usage": [
+        "pvp",
+        "garnison"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Rain of Arrows",
+          "type": "Active"
+        },
+        {
+          "name": "Art of Archery",
+          "type": "Passive"
+        },
+        {
+          "name": "Joseon Dynasty",
+          "type": "Passive"
+        },
+        {
+          "name": "Destiny",
+          "type": "Passive"
+        },
+        {
+          "name": "Arrow Storm",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "yi-seong-gye",
+      "grades": {
+        "overall": "A+",
+        "field": "S",
+        "rally": "B+",
+        "garrison": "A",
+        "canyon": "S"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        7,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1700,
+        "aoe": true,
+        "targets": 5,
+        "skillDamageBonus": 50,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 100,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Rain of Arrows",
+        "tags": [
+          "damage",
+          "aoe",
+          "rage",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · rage · garnison"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 1.5,
+        "support": 0,
+        "utility": 1.3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 14,
+        "tags": [
+          "damage",
+          "aoe",
+          "rage",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · rage · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "thutmose-iii",
+          "name": "Double AoE",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Yi Seong-Gye's bonus to skill damage greatly increases the AoE skill he and Thutmose III deal."
+        },
+        {
+          "partner": "charles-martel",
+          "name": "Ambitious Vassals",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "The damage bonus from Charles Martel's Shield of Francia combines with Yi Seong-Gye's Arrow Storm to deal early AoE burst damage."
+        },
+        {
+          "partner": "zhuge-liang",
+          "name": "Power Hitters",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Zhuge Liang and Yi Seong-Gye can deal a ton of AoE skill damage, but do be aware that neither have any March Speed buffs. Positioning and timing will be key if you want to get the most use out of them."
+        },
+        {
+          "partner": "saladin",
+          "name": "Mounted Archers",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "The survivability provided by Saladin's Bond of Fate can keep Yi Seong-Gye safe while he unleashes his active skill."
+        },
+        {
+          "partner": "boudica-prime",
+          "name": "Boudica Damage",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Boudica's Revenge of the Iceni increases the target's skill damage received, whereas Yi Seong-Gye's Destiny increases his troop's skill damage dealt. That's a whole lot of skill damage!"
+        },
+        {
+          "partner": "cyrus-the-great",
+          "name": "Cyrus the Great Damage",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "The skill damage bump from Yi Seong-Gye's Destiny enhances all the additional damage dealt by Cyrus the Great."
+        }
+      ]
+    },
+    {
+      "id": "tomyris",
+      "name": "Tomyris",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Conquête",
+        "Attaque"
+      ],
+      "role": "Archers / dégâts",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Arrow of Vengeance » (active) à 5 en premier, puis « Payback » → « For the Sun » → « Massagetae's Counterattack », enfin « Pouch of Blood » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archer attaque.",
+      "notes": "Dégâts monocible.",
+      "pairings": [
+        "edward"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Arrow of Vengeance",
+          "type": "Active"
+        },
+        {
+          "name": "Payback",
+          "type": "Passive"
+        },
+        {
+          "name": "For the Sun",
+          "type": "Passive"
+        },
+        {
+          "name": "Massagetae's Counterattack",
+          "type": "Passive"
+        },
+        {
+          "name": "Pouch of Blood",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "tomyris",
+      "grades": {
+        "overall": "C+",
+        "field": "B+",
+        "rally": "B",
+        "garrison": "C",
+        "canyon": "S"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        6,
+        12
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1000,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 30,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Arrow of Vengeance",
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque"
+      },
+      "combat": {
+        "damage": 9.8,
+        "tank": 1.5,
+        "support": 1.5,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 12.3,
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque"
+      },
+      "officialPairings": [
+        {
+          "partner": "edward-of-woodstock",
+          "name": "Toxic Buildup",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Archers",
+          "description": "The high Rage requirement for Edward of Woodstock's active skill gives Tomyris more time to stack Poison on the enemy, making Archer's Honor all the more deadly."
+        }
+      ]
+    },
+    {
+      "id": "edward",
+      "name": "Édouard de Woodstock",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Archers / compétence",
+      "tier": "B",
+      "firstTalent": "Rapid Fire",
+      "trees": [
+        {
+          "name": "Archers",
+          "path": [
+            "Rapid Fire (3/3)",
+            "Razor Sharp (3/3)",
+            "Venomous Sting (4/4)",
+            "Armed And Armored (3/3)",
+            "Arrows Nocked (3/3)",
+            "Thumb Ring (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Archer's Honor » (active) à 5 en premier, puis « Vengeful Crusade » → « Crécy's Campaign » → « Limoges' Ambush », enfin « All or Nothing » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archer.",
+      "notes": "Bon nuke archer.",
+      "pairings": [
+        "tomyris"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Archer's Honor",
+          "type": "Active"
+        },
+        {
+          "name": "Vengeful Crusade",
+          "type": "Passive"
+        },
+        {
+          "name": "Crécy's Campaign",
+          "type": "Passive"
+        },
+        {
+          "name": "Limoges' Ambush",
+          "type": "Passive"
+        },
+        {
+          "name": "All or Nothing",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "edward-of-woodstock",
+      "grades": {
+        "overall": "D+",
+        "field": "C+",
+        "rally": "C",
+        "garrison": "F",
+        "canyon": "A"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        10,
+        11
+      ],
+      "build": {
+        "id": "official-24",
+        "name": "Toxic Buildup",
+        "points": {
+          "201": 1,
+          "202": 2,
+          "203": 2,
+          "205": 3,
+          "206": 3,
+          "207": 3,
+          "208": 3,
+          "209": 1,
+          "211": 2,
+          "212": 3,
+          "213": 3,
+          "216": 1,
+          "217": 1,
+          "219": 4,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 25,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 40,
+        "selfDefense": 0,
+        "selfHealth": 30,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 10,
+        "selfSpeed": 30,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 0,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "",
+        "tags": [
+          "tank"
+        ],
+        "summary": "buff attaque · tank"
+      },
+      "combat": {
+        "damage": 7.7,
+        "tank": 5.7,
+        "support": 0,
+        "utility": 2,
+        "secondary": 0,
+        "role": "damage",
+        "score": 13.8,
+        "tags": [
+          "tank"
+        ],
+        "summary": "buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "tomyris",
+          "name": "Toxic Buildup",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Archers",
+          "description": "The high Rage requirement for Edward of Woodstock's active skill gives Tomyris more time to stack Poison on the enemy, making Archer's Honor all the more deadly."
+        }
+      ]
+    },
+    {
+      "id": "cyrus",
+      "name": "Cyrus le Grand",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Archers / compétence",
+      "tier": "B",
+      "firstTalent": "Rapid Fire",
+      "trees": [
+        {
+          "name": "Archers",
+          "path": [
+            "Rapid Fire (3/3)",
+            "Razor Sharp (3/3)",
+            "Venomous Sting (4/4)",
+            "Armed And Armored (3/3)",
+            "Arrows Nocked (3/3)",
+            "Thumb Ring (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« The Immortals » (active) à 5 en premier, puis « Battle of Thymbra » → « Persian Bow » → « The Cyrus Cylinder », enfin « King of the World » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archer.",
+      "notes": "Correct, sans être méta.",
+      "pairings": [
+        "ramesses-ii",
+        "yi-seong-gye"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "The Immortals",
+          "type": "Active"
+        },
+        {
+          "name": "Battle of Thymbra",
+          "type": "Passive"
+        },
+        {
+          "name": "Persian Bow",
+          "type": "Passive"
+        },
+        {
+          "name": "The Cyrus Cylinder",
+          "type": "Passive"
+        },
+        {
+          "name": "King of the World",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "cyrus-the-great",
+      "grades": {
+        "overall": "B",
+        "field": "A+",
+        "rally": "C+",
+        "garrison": "F",
+        "canyon": "A"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        10,
+        11
+      ],
+      "build": {
+        "id": "official-40",
+        "name": "Cyrus the Great Field",
+        "points": {
+          "201": 1,
+          "202": 2,
+          "203": 2,
+          "205": 3,
+          "206": 3,
+          "207": 3,
+          "208": 3,
+          "209": 1,
+          "211": 2,
+          "212": 3,
+          "213": 3,
+          "216": 1,
+          "217": 1,
+          "219": 4,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1400,
+        "aoe": true,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 20,
+        "healFactor": 0,
+        "selfAttack": 30,
+        "selfDefense": 20,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 50,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "The Immortals",
+        "tags": [
+          "damage",
+          "aoe",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · rage"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 2.5,
+        "support": 0,
+        "utility": 1.6,
+        "secondary": 0,
+        "role": "damage",
+        "score": 15.1,
+        "tags": [
+          "damage",
+          "aoe",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "ramesses-ii",
+          "name": "Cyrus the Great Field",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Cyrus the Great's The Immortals skill increases an enemy's additional damage received, which in turn enhances the damage of Ramesses II's Ceremony of Karnak skill."
+        },
+        {
+          "partner": "yi-seong-gye",
+          "name": "Cyrus the Great Damage",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "The skill damage bump from Yi Seong-Gye's Destiny enhances all the additional damage dealt by Cyrus the Great."
+        }
+      ]
+    },
+    {
+      "id": "ramses",
+      "name": "Ramsès II",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Polyvalence",
+        "Attaque"
+      ],
+      "role": "Archers / dégâts",
+      "tier": "B",
+      "firstTalent": "Venomous Sting",
+      "trees": [
+        {
+          "name": "Archer",
+          "path": [
+            "Venomous Sting",
+            "Phoenix-Tail Arrows",
+            "Razor Sharp"
+          ]
+        },
+        {
+          "name": "Attaque",
+          "path": [
+            "Burning Blood",
+            "Effortless"
+          ]
+        }
+      ],
+      "skillOrder": "5-5-1-1.",
+      "equipment": "Set archer attaque.",
+      "notes": "Bon en garnison/archers.",
+      "pairings": [
+        "edward",
+        "yi-seong-gye"
+      ],
+      "usage": [
+        "pvp",
+        "garnison"
+      ],
+      "verified": false
+    },
+    {
+      "id": "genghis",
+      "name": "Gengis Khan",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Cavalerie / nuke",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Chosen One » (active) à 5 en premier, puis « Cyclone of the Steppes » → « Nomadic Empire » → « Military Lifestyle », enfin « Second to None » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie attaque.",
+      "notes": "Très gros nuke ; duo avec Cao Cao/Takeda.",
+      "pairings": [
+        "saladin"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Chosen One",
+          "type": "Active"
+        },
+        {
+          "name": "Cyclone of the Steppes",
+          "type": "Passive"
+        },
+        {
+          "name": "Nomadic Empire",
+          "type": "Passive"
+        },
+        {
+          "name": "Military Lifestyle",
+          "type": "Passive"
+        },
+        {
+          "name": "Second to None",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "genghis-khan",
+      "grades": {
+        "overall": "D+",
+        "field": "C",
+        "rally": "D+",
+        "garrison": "F",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        10,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1700,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 30,
+        "selfDamageBonus": 30,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 25,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 950,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Chosen One",
+        "tags": [
+          "damage",
+          "rage"
+        ],
+        "summary": "dégâts monocible · rage"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 0,
+        "support": 0,
+        "utility": 1.3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 12.7,
+        "tags": [
+          "damage",
+          "rage"
+        ],
+        "summary": "dégâts monocible · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "saladin",
+          "name": "Saladin Field",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "Saladin reduces his troop's incoming skill damage, protecting Genghis Khan and giving him more chances to cast Chosen One."
+        }
+      ]
+    },
+    {
+      "id": "saladin",
+      "name": "Saladin",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Conquête",
+        "Soutien"
+      ],
+      "role": "Cavalerie / soutien",
+      "tier": "B",
+      "firstTalent": "Undying Fury",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Undying Fury (2/3)",
+            "Dragon Saber (3/3)",
+            "Galea (3/3)",
+            "Emblazoned Shield (4/4)",
+            "Charge (3/3)",
+            "Halberd (3/3)"
+          ]
+        },
+        {
+          "name": "Conquête",
+          "path": [
+            "Buckler Shield (2/3)"
+          ]
+        },
+        {
+          "name": "Soutien",
+          "path": [
+            "Loose Formation (3/3)",
+            "Emergency Protection (3/3)",
+            "Hasty Departure (3/3)",
+            "Burning Blood (3/3)",
+            "Rejuvenate (2/3)",
+            "Elixir (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Hold Fast » (active) à 5 en premier, puis « Ghulams » → « Bond of Fate » → « Generosity », enfin « Praise the Creator » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie.",
+      "notes": "Bon pour la survie de la marche.",
+      "pairings": [
+        "genghis",
+        "yi-seong-gye"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Hold Fast",
+          "type": "Active"
+        },
+        {
+          "name": "Ghulams",
+          "type": "Passive"
+        },
+        {
+          "name": "Bond of Fate",
+          "type": "Passive"
+        },
+        {
+          "name": "Generosity",
+          "type": "Passive"
+        },
+        {
+          "name": "Praise the Creator",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "saladin",
+      "grades": {
+        "overall": "B",
+        "field": "A",
+        "rally": "B",
+        "garrison": "B",
+        "canyon": "A+"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        6,
+        14
+      ],
+      "build": {
+        "id": "official-25",
+        "name": "Saladin Field",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "306": 3,
+          "307": 3,
+          "308": 3,
+          "309": 1,
+          "310": 3,
+          "311": 1,
+          "314": 2,
+          "315": 1,
+          "316": 2,
+          "318": 4,
+          "601": 1,
+          "602": 3,
+          "603": 2,
+          "604": 2,
+          "1401": 1,
+          "1402": 3,
+          "1403": 3,
+          "1404": 3,
+          "1405": 3,
+          "1406": 3,
+          "1407": 3,
+          "1408": 2,
+          "1411": 2,
+          "1412": 1,
+          "1415": 1,
+          "1416": 2,
+          "1417": 2,
+          "1418": 2,
+          "1419": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1700,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 20,
+        "selfDefense": 20,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 5,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Hold Fast",
+        "tags": [
+          "damage",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · garnison"
+      },
+      "combat": {
+        "damage": 10.8,
+        "tank": 4,
+        "support": 1.5,
+        "utility": 0.3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 15.7,
+        "tags": [
+          "damage",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "genghis-khan",
+          "name": "Saladin Field",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "Saladin reduces his troop's incoming skill damage, protecting Genghis Khan and giving him more chances to cast Chosen One."
+        },
+        {
+          "partner": "yi-seong-gye",
+          "name": "Mounted Archers",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "The survivability provided by Saladin's Bond of Fate can keep Yi Seong-Gye safe while he unleashes his active skill."
+        }
+      ]
+    },
+    {
+      "id": "takeda",
+      "name": "Takeda Shingen",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Polyvalence",
+        "Mobilité"
+      ],
+      "role": "Cavalerie / mobilité",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Fierce as the Fire » (active) à 5 en premier, puis « Swift as the Wind » → « Gentle as the Forest » → « Immovable as the Mountain », enfin « Kōshū-ryū Gungaku » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie.",
+      "notes": "Duo classique avec Gengis.",
+      "pairings": [
+        "attila",
+        "bertrand-du-guesclin"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Fierce as the Fire",
+          "type": "Active"
+        },
+        {
+          "name": "Swift as the Wind",
+          "type": "Passive"
+        },
+        {
+          "name": "Gentle as the Forest",
+          "type": "Passive"
+        },
+        {
+          "name": "Immovable as the Mountain",
+          "type": "Passive"
+        },
+        {
+          "name": "Kōshū-ryū Gungaku",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "takeda-shingen",
+      "grades": {
+        "overall": "B",
+        "field": "A",
+        "rally": "B",
+        "garrison": "C+",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        10,
+        15
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 150,
+        "selfAttack": 40,
+        "selfDefense": 40,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 30,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Fierce as the Fire",
+        "tags": [
+          "heal",
+          "tank"
+        ],
+        "summary": "soin · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 4.1,
+        "tank": 6.9,
+        "support": 0.2,
+        "utility": 3,
+        "secondary": 0,
+        "role": "tank",
+        "score": 11.9,
+        "tags": [
+          "heal",
+          "tank"
+        ],
+        "summary": "soin · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "attila",
+          "name": "Attila Conquest",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Cavalry",
+          "description": "The Burn effect inflicted by Takeda Shingen synergizes perfectly with the normal damage bonus from Attila's King of the Huns skill."
+        },
+        {
+          "partner": "bertrand-du-guesclin",
+          "name": "Fuel to the Fire",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "The normal damage bonuses from Takeda Shingen's Burn effect and his Kōshū-ryū Gungaku skill turn up the heat for Bertrand du Guesclin's combo attacks."
+        }
+      ]
+    },
+    {
+      "id": "attila",
+      "name": "Attila",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Conquête",
+        "Attaque"
+      ],
+      "role": "Cavalerie / dégâts",
+      "tier": "B",
+      "firstTalent": "Dragon Saber",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Dragon Saber (3/3)",
+            "Charge (3/3)",
+            "Galea (3/3)",
+            "Undying Fury (3/3)"
+          ]
+        },
+        {
+          "name": "Attaque",
+          "path": [
+            "Lord of War (3/3)",
+            "Burning Blood (3/3)",
+            "Unyielding (3/3)",
+            "Armored Joints (3/3)",
+            "Fight To The Death (3/3)",
+            "Martial Mastery (3/3)",
+            "Effortless (3/3)",
+            "Victory Charge (3/3)",
+            "Last Stand (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« King of the Huns » (active) à 5 en premier, puis « The Siege of Constantinople » → « Honoria » → « Battle of the Catalaunian Plains », enfin « The Scourge of God » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie attaque.",
+      "notes": "Nuke cavalerie ; duo avec Takeda.",
+      "pairings": [
+        "takeda",
+        "subutai"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "King of the Huns",
+          "type": "Active"
+        },
+        {
+          "name": "The Siege of Constantinople",
+          "type": "Passive"
+        },
+        {
+          "name": "Honoria",
+          "type": "Passive"
+        },
+        {
+          "name": "Battle of the Catalaunian Plains",
+          "type": "Passive"
+        },
+        {
+          "name": "The Scourge of God",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "attila",
+      "grades": {
+        "overall": "B",
+        "field": "A",
+        "rally": "B+",
+        "garrison": "C",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        6,
+        12
+      ],
+      "build": {
+        "id": "official-26",
+        "name": "Attila Conquest",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "307": 3,
+          "308": 3,
+          "310": 3,
+          "311": 1,
+          "314": 2,
+          "316": 3,
+          "601": 1,
+          "602": 1,
+          "1201": 1,
+          "1202": 3,
+          "1203": 3,
+          "1204": 3,
+          "1205": 3,
+          "1206": 3,
+          "1207": 3,
+          "1208": 1,
+          "1209": 3,
+          "1210": 3,
+          "1211": 1,
+          "1212": 3,
+          "1213": 2,
+          "1214": 2,
+          "1215": 3,
+          "1216": 3,
+          "1217": 3,
+          "1218": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 5,
+        "healFactor": 0,
+        "selfAttack": 40,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 50,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": true,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "King of the Huns",
+        "tags": [
+          "debuff",
+          "tank"
+        ],
+        "summary": "buff attaque · contrôle"
+      },
+      "combat": {
+        "damage": 6,
+        "tank": 1.5,
+        "support": 3,
+        "utility": 5.3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 12.4,
+        "tags": [
+          "debuff",
+          "tank"
+        ],
+        "summary": "buff attaque · contrôle"
+      },
+      "officialPairings": [
+        {
+          "partner": "takeda-shingen",
+          "name": "Attila Conquest",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Cavalry",
+          "description": "The Burn effect inflicted by Takeda Shingen synergizes perfectly with the normal damage bonus from Attila's King of the Huns skill."
+        },
+        {
+          "partner": "subutai",
+          "name": "Steppe Brothers",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Cavalry",
+          "description": "Subutai's combo attack damage counts as a type of normal damage, which means it gains a huge boost from Attila's King of the Huns and The Scourge of God."
+        }
+      ]
+    },
+    {
+      "id": "caesar",
+      "name": "Jules César",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Conquête",
+        "Attaque"
+      ],
+      "role": "Marche polyvalente",
+      "tier": "C",
+      "firstTalent": "Strategic Prowess",
+      "trees": [
+        {
+          "name": "Leadership",
+          "path": [
+            "Strategic Prowess (4/4)",
+            "Fresh Recruits (3/3)",
+            "Hidden Wrath (3/3)",
+            "Healing Herbs (3/3)",
+            "Armored To The Teeth (3/3)"
+          ]
+        },
+        {
+          "name": "Conquête",
+          "path": [
+            "Buckler Shield (3/3)",
+            "Marionette (3/3)",
+            "Signal Flare (3/3)"
+          ]
+        },
+        {
+          "name": "Attaque",
+          "path": [
+            "Burning Blood (3/3)",
+            "Effortless (3/3)",
+            "Martial Mastery (2/3)",
+            "Lord of War (3/3)",
+            "Armored Joints (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Indomitable Army » (active) à 5 en premier, puis « Divine Julius » → « City Killer » → « The Founders », enfin « Ahead of His Time » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent.",
+      "notes": "Dépassé, mais utilisable tôt.",
+      "pairings": [
+        "hannibal",
+        "frederick"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Indomitable Army",
+          "type": "Active"
+        },
+        {
+          "name": "Divine Julius",
+          "type": "Passive"
+        },
+        {
+          "name": "City Killer",
+          "type": "Passive"
+        },
+        {
+          "name": "The Founders",
+          "type": "Passive"
+        },
+        {
+          "name": "Ahead of His Time",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "julius-caesar",
+      "grades": {
+        "overall": "C",
+        "field": "B",
+        "rally": "C+",
+        "garrison": "F",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        6,
+        12
+      ],
+      "build": {
+        "id": "official-17",
+        "name": "Mediterranean Alliance",
+        "points": {
+          "501": 1,
+          "502": 3,
+          "503": 2,
+          "504": 2,
+          "505": 3,
+          "506": 3,
+          "508": 3,
+          "509": 3,
+          "510": 3,
+          "512": 2,
+          "515": 2,
+          "517": 4,
+          "601": 1,
+          "602": 3,
+          "603": 3,
+          "604": 3,
+          "606": 3,
+          "607": 3,
+          "1201": 1,
+          "1202": 3,
+          "1203": 3,
+          "1204": 3,
+          "1205": 3,
+          "1207": 3,
+          "1209": 3,
+          "1211": 1,
+          "1213": 2,
+          "1215": 2,
+          "1216": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 400,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 30,
+        "healFactor": 0,
+        "selfAttack": 20,
+        "selfDefense": 20,
+        "selfHealth": 0,
+        "selfDamageReduction": 10,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Indomitable Army",
+        "tags": [
+          "damage",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · garnison"
+      },
+      "combat": {
+        "damage": 7.7,
+        "tank": 4.2,
+        "support": 1.5,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 12.6,
+        "tags": [
+          "damage",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "hannibal-barca",
+          "name": "Mediterranean Alliance",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Multi",
+          "description": "Hannibal and Julius Caesar can trigger their Siege and City Killer skills when attacking a city, granting their troop high sustain and weakening their enemies."
+        },
+        {
+          "partner": "frederick-i",
+          "name": "Julius Caesar Burst",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Multi",
+          "description": "The bonus to damage from Julius Caesar's Indomitable Army combined with the additional damage from Frederick I's Barbarossa allow them to deal heavy skill damage in a short amount of time."
+        }
+      ]
+    },
+    {
+      "id": "frederick",
+      "name": "Frédéric Ier",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Conquête",
+        "Compétence"
+      ],
+      "role": "Rally / dégâts",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Barbarossa » (active) à 5 en premier, puis « Never Give Up » → « Invasion » → « King of Deutschland », enfin « Furious Barbarossa » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent.",
+      "notes": "Rally lead historique, dépassé.",
+      "pairings": [
+        "caesar"
+      ],
+      "usage": [
+        "ralliement"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Barbarossa",
+          "type": "Active"
+        },
+        {
+          "name": "Never Give Up",
+          "type": "Passive"
+        },
+        {
+          "name": "Invasion",
+          "type": "Passive"
+        },
+        {
+          "name": "King of Deutschland",
+          "type": "Passive"
+        },
+        {
+          "name": "Furious Barbarossa",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "frederick-i",
+      "grades": {
+        "overall": "C",
+        "field": "C+",
+        "rally": "C+",
+        "garrison": "F",
+        "canyon": "B"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        6,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 800,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 10,
+        "healFactor": 1000,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Barbarossa",
+        "tags": [
+          "damage",
+          "heal"
+        ],
+        "summary": "dégâts monocible · soin"
+      },
+      "combat": {
+        "damage": 6.3,
+        "tank": 2.5,
+        "support": 2.9,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 10.9,
+        "tags": [
+          "damage",
+          "heal"
+        ],
+        "summary": "dégâts monocible · soin"
+      },
+      "officialPairings": [
+        {
+          "partner": "julius-caesar",
+          "name": "Julius Caesar Burst",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Multi",
+          "description": "The bonus to damage from Julius Caesar's Indomitable Army combined with the additional damage from Frederick I's Barbarossa allow them to deal heavy skill damage in a short amount of time."
+        }
+      ]
+    },
+    {
+      "id": "aethelflaed",
+      "name": "Æthelflæd",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Maintien de la paix",
+        "Soutien"
+      ],
+      "role": "Débuff / barbares",
+      "tier": "C",
+      "firstTalent": "Armed To The Teeth",
+      "trees": [
+        {
+          "name": "Leadership",
+          "path": [
+            "Armed To The Teeth (2/3)",
+            "Hidden Wrath (3/3)",
+            "Steely Soul (3/3)",
+            "Healing Herbs (3/3)",
+            "Armored To The Teeth (2/3)",
+            "Strategic Prowess (4/4)",
+            "Fresh Recruits (3/3)"
+          ]
+        },
+        {
+          "name": "Soutien",
+          "path": [
+            "Cage of Thorns (1/5)",
+            "Loose Formation (3/3)",
+            "Emergency Protection (3/3)",
+            "Hasty Departure (3/3)",
+            "Burning Blood (3/3)",
+            "Rejuvenate (3/3)",
+            "Elixir (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Arrow of Iron » (active) à 5 en premier, puis « Thunderous Force » → « Synergy » → « Fortress of Mercia », enfin « Warrior Queen » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Aucun.",
+      "notes": "Légendaire gratuite : -30 % de stats aux ennemis + XP barbares. Très utile.",
+      "pairings": [
+        "mehmed",
+        "imhotep",
+        "mulan",
+        "richard"
+      ],
+      "usage": [
+        "barbares",
+        "pvp",
+        "xp"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Arrow of Iron",
+          "type": "Active"
+        },
+        {
+          "name": "Thunderous Force",
+          "type": "Passive"
+        },
+        {
+          "name": "Synergy",
+          "type": "Passive"
+        },
+        {
+          "name": "Fortress of Mercia",
+          "type": "Passive"
+        },
+        {
+          "name": "Warrior Queen",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "aethelflaed",
+      "grades": {
+        "overall": "C+",
+        "field": "B+",
+        "rally": "D+",
+        "garrison": "F",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        8,
+        14
+      ],
+      "build": {
+        "id": "official-19",
+        "name": "Burh-ban Cannon",
+        "points": {
+          "501": 1,
+          "502": 3,
+          "503": 2,
+          "504": 2,
+          "505": 3,
+          "506": 3,
+          "507": 3,
+          "508": 3,
+          "509": 3,
+          "510": 2,
+          "511": 1,
+          "512": 2,
+          "513": 2,
+          "515": 2,
+          "517": 4,
+          "801": 1,
+          "802": 1,
+          "1401": 1,
+          "1402": 3,
+          "1403": 3,
+          "1404": 3,
+          "1405": 3,
+          "1406": 3,
+          "1407": 3,
+          "1408": 2,
+          "1411": 2,
+          "1412": 1,
+          "1415": 1,
+          "1416": 2,
+          "1417": 2,
+          "1418": 3,
+          "1419": 3,
+          "1420": 1
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 800,
+        "aoe": true,
+        "targets": 5,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 20,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 20,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Arrow of Iron",
+        "tags": [
+          "damage",
+          "aoe",
+          "support",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buffs d’équipe"
+      },
+      "combat": {
+        "damage": 8.2,
+        "tank": 1.5,
+        "support": 3.2,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 12,
+        "tags": [
+          "damage",
+          "aoe",
+          "support",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buffs d’équipe"
+      },
+      "officialPairings": [
+        {
+          "partner": "mehmed-ii",
+          "name": "Burh-ban Cannon",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Multi",
+          "description": "Æthelflæd inflicts AoE debuffs that make Mehmed II's AoE skill damage even deadlier."
+        },
+        {
+          "partner": "imhotep",
+          "name": "Imhotep Debuff",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Both Imhotep and Æthelflæd have active skills that can inflict huge AoE debuffs, making the pair a fantastic support option for larger battles."
+        },
+        {
+          "partner": "mulan",
+          "name": "Mulan Peacekeeping",
+          "role": "secondary",
+          "scenario": "Peacekeeping",
+          "troop": "Multi",
+          "description": "This pair gains tons of extra EXP from defeating barbarians, making them much easier to level up."
+        },
+        {
+          "partner": "richard-i",
+          "name": "Blighty Beatdown",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "With Richard I as primary and Æthelflæd as secondary, the Slow effect from his Soul of the Crusaders can trigger her Warrior Queen skill, greatly boosting the damage of Arrow of Iron."
+        }
+      ]
+    },
+    {
+      "id": "cleopatra",
+      "name": "Cléopâtre",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Récolte",
+        "Soutien"
+      ],
+      "role": "Récolte",
+      "tier": "B",
+      "firstTalent": "Call of the Pack",
+      "trees": [
+        {
+          "name": "Intégration",
+          "path": [
+            "Call of the Pack (3/3)",
+            "Defensive Formation (3/3)",
+            "Fresh Recruits (3/3)",
+            "Armored To The Teeth (4/4)"
+          ]
+        },
+        {
+          "name": "Récolte",
+          "path": [
+            "Gathering Mastery (Wood) (3/3)",
+            "Gathering Mastery (Food) (3/3)",
+            "Gathering Mastery (Stone) (3/3)",
+            "Gathering Mastery (Gold) (3/3)",
+            "Modified Axle (3/3)",
+            "Tourniquet (3/3)",
+            "Armed Convoy (3/3)",
+            "The More The Better (3/3)",
+            "Superior Tools (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Queen of Kings » (active) à 5 en premier, puis « End of Ptolemy » → « Beauty and Wisdom » → « The Last Pharaoh », enfin « Gifts of the Nile » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set Harvest.",
+      "notes": "Gatherer : ne pas monter au-delà du palier de talents utile.",
+      "pairings": [
+        "matilda"
+      ],
+      "usage": [
+        "recolte"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Queen of Kings",
+          "type": "Active"
+        },
+        {
+          "name": "End of Ptolemy",
+          "type": "Passive"
+        },
+        {
+          "name": "Beauty and Wisdom",
+          "type": "Passive"
+        },
+        {
+          "name": "The Last Pharaoh",
+          "type": "Passive"
+        },
+        {
+          "name": "Gifts of the Nile",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "cleopatra-vii",
+      "grades": {
+        "overall": "G",
+        "field": "F",
+        "rally": "F",
+        "garrison": "F",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Coiffe de moissonneur",
+        "Robe de moissonneur",
+        "Sceptre du gardien de la forêt",
+        "Gants de moissonneur",
+        "Pantalon de moissonneur",
+        "Bottes de moissonneur"
+      ],
+      "treeIds": [
+        4,
+        9,
+        14
+      ],
+      "build": {
+        "id": "official-53",
+        "name": "Cleopatra Gathering",
+        "points": {
+          "401": 1,
+          "402": 3,
+          "403": 3,
+          "404": 3,
+          "405": 3,
+          "408": 3,
+          "409": 2,
+          "410": 3,
+          "414": 1,
+          "416": 4,
+          "901": 1,
+          "902": 2,
+          "903": 2,
+          "904": 3,
+          "905": 3,
+          "906": 3,
+          "907": 3,
+          "908": 2,
+          "909": 1,
+          "910": 3,
+          "911": 3,
+          "912": 1,
+          "913": 1,
+          "914": 2,
+          "915": 1,
+          "916": 3,
+          "917": 3,
+          "918": 3,
+          "919": 3,
+          "920": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 400,
+        "selfAttack": 50,
+        "selfDefense": 50,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 15,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Queen of Kings",
+        "tags": [
+          "heal",
+          "support",
+          "tank"
+        ],
+        "summary": "soin · buffs d’équipe · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 4.2,
+        "tank": 7.3,
+        "support": 3.3,
+        "utility": 0,
+        "secondary": 0,
+        "role": "tank",
+        "score": 13.3,
+        "tags": [
+          "heal",
+          "support",
+          "tank"
+        ],
+        "summary": "soin · buffs d’équipe · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "matilda-of-flanders",
+          "name": "Cleopatra Gathering",
+          "role": "primary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "This pair gains huge bonuses to Stone Gathering Speed, making them a powerful boon to a developing governor."
+        }
+      ]
+    },
+    {
+      "id": "seondeok",
+      "name": "Seondeok",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Récolte",
+        "Attaque"
+      ],
+      "role": "Récolte",
+      "tier": "B",
+      "firstTalent": "Call of the Pack",
+      "trees": [
+        {
+          "name": "Intégration",
+          "path": [
+            "Call of the Pack (3/3)",
+            "Defensive Formation (3/3)",
+            "Fresh Recruits (3/3)",
+            "Armored To The Teeth (4/4)"
+          ]
+        },
+        {
+          "name": "Récolte",
+          "path": [
+            "Gathering Mastery (Wood) (3/3)",
+            "Gathering Mastery (Food) (3/3)",
+            "Gathering Mastery (Stone) (3/3)",
+            "Gathering Mastery (Gold) (3/3)",
+            "Modified Axle (3/3)",
+            "Tourniquet (3/3)",
+            "Armed Convoy (3/3)",
+            "The More The Better (3/3)",
+            "Superior Tools (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Modest » (active) à 5 en premier, puis « Insightful » → « Magnanimous » → « Incisive », enfin « Honoring the Heavens » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set Harvest.",
+      "notes": "Gatherer.",
+      "pairings": [
+        "jeanne",
+        "casimir-iii",
+        "yahya-ibn-khalid"
+      ],
+      "usage": [
+        "recolte"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Modest",
+          "type": "Active"
+        },
+        {
+          "name": "Insightful",
+          "type": "Passive"
+        },
+        {
+          "name": "Magnanimous",
+          "type": "Passive"
+        },
+        {
+          "name": "Incisive",
+          "type": "Passive"
+        },
+        {
+          "name": "Honoring the Heavens",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "seondeok",
+      "grades": {
+        "overall": "G",
+        "field": "n/a",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Coiffe de moissonneur",
+        "Robe de moissonneur",
+        "Sceptre du gardien de la forêt",
+        "Gants de moissonneur",
+        "Pantalon de moissonneur",
+        "Bottes de moissonneur"
+      ],
+      "treeIds": [
+        4,
+        9,
+        12
+      ],
+      "build": {
+        "id": "official-55",
+        "name": "Seondeok Gathering",
+        "points": {
+          "401": 1,
+          "402": 3,
+          "403": 3,
+          "404": 3,
+          "405": 3,
+          "408": 3,
+          "409": 2,
+          "410": 3,
+          "414": 1,
+          "416": 4,
+          "901": 1,
+          "902": 2,
+          "903": 2,
+          "904": 3,
+          "905": 3,
+          "906": 3,
+          "907": 3,
+          "908": 2,
+          "909": 1,
+          "910": 3,
+          "911": 3,
+          "912": 1,
+          "913": 1,
+          "914": 2,
+          "915": 1,
+          "916": 3,
+          "917": 3,
+          "918": 3,
+          "919": 3,
+          "920": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1400,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 30,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Modest",
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · tank"
+      },
+      "combat": {
+        "damage": 8.5,
+        "tank": 3.8,
+        "support": 0,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 11.9,
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "joan-of-arc",
+          "name": "Seondeok Gathering",
+          "role": "primary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "This pair gains huge bonuses to Gold Gathering Speed, making them a powerful boon to a developing governor."
+        },
+        {
+          "partner": "casimir-iii",
+          "name": "Prospectors",
+          "role": "secondary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "If you're in need of funds for your next campaign, this pair gains huge bonuses to Gold Gathering Speed."
+        },
+        {
+          "partner": "yahya-ibn-khalid",
+          "name": "Yahya ibn Khalid Gathering",
+          "role": "secondary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "This pair gains huge bonuses to Gold Gathering Speed, making them a powerful boon to a developing governor."
+        }
+      ]
+    },
+    {
+      "id": "sarka",
+      "name": "Šárka",
+      "rarity": "elite",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Récolte",
+        "Compétence"
+      ],
+      "role": "Récolte",
+      "tier": "B",
+      "firstTalent": "Call of the Pack",
+      "trees": [
+        {
+          "name": "Intégration",
+          "path": [
+            "Call of the Pack (3/3)",
+            "Defensive Formation (3/3)",
+            "Fresh Recruits (3/3)",
+            "Armored To The Teeth (4/4)"
+          ]
+        },
+        {
+          "name": "Récolte",
+          "path": [
+            "Gathering Mastery (Wood) (3/3)",
+            "Gathering Mastery (Food) (3/3)",
+            "Gathering Mastery (Stone) (3/3)",
+            "Gathering Mastery (Gold) (3/3)",
+            "Modified Axle (3/3)",
+            "Tourniquet (3/3)",
+            "Armed Convoy (3/3)",
+            "The More The Better (3/3)",
+            "Superior Tools (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Enchantment » (active) à 5 en premier, puis « The Maidens' War » → « Lost Treasure » → « Short-lived Heroine ». Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set Harvest.",
+      "notes": "Gatherer de début de jeu.",
+      "pairings": [
+        "centurion"
+      ],
+      "usage": [
+        "recolte"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Enchantment",
+          "type": "Active"
+        },
+        {
+          "name": "The Maidens' War",
+          "type": "Passive"
+        },
+        {
+          "name": "Lost Treasure",
+          "type": "Passive"
+        },
+        {
+          "name": "Short-lived Heroine",
+          "type": "Passive"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "sarka",
+      "grades": {},
+      "gear": [
+        "Coiffe de moissonneur",
+        "Robe de moissonneur",
+        "Sceptre du gardien de la forêt",
+        "Gants de moissonneur",
+        "Pantalon de moissonneur",
+        "Bottes de moissonneur"
+      ],
+      "treeIds": [
+        4,
+        9,
+        11
+      ],
+      "build": {
+        "id": "official-57",
+        "name": "Šárka Gathering",
+        "points": {
+          "401": 1,
+          "402": 3,
+          "403": 3,
+          "404": 3,
+          "405": 3,
+          "408": 3,
+          "409": 2,
+          "410": 3,
+          "414": 1,
+          "416": 4,
+          "901": 1,
+          "902": 2,
+          "903": 2,
+          "904": 3,
+          "905": 3,
+          "906": 3,
+          "907": 3,
+          "908": 2,
+          "909": 1,
+          "910": 3,
+          "911": 3,
+          "912": 1,
+          "913": 1,
+          "914": 2,
+          "915": 1,
+          "916": 3,
+          "917": 3,
+          "918": 3,
+          "919": 3,
+          "920": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 200,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 10,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Enchantment",
+        "tags": [],
+        "summary": "dégâts monocible · buff attaque"
+      },
+      "combat": {
+        "damage": 3.3,
+        "tank": 0,
+        "support": 0,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 3.3,
+        "tags": [],
+        "summary": "dégâts monocible · buff attaque"
+      },
+      "officialPairings": [
+        {
+          "partner": "centurion",
+          "name": "Šárka Gathering",
+          "role": "primary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "This pair gains bonuses to Gathering Speed for all resources, making them a powerful boon to a developing governor."
+        }
+      ]
+    },
+    {
+      "id": "centurion",
+      "name": "Centurion",
+      "rarity": "avance",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Récolte",
+        "Attaque"
+      ],
+      "role": "Récolte",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Bloody Battle » (active) à 5 en premier, puis « Excitement » → « Army Management » → « Courageous Fighter ». Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set Harvest.",
+      "notes": "Gatherer de secours.",
+      "pairings": [
+        "sarka"
+      ],
+      "usage": [
+        "recolte"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Bloody Battle",
+          "type": "Active"
+        },
+        {
+          "name": "Excitement",
+          "type": "Passive"
+        },
+        {
+          "name": "Army Management",
+          "type": "Passive"
+        },
+        {
+          "name": "Courageous Fighter",
+          "type": "Passive"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "centurion",
+      "grades": {},
+      "gear": [
+        "Coiffe de moissonneur",
+        "Robe de moissonneur",
+        "Sceptre du gardien de la forêt",
+        "Gants de moissonneur",
+        "Pantalon de moissonneur",
+        "Bottes de moissonneur"
+      ],
+      "treeIds": [
+        4,
+        9,
+        12
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 100,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 3,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Bloody Battle",
+        "tags": [
+          "tank"
+        ],
+        "summary": "dégâts monocible · tank"
+      },
+      "combat": {
+        "damage": 2,
+        "tank": 0.4,
+        "support": 0,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 2.3,
+        "tags": [
+          "tank"
+        ],
+        "summary": "dégâts monocible · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "sarka",
+          "name": "Šárka Gathering",
+          "role": "secondary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "This pair gains bonuses to Gathering Speed for all resources, making them a powerful boon to a developing governor."
+        }
+      ]
+    },
+    {
+      "id": "constance",
+      "name": "Constance",
+      "rarity": "elite",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Récolte",
+        "Compétence"
+      ],
+      "role": "Récolte",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Struggling Poison » (active) à 5 en premier, puis « The Regent » → « Loving Mother » → « Queen of Sicily ». Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set Harvest.",
+      "notes": "Gatherer.",
+      "pairings": [
+        "queen-tamar-of-georgia"
+      ],
+      "usage": [
+        "recolte"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Struggling Poison",
+          "type": "Active"
+        },
+        {
+          "name": "The Regent",
+          "type": "Passive"
+        },
+        {
+          "name": "Loving Mother",
+          "type": "Passive"
+        },
+        {
+          "name": "Queen of Sicily",
+          "type": "Passive"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "constance",
+      "grades": {},
+      "gear": [
+        "Coiffe de moissonneur",
+        "Robe de moissonneur",
+        "Sceptre du gardien de la forêt",
+        "Gants de moissonneur",
+        "Pantalon de moissonneur",
+        "Bottes de moissonneur"
+      ],
+      "treeIds": [
+        4,
+        9,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 150,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Struggling Poison",
+        "tags": [],
+        "summary": "dégâts monocible"
+      },
+      "combat": {
+        "damage": 2.3,
+        "tank": 0,
+        "support": 0,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 2.3,
+        "tags": [],
+        "summary": "dégâts monocible"
+      },
+      "officialPairings": [
+        {
+          "partner": "queen-tamar-of-georgia",
+          "name": "Queen Tamar Gathering",
+          "role": "secondary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "This pair gains huge bonuses to Wood Gathering Speed, making them a powerful boon to a developing governor."
+        }
+      ]
+    },
+    {
+      "id": "gaius-marius",
+      "name": "Gaius Marius",
+      "rarity": "elite",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Récolte",
+        "Compétence"
+      ],
+      "role": "Récolte",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Savior of Italy » (active) à 5 en premier, puis « Founder of Empire » → « Marius's Reform » → « Conqueror of Numidia ». Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set Harvest.",
+      "notes": "Gatherer.",
+      "pairings": [
+        "ishida"
+      ],
+      "usage": [
+        "recolte"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Savior of Italy",
+          "type": "Active"
+        },
+        {
+          "name": "Founder of Empire",
+          "type": "Passive"
+        },
+        {
+          "name": "Marius's Reform",
+          "type": "Passive"
+        },
+        {
+          "name": "Conqueror of Numidia",
+          "type": "Passive"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "gaius-marius",
+      "grades": {},
+      "gear": [
+        "Coiffe de moissonneur",
+        "Robe de moissonneur",
+        "Sceptre du gardien de la forêt",
+        "Gants de moissonneur",
+        "Pantalon de moissonneur",
+        "Bottes de moissonneur"
+      ],
+      "treeIds": [
+        5,
+        9,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 150,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 150,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Savior of Italy",
+        "tags": [
+          "heal"
+        ],
+        "summary": "dégâts monocible · soin"
+      },
+      "combat": {
+        "damage": 2.3,
+        "tank": 0.4,
+        "support": 1.7,
+        "utility": 1,
+        "secondary": 0,
+        "role": "damage",
+        "score": 4.5,
+        "tags": [
+          "heal"
+        ],
+        "summary": "dégâts monocible · soin"
+      },
+      "officialPairings": [
+        {
+          "partner": "ishida-mitsunari",
+          "name": "Ishida Mitsunari Gathering",
+          "role": "secondary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "This pair gains huge bonuses to Food Gathering Speed, making them a powerful boon to a developing governor."
+        }
+      ]
+    },
+    {
+      "id": "matilda",
+      "name": "Mathilde de Flandre",
+      "rarity": "epique",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Récolte",
+        "Défense"
+      ],
+      "role": "Récolte",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Daughter of Flanders » (active) à 5 en premier, puis « Clever Heart » → « The Mora » → « Wise Ruler », enfin « Flanders' Gift » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set Harvest.",
+      "notes": "Gatherer.",
+      "pairings": [
+        "cleopatra"
+      ],
+      "usage": [
+        "recolte"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Daughter of Flanders",
+          "type": "Active"
+        },
+        {
+          "name": "Clever Heart",
+          "type": "Passive"
+        },
+        {
+          "name": "The Mora",
+          "type": "Passive"
+        },
+        {
+          "name": "Wise Ruler",
+          "type": "Passive"
+        },
+        {
+          "name": "Flanders' Gift",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "matilda-of-flanders",
+      "grades": {
+        "overall": "G",
+        "field": "D",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "B"
+      },
+      "gear": [
+        "Coiffe de moissonneur",
+        "Robe de moissonneur",
+        "Sceptre du gardien de la forêt",
+        "Gants de moissonneur",
+        "Pantalon de moissonneur",
+        "Bottes de moissonneur"
+      ],
+      "treeIds": [
+        4,
+        9,
+        13
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 750,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 20,
+        "selfDefense": 30,
+        "selfHealth": 30,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Daughter of Flanders",
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 5.4,
+        "tank": 10.3,
+        "support": 0,
+        "utility": 0,
+        "secondary": 0,
+        "role": "tank",
+        "score": 14.6,
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "cleopatra-vii",
+          "name": "Cleopatra Gathering",
+          "role": "secondary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "This pair gains huge bonuses to Stone Gathering Speed, making them a powerful boon to a developing governor."
+        }
+      ]
+    },
+    {
+      "id": "osman",
+      "name": "Osman Ier",
+      "rarity": "epique",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Conquête",
+        "Compétence"
+      ],
+      "role": "Marche polyvalente",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« The Empire Awakens » (active) à 5 en premier, puis « Radiance of Bursa » → « Sword of Osman » → « Sultan's Glory », enfin « Rising Empire » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent.",
+      "notes": "Correct tôt, remplacé ensuite.",
+      "pairings": [
+        "mehmed"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "The Empire Awakens",
+          "type": "Active"
+        },
+        {
+          "name": "Radiance of Bursa",
+          "type": "Passive"
+        },
+        {
+          "name": "Sword of Osman",
+          "type": "Passive"
+        },
+        {
+          "name": "Sultan's Glory",
+          "type": "Passive"
+        },
+        {
+          "name": "Rising Empire",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "osman-i",
+      "grades": {
+        "overall": "B",
+        "field": "B",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "B"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        6,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1100,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 15,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "The Empire Awakens",
+        "tags": [
+          "damage"
+        ],
+        "summary": "dégâts monocible · buff attaque"
+      },
+      "combat": {
+        "damage": 8.3,
+        "tank": 0,
+        "support": 1.5,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 9.5,
+        "tags": [
+          "damage"
+        ],
+        "summary": "dégâts monocible · buff attaque"
+      },
+      "officialPairings": [
+        {
+          "partner": "mehmed-ii",
+          "name": "Twin Crescents",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Multi",
+          "description": "Mehmed II's Lord of Land and Sea buffs the damage of both Orban Bombard and Rising Empire."
+        }
+      ]
+    },
+    {
+      "id": "baibars",
+      "name": "Baïbars",
+      "rarity": "epique",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Conquête",
+        "Compétence"
+      ],
+      "role": "Cavalerie / dégâts",
+      "tier": "A",
+      "firstTalent": "Undying Fury",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Undying Fury (3/3)",
+            "Dragon Saber (3/3)",
+            "Galea (3/3)",
+            "Emblazoned Shield (2/4)",
+            "Charge (3/3)",
+            "Halberd (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Sandstorm » (active) à 5 en premier, puis « Arabian Knights » → « No Escape » → « Great Panther », enfin « Blot Out The Sun » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie.",
+      "notes": "Bon cavalier épique.",
+      "pairings": [
+        "belisaire"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Sandstorm",
+          "type": "Active"
+        },
+        {
+          "name": "Arabian Knights",
+          "type": "Passive"
+        },
+        {
+          "name": "No Escape",
+          "type": "Passive"
+        },
+        {
+          "name": "Great Panther",
+          "type": "Passive"
+        },
+        {
+          "name": "Blot Out The Sun",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "baibars",
+      "grades": {
+        "overall": "A+",
+        "field": "A",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "B+"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        6,
+        11
+      ],
+      "build": {
+        "id": "official-2",
+        "name": "Beginner Field",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "306": 3,
+          "307": 3,
+          "308": 3,
+          "309": 2,
+          "310": 3,
+          "311": 1,
+          "314": 2,
+          "315": 1,
+          "316": 3,
+          "318": 2,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1000,
+        "aoe": true,
+        "targets": 5,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 200,
+        "selfAttack": 20,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 50,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Sandstorm",
+        "tags": [
+          "damage",
+          "aoe",
+          "heal",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · soin · buff attaque · garnison"
+      },
+      "combat": {
+        "damage": 11.4,
+        "tank": 0.5,
+        "support": 1.8,
+        "utility": 3.3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 15,
+        "tags": [
+          "damage",
+          "aoe",
+          "heal",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · soin · buff attaque · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "belisarius",
+          "name": "Beginner Field",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "The Slow effect from Baibars's Sandstorm paired with Belisarius's Oblique Tactics allows these two to mercilessly run down weakened troops."
+        }
+      ]
+    },
+    {
+      "id": "ishida",
+      "name": "Ishida Mitsunari",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Récolte",
+        "Soutien"
+      ],
+      "role": "Récolte",
+      "tier": "B",
+      "firstTalent": "Call of the Pack",
+      "trees": [
+        {
+          "name": "Intégration",
+          "path": [
+            "Call of the Pack (3/3)",
+            "Defensive Formation (3/3)",
+            "Fresh Recruits (3/3)",
+            "Armored To The Teeth (4/4)"
+          ]
+        },
+        {
+          "name": "Récolte",
+          "path": [
+            "Gathering Mastery (Wood) (3/3)",
+            "Gathering Mastery (Food) (3/3)",
+            "Gathering Mastery (Stone) (3/3)",
+            "Gathering Mastery (Gold) (3/3)",
+            "Modified Axle (3/3)",
+            "Tourniquet (3/3)",
+            "Armed Convoy (3/3)",
+            "The More The Better (3/3)",
+            "Superior Tools (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Battle of Sekigahara » (active) à 5 en premier, puis « Go-Bugyō » → « Taiko-kenchi » → « Indispensable », enfin « Three Cups of Tea » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set Harvest.",
+      "notes": "Gatherer.",
+      "pairings": [
+        "gaius-marius"
+      ],
+      "usage": [
+        "recolte"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Battle of Sekigahara",
+          "type": "Active"
+        },
+        {
+          "name": "Go-Bugyō",
+          "type": "Passive"
+        },
+        {
+          "name": "Taiko-kenchi",
+          "type": "Passive"
+        },
+        {
+          "name": "Indispensable",
+          "type": "Passive"
+        },
+        {
+          "name": "Three Cups of Tea",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "ishida-mitsunari",
+      "grades": {
+        "overall": "G",
+        "field": "F",
+        "rally": "F",
+        "garrison": "F",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Coiffe de moissonneur",
+        "Robe de moissonneur",
+        "Sceptre du gardien de la forêt",
+        "Gants de moissonneur",
+        "Pantalon de moissonneur",
+        "Bottes de moissonneur"
+      ],
+      "treeIds": [
+        4,
+        9,
+        14
+      ],
+      "build": {
+        "id": "official-54",
+        "name": "Ishida Mitsunari Gathering",
+        "points": {
+          "401": 1,
+          "402": 3,
+          "403": 3,
+          "404": 3,
+          "405": 3,
+          "408": 3,
+          "409": 2,
+          "410": 3,
+          "414": 1,
+          "416": 4,
+          "901": 1,
+          "902": 2,
+          "903": 2,
+          "904": 3,
+          "905": 3,
+          "906": 3,
+          "907": 3,
+          "908": 2,
+          "909": 1,
+          "910": 3,
+          "911": 3,
+          "912": 1,
+          "913": 1,
+          "914": 2,
+          "915": 1,
+          "916": 3,
+          "917": 3,
+          "918": 3,
+          "919": 3,
+          "920": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 500,
+        "selfAttack": 30,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 15,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Battle of Sekigahara",
+        "tags": [
+          "heal",
+          "secondary"
+        ],
+        "summary": "soin · buff attaque · bonus en secondaire"
+      },
+      "combat": {
+        "damage": 2.5,
+        "tank": 1.3,
+        "support": 2.2,
+        "utility": 0,
+        "secondary": 1.5,
+        "role": "damage",
+        "score": 6.1,
+        "tags": [
+          "heal",
+          "secondary"
+        ],
+        "summary": "soin · buff attaque · bonus en secondaire"
+      },
+      "officialPairings": [
+        {
+          "partner": "gaius-marius",
+          "name": "Ishida Mitsunari Gathering",
+          "role": "primary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "This pair gains huge bonuses to Food Gathering Speed, making them a powerful boon to a developing governor."
+        }
+      ]
+    },
+    {
+      "id": "mulan",
+      "name": "Mulan",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Maintien de la paix",
+        "Soutien"
+      ],
+      "role": "Récolte / soutien",
+      "tier": "B",
+      "firstTalent": "Insight",
+      "trees": [
+        {
+          "name": "Maintien de la paix",
+          "path": [
+            "Insight (3/3)",
+            "Quick Study (3/3)",
+            "Domination (3/3)",
+            "Killer Instinct (3/3)",
+            "Trophy Hunter (3/3)",
+            "Mighty Force (3/3)",
+            "Thoroughbreds (3/3)",
+            "Double-Edged Sword (3/3)",
+            "Curing Chant (5/5)"
+          ]
+        },
+        {
+          "name": "Soutien",
+          "path": [
+            "Burning Blood (3/3)",
+            "Hasty Departure (3/3)",
+            "Elixir (3/3)",
+            "Loose Formation (3/3)",
+            "Rejuvenate (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Filial Piety » (active) à 5 en premier, puis « Heart of a Warrior » → « Khan Slayer » → « One-of-a-kind General », enfin « Defender of the Empire » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set Harvest.",
+      "notes": "Récolte + petit soutien.",
+      "pairings": [
+        "aethelflaed"
+      ],
+      "usage": [
+        "recolte"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Filial Piety",
+          "type": "Active"
+        },
+        {
+          "name": "Heart of a Warrior",
+          "type": "Passive"
+        },
+        {
+          "name": "Khan Slayer",
+          "type": "Passive"
+        },
+        {
+          "name": "One-of-a-kind General",
+          "type": "Passive"
+        },
+        {
+          "name": "Defender of the Empire",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "mulan",
+      "grades": {
+        "overall": "D+",
+        "field": "C",
+        "rally": "F",
+        "garrison": "F",
+        "canyon": "S"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        4,
+        8,
+        14
+      ],
+      "build": {
+        "id": "official-62",
+        "name": "Mulan Peacekeeping",
+        "points": {
+          "801": 1,
+          "802": 3,
+          "803": 3,
+          "804": 3,
+          "805": 3,
+          "806": 3,
+          "807": 3,
+          "808": 2,
+          "809": 1,
+          "810": 3,
+          "811": 3,
+          "812": 1,
+          "813": 2,
+          "814": 2,
+          "817": 2,
+          "818": 3,
+          "819": 3,
+          "820": 5,
+          "1401": 1,
+          "1402": 3,
+          "1403": 3,
+          "1404": 3,
+          "1405": 3,
+          "1406": 3,
+          "1407": 3,
+          "1408": 2,
+          "1411": 1,
+          "1412": 1,
+          "1416": 2,
+          "1418": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 5,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 20,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 30,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 20,
+          "support": 0
+        },
+        "active": "Filial Piety",
+        "tags": [
+          "support",
+          "tank",
+          "secondary"
+        ],
+        "summary": "buffs d’équipe · tank"
+      },
+      "combat": {
+        "damage": 0,
+        "tank": 0.8,
+        "support": 3.2,
+        "utility": 0,
+        "secondary": 1.3,
+        "role": "support",
+        "score": 4,
+        "tags": [
+          "support",
+          "tank",
+          "secondary"
+        ],
+        "summary": "buffs d’équipe · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "aethelflaed",
+          "name": "Mulan Peacekeeping",
+          "role": "primary",
+          "scenario": "Peacekeeping",
+          "troop": "Multi",
+          "description": "This pair gains tons of extra EXP from defeating barbarians, making them much easier to level up."
+        }
+      ]
+    },
+    {
+      "id": "hannibal",
+      "name": "Hannibal Barca",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Conquête",
+        "Attaque"
+      ],
+      "role": "Rally / dégâts",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« War Elephants » (active) à 5 en premier, puis « Envelopment Tactics » → « Siege » → « Expedition », enfin « War Elephant Trample » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent.",
+      "notes": "Dépassé.",
+      "pairings": [
+        "caesar"
+      ],
+      "usage": [
+        "ralliement"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "War Elephants",
+          "type": "Active"
+        },
+        {
+          "name": "Envelopment Tactics",
+          "type": "Passive"
+        },
+        {
+          "name": "Siege",
+          "type": "Passive"
+        },
+        {
+          "name": "Expedition",
+          "type": "Passive"
+        },
+        {
+          "name": "War Elephant Trample",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "hannibal-barca",
+      "grades": {
+        "overall": "D+",
+        "field": "C+",
+        "rally": "C",
+        "garrison": "F",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        6,
+        12
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 400,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 10,
+        "healFactor": 1000,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 25,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 25,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 25,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "War Elephants",
+        "tags": [
+          "damage",
+          "aoe",
+          "heal",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts AoE · soin · tank · debuff"
+      },
+      "combat": {
+        "damage": 6.8,
+        "tank": 6.7,
+        "support": 6.3,
+        "utility": 5,
+        "secondary": 0,
+        "role": "damage",
+        "score": 20.3,
+        "tags": [
+          "damage",
+          "aoe",
+          "heal",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts AoE · soin · tank · debuff"
+      },
+      "officialPairings": [
+        {
+          "partner": "julius-caesar",
+          "name": "Mediterranean Alliance",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Multi",
+          "description": "Hannibal and Julius Caesar can trigger their Siege and City Killer skills when attacking a city, granting their troop high sustain and weakening their enemies."
+        }
+      ]
+    },
+    {
+      "id": "mehmed",
+      "name": "Mehmed II",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Conquête",
+        "Compétence"
+      ],
+      "role": "Rally / compétence",
+      "tier": "B",
+      "firstTalent": "Armed To The Teeth",
+      "trees": [
+        {
+          "name": "Leadership",
+          "path": [
+            "Armed To The Teeth (2/3)",
+            "Strategic Prowess (4/4)",
+            "Fresh Recruits (3/3)",
+            "Hidden Wrath (3/3)",
+            "Healing Herbs (3/3)"
+          ]
+        },
+        {
+          "name": "Conquête",
+          "path": [
+            "Moment Of Triumph (1/3)",
+            "Buckler Shield (1/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (2/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Ottoman Cannons » (active) à 5 en premier, puis « Lord of Land and Sea » → « Fatih » → « Sage King », enfin « Orban Bombard » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent.",
+      "notes": "Rally lead historique.",
+      "pairings": [
+        "osman",
+        "aethelflaed",
+        "guan-yu",
+        "thutmose-iii"
+      ],
+      "usage": [
+        "ralliement"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Ottoman Cannons",
+          "type": "Active"
+        },
+        {
+          "name": "Lord of Land and Sea",
+          "type": "Passive"
+        },
+        {
+          "name": "Fatih",
+          "type": "Passive"
+        },
+        {
+          "name": "Sage King",
+          "type": "Passive"
+        },
+        {
+          "name": "Orban Bombard",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "mehmed-ii",
+      "grades": {
+        "overall": "B",
+        "field": "A",
+        "rally": "B",
+        "garrison": "F",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        6,
+        11
+      ],
+      "build": {
+        "id": "official-21",
+        "name": "Twin Crescents",
+        "points": {
+          "501": 1,
+          "502": 3,
+          "503": 2,
+          "504": 2,
+          "505": 3,
+          "506": 2,
+          "508": 3,
+          "509": 3,
+          "512": 2,
+          "513": 2,
+          "515": 2,
+          "517": 4,
+          "601": 1,
+          "602": 3,
+          "604": 1,
+          "605": 1,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 2,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 20,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 20,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 0,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "",
+        "tags": [
+          "garnison"
+        ],
+        "summary": "buff attaque · garnison"
+      },
+      "combat": {
+        "damage": 4.8,
+        "tank": 0,
+        "support": 1.5,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 6,
+        "tags": [
+          "garnison"
+        ],
+        "summary": "buff attaque · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "osman-i",
+          "name": "Twin Crescents",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Multi",
+          "description": "Mehmed II's Lord of Land and Sea buffs the damage of both Orban Bombard and Rising Empire."
+        },
+        {
+          "partner": "aethelflaed",
+          "name": "Burh-ban Cannon",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Multi",
+          "description": "Æthelflæd inflicts AoE debuffs that make Mehmed II's AoE skill damage even deadlier."
+        },
+        {
+          "partner": "guan-yu",
+          "name": "My Yatagan Cuts True",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "Once you reach the Season of Conquest, you can unlock Mehmed II's Museum exhibit for a bonus to skill damage. Pair with a high skill damage commander like Guan Yu for maximum carnage."
+        },
+        {
+          "partner": "thutmose-iii",
+          "name": "Pharoah and Sultan",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Thutmose III's Brave Ruler and Mehmed II's Ottoman Cannons both deal AoE skill damage. Pair them with the skill damage bonus from Lord of Land and Sea for an extra splash."
+        }
+      ]
+    },
+    {
+      "id": "charlemagne",
+      "name": "Charlemagne",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Conquête",
+        "Compétence"
+      ],
+      "role": "Rally / compétence",
+      "tier": "D",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Eagle of Jupiter » (active) à 5 en premier, puis « Happy Home » → « Plot Maneuvers » → « Paladin », enfin « Carolingian Renaissance » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent.",
+      "notes": "Rally lead.",
+      "pairings": [
+        "bjorn"
+      ],
+      "usage": [
+        "ralliement"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Eagle of Jupiter",
+          "type": "Active"
+        },
+        {
+          "name": "Happy Home",
+          "type": "Passive"
+        },
+        {
+          "name": "Plot Maneuvers",
+          "type": "Passive"
+        },
+        {
+          "name": "Paladin",
+          "type": "Passive"
+        },
+        {
+          "name": "Carolingian Renaissance",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "charlemagne",
+      "grades": {
+        "overall": "D",
+        "field": "D",
+        "rally": "D+",
+        "garrison": "F",
+        "canyon": "B"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        6,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1400,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 5,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 10,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": true,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Eagle of Jupiter",
+        "tags": [
+          "damage",
+          "support",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buffs d’équipe"
+      },
+      "combat": {
+        "damage": 8.9,
+        "tank": 1.5,
+        "support": 2.3,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 12.1,
+        "tags": [
+          "damage",
+          "support",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buffs d’équipe"
+      },
+      "officialPairings": [
+        {
+          "partner": "bjorn-ironside",
+          "name": "Björn Ironside Skill",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Infantry",
+          "description": "Charlemagne's stackable bonus to skill damage and Björn Ironside's ability to increase an enemy's skill damage received can dramatically increase this duo's damage output."
+        }
+      ]
+    },
+    {
+      "id": "wu-zetian",
+      "name": "Wu Zetian",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Garnison",
+        "Soutien"
+      ],
+      "role": "Garnison / soutien",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Mandate of Heaven » (active) à 5 en premier, puis « Lion Rider » → « Tears of Blood » → « Legacy ». Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set défense.",
+      "notes": "Défense de ville.",
+      "pairings": [
+        "charles-martel",
+        "richard"
+      ],
+      "usage": [
+        "garnison"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Mandate of Heaven",
+          "type": "Active"
+        },
+        {
+          "name": "Lion Rider",
+          "type": "Passive"
+        },
+        {
+          "name": "Tears of Blood",
+          "type": "Passive"
+        },
+        {
+          "name": "Legacy",
+          "type": "Passive"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "wu-zetian",
+      "grades": {
+        "overall": "C+",
+        "field": "C",
+        "rally": "D",
+        "garrison": "B+",
+        "canyon": "D"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [],
+      "build": null
+    },
+    {
+      "id": "artemisia",
+      "name": "Artémise Ire",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Garnison",
+        "Défense"
+      ],
+      "role": "Archers / garnison",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Battle of Salamis » (active) à 5 en premier, puis « Bow and Mount » → « Ally of Xerxes » → « Queen of Caria », enfin « Rules of Survival » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archer défense.",
+      "notes": "Défense de ville à base d'archers.",
+      "pairings": [
+        "amanitore",
+        "boudica"
+      ],
+      "usage": [
+        "garnison"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Battle of Salamis",
+          "type": "Active"
+        },
+        {
+          "name": "Bow and Mount",
+          "type": "Passive"
+        },
+        {
+          "name": "Ally of Xerxes",
+          "type": "Passive"
+        },
+        {
+          "name": "Queen of Caria",
+          "type": "Passive"
+        },
+        {
+          "name": "Rules of Survival",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "artemisia-i",
+      "grades": {
+        "overall": "B",
+        "field": "A+",
+        "rally": "B",
+        "garrison": "A+",
+        "canyon": "A+"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        7,
+        13
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1800,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 20,
+        "selfHealth": 20,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": true,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Battle of Salamis",
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · tank · contrôle · garnison"
+      },
+      "combat": {
+        "damage": 10.8,
+        "tank": 7.3,
+        "support": 1.5,
+        "utility": 2,
+        "secondary": 0,
+        "role": "damage",
+        "score": 19.6,
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · tank · contrôle · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "amanitore",
+          "name": "Amanitore Garrison",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Archers",
+          "description": "The self-inflicted damage from Artemisia I's Battle of Salamis can trigger Amanitore's A Kandake's Wrath, turning a downside into powerful burst damage."
+        },
+        {
+          "partner": "boudica-prime",
+          "name": "Queens' Gambit",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Prime Boudica's Rage of the Iceni helps negate the self-imposed Silence effect from Artemisia's Queen of Caria skill, allowing her active skill to benefit from Queen of Caria's considerable damage bonus."
+        }
+      ]
+    },
+    {
+      "id": "el-cid",
+      "name": "Le Cid",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Archers / compétence",
+      "tier": "C",
+      "firstTalent": "Rapid Fire",
+      "trees": [
+        {
+          "name": "Archers",
+          "path": [
+            "Rapid Fire (3/3)",
+            "Razor Sharp (3/3)",
+            "Venomous Sting (4/4)",
+            "Armed And Armored (3/3)",
+            "Arrows Nocked (3/3)",
+            "Thumb Ring (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Famous Warrior » (active) à 5 en premier, puis « Poem of El Cid » → « Guardian of Valencia » → « Unyielding », enfin « Out of Control » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archer.",
+      "notes": "Correct en archers.",
+      "pairings": [
+        "siyaj-k-ak"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Famous Warrior",
+          "type": "Active"
+        },
+        {
+          "name": "Poem of El Cid",
+          "type": "Passive"
+        },
+        {
+          "name": "Guardian of Valencia",
+          "type": "Passive"
+        },
+        {
+          "name": "Unyielding",
+          "type": "Passive"
+        },
+        {
+          "name": "Out of Control",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "slug": "el-cid",
+      "grades": {
+        "overall": "C",
+        "field": "B",
+        "rally": "C",
+        "garrison": "D",
+        "canyon": "B"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        10,
+        11
+      ],
+      "build": {
+        "id": "official-13",
+        "name": "El Cid Control",
+        "points": {
+          "201": 1,
+          "202": 2,
+          "203": 2,
+          "205": 3,
+          "206": 3,
+          "207": 3,
+          "208": 3,
+          "209": 1,
+          "211": 2,
+          "212": 3,
+          "213": 3,
+          "216": 1,
+          "217": 1,
+          "219": 4,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1000,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 25,
+        "healFactor": 0,
+        "selfAttack": 5,
+        "selfDefense": 20,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 25,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Famous Warrior",
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 9.8,
+        "tank": 2.5,
+        "support": 0,
+        "utility": 1.7,
+        "secondary": 0,
+        "role": "damage",
+        "score": 12.8,
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "siyaj-k-ak",
+          "name": "El Cid Control",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Archers",
+          "description": "The Silence and Disarm effects from El Cid's Famous Warrior gives his troop an edge in units remaining over his opponent, triggering the effects of Siyaj K'ak's Herald of the Owl."
+        }
+      ]
+    },
+    {
+      "id": "guan-yu",
+      "name": "Guan Yu",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Conquête",
+        "Compétence"
+      ],
+      "role": "Nuke infanterie",
+      "roleKey": "nuker",
+      "tier": "A",
+      "firstTalent": "Snare of Thorns",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Snare of Thorns (4/4)",
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (1/3)",
+            "Hold The Line (4/4)",
+            "Elite Soldiers (1/5)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Clarity (2/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "pairings": [
+        "leonidas",
+        "scipio",
+        "mehmed"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Saint of War",
+          "type": "Active"
+        },
+        {
+          "name": "Five Tiger Generals",
+          "type": "Passive"
+        },
+        {
+          "name": "The Slaying of Hua Xiong",
+          "type": "Passive"
+        },
+        {
+          "name": "Green Dragon Crescent Blade",
+          "type": "Passive"
+        },
+        {
+          "name": "Lone Rider",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "notes": "Guan Yu is a legendary commander with the Infantry, Conquering and Skill talent trees. The preferred troop type is infantry. Typical use: rally, field. In the game, Lilith recommends pairing with Leonidas I, Scipio Africanus (Prime), Mehmed II.",
+      "slug": "guan-yu",
+      "grades": {
+        "overall": "A",
+        "field": "S",
+        "rally": "A",
+        "garrison": "C",
+        "canyon": "S"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        6,
+        11
+      ],
+      "build": {
+        "id": "official-45",
+        "name": "Guan Yu Field",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 1,
+          "113": 2,
+          "114": 1,
+          "115": 2,
+          "118": 4,
+          "119": 4,
+          "601": 1,
+          "602": 1,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1116": 2,
+          "1117": 3,
+          "1119": 2
+        }
+      },
+      "skillOrder": "« Saint of War » (active) à 5 en premier, puis « Five Tiger Generals » → « The Slaying of Hua Xiong » → « Green Dragon Crescent Blade », enfin « Lone Rider » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "skillProfile": {
+        "damageFactor": 1400,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 15,
+        "selfDamageBonus": 0,
+        "healFactor": 1000,
+        "selfAttack": 30,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 100,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": true,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 0,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "",
+        "tags": [
+          "damage",
+          "heal",
+          "tank"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque"
+      },
+      "combat": {
+        "damage": 11.5,
+        "tank": 4.8,
+        "support": 2.9,
+        "utility": 6.7,
+        "secondary": 0,
+        "role": "damage",
+        "score": 21.5,
+        "tags": [
+          "damage",
+          "heal",
+          "tank"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque"
+      },
+      "officialPairings": [
+        {
+          "partner": "leonidas-i",
+          "name": "Guan Yu Field",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "Guan Yu's Silence effect can trigger the extra direct damage from Leonidas's King of Sparta skill. In turn, the shield granted by Honorable Sacrifice will trigger the effect of Guan Yu's Lone Rider."
+        },
+        {
+          "partner": "scipio-africanus-prime",
+          "name": "Silent Fury",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "The Silence effect from Guan Yu's Saint of War keeps Scipio Africanus's Fiery Rage reliably active, allowing this pair to gain Rage faster and throw out more active skills."
+        },
+        {
+          "partner": "mehmed-ii",
+          "name": "My Yatagan Cuts True",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "Once you reach the Season of Conquest, you can unlock Mehmed II's Museum exhibit for a bonus to skill damage. Pair with a high skill damage commander like Guan Yu for maximum carnage."
+        }
+      ]
+    },
+    {
+      "id": "pyrrhus",
+      "name": "Pyrrhus",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Polyvalence",
+        "Défense"
+      ],
+      "role": "Tank / défense",
+      "roleKey": "tank",
+      "tier": "C",
+      "firstTalent": "Snare of Thorns",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Snare of Thorns (4/4)",
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (1/3)",
+            "Hold The Line (4/4)",
+            "Elite Soldiers (2/5)"
+          ]
+        },
+        {
+          "name": "Défense",
+          "path": [
+            "Spiked Armor (3/3)",
+            "Master Armorer (3/3)",
+            "Medicinal Supplies (3/3)",
+            "Burning Blood (3/3)",
+            "Balance (3/3)",
+            "No Weaknesses (3/3)",
+            "Loose Formation (2/3)"
+          ]
+        }
+      ],
+      "pairings": [
+        "alexander",
+        "richard"
+      ],
+      "usage": [
+        "pvp",
+        "garnison"
+      ],
+      "verified": true,
+      "skills": [
+        {
+          "name": "Achilles Reborn",
+          "type": "Active"
+        },
+        {
+          "name": "Marching to Victory",
+          "type": "Passive"
+        },
+        {
+          "name": "Shield and Sarissa",
+          "type": "Passive"
+        },
+        {
+          "name": "Military Maestro",
+          "type": "Passive"
+        },
+        {
+          "name": "Battle of Asculum",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "notes": "Pyrrhus is a legendary commander with the Infantry, Versatility and Defense talent trees. The preferred troop type is infantry. Typical use: field. In the game, Lilith recommends pairing with Alexander the Great, Richard I.",
+      "slug": "pyrrhus",
+      "grades": {
+        "overall": "C+",
+        "field": "B+",
+        "rally": "C",
+        "garrison": "C",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        10,
+        13
+      ],
+      "build": {
+        "id": "official-23",
+        "name": "Hellenic Glory",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 1,
+          "113": 2,
+          "114": 2,
+          "115": 2,
+          "118": 4,
+          "119": 4,
+          "1301": 1,
+          "1302": 3,
+          "1303": 3,
+          "1304": 3,
+          "1305": 3,
+          "1306": 3,
+          "1307": 3,
+          "1308": 3,
+          "1310": 2,
+          "1311": 2,
+          "1312": 1,
+          "1314": 3,
+          "1315": 1,
+          "1317": 3
+        }
+      },
+      "skillOrder": "« Achilles Reborn » (active) à 5 en premier, puis « Marching to Victory » → « Shield and Sarissa » → « Military Maestro », enfin « Battle of Asculum » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "skillProfile": {
+        "damageFactor": 1400,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 10,
+        "healFactor": 0,
+        "selfAttack": 20,
+        "selfDefense": 0,
+        "selfHealth": 10,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": true,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Achilles Reborn",
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 9.5,
+        "tank": 5.4,
+        "support": 0,
+        "utility": 1,
+        "secondary": 0,
+        "role": "damage",
+        "score": 14.9,
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "alexander-the-great",
+          "name": "Hellenic Glory",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "Wedge formation and the Skill talent tree can greatly enhance the damage of Lead the Charge and Achilles Reborn."
+        },
+        {
+          "partner": "richard-i",
+          "name": "Richard I Pursuit",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "Richard I's Slow effects paired with Pyrrhus's high damage allow their infantry units to pursue and crush fleeing enemies."
+        }
+      ]
+    },
+    {
+      "id": "ragnar",
+      "name": "Ragnar Lodbrok",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Conquête",
+        "Attaque"
+      ],
+      "role": "Rally / dégâts",
+      "roleKey": "rally",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "pairings": [
+        "scipio"
+      ],
+      "usage": [
+        "ralliement"
+      ],
+      "verified": false,
+      "skills": [
+        {
+          "name": "Power of the King",
+          "type": "Active"
+        },
+        {
+          "name": "The Raven",
+          "type": "Passive"
+        },
+        {
+          "name": "The Horn's Call",
+          "type": "Passive"
+        },
+        {
+          "name": "Lord of the North",
+          "type": "Passive"
+        },
+        {
+          "name": "Odin's Might",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "notes": "Ragnar Lodbrok is a legendary commander with the Leadership, Conquering and Attack talent trees. The talent trees are not tied to one troop type. Typical use: rally, field. In the game, Lilith recommends pairing with Scipio Africanus.",
+      "slug": "ragnar-lodbrok",
+      "grades": {
+        "overall": "C",
+        "field": "C+",
+        "rally": "C",
+        "garrison": "F",
+        "canyon": "B"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        6,
+        12
+      ],
+      "build": null,
+      "skillOrder": "« Power of the King » (active) à 5 en premier, puis « The Raven » → « The Horn's Call » → « Lord of the North », enfin « Odin's Might » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 40,
+        "healFactor": 0,
+        "selfAttack": 20,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 20,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Power of the King",
+        "tags": [
+          "tank"
+        ],
+        "summary": "buff attaque · tank"
+      },
+      "combat": {
+        "damage": 6.5,
+        "tank": 3.3,
+        "support": 1.5,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 10.7,
+        "tags": [
+          "tank"
+        ],
+        "summary": "buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "scipio-africanus",
+          "name": "Raging Sands and Crashing Waves",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Multi",
+          "description": "The high damage bonuses from Power of the King and Military Life work in perfect harmony. In addition, this duo's active skills act as a one-two punch, increasing their own damage while reducing their foe's durability."
+        }
+      ]
+    },
+    {
+      "id": "achilles",
+      "name": "Achilles",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Polyvalence",
+        "Combo"
+      ],
+      "role": "Polyvalent",
+      "tier": "S",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Pelian Spear » (active) à 5 en premier, puis « Wings of Arke » → « Hephaestian Armor » → « Sing the Wrath of Achilles », enfin « Divine Heritage » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Achilles is a legendary commander with the Cavalry, Versatility and Combo talent trees. The preferred troop type is cavalry. Typical use: field, rally. In the game, Lilith recommends pairing with Arthur Pendragon, Gang Gamchan, Subutai.",
+      "pairings": [
+        "arthur-pendragon",
+        "gang-gamchan",
+        "subutai"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Pelian Spear",
+          "type": "Active"
+        },
+        {
+          "name": "Wings of Arke",
+          "type": "Passive"
+        },
+        {
+          "name": "Hephaestian Armor",
+          "type": "Passive"
+        },
+        {
+          "name": "Sing the Wrath of Achilles",
+          "type": "Passive"
+        },
+        {
+          "name": "Divine Heritage",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "achilles",
+      "grades": {
+        "overall": "S",
+        "field": "S",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        10,
+        18
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1000,
+        "aoe": true,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 40,
+        "selfDefense": 0,
+        "selfHealth": 10,
+        "selfDamageReduction": 5,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 20,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Pelian Spear",
+        "tags": [
+          "damage",
+          "aoe",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 10.6,
+        "tank": 4,
+        "support": 0,
+        "utility": 3.3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 15.9,
+        "tags": [
+          "damage",
+          "aoe",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "arthur-pendragon",
+          "name": "Combo Kings",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "Achilles' Pelian Spear is designed to be cast over and over, making it easy to trigger the Light of the Lake effect from King Arthur's Mab Darogan skill."
+        },
+        {
+          "partner": "gang-gamchan",
+          "name": "Rope-a-Dope",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "The healing from Gang Gamchan's Star-Blessed effect helps Achilles soak up more damage, allowing him to trigger his expertise skill more times."
+        },
+        {
+          "partner": "subutai",
+          "name": "City Sackers",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Cavalry",
+          "description": "When faced with a tough garrison that doesn't deal smite damage, Subutai and Achilles can convert the damage they receive into high damage output."
+        }
+      ]
+    },
+    {
+      "id": "afonso-de-albuquerque",
+      "name": "Afonso de Albuquerque",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Engineering",
+        "Polyvalence",
+        "Soutien"
+      ],
+      "role": "Soutien",
+      "tier": "B",
+      "firstTalent": "Well Fortified",
+      "trees": [
+        {
+          "name": "Engineering",
+          "path": [
+            "Well Fortified (3/3)",
+            "Reinforced Firepower (3/3)",
+            "Will to Power (3/3)",
+            "Strength in Unity (3/3)",
+            "Swift Maneuvers (3/3)",
+            "Defensive Maneuvers (4/4)",
+            "Cornered Fox Technique (4/4)",
+            "Forbearance (5/5)"
+          ]
+        },
+        {
+          "name": "Soutien",
+          "path": [
+            "Burning Blood (3/3)",
+            "Hasty Departure (3/3)",
+            "Loose Formation (3/3)",
+            "Expert Design (3/3)",
+            "Rejuvenate (2/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Thalassocracy » (active) à 5 en premier, puis « Duke of Goa » → « Hormuz Six » → « Mare Clausum », enfin « Lion of the Sea » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Afonso de Albuquerque is a legendary commander with the Engineering, Versatility and Support talent trees. The preferred troop type is siege. Typical use: field. In the game, Lilith recommends pairing with Babur, Elizabeth I.",
+      "pairings": [
+        "babur",
+        "elizabeth-i"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Thalassocracy",
+          "type": "Active"
+        },
+        {
+          "name": "Duke of Goa",
+          "type": "Passive"
+        },
+        {
+          "name": "Hormuz Six",
+          "type": "Passive"
+        },
+        {
+          "name": "Mare Clausum",
+          "type": "Passive"
+        },
+        {
+          "name": "Lion of the Sea",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "afonso-de-albuquerque",
+      "grades": {
+        "overall": "B",
+        "field": "S+",
+        "rally": "B+",
+        "garrison": "B",
+        "canyon": "A+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        16,
+        10,
+        14
+      ],
+      "build": {
+        "id": "official-98",
+        "name": "By Land or Sea",
+        "points": {
+          "1401": 1,
+          "1402": 3,
+          "1403": 3,
+          "1404": 3,
+          "1405": 3,
+          "1407": 3,
+          "1408": 2,
+          "1409": 1,
+          "1412": 1,
+          "1413": 3,
+          "1416": 2,
+          "1418": 2,
+          "1601": 1,
+          "1602": 2,
+          "1603": 2,
+          "1604": 2,
+          "1605": 3,
+          "1606": 3,
+          "1607": 3,
+          "1608": 3,
+          "1609": 1,
+          "1610": 2,
+          "1611": 1,
+          "1612": 2,
+          "1613": 3,
+          "1614": 2,
+          "1616": 2,
+          "1617": 2,
+          "1618": 4,
+          "1619": 4,
+          "1620": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1500,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 5,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 10,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 10,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Thalassocracy",
+        "tags": [
+          "damage",
+          "aoe",
+          "support",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buffs d’équipe · tank · debuff"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 0.8,
+        "support": 3.4,
+        "utility": 1,
+        "secondary": 0,
+        "role": "damage",
+        "score": 14,
+        "tags": [
+          "damage",
+          "aoe",
+          "support",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buffs d’équipe · tank · debuff"
+      },
+      "officialPairings": [
+        {
+          "partner": "babur",
+          "name": "By Land or Sea",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Siege",
+          "description": "Afonso de Albuquerque's Mare Clausum/Lion of the Sea and Babur's The Tiger's Roar both have a chance to deal devastating ranged skill damage."
+        },
+        {
+          "partner": "elizabeth-i",
+          "name": "Indomitable Glory",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Siege",
+          "description": "When combined with Afonso de Albuquerque's AoE ranged direct damage, Elizabeth I can quickly accumulate stacks of Glory."
+        }
+      ]
+    },
+    {
+      "id": "alexander-nevsky",
+      "name": "Alexander Nevsky",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Nuke cavalerie",
+      "tier": "A",
+      "firstTalent": "Undying Fury",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Undying Fury (3/3)",
+            "Dragon Saber (3/3)",
+            "Galea (3/3)",
+            "Emblazoned Shield (2/4)",
+            "Charge (3/3)",
+            "Halberd (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Hero of Peipus » (active) à 5 en premier, puis « Expeditionary » → « Guard of the Republic » → « Knight of Iron », enfin « Winter's Storm » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Alexander Nevsky is a legendary commander with the Cavalry, Versatility and Skill talent trees. The preferred troop type is cavalry. Typical use: field, rally. In the game, Lilith recommends pairing with Belisarius (Prime), William I, Justinian I.",
+      "pairings": [
+        "belisaire",
+        "william-i",
+        "justinian-i"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Hero of Peipus",
+          "type": "Active"
+        },
+        {
+          "name": "Expeditionary",
+          "type": "Passive"
+        },
+        {
+          "name": "Guard of the Republic",
+          "type": "Passive"
+        },
+        {
+          "name": "Knight of Iron",
+          "type": "Passive"
+        },
+        {
+          "name": "Winter's Storm",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "alexander-nevsky",
+      "grades": {
+        "overall": "A+",
+        "field": "A+",
+        "rally": "A+",
+        "garrison": "B",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        10,
+        11
+      ],
+      "build": {
+        "id": "official-30",
+        "name": "Nevsky Flank",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "306": 3,
+          "307": 3,
+          "308": 3,
+          "309": 2,
+          "310": 3,
+          "311": 1,
+          "314": 2,
+          "315": 1,
+          "316": 3,
+          "318": 2,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 2300,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 25,
+        "selfDamageBonus": 10,
+        "healFactor": 0,
+        "selfAttack": 20,
+        "selfDefense": 20,
+        "selfHealth": 30,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 5,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Hero of Peipus",
+        "tags": [
+          "damage",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · debuff"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 7.5,
+        "support": 0.3,
+        "utility": 1.8,
+        "secondary": 0,
+        "role": "damage",
+        "score": 19.9,
+        "tags": [
+          "damage",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · debuff"
+      },
+      "officialPairings": [
+        {
+          "partner": "belisarius-prime",
+          "name": "Nevsky Flank",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "Both Alexander Nevsky and Belisarius have skills that benefit from surrounding an enemy, making them a mighty component for any swarm tactic."
+        },
+        {
+          "partner": "william-i",
+          "name": "Pincer Princes",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "The Norman Conquest, Hero of Peipus, and Guard of the Republic skills all benefit from surrounding an enemy. Team up with your allies to swarm hapless stragglers."
+        },
+        {
+          "partner": "justinian-i",
+          "name": "More the Merrier",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Cavalry",
+          "description": "Sleepless Emperor and Hero of Peipus are both enhanced when the enemy is surrounded, making this duo perfect for launching a coordinated attack against a stronghold."
+        }
+      ]
+    },
+    {
+      "id": "alp-arslan",
+      "name": "Alp Arslan",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Nuke archers",
+      "tier": "S",
+      "firstTalent": "Rapid Fire",
+      "trees": [
+        {
+          "name": "Archers",
+          "path": [
+            "Rapid Fire (3/3)",
+            "Razor Sharp (3/3)",
+            "Venomous Sting (4/4)",
+            "Armed And Armored (3/3)",
+            "Arrows Nocked (3/3)",
+            "Thumb Ring (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Heroic Lion » (active) à 5 en premier, puis « Oghuz Archery » → « Two-Headed Eagle » → « Parthian Shot », enfin « Father of Conquests » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Alp Arslan is a legendary commander with the Archer, Versatility and Skill talent trees. The preferred troop type is archers. Typical use: field. In the game, Lilith recommends pairing with Shajar al-Durr, Hermann (Prime), Vercingetorix.",
+      "pairings": [
+        "shajar-al-durr",
+        "hermann",
+        "vercingetorix"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Heroic Lion",
+          "type": "Active"
+        },
+        {
+          "name": "Oghuz Archery",
+          "type": "Passive"
+        },
+        {
+          "name": "Two-Headed Eagle",
+          "type": "Passive"
+        },
+        {
+          "name": "Parthian Shot",
+          "type": "Passive"
+        },
+        {
+          "name": "Father of Conquests",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "alp-arslan",
+      "grades": {
+        "overall": "S+",
+        "field": "S+",
+        "rally": "S",
+        "garrison": "B",
+        "canyon": "S+"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        10,
+        11
+      ],
+      "build": {
+        "id": "official-114",
+        "name": "Sultan's Bloodpact",
+        "points": {
+          "201": 1,
+          "202": 2,
+          "203": 2,
+          "205": 3,
+          "206": 3,
+          "207": 3,
+          "208": 3,
+          "209": 1,
+          "211": 2,
+          "212": 3,
+          "213": 3,
+          "216": 1,
+          "217": 1,
+          "219": 4,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 2000,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 15,
+        "selfDefense": 2,
+        "selfHealth": 25,
+        "selfDamageReduction": 10,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 25,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 5,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Heroic Lion",
+        "tags": [
+          "damage",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · debuff"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 6.1,
+        "support": 0.3,
+        "utility": 2.2,
+        "secondary": 0,
+        "role": "damage",
+        "score": 18.8,
+        "tags": [
+          "damage",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · debuff"
+      },
+      "officialPairings": [
+        {
+          "partner": "shajar-al-durr",
+          "name": "Sultan's Bloodpact",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Alp Arslan's Two-Headed Eagle skill allows true damage to trigger healing. When paired with Shajar al-Durr, the highly compatible duo can effectively manage substantial heals while dealing true damage."
+        },
+        {
+          "partner": "hermann-prime",
+          "name": "Alp Arslan Venom",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Alp Arslan can replicate debuffs on targets onto other enemies, while dealing additional damage based on the number of debuffs enemies have. This makes him a perfect match for Prime Hermann's multi-stack Poison effects."
+        },
+        {
+          "partner": "vercingetorix",
+          "name": "Two-Headed Fury",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Vercingetorix's multi-target debuffs and massive buffs can frequently trigger Alp Arslan's key skill Two-Headed Eagle. As secondary commander, Vercingetorix can also buff active skill damage, boosting the additional damage from Alp Arslan's Heroic Lion skill."
+        }
+      ]
+    },
+    {
+      "id": "amanitore",
+      "name": "Amanitore",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Garnison",
+        "Soutien"
+      ],
+      "role": "Tank / garnison",
+      "tier": "C",
+      "firstTalent": "Rapid Fire",
+      "trees": [
+        {
+          "name": "Archers",
+          "path": [
+            "Rapid Fire (3/3)",
+            "Phoenix-Tail Arrows (4/4)",
+            "Razor Sharp (2/3)",
+            "Venomous Sting (4/4)",
+            "Armed And Armored (3/3)",
+            "Arrows Nocked (3/3)",
+            "Thumb Ring (3/3)",
+            "Whistling Arrows (2/5)"
+          ]
+        },
+        {
+          "name": "Soutien",
+          "path": [
+            "Loose Formation (3/3)",
+            "Emergency Protection (3/3)",
+            "Hasty Departure (3/3)",
+            "Burning Blood (3/3)",
+            "Rejuvenate (2/3)",
+            "Elixir (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Glorious Arrows » (active) à 5 en premier, puis « Line Breaker » → « Resilience of Ta-Seti » → « A Kandake's Wrath », enfin « Nubian Willpower » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Amanitore is a legendary commander with the Archer, Garrison and Support talent trees. The preferred troop type is archers. Typical use: garrison, field. In the game, Lilith recommends pairing with Artemisia I.",
+      "pairings": [
+        "artemisia"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Glorious Arrows",
+          "type": "Active"
+        },
+        {
+          "name": "Line Breaker",
+          "type": "Passive"
+        },
+        {
+          "name": "Resilience of Ta-Seti",
+          "type": "Passive"
+        },
+        {
+          "name": "A Kandake's Wrath",
+          "type": "Passive"
+        },
+        {
+          "name": "Nubian Willpower",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "amanitore",
+      "grades": {
+        "overall": "C",
+        "field": "B",
+        "rally": "C",
+        "garrison": "B+",
+        "canyon": "A"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        7,
+        14
+      ],
+      "build": {
+        "id": "official-39",
+        "name": "Amanitore Garrison",
+        "points": {
+          "201": 1,
+          "202": 2,
+          "203": 2,
+          "205": 3,
+          "206": 3,
+          "207": 3,
+          "208": 3,
+          "209": 1,
+          "211": 3,
+          "212": 3,
+          "213": 2,
+          "214": 1,
+          "215": 1,
+          "216": 1,
+          "217": 1,
+          "218": 4,
+          "219": 4,
+          "220": 2,
+          "1401": 1,
+          "1402": 3,
+          "1403": 3,
+          "1404": 3,
+          "1405": 3,
+          "1406": 3,
+          "1407": 3,
+          "1408": 2,
+          "1411": 2,
+          "1412": 1,
+          "1415": 1,
+          "1416": 2,
+          "1417": 2,
+          "1418": 2,
+          "1419": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1300,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 20,
+        "healFactor": 0,
+        "selfAttack": 40,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": true,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Glorious Arrows",
+        "tags": [
+          "damage",
+          "debuff",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · buff attaque · contrôle · garnison"
+      },
+      "combat": {
+        "damage": 10.8,
+        "tank": 1.5,
+        "support": 3,
+        "utility": 2,
+        "secondary": 0,
+        "role": "damage",
+        "score": 15.5,
+        "tags": [
+          "damage",
+          "debuff",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · buff attaque · contrôle · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "artemisia-i",
+          "name": "Amanitore Garrison",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Archers",
+          "description": "The self-inflicted damage from Artemisia I's Battle of Salamis can trigger Amanitore's A Kandake's Wrath, turning a downside into powerful burst damage."
+        }
+      ]
+    },
+    {
+      "id": "archimedes",
+      "name": "Archimedes",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Engineering",
+        "Polyvalence",
+        "Défense"
+      ],
+      "role": "Tank / garnison",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Giant of Geometry » (active) à 5 en premier, puis « Eureka! » → « Moment of Force » → « Claw of Archimedes », enfin « Vow to the Death » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Archimedes is a legendary commander with the Engineering, Versatility and Defense talent trees. The preferred troop type is siege. Typical use: field. In the game, Lilith recommends pairing with Mary I.",
+      "pairings": [
+        "mary-i"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Giant of Geometry",
+          "type": "Active"
+        },
+        {
+          "name": "Eureka!",
+          "type": "Passive"
+        },
+        {
+          "name": "Moment of Force",
+          "type": "Passive"
+        },
+        {
+          "name": "Claw of Archimedes",
+          "type": "Passive"
+        },
+        {
+          "name": "Vow to the Death",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "archimedes",
+      "grades": {
+        "overall": "B",
+        "field": "n/a",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        16,
+        10,
+        13
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 600,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 15,
+        "selfDamageReduction": 5,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 10,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Giant of Geometry",
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · tank"
+      },
+      "combat": {
+        "damage": 3,
+        "tank": 6.3,
+        "support": 0,
+        "utility": 2,
+        "secondary": 0,
+        "role": "tank",
+        "score": 9.7,
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "mary-i",
+          "name": "The Queen and the Mathematician",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Siege",
+          "description": "Mary I's Iron Fist and Archimedes's Moment of Force help this team deal large amounts of ranged skill damage."
+        }
+      ]
+    },
+    {
+      "id": "arthur-pendragon",
+      "name": "Arthur Pendragon",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Polyvalence",
+        "Combo"
+      ],
+      "role": "Polyvalent",
+      "tier": "A",
+      "firstTalent": "Dragon Saber",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Dragon Saber (3/3)",
+            "Charge (3/3)",
+            "Galea (3/3)",
+            "Undying Fury (3/3)"
+          ]
+        },
+        {
+          "name": "Combo",
+          "path": [
+            "No Quarter (3/3)",
+            "Force of Nature (3/3)",
+            "Colossus (3/3)",
+            "Dragon Saber (3/3)",
+            "A Good Day to Die (3/3)",
+            "Walk in the Park (3/3)",
+            "Blizzard of Blows (3/3)",
+            "Impenetrable (3/3)",
+            "Iron and Steel (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Excalibur » (active) à 5 en premier, puis « Y Ddraig Goch » → « Scabbard of Avalon » → « Merlin's Magick », enfin « Mab Darogan » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Arthur Pendragon is a legendary commander with the Cavalry, Versatility and Combo talent trees. The preferred troop type is cavalry. Typical use: field. In the game, Lilith recommends pairing with Subutai, Achilles, Vercingetorix.",
+      "pairings": [
+        "subutai",
+        "achilles",
+        "vercingetorix",
+        "ivan-iv"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Excalibur",
+          "type": "Active"
+        },
+        {
+          "name": "Y Ddraig Goch",
+          "type": "Passive"
+        },
+        {
+          "name": "Scabbard of Avalon",
+          "type": "Passive"
+        },
+        {
+          "name": "Merlin's Magick",
+          "type": "Passive"
+        },
+        {
+          "name": "Mab Darogan",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "arthur-pendragon",
+      "grades": {
+        "overall": "A+",
+        "field": "S+",
+        "rally": "A",
+        "garrison": "A",
+        "canyon": "S"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        10,
+        18
+      ],
+      "build": {
+        "id": "official-32",
+        "name": "King Arthur Thrasher",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "307": 3,
+          "308": 3,
+          "310": 3,
+          "311": 1,
+          "314": 2,
+          "316": 3,
+          "1001": 1,
+          "1003": 1,
+          "1801": 1,
+          "1802": 3,
+          "1803": 3,
+          "1804": 3,
+          "1805": 3,
+          "1806": 3,
+          "1807": 3,
+          "1808": 1,
+          "1809": 2,
+          "1810": 2,
+          "1811": 1,
+          "1812": 3,
+          "1813": 3,
+          "1814": 3,
+          "1815": 3,
+          "1816": 1,
+          "1817": 1,
+          "1818": 2,
+          "1819": 2,
+          "1820": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 30,
+        "selfDefense": 0,
+        "selfHealth": 20,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 30,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 0,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "",
+        "tags": [
+          "tank"
+        ],
+        "summary": "buff attaque · tank"
+      },
+      "combat": {
+        "damage": 3.3,
+        "tank": 3.3,
+        "support": 0,
+        "utility": 2,
+        "secondary": 0,
+        "role": "tank",
+        "score": 7.3,
+        "tags": [
+          "tank"
+        ],
+        "summary": "buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "subutai",
+          "name": "King Arthur Thrasher",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "King Arthur and Subutai's active skills allow them to unleash a long chain of devastating combo attacks, further enhanced by the Delta formation inscription Thrasher."
+        },
+        {
+          "partner": "achilles",
+          "name": "Combo Kings",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "Achilles' Pelian Spear is designed to be cast over and over, making it easy to trigger the Light of the Lake effect from King Arthur's Mab Darogan skill."
+        },
+        {
+          "partner": "vercingetorix",
+          "name": "Oath of Sword and Shield",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "King Arthur's Rage reduction and combo attacks can effectively trigger Vercingetorix's skills, making the two an excellent pair. Vercingetorix's powerful shields and defensive attributes also allow King Arthur to safely deal damage."
+        },
+        {
+          "partner": "ivan-iv",
+          "name": "Trump Card Duo",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "King Arthur's consecutive basic attacks can quickly accumulate stacks of Tsar's Authority for Ivan IV, thereby amplifying the damage of Ivory Throne as well as prolonging the buff durations for Tsar's Decree. On the other hand, Ivan IV can further enhance the field capabilities and combat endurance of cavalry units."
+        },
+        {
+          "partner": "huo-qubing",
+          "name": "Huo Qubing Skill",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "Huo Qubing's considerable bonus to skill damage can greatly enhance the AoE damage dealt by King Arthur's Sword in the Stone effect."
+        }
+      ]
+    },
+    {
+      "id": "ashurbanipal",
+      "name": "Ashurbanipal",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Conquête",
+        "Compétence"
+      ],
+      "role": "Nuke archers",
+      "tier": "A",
+      "firstTalent": "Rapid Fire",
+      "trees": [
+        {
+          "name": "Archers",
+          "path": [
+            "Rapid Fire (3/3)",
+            "Razor Sharp (3/3)",
+            "Venomous Sting (4/4)",
+            "Armed And Armored (3/3)",
+            "Arrows Nocked (3/3)",
+            "Thumb Ring (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« From the Nile to the Tigris » (active) à 5 en premier, puis « Hawk-Eyed » → « Conqueror of Elam » → « Chosen of Ashur », enfin « Omnipotent » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Ashurbanipal is a legendary commander with the Archer, Conquering and Skill talent trees. The preferred troop type is archers. Typical use: rally, field. In the game, Lilith recommends pairing with Henry V, Zhuge Liang, Shapur I.",
+      "pairings": [
+        "henry-v",
+        "zhuge-liang",
+        "shapur-i"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "From the Nile to the Tigris",
+          "type": "Active"
+        },
+        {
+          "name": "Hawk-Eyed",
+          "type": "Passive"
+        },
+        {
+          "name": "Conqueror of Elam",
+          "type": "Passive"
+        },
+        {
+          "name": "Chosen of Ashur",
+          "type": "Passive"
+        },
+        {
+          "name": "Omnipotent",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "ashurbanipal",
+      "grades": {
+        "overall": "A",
+        "field": "A",
+        "rally": "A",
+        "garrison": "B",
+        "canyon": "A"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        6,
+        11
+      ],
+      "build": {
+        "id": "official-36",
+        "name": "Ashurbanipal Conquest",
+        "points": {
+          "201": 1,
+          "202": 2,
+          "203": 2,
+          "205": 3,
+          "206": 3,
+          "207": 3,
+          "208": 3,
+          "209": 1,
+          "211": 2,
+          "212": 3,
+          "213": 3,
+          "216": 1,
+          "217": 1,
+          "219": 4,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1500,
+        "aoe": true,
+        "targets": 5,
+        "skillDamageBonus": 20,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 30,
+        "selfDefense": 30,
+        "selfHealth": 30,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "From the Nile to the Tigris",
+        "tags": [
+          "damage",
+          "aoe",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 8.8,
+        "support": 1.5,
+        "utility": 1,
+        "secondary": 0,
+        "role": "damage",
+        "score": 21.6,
+        "tags": [
+          "damage",
+          "aoe",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "henry-v",
+          "name": "Ashurbanipal Conquest",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Archers",
+          "description": "Henry V's Road to Empire greatly increases the burst damage of this pair's active skills when attacking cities, further enhancing Ashurbanipal's already formidable anti-garrison abilities."
+        },
+        {
+          "partner": "zhuge-liang",
+          "name": "Four Corners and Three Kingdoms",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Ashurbanipal's Hawk-Eyed more than makes up for Zhuge Liang's lack of March Speed buffs. Combine the duo with Wedge formation to enhance the AoE skill damage of From the Nile to the Tigris, Burning of Xinye, and Marquis Zhongwu."
+        },
+        {
+          "partner": "shapur-i",
+          "name": "Masters of Mesopotamia",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Archers",
+          "description": "Ashurbanipal's high skill damage can also trigger Shapur I's Blessed By the Atash, allowing this pair to easily contain stout infantry garrisons."
+        }
+      ]
+    },
+    {
+      "id": "babur",
+      "name": "Babur",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Engineering",
+        "Polyvalence",
+        "Attaque"
+      ],
+      "role": "Dégâts polyvalent",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Victor of Panipat » (active) à 5 en premier, puis « The Baburnama » → « The Tiger's Roar » → « Stoneshaker », enfin « Amir of Fergana » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Babur is a legendary commander with the Engineering, Versatility and Attack talent trees. The preferred troop type is siege. Typical use: field. In the game, Lilith recommends pairing with Margaret I, Afonso de Albuquerque.",
+      "pairings": [
+        "margaret-i",
+        "afonso-de-albuquerque"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Victor of Panipat",
+          "type": "Active"
+        },
+        {
+          "name": "The Baburnama",
+          "type": "Passive"
+        },
+        {
+          "name": "The Tiger's Roar",
+          "type": "Passive"
+        },
+        {
+          "name": "Stoneshaker",
+          "type": "Passive"
+        },
+        {
+          "name": "Amir of Fergana",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "babur",
+      "grades": {
+        "overall": "C+",
+        "field": "B",
+        "rally": "D+",
+        "garrison": "D+",
+        "canyon": "D"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        16,
+        10,
+        12
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 2400,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 15,
+        "selfDefense": 15,
+        "selfHealth": 30,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 50,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Victor of Panipat",
+        "tags": [
+          "damage",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · rage"
+      },
+      "combat": {
+        "damage": 11.5,
+        "tank": 8.4,
+        "support": 0,
+        "utility": 0.6,
+        "secondary": 0,
+        "role": "damage",
+        "score": 19.4,
+        "tags": [
+          "damage",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "margaret-i",
+          "name": "Margaret I Ranged",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Siege",
+          "description": "The Expert Design talent in the Support talent tree grants major bonuses to siege unit attributes. Paired with V formation, it allows siege units to rain heavy damage from afar."
+        },
+        {
+          "partner": "afonso-de-albuquerque",
+          "name": "By Land or Sea",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Siege",
+          "description": "Afonso de Albuquerque's Mare Clausum/Lion of the Sea and Babur's The Tiger's Roar both have a chance to deal devastating ranged skill damage."
+        }
+      ]
+    },
+    {
+      "id": "bai-qi",
+      "name": "Bai Qi",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Polyvalence",
+        "Smite"
+      ],
+      "role": "Polyvalent",
+      "tier": "S",
+      "firstTalent": "Undying Fury",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (1/3)",
+            "Hold The Line (3/4)"
+          ]
+        },
+        {
+          "name": "Smite",
+          "path": [
+            "Thunderous Smite (5/5)",
+            "An Eye for an Eye (3/3)",
+            "Killing Blow (3/3)",
+            "Ambitious (3/3)",
+            "Enhanced Smite (3/3)",
+            "Thick Skin (3/3)",
+            "Fight or Flight (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Let Heaven and Earth Grieve » (active) à 5 en premier, puis « Breaker of Battle Lines » → « Ravager of Land and Spirit » → « Martial Culture », enfin « Blood Upon Blood » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Bai Qi is a legendary commander with the Infantry, Versatility and Smite talent trees. The preferred troop type is infantry. Typical use: field. In the game, Lilith recommends pairing with Liu Che, Sun Tzu (Prime).",
+      "pairings": [
+        "liu-che",
+        "sun-tzu"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Let Heaven and Earth Grieve",
+          "type": "Active"
+        },
+        {
+          "name": "Breaker of Battle Lines",
+          "type": "Passive"
+        },
+        {
+          "name": "Ravager of Land and Spirit",
+          "type": "Passive"
+        },
+        {
+          "name": "Martial Culture",
+          "type": "Passive"
+        },
+        {
+          "name": "Blood Upon Blood",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "bai-qi",
+      "grades": {
+        "overall": "S",
+        "field": "S+",
+        "rally": "B+",
+        "garrison": "B",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        10,
+        17
+      ],
+      "build": {
+        "id": "official-68",
+        "name": "Qin-Han Reconciliation",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 1,
+          "113": 2,
+          "115": 1,
+          "118": 3,
+          "1701": 1,
+          "1702": 3,
+          "1703": 3,
+          "1704": 3,
+          "1705": 1,
+          "1706": 2,
+          "1708": 1,
+          "1709": 2,
+          "1711": 2,
+          "1712": 3,
+          "1713": 1,
+          "1714": 2,
+          "1715": 3,
+          "1716": 1,
+          "1717": 1,
+          "1718": 3,
+          "1719": 3,
+          "1720": 2,
+          "1721": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 2400,
+        "aoe": true,
+        "targets": 5,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 100,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 50,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Let Heaven and Earth Grieve",
+        "tags": [
+          "damage",
+          "aoe",
+          "support"
+        ],
+        "summary": "dégâts AoE · buffs d’équipe"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 0.8,
+        "support": 10,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 18.7,
+        "tags": [
+          "damage",
+          "aoe",
+          "support"
+        ],
+        "summary": "dégâts AoE · buffs d’équipe"
+      },
+      "officialPairings": [
+        {
+          "partner": "liu-che",
+          "name": "Qin-Han Reconciliation",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "The one-two punch of Bai Qi's Let Heaven and Earth Grieve and Liu Che's Glory of Shizong lets them clear the field with massive AoE smite damage."
+        },
+        {
+          "partner": "sun-tzu-prime",
+          "name": "Maximum Malice",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "The low Rage consumption of Prime Sun Tzu's active skill and the extra Rage gains from Myriad Maneuvers can help Bai Qi use his active skill faster, thereby gaining more Malice stacks."
+        }
+      ]
+    },
+    {
+      "id": "belisarius-prime",
+      "name": "Belisarius (Prime)",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Polyvalence",
+        "Mobilité"
+      ],
+      "role": "Coursier / mobilité",
+      "tier": "A",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Custodian of the Empire » (active) à 5 en premier, puis « Press the Advantage » → « To the Last Man » → « Pacification of Nika », enfin « Roman Devotion » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Belisarius (Prime) is a legendary commander with the Cavalry, Versatility and Mobility talent trees. The preferred troop type is cavalry. Typical use: field, rally, garrison. In the game, Lilith recommends pairing with Alexander Nevsky, Justinian I, Huo Qubing.",
+      "pairings": [
+        "alexander-nevsky",
+        "justinian-i",
+        "huo-qubing"
+      ],
+      "usage": [
+        "pvp",
+        "garnison"
+      ],
+      "skills": [
+        {
+          "name": "Custodian of the Empire",
+          "type": "Active"
+        },
+        {
+          "name": "Press the Advantage",
+          "type": "Passive"
+        },
+        {
+          "name": "To the Last Man",
+          "type": "Passive"
+        },
+        {
+          "name": "Pacification of Nika",
+          "type": "Passive"
+        },
+        {
+          "name": "Roman Devotion",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "belisarius-prime",
+      "grades": {
+        "overall": "A",
+        "field": "A",
+        "rally": "A",
+        "garrison": "C",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        10,
+        15
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 2400,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 30,
+        "selfDamageBonus": 12,
+        "healFactor": 0,
+        "selfAttack": 30,
+        "selfDefense": 25,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 60,
+        "selfRage": 50,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Custodian of the Empire",
+        "tags": [
+          "damage",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · rage"
+      },
+      "combat": {
+        "damage": 10.8,
+        "tank": 3.1,
+        "support": 0,
+        "utility": 5.6,
+        "secondary": 0,
+        "role": "damage",
+        "score": 16.4,
+        "tags": [
+          "damage",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "alexander-nevsky",
+          "name": "Nevsky Flank",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "Both Alexander Nevsky and Belisarius have skills that benefit from surrounding an enemy, making them a mighty component for any swarm tactic."
+        },
+        {
+          "partner": "justinian-i",
+          "name": "Roman Reconquerors",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Cavalry",
+          "description": "Belisarius's Roman Devotionincreases damage dealt based on the number of troops surrounding the target. Justinian's Light of Rome increases the number of troops surrounding the target. You do the math."
+        },
+        {
+          "partner": "huo-qubing",
+          "name": "Lightning Raid",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Cavalry",
+          "description": "The huge skill damage bonus from Huo Qubing's Dragon of the Desert stacks with Belisarius's Roman Devotion, allowing this pair to deal massive damage in the first 15 seconds of a battle."
+        }
+      ]
+    },
+    {
+      "id": "bertrand-du-guesclin",
+      "name": "Bertrand du Guesclin",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Polyvalence",
+        "Combo"
+      ],
+      "role": "Polyvalent",
+      "tier": "C",
+      "firstTalent": "Dragon Saber",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Dragon Saber (3/3)",
+            "Charge (3/3)",
+            "Galea (3/3)",
+            "Undying Fury (3/3)"
+          ]
+        },
+        {
+          "name": "Combo",
+          "path": [
+            "No Quarter (3/3)",
+            "Force of Nature (3/3)",
+            "Colossus (3/3)",
+            "Dragon Saber (3/3)",
+            "A Good Day to Die (3/3)",
+            "Walk in the Park (3/3)",
+            "Blizzard of Blows (3/3)",
+            "Impenetrable (3/3)",
+            "Iron and Steel (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Battle Hungry » (active) à 5 en premier, puis « Seigneur's Sympathy » → « Fabian Strategy » → « Blade of Brocéliande », enfin « Royal Constable » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Bertrand du Guesclin is a legendary commander with the Cavalry, Versatility and Combo talent trees. The preferred troop type is cavalry. Typical use: field. In the game, Lilith recommends pairing with Takeda Shingen.",
+      "pairings": [
+        "takeda"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Battle Hungry",
+          "type": "Active"
+        },
+        {
+          "name": "Seigneur's Sympathy",
+          "type": "Passive"
+        },
+        {
+          "name": "Fabian Strategy",
+          "type": "Passive"
+        },
+        {
+          "name": "Blade of Brocéliande",
+          "type": "Passive"
+        },
+        {
+          "name": "Royal Constable",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "bertrand-du-guesclin",
+      "grades": {
+        "overall": "C",
+        "field": "B",
+        "rally": "B",
+        "garrison": "F",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        10,
+        18
+      ],
+      "build": {
+        "id": "official-91",
+        "name": "Fuel to the Fire",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "307": 3,
+          "308": 3,
+          "310": 3,
+          "311": 1,
+          "314": 2,
+          "316": 3,
+          "1001": 1,
+          "1003": 1,
+          "1801": 1,
+          "1802": 3,
+          "1803": 3,
+          "1804": 3,
+          "1805": 3,
+          "1806": 3,
+          "1807": 3,
+          "1808": 1,
+          "1809": 2,
+          "1810": 2,
+          "1811": 1,
+          "1812": 3,
+          "1813": 3,
+          "1814": 3,
+          "1815": 3,
+          "1816": 1,
+          "1817": 1,
+          "1818": 2,
+          "1819": 2,
+          "1820": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 600,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 10,
+        "selfDefense": 0,
+        "selfHealth": 10,
+        "selfDamageReduction": 5,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 10,
+        "selfRage": 30,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Battle Hungry",
+        "tags": [
+          "damage",
+          "aoe",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · rage"
+      },
+      "combat": {
+        "damage": 7.4,
+        "tank": 2.5,
+        "support": 0,
+        "utility": 1,
+        "secondary": 0,
+        "role": "damage",
+        "score": 10.2,
+        "tags": [
+          "damage",
+          "aoe",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "takeda-shingen",
+          "name": "Fuel to the Fire",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "The normal damage bonuses from Takeda Shingen's Burn effect and his Kōshū-ryū Gungaku skill turn up the heat for Bertrand du Guesclin's combo attacks."
+        }
+      ]
+    },
+    {
+      "id": "boudica-prime",
+      "name": "Boudica (Prime)",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Nuke archers",
+      "tier": "A",
+      "firstTalent": "Rapid Fire",
+      "trees": [
+        {
+          "name": "Archers",
+          "path": [
+            "Rapid Fire (3/3)",
+            "Razor Sharp (3/3)",
+            "Venomous Sting (4/4)",
+            "Armed And Armored (3/3)",
+            "Arrows Nocked (3/3)",
+            "Thumb Ring (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Revenge of the Iceni » (active) à 5 en premier, puis « Unending Struggle » → « Blessing of the Forest » → « Shield of the Ancestors », enfin « Rage of the Iceni » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Boudica (Prime) is a legendary commander with the Archer, Versatility and Skill talent trees. The preferred troop type is archers. Typical use: field. In the game, Lilith recommends pairing with Yi Seong-Gye, Artemisia I.",
+      "pairings": [
+        "yi-seong-gye",
+        "artemisia"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Revenge of the Iceni",
+          "type": "Active"
+        },
+        {
+          "name": "Unending Struggle",
+          "type": "Passive"
+        },
+        {
+          "name": "Blessing of the Forest",
+          "type": "Passive"
+        },
+        {
+          "name": "Shield of the Ancestors",
+          "type": "Passive"
+        },
+        {
+          "name": "Rage of the Iceni",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "boudica-prime",
+      "grades": {
+        "overall": "A",
+        "field": "S",
+        "rally": "A+",
+        "garrison": "D+",
+        "canyon": "S"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        10,
+        11
+      ],
+      "build": {
+        "id": "official-88",
+        "name": "Boudica Damage",
+        "points": {
+          "201": 1,
+          "202": 2,
+          "203": 2,
+          "205": 3,
+          "206": 3,
+          "207": 3,
+          "208": 3,
+          "209": 1,
+          "211": 2,
+          "212": 3,
+          "213": 3,
+          "216": 1,
+          "217": 1,
+          "219": 4,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 2300,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 35,
+        "selfDamageBonus": 10,
+        "healFactor": 800,
+        "selfAttack": 30,
+        "selfDefense": 30,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 10,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 30,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Revenge of the Iceni",
+        "tags": [
+          "damage",
+          "heal",
+          "tank"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 5.8,
+        "support": 1.1,
+        "utility": 3.7,
+        "secondary": 0,
+        "role": "damage",
+        "score": 19.9,
+        "tags": [
+          "damage",
+          "heal",
+          "tank"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "yi-seong-gye",
+          "name": "Boudica Damage",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Boudica's Revenge of the Iceni increases the target's skill damage received, whereas Yi Seong-Gye's Destiny increases his troop's skill damage dealt. That's a whole lot of skill damage!"
+        },
+        {
+          "partner": "artemisia-i",
+          "name": "Queens' Gambit",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Prime Boudica's Rage of the Iceni helps negate the self-imposed Silence effect from Artemisia's Queen of Caria skill, allowing her active skill to benefit from Queen of Caria's considerable damage bonus."
+        }
+      ]
+    },
+    {
+      "id": "casimir-iii",
+      "name": "Casimir III",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Récolte",
+        "Défense"
+      ],
+      "role": "Récolte",
+      "tier": "B",
+      "firstTalent": "Call of the Pack",
+      "trees": [
+        {
+          "name": "Intégration",
+          "path": [
+            "Call of the Pack (3/3)",
+            "Defensive Formation (3/3)",
+            "Fresh Recruits (3/3)",
+            "Armored To The Teeth (4/4)"
+          ]
+        },
+        {
+          "name": "Récolte",
+          "path": [
+            "Gathering Mastery (Wood) (3/3)",
+            "Gathering Mastery (Food) (3/3)",
+            "Gathering Mastery (Stone) (3/3)",
+            "Gathering Mastery (Gold) (3/3)",
+            "Modified Axle (3/3)",
+            "Tourniquet (3/3)",
+            "Armed Convoy (3/3)",
+            "The More The Better (3/3)",
+            "Superior Tools (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Wiślica Statutes » (active) à 5 en premier, puis « Treaty of Kalisz » → « University of Krakow » → « The Last Piast », enfin « The Peasants' King » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Casimir III is a legendary commander with the Integration, Gathering and Defense talent trees. The talent trees are not tied to one troop type. Typical use: gathering, field. In the game, Lilith recommends pairing with Seondeok.",
+      "pairings": [
+        "seondeok"
+      ],
+      "usage": [
+        "recolte",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Wiślica Statutes",
+          "type": "Active"
+        },
+        {
+          "name": "Treaty of Kalisz",
+          "type": "Passive"
+        },
+        {
+          "name": "University of Krakow",
+          "type": "Passive"
+        },
+        {
+          "name": "The Last Piast",
+          "type": "Passive"
+        },
+        {
+          "name": "The Peasants' King",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "casimir-iii",
+      "grades": {
+        "overall": "G",
+        "field": "n/a",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Coiffe de moissonneur",
+        "Robe de moissonneur",
+        "Sceptre du gardien de la forêt",
+        "Gants de moissonneur",
+        "Pantalon de moissonneur",
+        "Bottes de moissonneur"
+      ],
+      "treeIds": [
+        4,
+        9,
+        13
+      ],
+      "build": {
+        "id": "official-103",
+        "name": "Prospectors",
+        "points": {
+          "401": 1,
+          "402": 3,
+          "403": 3,
+          "404": 3,
+          "405": 3,
+          "408": 3,
+          "409": 2,
+          "410": 3,
+          "414": 1,
+          "416": 4,
+          "901": 1,
+          "902": 2,
+          "903": 2,
+          "904": 3,
+          "905": 3,
+          "906": 3,
+          "907": 3,
+          "908": 2,
+          "909": 1,
+          "910": 3,
+          "911": 3,
+          "912": 1,
+          "913": 1,
+          "914": 2,
+          "915": 1,
+          "916": 3,
+          "917": 3,
+          "918": 3,
+          "919": 3,
+          "920": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1400,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 25,
+        "healFactor": 0,
+        "selfAttack": 40,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Wiślica Statutes",
+        "tags": [
+          "damage"
+        ],
+        "summary": "dégâts monocible · buff attaque"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 1.5,
+        "support": 0,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 11.4,
+        "tags": [
+          "damage"
+        ],
+        "summary": "dégâts monocible · buff attaque"
+      },
+      "officialPairings": [
+        {
+          "partner": "seondeok",
+          "name": "Prospectors",
+          "role": "primary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "If you're in need of funds for your next campaign, this pair gains huge bonuses to Gold Gathering Speed."
+        }
+      ]
+    },
+    {
+      "id": "chandragupta-maurya",
+      "name": "Chandragupta Maurya",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Conquête",
+        "Compétence"
+      ],
+      "role": "Nuke cavalerie",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Hidden Moon » (active) à 5 en premier, puis « Royal Elephant Brigade » → « Arthashastra » → « Self-Control », enfin « Maurya's Might » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Chandragupta Maurya is a legendary commander with the Cavalry, Conquering and Skill talent trees. The preferred troop type is cavalry. Typical use: rally, field, barbarians. In the game, Lilith recommends pairing with Xiang Yu.",
+      "pairings": [
+        "xiang-yu"
+      ],
+      "usage": [
+        "pvp",
+        "barbares"
+      ],
+      "skills": [
+        {
+          "name": "Hidden Moon",
+          "type": "Active"
+        },
+        {
+          "name": "Royal Elephant Brigade",
+          "type": "Passive"
+        },
+        {
+          "name": "Arthashastra",
+          "type": "Passive"
+        },
+        {
+          "name": "Self-Control",
+          "type": "Passive"
+        },
+        {
+          "name": "Maurya's Might",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "chandragupta-maurya",
+      "grades": {
+        "overall": "C+",
+        "field": "B+",
+        "rally": "B",
+        "garrison": "F",
+        "canyon": "B+"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        6,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 20,
+        "selfDamageReduction": 10,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 25,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 5,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Hidden Moon",
+        "tags": [
+          "debuff",
+          "tank"
+        ],
+        "summary": "tank · debuff"
+      },
+      "combat": {
+        "damage": 2.3,
+        "tank": 5,
+        "support": 1.8,
+        "utility": 2.2,
+        "secondary": 0,
+        "role": "tank",
+        "score": 9.3,
+        "tags": [
+          "debuff",
+          "tank"
+        ],
+        "summary": "tank · debuff"
+      },
+      "officialPairings": [
+        {
+          "partner": "xiang-yu",
+          "name": "Mega Blessed",
+          "role": "secondary",
+          "scenario": "Peacekeeping",
+          "troop": "Cavalry",
+          "description": "Xiang Yu's low-Rage active skill helps Chandragupta Maurya build up stacks of Blessed faster, allowing this pair to deal massive direct damage."
+        }
+      ]
+    },
+    {
+      "id": "cheok-jun-gyeong",
+      "name": "Cheok Jun-gyeong",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Polyvalence",
+        "Smite"
+      ],
+      "role": "Polyvalent",
+      "tier": "B",
+      "firstTalent": "Undying Fury",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (1/3)",
+            "Hold The Line (3/4)"
+          ]
+        },
+        {
+          "name": "Smite",
+          "path": [
+            "Thunderous Smite (5/5)",
+            "An Eye for an Eye (3/3)",
+            "Killing Blow (3/3)",
+            "Ambitious (3/3)",
+            "Enhanced Smite (3/3)",
+            "Thick Skin (3/3)",
+            "Fight or Flight (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Courageous » (active) à 5 en premier, puis « Byeolmuban » → « Stalwart » → « Born to Die », enfin « Vow to the Death » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Cheok Jun-gyeong is a legendary commander with the Infantry, Versatility and Smite talent trees. The preferred troop type is infantry. Typical use: field. In the game, Lilith recommends pairing with Constantine I.",
+      "pairings": [
+        "constantine"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Courageous",
+          "type": "Active"
+        },
+        {
+          "name": "Byeolmuban",
+          "type": "Passive"
+        },
+        {
+          "name": "Stalwart",
+          "type": "Passive"
+        },
+        {
+          "name": "Born to Die",
+          "type": "Passive"
+        },
+        {
+          "name": "Vow to the Death",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "cheok-jun-gyeong",
+      "grades": {
+        "overall": "B",
+        "field": "A",
+        "rally": "B",
+        "garrison": "D",
+        "canyon": "B+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        10,
+        17
+      ],
+      "build": {
+        "id": "official-93",
+        "name": "Cheok Jun-gyeong Sustain",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 1,
+          "113": 2,
+          "115": 1,
+          "118": 3,
+          "1701": 1,
+          "1702": 3,
+          "1703": 3,
+          "1704": 3,
+          "1705": 1,
+          "1706": 2,
+          "1708": 1,
+          "1709": 2,
+          "1711": 2,
+          "1712": 3,
+          "1713": 1,
+          "1714": 2,
+          "1715": 3,
+          "1716": 1,
+          "1717": 1,
+          "1718": 3,
+          "1719": 3,
+          "1720": 2,
+          "1721": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1500,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 40,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": true,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Courageous",
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff"
+        ],
+        "summary": "dégâts AoE · buff attaque · contrôle"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 0.8,
+        "support": 1.5,
+        "utility": 3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 13.4,
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff"
+        ],
+        "summary": "dégâts AoE · buff attaque · contrôle"
+      },
+      "officialPairings": [
+        {
+          "partner": "constantine-i",
+          "name": "Cheok Jun-gyeong Sustain",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "The high Health bonus from Constantine I's Allegiance and the damage reduction from Cheok Jun-gyeong Vow to the Death makes this a hard pairing to take down in field battles."
+        }
+      ]
+    },
+    {
+      "id": "choe-yeong",
+      "name": "Choe Yeong",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Garnison",
+        "Défense"
+      ],
+      "role": "Tank / garnison",
+      "tier": "B",
+      "firstTalent": "Razor Sharp",
+      "trees": [
+        {
+          "name": "Archers",
+          "path": [
+            "Razor Sharp (3/3)",
+            "Rapid Fire (1/3)",
+            "Thumb Ring (3/3)"
+          ]
+        },
+        {
+          "name": "Garnison",
+          "path": [
+            "Impregnable (3/3)",
+            "Impenetrable Fortifications (3/3)",
+            "Empty Fortress Stratagem (3/3)"
+          ]
+        },
+        {
+          "name": "Défense",
+          "path": [
+            "Burning Blood (3/3)",
+            "No Weaknesses (3/3)",
+            "Master Armorer (3/3)",
+            "Spiked Armor (3/3)",
+            "Balance (3/3)",
+            "Loose Formation (3/3)",
+            "Testudo Formation (3/3)",
+            "Medicinal Supplies (3/3)",
+            "Desperate Elegy (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Ever Faithful » (active) à 5 en premier, puis « Defender of Hongsan » → « Guardian of Goryeo » → « White-Haired Warrior », enfin « Vengeance of Jeokbun » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Choe Yeong is a legendary commander with the Archer, Garrison and Defense talent trees. The preferred troop type is archers. Typical use: garrison, field. In the game, Lilith recommends pairing with Shajar al-Durr, Dido, Hayam Wuruk.",
+      "pairings": [
+        "shajar-al-durr",
+        "dido",
+        "hayam-wuruk"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Ever Faithful",
+          "type": "Active"
+        },
+        {
+          "name": "Defender of Hongsan",
+          "type": "Passive"
+        },
+        {
+          "name": "Guardian of Goryeo",
+          "type": "Passive"
+        },
+        {
+          "name": "White-Haired Warrior",
+          "type": "Passive"
+        },
+        {
+          "name": "Vengeance of Jeokbun",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "choe-yeong",
+      "grades": {
+        "overall": "B+",
+        "field": "B+",
+        "rally": "B+",
+        "garrison": "S",
+        "canyon": "B+"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        7,
+        13
+      ],
+      "build": {
+        "id": "official-35",
+        "name": "Choe Yeong True Damage",
+        "points": {
+          "201": 1,
+          "202": 2,
+          "203": 2,
+          "206": 1,
+          "208": 3,
+          "209": 1,
+          "213": 3,
+          "701": 1,
+          "703": 3,
+          "704": 2,
+          "705": 3,
+          "706": 1,
+          "710": 3,
+          "1301": 1,
+          "1302": 3,
+          "1303": 3,
+          "1304": 3,
+          "1305": 3,
+          "1306": 3,
+          "1307": 3,
+          "1308": 3,
+          "1309": 2,
+          "1310": 2,
+          "1311": 3,
+          "1312": 1,
+          "1313": 3,
+          "1314": 3,
+          "1315": 1,
+          "1316": 3,
+          "1317": 3,
+          "1318": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 1400,
+        "selfAttack": 0,
+        "selfDefense": 30,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 5,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Ever Faithful",
+        "tags": [
+          "heal",
+          "tank",
+          "garnison"
+        ],
+        "summary": "soin · tank · garnison"
+      },
+      "combat": {
+        "damage": 0.8,
+        "tank": 10.3,
+        "support": 2,
+        "utility": 0.3,
+        "secondary": 0,
+        "role": "tank",
+        "score": 11.7,
+        "tags": [
+          "heal",
+          "tank",
+          "garnison"
+        ],
+        "summary": "soin · tank · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "shajar-al-durr",
+          "name": "Choe Yeong True Damage",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Archers",
+          "description": "Circle formation enhances the healing of both these commanders, which in turn increases the true damage they can deal."
+        },
+        {
+          "partner": "dido",
+          "name": "Choe Yeong Garrison",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Archers",
+          "description": "Choe Yeong's powerful healing and Dido's multitude of damage-reducing skills can turn your garrison into an unassailable bulwark."
+        },
+        {
+          "partner": "hayam-wuruk",
+          "name": "Abundant Life",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Archers",
+          "description": "Hayam Wuruk's Trowulan Gate skill can increase healing received. When paired with Choe Yeong, their combined skills can convert massive heals into true damage, that in turn provide healing again."
+        }
+      ]
+    },
+    {
+      "id": "david-iv",
+      "name": "David IV",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Garnison",
+        "Combo"
+      ],
+      "role": "Tank / garnison",
+      "tier": "B",
+      "firstTalent": "Dragon Saber",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Dragon Saber (3/3)",
+            "Charge (3/3)",
+            "Galea (3/3)",
+            "Undying Fury (3/3)",
+            "Emblazoned Shield (1/4)"
+          ]
+        },
+        {
+          "name": "Combo",
+          "path": [
+            "No Quarter (3/3)",
+            "Force of Nature (3/3)",
+            "Colossus (3/3)",
+            "Dragon Saber (3/3)",
+            "A Good Day to Die (3/3)",
+            "Walk in the Park (3/3)",
+            "Blizzard of Blows (3/3)",
+            "Impenetrable (3/3)",
+            "Iron and Steel (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Wolf of Didgori » (active) à 5 en premier, puis « Valiant Monaspa » → « Basileus of the East » → « Retaking the Caucasus », enfin « Restorer of the Kingdom » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "David IV is a legendary commander with the Cavalry, Garrison and Combo talent trees. The preferred troop type is cavalry. Typical use: garrison, field. In the game, Lilith recommends pairing with Hector.",
+      "pairings": [
+        "hector"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Wolf of Didgori",
+          "type": "Active"
+        },
+        {
+          "name": "Valiant Monaspa",
+          "type": "Passive"
+        },
+        {
+          "name": "Basileus of the East",
+          "type": "Passive"
+        },
+        {
+          "name": "Retaking the Caucasus",
+          "type": "Passive"
+        },
+        {
+          "name": "Restorer of the Kingdom",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "david-iv",
+      "grades": {
+        "overall": "B+",
+        "field": "n/a",
+        "rally": "n/a",
+        "garrison": "S",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        7,
+        18
+      ],
+      "build": {
+        "id": "official-109",
+        "name": "Black Sea Buddies",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "307": 3,
+          "308": 3,
+          "310": 3,
+          "311": 1,
+          "314": 2,
+          "315": 1,
+          "316": 3,
+          "318": 1,
+          "1801": 1,
+          "1802": 3,
+          "1803": 3,
+          "1804": 3,
+          "1805": 3,
+          "1806": 3,
+          "1807": 3,
+          "1808": 1,
+          "1809": 2,
+          "1810": 2,
+          "1811": 1,
+          "1812": 3,
+          "1813": 3,
+          "1814": 3,
+          "1815": 3,
+          "1816": 1,
+          "1817": 1,
+          "1818": 2,
+          "1819": 2,
+          "1820": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1400,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Wolf of Didgori",
+        "tags": [
+          "damage",
+          "aoe",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · garnison"
+      },
+      "combat": {
+        "damage": 10.3,
+        "tank": 1.5,
+        "support": 0,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 11.6,
+        "tags": [
+          "damage",
+          "aoe",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "hector",
+          "name": "Black Sea Buddies",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Cavalry",
+          "description": "David IV's Basileus of the East helps trigger Hector's Favored of Apollo, allowing this duo to rack up huge combos."
+        }
+      ]
+    },
+    {
+      "id": "dido",
+      "name": "Dido",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Garnison",
+        "Soutien"
+      ],
+      "role": "Tank / garnison",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Soul of Carthage » (active) à 5 en premier, puis « Weeping Queen » → « Queenly Zeal » → « Beacon of Byrsa », enfin « Queen's Malediction » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Dido is a legendary commander with the Archer, Garrison and Support talent trees. The preferred troop type is archers. Typical use: garrison, field. In the game, Lilith recommends pairing with Choe Yeong.",
+      "pairings": [
+        "choe-yeong"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Soul of Carthage",
+          "type": "Active"
+        },
+        {
+          "name": "Weeping Queen",
+          "type": "Passive"
+        },
+        {
+          "name": "Queenly Zeal",
+          "type": "Passive"
+        },
+        {
+          "name": "Beacon of Byrsa",
+          "type": "Passive"
+        },
+        {
+          "name": "Queen's Malediction",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "dido",
+      "grades": {
+        "overall": "C+",
+        "field": "D+",
+        "rally": "D+",
+        "garrison": "S",
+        "canyon": "B+"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        7,
+        14
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 2000,
+        "aoe": true,
+        "targets": 5,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 5,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 20,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Soul of Carthage",
+        "tags": [
+          "damage",
+          "aoe",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · tank · garnison"
+      },
+      "combat": {
+        "damage": 10.8,
+        "tank": 4,
+        "support": 1.5,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 15.6,
+        "tags": [
+          "damage",
+          "aoe",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · tank · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "choe-yeong",
+          "name": "Choe Yeong Garrison",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Archers",
+          "description": "Choe Yeong's powerful healing and Dido's multitude of damage-reducing skills can turn your garrison into an unassailable bulwark."
+        }
+      ]
+    },
+    {
+      "id": "eleanor-of-aquitaine",
+      "name": "Eleanor of Aquitaine",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Garnison",
+        "Défense"
+      ],
+      "role": "Tank / garnison",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Lily of the Wilds » (active) à 5 en premier, puis « Lionmother » → « Rock Crystal Vase » → « Grandmother of Europe ». Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Eleanor of Aquitaine is a legendary commander with the Cavalry, Garrison and Defense talent trees. The preferred troop type is cavalry. Typical use: garrison, field.",
+      "pairings": [],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Lily of the Wilds",
+          "type": "Active"
+        },
+        {
+          "name": "Lionmother",
+          "type": "Passive"
+        },
+        {
+          "name": "Rock Crystal Vase",
+          "type": "Passive"
+        },
+        {
+          "name": "Grandmother of Europe",
+          "type": "Passive"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "eleanor-of-aquitaine",
+      "grades": {
+        "overall": "C+",
+        "field": "C",
+        "rally": "C",
+        "garrison": "B+",
+        "canyon": "D"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [],
+      "build": null
+    },
+    {
+      "id": "elizabeth-i",
+      "name": "Elizabeth I",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Engineering",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Nuke polyvalent",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Sovereign's Glory » (active) à 5 en premier, puis « Imperial Instruments » → « Let Tyrants Fear » → « Secret Service », enfin « Eternal Empire » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Elizabeth I is a legendary commander with the Engineering, Versatility and Skill talent trees. The preferred troop type is siege. Typical use: field. In the game, Lilith recommends pairing with Afonso de Albuquerque.",
+      "pairings": [
+        "afonso-de-albuquerque"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Sovereign's Glory",
+          "type": "Active"
+        },
+        {
+          "name": "Imperial Instruments",
+          "type": "Passive"
+        },
+        {
+          "name": "Let Tyrants Fear",
+          "type": "Passive"
+        },
+        {
+          "name": "Secret Service",
+          "type": "Passive"
+        },
+        {
+          "name": "Eternal Empire",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "elizabeth-i",
+      "grades": {
+        "overall": "B+",
+        "field": "B+",
+        "rally": "A+",
+        "garrison": "C",
+        "canyon": "B+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        16,
+        10,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1500,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 15,
+        "healFactor": 0,
+        "selfAttack": 7,
+        "selfDefense": 40,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 15,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Sovereign's Glory",
+        "tags": [
+          "damage",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · rage"
+      },
+      "combat": {
+        "damage": 11,
+        "tank": 5,
+        "support": 0,
+        "utility": 1.5,
+        "secondary": 0,
+        "role": "damage",
+        "score": 16.2,
+        "tags": [
+          "damage",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "afonso-de-albuquerque",
+          "name": "Indomitable Glory",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Siege",
+          "description": "When combined with Afonso de Albuquerque's AoE ranged direct damage, Elizabeth I can quickly accumulate stacks of Glory."
+        }
+      ]
+    },
+    {
+      "id": "flavius-aetius",
+      "name": "Flavius Aetius",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Garnison",
+        "Compétence"
+      ],
+      "role": "Tank / garnison",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Spear of the Empire » (active) à 5 en premier, puis « Shield of Eagles » → « Defense of Gaul » → « Victory at Chalons », enfin « Song of the Nibelungs » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Flavius Aetius is a legendary commander with the Infantry, Garrison and Skill talent trees. The preferred troop type is infantry. Typical use: garrison, field. In the game, Lilith recommends pairing with Zenobia.",
+      "pairings": [
+        "zenobia"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Spear of the Empire",
+          "type": "Active"
+        },
+        {
+          "name": "Shield of Eagles",
+          "type": "Passive"
+        },
+        {
+          "name": "Defense of Gaul",
+          "type": "Passive"
+        },
+        {
+          "name": "Victory at Chalons",
+          "type": "Passive"
+        },
+        {
+          "name": "Song of the Nibelungs",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "flavius-aetius",
+      "grades": {
+        "overall": "C",
+        "field": "C+",
+        "rally": "D+",
+        "garrison": "A+",
+        "canyon": "D"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        7,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 2300,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 10,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": true,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Spear of the Empire",
+        "tags": [
+          "damage",
+          "debuff",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · contrôle · garnison"
+      },
+      "combat": {
+        "damage": 11.5,
+        "tank": 2.3,
+        "support": 1.5,
+        "utility": 2,
+        "secondary": 0,
+        "role": "damage",
+        "score": 15.7,
+        "tags": [
+          "damage",
+          "debuff",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · contrôle · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "zenobia",
+          "name": "Zenobia Garrison",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Infantry",
+          "description": "This duo grants huge bonuses to infantry and takes significantly less normal damage, making them a great counter to combo-focused cavalry troops."
+        }
+      ]
+    },
+    {
+      "id": "gajah-mada",
+      "name": "Gajah Mada",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Engineering",
+        "Polyvalence",
+        "Défense"
+      ],
+      "role": "Tank / garnison",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Rampaging Elephant » (active) à 5 en premier, puis « Swift and Sturdy » → « Sumpah Palapa » → « Majapahit ». Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Gajah Mada is a legendary commander with the Engineering, Versatility and Defense talent trees. The preferred troop type is siege. Typical use: field.",
+      "pairings": [],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Rampaging Elephant",
+          "type": "Active"
+        },
+        {
+          "name": "Swift and Sturdy",
+          "type": "Passive"
+        },
+        {
+          "name": "Sumpah Palapa",
+          "type": "Passive"
+        },
+        {
+          "name": "Majapahit",
+          "type": "Passive"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "gajah-mada",
+      "grades": {
+        "overall": "C+",
+        "field": "B",
+        "rally": "F",
+        "garrison": "F",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [],
+      "build": null
+    },
+    {
+      "id": "gang-gamchan",
+      "name": "Gang Gamchan",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Polyvalence",
+        "Combo"
+      ],
+      "role": "Polyvalent",
+      "tier": "S",
+      "firstTalent": "Dragon Saber",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Dragon Saber (3/3)",
+            "Charge (3/3)",
+            "Galea (3/3)",
+            "Undying Fury (3/3)"
+          ]
+        },
+        {
+          "name": "Combo",
+          "path": [
+            "No Quarter (3/3)",
+            "Force of Nature (3/3)",
+            "Colossus (3/3)",
+            "Dragon Saber (3/3)",
+            "A Good Day to Die (3/3)",
+            "Walk in the Park (3/3)",
+            "Blizzard of Blows (3/3)",
+            "Impenetrable (3/3)",
+            "Iron and Steel (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Geomcha Charge » (active) à 5 en premier, puis « Gaemamusa » → « Starlight » → « Open the Floodgates », enfin « Great Victory at Gwiju » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Gang Gamchan is a legendary commander with the Cavalry, Versatility and Combo talent trees. The preferred troop type is cavalry. Typical use: field. In the game, Lilith recommends pairing with Achilles.",
+      "pairings": [
+        "achilles"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Geomcha Charge",
+          "type": "Active"
+        },
+        {
+          "name": "Gaemamusa",
+          "type": "Passive"
+        },
+        {
+          "name": "Starlight",
+          "type": "Passive"
+        },
+        {
+          "name": "Open the Floodgates",
+          "type": "Passive"
+        },
+        {
+          "name": "Great Victory at Gwiju",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "gang-gamchan",
+      "grades": {
+        "overall": "S",
+        "field": "A+",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        10,
+        18
+      ],
+      "build": {
+        "id": "official-108",
+        "name": "Rope-a-Dope",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "307": 3,
+          "308": 3,
+          "310": 3,
+          "311": 1,
+          "314": 2,
+          "316": 3,
+          "1001": 1,
+          "1003": 1,
+          "1801": 1,
+          "1802": 3,
+          "1803": 3,
+          "1804": 3,
+          "1805": 3,
+          "1806": 3,
+          "1807": 3,
+          "1808": 1,
+          "1809": 2,
+          "1810": 2,
+          "1811": 1,
+          "1812": 3,
+          "1813": 3,
+          "1814": 3,
+          "1815": 3,
+          "1816": 1,
+          "1817": 1,
+          "1818": 2,
+          "1819": 2,
+          "1820": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1500,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 30,
+        "selfHealth": 10,
+        "selfDamageReduction": 10,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Geomcha Charge",
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · tank"
+      },
+      "combat": {
+        "damage": 8.3,
+        "tank": 7.1,
+        "support": 0,
+        "utility": 1.3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 15.3,
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "achilles",
+          "name": "Rope-a-Dope",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "The healing from Gang Gamchan's Star-Blessed effect helps Achilles soak up more damage, allowing him to trigger his expertise skill more times."
+        }
+      ]
+    },
+    {
+      "id": "gilgamesh",
+      "name": "Gilgamesh",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Conquête",
+        "Compétence"
+      ],
+      "role": "Nuke archers",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Roar of the Lion » (active) à 5 en premier, puis « Bowman of Uruk » → « A King's Right » → « Enkidu's Path », enfin « Demigod » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Gilgamesh is a legendary commander with the Archer, Conquering and Skill talent trees. The preferred troop type is archers. Typical use: rally, field. In the game, Lilith recommends pairing with Nebuchadnezzar II.",
+      "pairings": [
+        "nebuchadnezzar-ii"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Roar of the Lion",
+          "type": "Active"
+        },
+        {
+          "name": "Bowman of Uruk",
+          "type": "Passive"
+        },
+        {
+          "name": "A King's Right",
+          "type": "Passive"
+        },
+        {
+          "name": "Enkidu's Path",
+          "type": "Passive"
+        },
+        {
+          "name": "Demigod",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "gilgamesh",
+      "grades": {
+        "overall": "C+",
+        "field": "A",
+        "rally": "A",
+        "garrison": "F",
+        "canyon": "A"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        6,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1500,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 15,
+        "selfDamageBonus": 20,
+        "healFactor": 0,
+        "selfAttack": 20,
+        "selfDefense": 0,
+        "selfHealth": 30,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Roar of the Lion",
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 5,
+        "support": 1.5,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 17.7,
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "nebuchadnezzar-ii",
+          "name": "Nebuchadnezzar II Conquest",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Archers",
+          "description": "The Blood Craving effect inflicted by Gilgamesh's Enkidu's Path and Demigod allows him to easily contain healing-focused garrison commanders like Zenobia, Constantine I, and Choe Yeong."
+        }
+      ]
+    },
+    {
+      "id": "gonzalo-de-cordoba",
+      "name": "Gonzalo de Córdoba",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Engineering",
+        "Polyvalence",
+        "Attaque"
+      ],
+      "role": "Dégâts polyvalent",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Pike-and-Shot Pioneer » (active) à 5 en premier, puis « Conqueror of Granada » → « Viceroy of Naples » → « Order of Santiago ». Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Gonzalo de Córdoba is a legendary commander with the Engineering, Versatility and Attack talent trees. The preferred troop type is siege. Typical use: field.",
+      "pairings": [],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Pike-and-Shot Pioneer",
+          "type": "Active"
+        },
+        {
+          "name": "Conqueror of Granada",
+          "type": "Passive"
+        },
+        {
+          "name": "Viceroy of Naples",
+          "type": "Passive"
+        },
+        {
+          "name": "Order of Santiago",
+          "type": "Passive"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "gonzalo-de-cordoba",
+      "grades": {
+        "overall": "C+",
+        "field": "B",
+        "rally": "F",
+        "garrison": "F",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [],
+      "build": null
+    },
+    {
+      "id": "gorgo",
+      "name": "Gorgo",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Garnison",
+        "Défense"
+      ],
+      "role": "Tank / garnison",
+      "tier": "A",
+      "firstTalent": "Snare of Thorns",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Snare of Thorns (3/4)",
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (3/3)",
+            "Hold The Line (4/4)"
+          ]
+        },
+        {
+          "name": "Défense",
+          "path": [
+            "Spiked Armor (3/3)",
+            "Master Armorer (3/3)",
+            "Medicinal Supplies (3/3)",
+            "Burning Blood (3/3)",
+            "Balance (3/3)",
+            "No Weaknesses (3/3)",
+            "Loose Formation (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Queen of Sparta » (active) à 5 en premier, puis « Agoge » → « With Your Shield, Or On It » → « Illuminator », enfin « Luminary Lioness » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Gorgo is a legendary commander with the Infantry, Garrison and Defense talent trees. The preferred troop type is infantry. Typical use: garrison, field, rally. In the game, Lilith recommends pairing with Heraclius, Tokugawa Ieyasu, Liu Che.",
+      "pairings": [
+        "heraclius",
+        "tokugawa-ieyasu",
+        "liu-che"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Queen of Sparta",
+          "type": "Active"
+        },
+        {
+          "name": "Agoge",
+          "type": "Passive"
+        },
+        {
+          "name": "With Your Shield, Or On It",
+          "type": "Passive"
+        },
+        {
+          "name": "Illuminator",
+          "type": "Passive"
+        },
+        {
+          "name": "Luminary Lioness",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "gorgo",
+      "grades": {
+        "overall": "A",
+        "field": "A+",
+        "rally": "B+",
+        "garrison": "A+",
+        "canyon": "S"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        7,
+        13
+      ],
+      "build": {
+        "id": "official-43",
+        "name": "Gorgo Garrison",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 3,
+          "113": 2,
+          "115": 2,
+          "118": 4,
+          "119": 3,
+          "1301": 1,
+          "1302": 3,
+          "1303": 3,
+          "1304": 3,
+          "1305": 3,
+          "1306": 3,
+          "1307": 3,
+          "1308": 3,
+          "1310": 2,
+          "1311": 3,
+          "1312": 1,
+          "1314": 3,
+          "1315": 1,
+          "1317": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 2300,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 40,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 30,
+        "control": false,
+        "shield": true,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 900,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Queen of Sparta",
+        "tags": [
+          "damage",
+          "debuff",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · buff attaque · debuff · garnison"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 5.3,
+        "support": 2,
+        "utility": 3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 17.8,
+        "tags": [
+          "damage",
+          "debuff",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · buff attaque · debuff · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "heraclius",
+          "name": "Gorgo Garrison",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Infantry",
+          "description": "This pair's array of survivability skills and normal damage bonuses makes attacking any building they're garrisoning a very costly endeavor."
+        },
+        {
+          "partner": "tokugawa-ieyasu",
+          "name": "Sunrise Eagle",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Infantry",
+          "description": "Both Gorgo's With Your Shield, Or On It and Tokugawa Ieyasu's Nikkō Tōshō increase infantry Health, making them a tough opponent to take down when garrisoned."
+        },
+        {
+          "partner": "liu-che",
+          "name": "Gorgo Smite",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Infantry",
+          "description": "Gorgo's Queen of Sparta skill has a relatively low Rage requirement. Pair it with Liu Che's Glory of Shizong to lay down massive smite damage in short order."
+        }
+      ]
+    },
+    {
+      "id": "harald-sigurdsson",
+      "name": "Harald Sigurdsson",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Conquête",
+        "Compétence"
+      ],
+      "role": "Nuke infanterie",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Berserker » (active) à 5 en premier, puis « Viking Battleaxe » → « Varangian Guard » → « Stamford Bridge », enfin « Valhalla » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Harald Sigurdsson is a legendary commander with the Infantry, Conquering and Skill talent trees. The preferred troop type is infantry. Typical use: rally, field. In the game, Lilith recommends pairing with Kʼinich Janaabʼ Pakal.",
+      "pairings": [
+        "k-inich-janaab-pakal"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Berserker",
+          "type": "Active"
+        },
+        {
+          "name": "Viking Battleaxe",
+          "type": "Passive"
+        },
+        {
+          "name": "Varangian Guard",
+          "type": "Passive"
+        },
+        {
+          "name": "Stamford Bridge",
+          "type": "Passive"
+        },
+        {
+          "name": "Valhalla",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "harald-sigurdsson",
+      "grades": {
+        "overall": "C+",
+        "field": "A",
+        "rally": "B+",
+        "garrison": "F",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        6,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1500,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 30,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 5,
+        "selfSpeed": 10,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Berserker",
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque"
+      },
+      "combat": {
+        "damage": 11.5,
+        "tank": 1.8,
+        "support": 1.5,
+        "utility": 0.7,
+        "secondary": 0,
+        "role": "damage",
+        "score": 14.7,
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque"
+      },
+      "officialPairings": [
+        {
+          "partner": "k-inich-janaab-pakal",
+          "name": "Pakal Conquest",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Infantry",
+          "description": "Woe to any enemies that try to surround this pair. Holy Tree's Blessings greatly reduces their troop's damage taken, while Berserker and Valhalla grant them a ton of extra firepower. They're a prime option to lead your easily-flanked rallied armies."
+        }
+      ]
+    },
+    {
+      "id": "hayam-wuruk",
+      "name": "Hayam Wuruk",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Garnison",
+        "Compétence"
+      ],
+      "role": "Tank / garnison",
+      "tier": "B",
+      "firstTalent": "Rapid Fire",
+      "trees": [
+        {
+          "name": "Archers",
+          "path": [
+            "Rapid Fire (3/3)",
+            "Razor Sharp (3/3)",
+            "Venomous Sting (4/4)",
+            "Armed And Armored (3/3)",
+            "Arrows Nocked (3/3)",
+            "Thumb Ring (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Garuda's Gift » (active) à 5 en premier, puis « Majapahit Crown » → « Trowulan Gate » → « Keris Cut », enfin « Airavata's Triumph » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Hayam Wuruk is a legendary commander with the Archer, Garrison and Skill talent trees. The preferred troop type is archers. Typical use: garrison, field. In the game, Lilith recommends pairing with Choe Yeong, Hector.",
+      "pairings": [
+        "choe-yeong",
+        "hector"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Garuda's Gift",
+          "type": "Active"
+        },
+        {
+          "name": "Majapahit Crown",
+          "type": "Passive"
+        },
+        {
+          "name": "Trowulan Gate",
+          "type": "Passive"
+        },
+        {
+          "name": "Keris Cut",
+          "type": "Passive"
+        },
+        {
+          "name": "Airavata's Triumph",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "hayam-wuruk",
+      "grades": {
+        "overall": "B+",
+        "field": "A",
+        "rally": "B+",
+        "garrison": "S+",
+        "canyon": "B+"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        7,
+        11
+      ],
+      "build": {
+        "id": "official-116",
+        "name": "Abundant Life",
+        "points": {
+          "201": 1,
+          "202": 2,
+          "203": 2,
+          "205": 3,
+          "206": 3,
+          "207": 3,
+          "208": 3,
+          "209": 1,
+          "211": 2,
+          "212": 3,
+          "213": 3,
+          "216": 1,
+          "217": 1,
+          "219": 4,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 2500,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 5,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Garuda's Gift",
+        "tags": [
+          "damage",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · garnison"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 3,
+        "support": 0,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 14.7,
+        "tags": [
+          "damage",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "choe-yeong",
+          "name": "Abundant Life",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Archers",
+          "description": "Hayam Wuruk's Trowulan Gate skill can increase healing received. When paired with Choe Yeong, their combined skills can convert massive heals into true damage, that in turn provide healing again."
+        },
+        {
+          "partner": "hector",
+          "name": "Hayam Wuruk Garrison Heal",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Archers",
+          "description": "Hayam Wuruk's decent damage and heal effects pair nicely with the versatile garrison commander Hector."
+        }
+      ]
+    },
+    {
+      "id": "hector",
+      "name": "Hector",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Polyvalence",
+        "Soutien"
+      ],
+      "role": "Soutien",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Shepherd of His People » (active) à 5 en premier, puis « Beneath the Scaean Gate » → « Favored of Apollo » → « Valiant Mortal », enfin « Blood of Dardanus » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Hector is a legendary commander with the Leadership, Versatility and Support talent trees. The talent trees are not tied to one troop type. Typical use: field, garrison. In the game, Lilith recommends pairing with William Wallace, Qin Shi Huang, David IV.",
+      "pairings": [
+        "william-wallace",
+        "qin-shi-huang",
+        "david-iv",
+        "hayam-wuruk"
+      ],
+      "usage": [
+        "pvp",
+        "garnison"
+      ],
+      "skills": [
+        {
+          "name": "Shepherd of His People",
+          "type": "Active"
+        },
+        {
+          "name": "Beneath the Scaean Gate",
+          "type": "Passive"
+        },
+        {
+          "name": "Favored of Apollo",
+          "type": "Passive"
+        },
+        {
+          "name": "Valiant Mortal",
+          "type": "Passive"
+        },
+        {
+          "name": "Blood of Dardanus",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "hector",
+      "grades": {
+        "overall": "B+",
+        "field": "A",
+        "rally": "n/a",
+        "garrison": "S",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        10,
+        14
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 2700,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 10,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 30,
+        "selfHealth": 10,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 5,
+        "teamRage": 15,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 5,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": true,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Shepherd of His People",
+        "tags": [
+          "damage",
+          "support",
+          "debuff",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · buffs d’équipe · tank · debuff · rage"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 5.4,
+        "support": 2.6,
+        "utility": 2,
+        "secondary": 0,
+        "role": "damage",
+        "score": 18,
+        "tags": [
+          "damage",
+          "support",
+          "debuff",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · buffs d’équipe · tank · debuff · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "william-wallace",
+          "name": "Invader's Bane",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "William Wallace's Lion of the North and Hector's Favored of Apollo ramp up the damage of Wallace's active skill."
+        },
+        {
+          "partner": "qin-shi-huang",
+          "name": "Why So Mad?",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "The Rage drain from Qin Shi Huang's Seal Governs All and the Rage reduction from Hector allows them to greatly inhibit enemy troops' ability to cast active skills."
+        },
+        {
+          "partner": "david-iv",
+          "name": "Black Sea Buddies",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Cavalry",
+          "description": "David IV's Basileus of the East helps trigger Hector's Favored of Apollo, allowing this duo to rack up huge combos."
+        },
+        {
+          "partner": "hayam-wuruk",
+          "name": "Hayam Wuruk Garrison Heal",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Archers",
+          "description": "Hayam Wuruk's decent damage and heal effects pair nicely with the versatile garrison commander Hector."
+        }
+      ]
+    },
+    {
+      "id": "henry-v",
+      "name": "Henry V",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Conquête",
+        "Soutien"
+      ],
+      "role": "Soutien",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Divine Right » (active) à 5 en premier, puis « Welsh Longbows » → « Road to Empire » → « Battle of Agincourt », enfin « Hundred Years' War » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Henry V is a legendary commander with the Archer, Conquering and Support talent trees. The preferred troop type is archers. Typical use: rally, field. In the game, Lilith recommends pairing with Ashurbanipal.",
+      "pairings": [
+        "ashurbanipal"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Divine Right",
+          "type": "Active"
+        },
+        {
+          "name": "Welsh Longbows",
+          "type": "Passive"
+        },
+        {
+          "name": "Road to Empire",
+          "type": "Passive"
+        },
+        {
+          "name": "Battle of Agincourt",
+          "type": "Passive"
+        },
+        {
+          "name": "Hundred Years' War",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "henry-v",
+      "grades": {
+        "overall": "B+",
+        "field": "A+",
+        "rally": "A+",
+        "garrison": "F",
+        "canyon": "A"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        6,
+        14
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 2300,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 10,
+        "healFactor": 0,
+        "selfAttack": 20,
+        "selfDefense": 20,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Divine Right",
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 10.8,
+        "tank": 4,
+        "support": 1.5,
+        "utility": 1.3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 16.2,
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "ashurbanipal",
+          "name": "Ashurbanipal Conquest",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Archers",
+          "description": "Henry V's Road to Empire greatly increases the burst damage of this pair's active skills when attacking cities, further enhancing Ashurbanipal's already formidable anti-garrison abilities."
+        }
+      ]
+    },
+    {
+      "id": "heraclius",
+      "name": "Heraclius",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Garnison",
+        "Défense"
+      ],
+      "role": "Tank / garnison",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Hammer of Nineveh » (active) à 5 en premier, puis « Themata » → « Skouton of Byzantium » → « Basileus », enfin « The Eagle Banner » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Heraclius is a legendary commander with the Leadership, Garrison and Defense talent trees. The talent trees are not tied to one troop type. Typical use: garrison, field. In the game, Lilith recommends pairing with Gorgo.",
+      "pairings": [
+        "gorgo"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Hammer of Nineveh",
+          "type": "Active"
+        },
+        {
+          "name": "Themata",
+          "type": "Passive"
+        },
+        {
+          "name": "Skouton of Byzantium",
+          "type": "Passive"
+        },
+        {
+          "name": "Basileus",
+          "type": "Passive"
+        },
+        {
+          "name": "The Eagle Banner",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "heraclius",
+      "grades": {
+        "overall": "B",
+        "field": "B",
+        "rally": "D+",
+        "garrison": "A+",
+        "canyon": "C"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        7,
+        13
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1200,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": true,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Hammer of Nineveh",
+        "tags": [
+          "damage",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · garnison"
+      },
+      "combat": {
+        "damage": 6,
+        "tank": 3,
+        "support": 1.5,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 9.9,
+        "tags": [
+          "damage",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "gorgo",
+          "name": "Gorgo Garrison",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Infantry",
+          "description": "This pair's array of survivability skills and normal damage bonuses makes attacking any building they're garrisoning a very costly endeavor."
+        }
+      ]
+    },
+    {
+      "id": "hermann-prime",
+      "name": "Hermann (Prime)",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Polyvalence",
+        "Soutien"
+      ],
+      "role": "Soutien",
+      "tier": "A",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Forest of Fallen Eagles » (active) à 5 en premier, puis « Germania » → « Alpha Wolf » → « Mandrake Root », enfin « Give Me Back My Legions! » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Hermann (Prime) is a legendary commander with the Archer, Versatility and Support talent trees. The preferred troop type is archers. Typical use: field. In the game, Lilith recommends pairing with Zhuge Liang, Alp Arslan.",
+      "pairings": [
+        "zhuge-liang",
+        "alp-arslan"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Forest of Fallen Eagles",
+          "type": "Active"
+        },
+        {
+          "name": "Germania",
+          "type": "Passive"
+        },
+        {
+          "name": "Alpha Wolf",
+          "type": "Passive"
+        },
+        {
+          "name": "Mandrake Root",
+          "type": "Passive"
+        },
+        {
+          "name": "Give Me Back My Legions!",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "hermann-prime",
+      "grades": {
+        "overall": "A+",
+        "field": "S",
+        "rally": "A",
+        "garrison": "B",
+        "canyon": "A+"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        10,
+        14
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 2000,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 20,
+        "selfDamageBonus": 5,
+        "healFactor": 0,
+        "selfAttack": 20,
+        "selfDefense": 20,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 20,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Forest of Fallen Eagles",
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · debuff"
+      },
+      "combat": {
+        "damage": 10.8,
+        "tank": 2.5,
+        "support": 2.8,
+        "utility": 3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 16.8,
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · debuff"
+      },
+      "officialPairings": [
+        {
+          "partner": "zhuge-liang",
+          "name": "Chain Stratagems",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Prime Hermann supplements Zhuge Liang's lack of March Speed bonuses. In addition, his Alpha Wolf and Poison effects greatly boost the damage of Burning of Xinye and Marquis Zhongwu."
+        },
+        {
+          "partner": "alp-arslan",
+          "name": "Alp Arslan Venom",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Alp Arslan can replicate debuffs on targets onto other enemies, while dealing additional damage based on the number of debuffs enemies have. This makes him a perfect match for Prime Hermann's multi-stack Poison effects."
+        }
+      ]
+    },
+    {
+      "id": "honda-tadakatsu",
+      "name": "Honda Tadakatsu",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Nuke polyvalent",
+      "tier": "B",
+      "firstTalent": "Armed To The Teeth",
+      "trees": [
+        {
+          "name": "Leadership",
+          "path": [
+            "Armed To The Teeth (3/3)",
+            "Hidden Wrath (3/3)",
+            "Steely Soul (3/3)",
+            "Healing Herbs (3/3)",
+            "Armored To The Teeth (3/3)",
+            "Strategic Prowess (2/4)",
+            "Fresh Recruits (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Clarity (1/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Dragonfly Cutter » (active) à 5 en premier, puis « Samurai of the East » → « Samurai Among Samurai » → « Tokugawa Heavenly King », enfin « The Undefeated » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Honda Tadakatsu is a legendary commander with the Leadership, Versatility and Skill talent trees. The talent trees are not tied to one troop type. Typical use: field, rally. In the game, Lilith recommends pairing with Suleiman I.",
+      "pairings": [
+        "suleiman-i"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Dragonfly Cutter",
+          "type": "Active"
+        },
+        {
+          "name": "Samurai of the East",
+          "type": "Passive"
+        },
+        {
+          "name": "Samurai Among Samurai",
+          "type": "Passive"
+        },
+        {
+          "name": "Tokugawa Heavenly King",
+          "type": "Passive"
+        },
+        {
+          "name": "The Undefeated",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "honda-tadakatsu",
+      "grades": {
+        "overall": "B",
+        "field": "A+",
+        "rally": "B",
+        "garrison": "D",
+        "canyon": "S"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        10,
+        11
+      ],
+      "build": {
+        "id": "official-51",
+        "name": "Honda Tadakatsu Conquest",
+        "points": {
+          "501": 1,
+          "502": 3,
+          "503": 2,
+          "504": 2,
+          "505": 3,
+          "506": 3,
+          "507": 3,
+          "508": 3,
+          "509": 3,
+          "510": 3,
+          "511": 1,
+          "512": 2,
+          "513": 3,
+          "515": 2,
+          "517": 2,
+          "1001": 1,
+          "1003": 3,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 2,
+          "1116": 2,
+          "1117": 3,
+          "1119": 1
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 200,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 5,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 30,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 5,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 50,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 0,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "",
+        "tags": [
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 5.4,
+        "tank": 0.8,
+        "support": 1.5,
+        "utility": 6.3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 10.5,
+        "tags": [
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "suleiman-i",
+          "name": "Honda Tadakatsu Conquest",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Multi",
+          "description": "When leading a troop with multiple unit types, Suleiman's Janissary skill enhances the damage of Honda Tadakatsu's Dragonfly Cutter active skill."
+        }
+      ]
+    },
+    {
+      "id": "huo-qubing",
+      "name": "Huo Qubing",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Nuke cavalerie",
+      "tier": "A",
+      "firstTalent": "Undying Fury",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Undying Fury (3/3)",
+            "Dragon Saber (3/3)",
+            "Galea (3/3)",
+            "Emblazoned Shield (2/4)",
+            "Charge (3/3)",
+            "Halberd (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« General of Agile Cavalry » (active) à 5 en premier, puis « Ferghana Horses » → « Dragon of the Desert » → « Battlefield Appropriations », enfin « Conquerer of Khentii » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Huo Qubing is a legendary commander with the Cavalry, Versatility and Skill talent trees. The preferred troop type is cavalry. Typical use: field, garrison. In the game, Lilith recommends pairing with Joan of Arc (Prime), Arthur Pendragon, Belisarius (Prime).",
+      "pairings": [
+        "jeanne",
+        "arthur-pendragon",
+        "belisaire"
+      ],
+      "usage": [
+        "pvp",
+        "garnison"
+      ],
+      "skills": [
+        {
+          "name": "General of Agile Cavalry",
+          "type": "Active"
+        },
+        {
+          "name": "Ferghana Horses",
+          "type": "Passive"
+        },
+        {
+          "name": "Dragon of the Desert",
+          "type": "Passive"
+        },
+        {
+          "name": "Battlefield Appropriations",
+          "type": "Passive"
+        },
+        {
+          "name": "Conquerer of Khentii",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "huo-qubing",
+      "grades": {
+        "overall": "A+",
+        "field": "S",
+        "rally": "A+",
+        "garrison": "B+",
+        "canyon": "S"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        10,
+        11
+      ],
+      "build": {
+        "id": "official-29",
+        "name": "Huo Qubing Burst",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "306": 3,
+          "307": 3,
+          "308": 3,
+          "309": 2,
+          "310": 3,
+          "311": 1,
+          "314": 2,
+          "315": 1,
+          "316": 3,
+          "318": 2,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 30,
+        "selfDamageBonus": 5,
+        "healFactor": 3000,
+        "selfAttack": 40,
+        "selfDefense": 35,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 0,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "",
+        "tags": [
+          "heal",
+          "tank"
+        ],
+        "summary": "soin · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 8.5,
+        "tank": 10,
+        "support": 4.3,
+        "utility": 1,
+        "secondary": 0,
+        "role": "tank",
+        "score": 21.4,
+        "tags": [
+          "heal",
+          "tank"
+        ],
+        "summary": "soin · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "joan-of-arc-prime",
+          "name": "Huo Qubing Burst",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "Huo Qubing's lowered Rage requirement and the high burst capability of Joan of Arc's The Blessed allow them to quickly deal tons of skill damage."
+        },
+        {
+          "partner": "arthur-pendragon",
+          "name": "Huo Qubing Skill",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "Huo Qubing's considerable bonus to skill damage can greatly enhance the AoE damage dealt by King Arthur's Sword in the Stone effect."
+        },
+        {
+          "partner": "belisarius-prime",
+          "name": "Lightning Raid",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Cavalry",
+          "description": "The huge skill damage bonus from Huo Qubing's Dragon of the Desert stacks with Belisarius's Roman Devotion, allowing this pair to deal massive damage in the first 15 seconds of a battle."
+        }
+      ]
+    },
+    {
+      "id": "ivan-iv",
+      "name": "Ivan IV",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Polyvalence",
+        "Combo"
+      ],
+      "role": "Polyvalent",
+      "tier": "S",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Ivory Throne » (active) à 5 en premier, puis « Gilded Saddle » → « Victory at Molodi » → « Oprichniki Operations », enfin « The First Tsar » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Ivan IV is a legendary commander with the Cavalry, Versatility and Combo talent trees. The preferred troop type is cavalry. Typical use: field. In the game, Lilith recommends pairing with Arthur Pendragon.",
+      "pairings": [
+        "arthur-pendragon"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Ivory Throne",
+          "type": "Active"
+        },
+        {
+          "name": "Gilded Saddle",
+          "type": "Passive"
+        },
+        {
+          "name": "Victory at Molodi",
+          "type": "Passive"
+        },
+        {
+          "name": "Oprichniki Operations",
+          "type": "Passive"
+        },
+        {
+          "name": "The First Tsar",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "ivan-iv",
+      "grades": {
+        "overall": "S+",
+        "field": "S+",
+        "rally": "B+",
+        "garrison": "C+",
+        "canyon": "S"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        10,
+        18
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1400,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 5,
+        "healFactor": 0,
+        "selfAttack": 10,
+        "selfDefense": 50,
+        "selfHealth": 30,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 15,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 30,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 20,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Ivory Throne",
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · debuff · rage"
+      },
+      "combat": {
+        "damage": 10.8,
+        "tank": 10,
+        "support": 2,
+        "utility": 6.2,
+        "secondary": 0,
+        "role": "damage",
+        "score": 24.4,
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · debuff · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "arthur-pendragon",
+          "name": "Trump Card Duo",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "King Arthur's consecutive basic attacks can quickly accumulate stacks of Tsar's Authority for Ivan IV, thereby amplifying the damage of Ivory Throne as well as prolonging the buff durations for Tsar's Decree. On the other hand, Ivan IV can further enhance the field capabilities and combat endurance of cavalry units."
+        }
+      ]
+    },
+    {
+      "id": "ivar",
+      "name": "Ivar",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Conquête",
+        "Défense"
+      ],
+      "role": "Tank / garnison",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Falcon's Judgement » (active) à 5 en premier, puis « Ironheart Vow » → « Flames of York » → « Odin's Stratagem », enfin « Destined Defense » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Ivar is a legendary commander with the Infantry, Conquering and Defense talent trees. The preferred troop type is infantry. Typical use: rally, field. In the game, Lilith recommends pairing with Scipio Aemilianus.",
+      "pairings": [
+        "scipio-aemilianus"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Falcon's Judgement",
+          "type": "Active"
+        },
+        {
+          "name": "Ironheart Vow",
+          "type": "Passive"
+        },
+        {
+          "name": "Flames of York",
+          "type": "Passive"
+        },
+        {
+          "name": "Odin's Stratagem",
+          "type": "Passive"
+        },
+        {
+          "name": "Destined Defense",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "ivar",
+      "grades": {
+        "overall": "B+",
+        "field": "A+",
+        "rally": "S+",
+        "garrison": "S",
+        "canyon": "A+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        6,
+        13
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 2500,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 10,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 30,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Falcon's Judgement",
+        "tags": [
+          "damage",
+          "aoe",
+          "rage"
+        ],
+        "summary": "dégâts AoE · rage"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 2.3,
+        "support": 1.5,
+        "utility": 0.4,
+        "secondary": 0,
+        "role": "damage",
+        "score": 13.4,
+        "tags": [
+          "damage",
+          "aoe",
+          "rage"
+        ],
+        "summary": "dégâts AoE · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "scipio-aemilianus",
+          "name": "Southern Longing",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Infantry",
+          "description": "Scipio Aemilianus and Ivar can form a smite damage duo, dealing large amounts of damage during rally attacks on strongholds and cities."
+        }
+      ]
+    },
+    {
+      "id": "jadwiga",
+      "name": "Jadwiga",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Garnison",
+        "Mobilité"
+      ],
+      "role": "Tank / garnison",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Might of the Pious » (active) à 5 en premier, puis « Oath of Loyalty » → « Holy Blessing » → « Blade of Dodging », enfin « Holy Lord of Poland » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Jadwiga is a legendary commander with the Cavalry, Garrison and Mobility talent trees. The preferred troop type is cavalry. Typical use: garrison, field.",
+      "pairings": [],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Might of the Pious",
+          "type": "Active"
+        },
+        {
+          "name": "Oath of Loyalty",
+          "type": "Passive"
+        },
+        {
+          "name": "Holy Blessing",
+          "type": "Passive"
+        },
+        {
+          "name": "Blade of Dodging",
+          "type": "Passive"
+        },
+        {
+          "name": "Holy Lord of Poland",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "jadwiga",
+      "grades": {
+        "overall": "C+",
+        "field": "C+",
+        "rally": "D",
+        "garrison": "A",
+        "canyon": "B+"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        7,
+        15
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1500,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 10,
+        "selfDamageBonus": 20,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 50,
+        "teamAttack": 10,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 10,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Might of the Pious",
+        "tags": [
+          "damage",
+          "support",
+          "rage",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · buffs d’équipe · rage · garnison"
+      },
+      "combat": {
+        "damage": 10.8,
+        "tank": 1.5,
+        "support": 2.1,
+        "utility": 1.6,
+        "secondary": 0,
+        "role": "damage",
+        "score": 14.6,
+        "tags": [
+          "damage",
+          "support",
+          "rage",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · buffs d’équipe · rage · garnison"
+      }
+    },
+    {
+      "id": "jan-zizka",
+      "name": "Jan Žižka",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Garnison",
+        "Compétence"
+      ],
+      "role": "Tank / garnison",
+      "tier": "C",
+      "firstTalent": "Undying Fury",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Undying Fury (3/3)",
+            "Dragon Saber (3/3)",
+            "Galea (3/3)",
+            "Emblazoned Shield (2/4)",
+            "Charge (3/3)",
+            "Halberd (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« One-Eyed Knight » (active) à 5 en premier, puis « Sword Held High » → « Unbowed » → « Battle of Grunwald », enfin « Cry of Bohemia » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Jan Žižka is a legendary commander with the Cavalry, Garrison and Skill talent trees. The preferred troop type is cavalry. Typical use: garrison, field.",
+      "pairings": [],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "One-Eyed Knight",
+          "type": "Active"
+        },
+        {
+          "name": "Sword Held High",
+          "type": "Passive"
+        },
+        {
+          "name": "Unbowed",
+          "type": "Passive"
+        },
+        {
+          "name": "Battle of Grunwald",
+          "type": "Passive"
+        },
+        {
+          "name": "Cry of Bohemia",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "jan-zizka",
+      "grades": {
+        "overall": "C",
+        "field": "B",
+        "rally": "D",
+        "garrison": "A+",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        7,
+        11
+      ],
+      "build": {
+        "id": "official-33",
+        "name": "Jan Žižka Garrison",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "306": 3,
+          "307": 3,
+          "308": 3,
+          "309": 2,
+          "310": 3,
+          "311": 1,
+          "314": 2,
+          "315": 1,
+          "316": 3,
+          "318": 2,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 2400,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 20,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "One-Eyed Knight",
+        "tags": [
+          "damage",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · tank · garnison"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 4.8,
+        "support": 0,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 16.4,
+        "tags": [
+          "damage",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · tank · garnison"
+      }
+    },
+    {
+      "id": "joan-of-arc-prime",
+      "name": "Joan of Arc (Prime)",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Polyvalence",
+        "Soutien"
+      ],
+      "role": "Soutien",
+      "tier": "A",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Sacred Banner » (active) à 5 en premier, puis « Hundred-Year Dawn » → « Return of the Saint » → « The Blessed », enfin « Unyielding Martyr » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Joan of Arc (Prime) is a legendary commander with the Cavalry, Versatility and Support talent trees. The preferred troop type is cavalry. Typical use: field. In the game, Lilith recommends pairing with Huo Qubing.",
+      "pairings": [
+        "huo-qubing"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Sacred Banner",
+          "type": "Active"
+        },
+        {
+          "name": "Hundred-Year Dawn",
+          "type": "Passive"
+        },
+        {
+          "name": "Return of the Saint",
+          "type": "Passive"
+        },
+        {
+          "name": "The Blessed",
+          "type": "Passive"
+        },
+        {
+          "name": "Unyielding Martyr",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "joan-of-arc-prime",
+      "grades": {
+        "overall": "A",
+        "field": "A",
+        "rally": "A",
+        "garrison": "C",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        10,
+        14
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 2000,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 5,
+        "healFactor": 0,
+        "selfAttack": 20,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 10,
+        "selfRage": 0,
+        "teamAttack": 5,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 20,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Sacred Banner",
+        "tags": [
+          "damage",
+          "aoe",
+          "support",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts AoE · buffs d’équipe · buff attaque · rage"
+      },
+      "combat": {
+        "damage": 10.8,
+        "tank": 1.5,
+        "support": 2.1,
+        "utility": 0.9,
+        "secondary": 0,
+        "role": "damage",
+        "score": 14.3,
+        "tags": [
+          "damage",
+          "aoe",
+          "support",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts AoE · buffs d’équipe · buff attaque · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "huo-qubing",
+          "name": "Huo Qubing Burst",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "Huo Qubing's lowered Rage requirement and the high burst capability of Joan of Arc's The Blessed allow them to quickly deal tons of skill damage."
+        }
+      ]
+    },
+    {
+      "id": "john-hunyadi",
+      "name": "John Hunyadi",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Engineering",
+        "Polyvalence",
+        "Soutien"
+      ],
+      "role": "Soutien",
+      "tier": "B",
+      "firstTalent": "Well Fortified",
+      "trees": [
+        {
+          "name": "Engineering",
+          "path": [
+            "Well Fortified (3/3)",
+            "Reinforced Firepower (3/3)",
+            "Will to Power (3/3)",
+            "Strength in Unity (3/3)",
+            "Swift Maneuvers (3/3)",
+            "Defensive Maneuvers (4/4)",
+            "Cornered Fox Technique (4/4)",
+            "Forbearance (5/5)"
+          ]
+        },
+        {
+          "name": "Soutien",
+          "path": [
+            "Burning Blood (3/3)",
+            "Hasty Departure (3/3)",
+            "Loose Formation (3/3)",
+            "Expert Design (3/3)",
+            "Rejuvenate (2/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Raven's Wings » (active) à 5 en premier, puis « Sword in the Sky » → « Shield of Belgrade » → « Knight of the Noon Bell », enfin « Glory Eternal » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "John Hunyadi is a legendary commander with the Engineering, Versatility and Support talent trees. The preferred troop type is siege. Typical use: field. In the game, Lilith recommends pairing with Stephen III.",
+      "pairings": [
+        "stephen-iii"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Raven's Wings",
+          "type": "Active"
+        },
+        {
+          "name": "Sword in the Sky",
+          "type": "Passive"
+        },
+        {
+          "name": "Shield of Belgrade",
+          "type": "Passive"
+        },
+        {
+          "name": "Knight of the Noon Bell",
+          "type": "Passive"
+        },
+        {
+          "name": "Glory Eternal",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "john-hunyadi",
+      "grades": {
+        "overall": "B+",
+        "field": "n/a",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        16,
+        10,
+        14
+      ],
+      "build": {
+        "id": "official-61",
+        "name": "John Hunyadi Ranged",
+        "points": {
+          "1401": 1,
+          "1402": 3,
+          "1403": 3,
+          "1404": 3,
+          "1405": 3,
+          "1407": 3,
+          "1408": 2,
+          "1409": 1,
+          "1412": 1,
+          "1413": 3,
+          "1416": 2,
+          "1418": 2,
+          "1601": 1,
+          "1602": 2,
+          "1603": 2,
+          "1604": 2,
+          "1605": 3,
+          "1606": 3,
+          "1607": 3,
+          "1608": 3,
+          "1609": 1,
+          "1610": 2,
+          "1611": 1,
+          "1612": 2,
+          "1613": 3,
+          "1614": 2,
+          "1616": 2,
+          "1617": 2,
+          "1618": 4,
+          "1619": 4,
+          "1620": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 900,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 40,
+        "healFactor": 0,
+        "selfAttack": 30,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 30,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Raven's Wings",
+        "tags": [
+          "damage",
+          "rage"
+        ],
+        "summary": "dégâts monocible · buff attaque · rage"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 0,
+        "support": 1.5,
+        "utility": 0.4,
+        "secondary": 0,
+        "role": "damage",
+        "score": 11.4,
+        "tags": [
+          "damage",
+          "rage"
+        ],
+        "summary": "dégâts monocible · buff attaque · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "stephen-iii",
+          "name": "John Hunyadi Ranged",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Siege",
+          "description": "While in ranged mode, John Hunyadi's bonuses to ranged skill damage and his Glory Eternal skill greatly enhance the damage and frequency of this duo's active skills."
+        }
+      ]
+    },
+    {
+      "id": "justinian-i",
+      "name": "Justinian I",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Conquête",
+        "Soutien"
+      ],
+      "role": "Soutien",
+      "tier": "A",
+      "firstTalent": "Dragon Saber",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Dragon Saber (3/3)",
+            "Charge (3/3)",
+            "Galea (3/3)",
+            "Undying Fury (3/3)"
+          ]
+        },
+        {
+          "name": "Conquête",
+          "path": [
+            "Buckler Shield (3/3)",
+            "Moment Of Triumph (3/3)",
+            "Entrenched (3/3)"
+          ]
+        },
+        {
+          "name": "Soutien",
+          "path": [
+            "Burning Blood (3/3)",
+            "Hasty Departure (3/3)",
+            "Elixir (3/3)",
+            "Loose Formation (3/3)",
+            "Rejuvenate (2/3)",
+            "Emergency Protection (1/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Light of Rome » (active) à 5 en premier, puis « Renovatio Imperii » → « Corpus Juris Civilis » → « Restless Emperor », enfin « Sleepless Emperor » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Justinian I is a legendary commander with the Cavalry, Conquering and Support talent trees. The preferred troop type is cavalry. Typical use: rally, field. In the game, Lilith recommends pairing with Alexander Nevsky, Belisarius (Prime).",
+      "pairings": [
+        "alexander-nevsky",
+        "belisaire"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Light of Rome",
+          "type": "Active"
+        },
+        {
+          "name": "Renovatio Imperii",
+          "type": "Passive"
+        },
+        {
+          "name": "Corpus Juris Civilis",
+          "type": "Passive"
+        },
+        {
+          "name": "Restless Emperor",
+          "type": "Passive"
+        },
+        {
+          "name": "Sleepless Emperor",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "justinian-i",
+      "grades": {
+        "overall": "A",
+        "field": "A+",
+        "rally": "S",
+        "garrison": "B+",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        6,
+        14
+      ],
+      "build": {
+        "id": "official-67",
+        "name": "More the Merrier",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "307": 3,
+          "308": 3,
+          "310": 3,
+          "311": 1,
+          "314": 2,
+          "316": 3,
+          "601": 1,
+          "602": 3,
+          "604": 3,
+          "605": 3,
+          "611": 3,
+          "614": 2,
+          "616": 3,
+          "1401": 1,
+          "1402": 3,
+          "1403": 3,
+          "1404": 3,
+          "1405": 3,
+          "1406": 3,
+          "1407": 3,
+          "1408": 2,
+          "1411": 2,
+          "1412": 1,
+          "1415": 1,
+          "1416": 2,
+          "1417": 2,
+          "1418": 2,
+          "1419": 1
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 2500,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 5,
+        "healFactor": 0,
+        "selfAttack": 15,
+        "selfDefense": 30,
+        "selfHealth": 20,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 30,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Light of Rome",
+        "tags": [
+          "damage",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · debuff"
+      },
+      "combat": {
+        "damage": 10.8,
+        "tank": 7.1,
+        "support": 3.5,
+        "utility": 4,
+        "secondary": 0,
+        "role": "damage",
+        "score": 21.9,
+        "tags": [
+          "damage",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · debuff"
+      },
+      "officialPairings": [
+        {
+          "partner": "alexander-nevsky",
+          "name": "More the Merrier",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Cavalry",
+          "description": "Sleepless Emperor and Hero of Peipus are both enhanced when the enemy is surrounded, making this duo perfect for launching a coordinated attack against a stronghold."
+        },
+        {
+          "partner": "belisarius-prime",
+          "name": "Roman Reconquerors",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Cavalry",
+          "description": "Belisarius's Roman Devotionincreases damage dealt based on the number of troops surrounding the target. Justinian's Light of Rome increases the number of troops surrounding the target. You do the math."
+        }
+      ]
+    },
+    {
+      "id": "k-inich-janaab-pakal",
+      "name": "Kʼinich Janaabʼ Pakal",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Conquête",
+        "Défense"
+      ],
+      "role": "Tank / garnison",
+      "tier": "C",
+      "firstTalent": "Undying Fury",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (3/3)",
+            "Hold The Line (4/4)"
+          ]
+        },
+        {
+          "name": "Conquête",
+          "path": [
+            "Buckler Shield (1/3)"
+          ]
+        },
+        {
+          "name": "Défense",
+          "path": [
+            "Spiked Armor (3/3)",
+            "Master Armorer (3/3)",
+            "Medicinal Supplies (3/3)",
+            "Burning Blood (3/3)",
+            "Balance (3/3)",
+            "No Weaknesses (3/3)",
+            "Loose Formation (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Balanced Strategy » (active) à 5 en premier, puis « Ruler of Palenque » → « Divine Sovereignty » → « Holy Tree's Blessings », enfin « Mayan Strength » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Kʼinich Janaabʼ Pakal is a legendary commander with the Infantry, Conquering and Defense talent trees. The preferred troop type is infantry. Typical use: rally, field. In the game, Lilith recommends pairing with Harald Sigurdsson.",
+      "pairings": [
+        "harald-sigurdsson"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Balanced Strategy",
+          "type": "Active"
+        },
+        {
+          "name": "Ruler of Palenque",
+          "type": "Passive"
+        },
+        {
+          "name": "Divine Sovereignty",
+          "type": "Passive"
+        },
+        {
+          "name": "Holy Tree's Blessings",
+          "type": "Passive"
+        },
+        {
+          "name": "Mayan Strength",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "k-inich-janaab-pakal",
+      "grades": {
+        "overall": "C+",
+        "field": "A",
+        "rally": "A",
+        "garrison": "F",
+        "canyon": "A+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        6,
+        13
+      ],
+      "build": {
+        "id": "official-46",
+        "name": "Pakal Conquest",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 3,
+          "113": 2,
+          "118": 4,
+          "601": 1,
+          "602": 3,
+          "604": 1,
+          "1301": 1,
+          "1302": 3,
+          "1303": 3,
+          "1304": 3,
+          "1305": 3,
+          "1306": 3,
+          "1307": 3,
+          "1308": 3,
+          "1310": 2,
+          "1311": 3,
+          "1312": 1,
+          "1314": 3,
+          "1315": 1,
+          "1317": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1300,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 40,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 10,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 5,
+        "teamDefense": 0,
+        "teamHealth": 30,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 15,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": true,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Balanced Strategy",
+        "tags": [
+          "damage",
+          "support",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buffs d’équipe · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 9.8,
+        "tank": 6.9,
+        "support": 4.4,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 19.6,
+        "tags": [
+          "damage",
+          "support",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buffs d’équipe · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "harald-sigurdsson",
+          "name": "Pakal Conquest",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Infantry",
+          "description": "Woe to any enemies that try to surround this pair. Holy Tree's Blessings greatly reduces their troop's damage taken, while Berserker and Valhalla grant them a ton of extra firepower. They're a prime option to lead your easily-flanked rallied armies."
+        }
+      ]
+    },
+    {
+      "id": "lapulapu",
+      "name": "Lapulapu",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Garnison",
+        "Compétence"
+      ],
+      "role": "Tank / garnison",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Blade of Mactan » (active) à 5 en premier, puis « Rise Against » → « Heart of a Datu » → « Situational Awareness ». Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Lapulapu is a legendary commander with the Leadership, Garrison and Skill talent trees. The talent trees are not tied to one troop type. Typical use: garrison, field.",
+      "pairings": [],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Blade of Mactan",
+          "type": "Active"
+        },
+        {
+          "name": "Rise Against",
+          "type": "Passive"
+        },
+        {
+          "name": "Heart of a Datu",
+          "type": "Passive"
+        },
+        {
+          "name": "Situational Awareness",
+          "type": "Passive"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "lapulapu",
+      "grades": {
+        "overall": "C+",
+        "field": "C",
+        "rally": "C",
+        "garrison": "B+",
+        "canyon": "D"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [],
+      "build": null
+    },
+    {
+      "id": "liu-che",
+      "name": "Liu Che",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Polyvalence",
+        "Attaque"
+      ],
+      "role": "Dégâts infanterie",
+      "tier": "S",
+      "firstTalent": "Call of the Pack",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Strong of Body (3/3)",
+            "Elite Soldiers (2/5)",
+            "Fleet Of Foot (3/3)",
+            "Hold The Line (4/4)",
+            "Snare of Thorns (4/4)"
+          ]
+        },
+        {
+          "name": "Attaque",
+          "path": [
+            "Lord of War (3/3)",
+            "Burning Blood (3/3)",
+            "Armored Joints (3/3)",
+            "Fight To The Death (3/3)",
+            "Martial Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Glory of Shizong » (active) à 5 en premier, puis « Mighty Pen, Mighty Sword » → « Overawing Presence » → « Expansionist », enfin « Above All Kings » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Liu Che is a legendary commander with the Infantry, Versatility and Attack talent trees. The preferred troop type is infantry. Typical use: field, rally. In the game, Lilith recommends pairing with Sargon the Great, Vercingetorix, William Wallace.",
+      "pairings": [
+        "sargon-the-great",
+        "vercingetorix",
+        "william-wallace",
+        "bai-qi"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Glory of Shizong",
+          "type": "Active"
+        },
+        {
+          "name": "Mighty Pen, Mighty Sword",
+          "type": "Passive"
+        },
+        {
+          "name": "Overawing Presence",
+          "type": "Passive"
+        },
+        {
+          "name": "Expansionist",
+          "type": "Passive"
+        },
+        {
+          "name": "Above All Kings",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "liu-che",
+      "grades": {
+        "overall": "S",
+        "field": "S+",
+        "rally": "A",
+        "garrison": "B+",
+        "canyon": "S"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        10,
+        12
+      ],
+      "build": {
+        "id": "official-48",
+        "name": "Liu Che Field",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 3,
+          "113": 2,
+          "114": 2,
+          "115": 2,
+          "116": 3,
+          "118": 4,
+          "119": 4,
+          "1201": 1,
+          "1202": 3,
+          "1203": 3,
+          "1204": 3,
+          "1205": 3,
+          "1207": 3,
+          "1208": 1,
+          "1209": 3,
+          "1211": 1,
+          "1212": 3,
+          "1213": 2,
+          "1215": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 2250,
+        "aoe": true,
+        "targets": 5,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 20,
+        "selfDefense": 20,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 10,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Glory of Shizong",
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · debuff"
+      },
+      "combat": {
+        "damage": 11.5,
+        "tank": 3.3,
+        "support": 0.7,
+        "utility": 2.3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 16.1,
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · debuff"
+      },
+      "officialPairings": [
+        {
+          "partner": "sargon-the-great",
+          "name": "Liu Che Field",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Multi",
+          "description": "Liu Che's combo attacks can trigger Sargon's Sar Kissatim skill. The Slow effect from Glory of Shizong keeps enemies from running too far, ensuring Sar Kissatim can deal as much damage as possible."
+        },
+        {
+          "partner": "vercingetorix",
+          "name": "Earth Shaker",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "As an infantry commander who mainly relies on smite damage and combo attack damage for damage output, Liu Che can fully utilize Vercingetorix's buffs to normal damage, smite damage, and combo attack damage."
+        },
+        {
+          "partner": "william-wallace",
+          "name": "William Wallace Smite",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "William Wallace's Smite talent tree, when combined with Arch formation, greatly enhances the smite damage of Liu Che's Glory of Shizong."
+        },
+        {
+          "partner": "bai-qi",
+          "name": "Qin-Han Reconciliation",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "The one-two punch of Bai Qi's Let Heaven and Earth Grieve and Liu Che's Glory of Shizong lets them clear the field with massive AoE smite damage."
+        },
+        {
+          "partner": "gorgo",
+          "name": "Gorgo Smite",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Infantry",
+          "description": "Gorgo's Queen of Sparta skill has a relatively low Rage requirement. Pair it with Liu Che's Glory of Shizong to lay down massive smite damage in short order."
+        },
+        {
+          "partner": "yi-to",
+          "name": "Conquest of Kings",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "Yi To accumulates Shatter through basic attacks and can trigger periodic AoE smite damage when paired with Liu Che. Yi To's counterattack mechanics can also benefit from Liu Che's bonuses to normal damage, further amplifying the duo's consistent damage output."
+        }
+      ]
+    },
+    {
+      "id": "lu-bu",
+      "name": "Lu Bu",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Conquête",
+        "Compétence"
+      ],
+      "role": "Nuke polyvalent",
+      "tier": "B",
+      "firstTalent": "Armed To The Teeth",
+      "trees": [
+        {
+          "name": "Leadership",
+          "path": [
+            "Armed To The Teeth (2/3)",
+            "Strategic Prowess (4/4)",
+            "Fresh Recruits (3/3)",
+            "Hidden Wrath (3/3)",
+            "Healing Herbs (3/3)"
+          ]
+        },
+        {
+          "name": "Conquête",
+          "path": [
+            "Moment Of Triumph (1/3)",
+            "Buckler Shield (1/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (2/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Sky Piercer » (active) à 5 en premier, puis « Horse of Horses » → « Man of Men » → « Flying General », enfin « Sky Scorcher » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Lu Bu is a legendary commander with the Leadership, Conquering and Skill talent trees. The talent trees are not tied to one troop type. Typical use: rally, field. In the game, Lilith recommends pairing with Diaochan.",
+      "pairings": [
+        "diaochan"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Sky Piercer",
+          "type": "Active"
+        },
+        {
+          "name": "Horse of Horses",
+          "type": "Passive"
+        },
+        {
+          "name": "Man of Men",
+          "type": "Passive"
+        },
+        {
+          "name": "Flying General",
+          "type": "Passive"
+        },
+        {
+          "name": "Sky Scorcher",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "lu-bu",
+      "grades": {
+        "overall": "D+",
+        "field": "C",
+        "rally": "D+",
+        "garrison": "F",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        6,
+        11
+      ],
+      "build": {
+        "id": "official-65",
+        "name": "Beauty and the Beast",
+        "points": {
+          "501": 1,
+          "502": 3,
+          "503": 2,
+          "504": 2,
+          "505": 3,
+          "506": 2,
+          "508": 3,
+          "509": 3,
+          "512": 2,
+          "513": 2,
+          "515": 2,
+          "517": 4,
+          "601": 1,
+          "602": 3,
+          "604": 1,
+          "605": 1,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 2,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1000,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 10,
+        "healFactor": 0,
+        "selfAttack": 80,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Sky Piercer",
+        "tags": [
+          "damage",
+          "aoe"
+        ],
+        "summary": "dégâts AoE · buff attaque"
+      },
+      "combat": {
+        "damage": 11.5,
+        "tank": 0,
+        "support": 1.5,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 12.7,
+        "tags": [
+          "damage",
+          "aoe"
+        ],
+        "summary": "dégâts AoE · buff attaque"
+      },
+      "officialPairings": [
+        {
+          "partner": "diaochan",
+          "name": "Beauty and the Beast",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Multi",
+          "description": "While Diaochan is in his troop, Lu Bu's Man of Men skill grants a massive bonus to Attack."
+        }
+      ]
+    },
+    {
+      "id": "margaret-i",
+      "name": "Margaret I",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Engineering",
+        "Polyvalence",
+        "Soutien"
+      ],
+      "role": "Soutien",
+      "tier": "C",
+      "firstTalent": "Well Fortified",
+      "trees": [
+        {
+          "name": "Engineering",
+          "path": [
+            "Well Fortified (3/3)",
+            "Reinforced Firepower (3/3)",
+            "Will to Power (3/3)",
+            "Strength in Unity (3/3)",
+            "Swift Maneuvers (3/3)",
+            "Defensive Maneuvers (4/4)",
+            "Cornered Fox Technique (4/4)",
+            "Forbearance (5/5)"
+          ]
+        },
+        {
+          "name": "Soutien",
+          "path": [
+            "Burning Blood (3/3)",
+            "Hasty Departure (3/3)",
+            "Loose Formation (3/3)",
+            "Expert Design (3/3)",
+            "Rejuvenate (2/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Semiramis of the North » (active) à 5 en premier, puis « Conqueror Queen » → « Iron Hand, Velvet Glove » → « Obedience is Power », enfin « The Kalmar Union » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Margaret I is a legendary commander with the Engineering, Versatility and Support talent trees. The preferred troop type is siege. Typical use: field. In the game, Lilith recommends pairing with Babur.",
+      "pairings": [
+        "babur"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Semiramis of the North",
+          "type": "Active"
+        },
+        {
+          "name": "Conqueror Queen",
+          "type": "Passive"
+        },
+        {
+          "name": "Iron Hand, Velvet Glove",
+          "type": "Passive"
+        },
+        {
+          "name": "Obedience is Power",
+          "type": "Passive"
+        },
+        {
+          "name": "The Kalmar Union",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "margaret-i",
+      "grades": {
+        "overall": "C+",
+        "field": "B",
+        "rally": "F",
+        "garrison": "F",
+        "canyon": "D"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        16,
+        10,
+        14
+      ],
+      "build": {
+        "id": "official-59",
+        "name": "Margaret I Ranged",
+        "points": {
+          "1401": 1,
+          "1402": 3,
+          "1403": 3,
+          "1404": 3,
+          "1405": 3,
+          "1407": 3,
+          "1408": 2,
+          "1409": 1,
+          "1412": 1,
+          "1413": 3,
+          "1416": 2,
+          "1418": 2,
+          "1601": 1,
+          "1602": 2,
+          "1603": 2,
+          "1604": 2,
+          "1605": 3,
+          "1606": 3,
+          "1607": 3,
+          "1608": 3,
+          "1609": 1,
+          "1610": 2,
+          "1611": 1,
+          "1612": 2,
+          "1613": 3,
+          "1614": 2,
+          "1616": 2,
+          "1617": 2,
+          "1618": 4,
+          "1619": 4,
+          "1620": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 600,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 5,
+        "healFactor": 500,
+        "selfAttack": 20,
+        "selfDefense": 10,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Semiramis of the North",
+        "tags": [
+          "damage",
+          "heal",
+          "tank"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 5.1,
+        "tank": 2.5,
+        "support": 2.2,
+        "utility": 1.3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 9.8,
+        "tags": [
+          "damage",
+          "heal",
+          "tank"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "babur",
+          "name": "Margaret I Ranged",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Siege",
+          "description": "The Expert Design talent in the Support talent tree grants major bonuses to siege unit attributes. Paired with V formation, it allows siege units to rain heavy damage from afar."
+        }
+      ]
+    },
+    {
+      "id": "mary-i",
+      "name": "Mary I",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Engineering",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Nuke polyvalent",
+      "tier": "B",
+      "firstTalent": "Well Fortified",
+      "trees": [
+        {
+          "name": "Engineering",
+          "path": [
+            "Well Fortified (3/3)",
+            "Reinforced Firepower (3/3)",
+            "Will to Power (3/3)",
+            "Strength in Unity (3/3)",
+            "Swift Maneuvers (3/3)",
+            "Defensive Maneuvers (4/4)",
+            "Cornered Fox Technique (4/4)",
+            "Forbearance (5/5)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Burning Blood (3/3)",
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Tactical Mastery (3/3)",
+            "Rejuvenate (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Fidei Defensatrix » (active) à 5 en premier, puis « Back Into the Fold » → « Tudor Cannons » → « Iron Queen », enfin « Fire and Faith » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Mary I is a legendary commander with the Engineering, Versatility and Skill talent trees. The preferred troop type is siege. Typical use: field. In the game, Lilith recommends pairing with Archimedes.",
+      "pairings": [
+        "archimedes"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Fidei Defensatrix",
+          "type": "Active"
+        },
+        {
+          "name": "Back Into the Fold",
+          "type": "Passive"
+        },
+        {
+          "name": "Tudor Cannons",
+          "type": "Passive"
+        },
+        {
+          "name": "Iron Queen",
+          "type": "Passive"
+        },
+        {
+          "name": "Fire and Faith",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "mary-i",
+      "grades": {},
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        16,
+        10,
+        11
+      ],
+      "build": {
+        "id": "official-96",
+        "name": "The Queen and the Mathematician",
+        "points": {
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1113": 2,
+          "1114": 2,
+          "1117": 3,
+          "1601": 1,
+          "1602": 2,
+          "1603": 2,
+          "1604": 2,
+          "1605": 3,
+          "1606": 3,
+          "1607": 3,
+          "1608": 3,
+          "1609": 1,
+          "1610": 2,
+          "1611": 1,
+          "1612": 2,
+          "1613": 3,
+          "1614": 2,
+          "1616": 2,
+          "1617": 2,
+          "1618": 4,
+          "1619": 4,
+          "1620": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 450,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 20,
+        "selfDefense": 10,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 10,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 10,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Fidei Defensatrix",
+        "tags": [
+          "damage",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · debuff"
+      },
+      "combat": {
+        "damage": 5.8,
+        "tank": 1.3,
+        "support": 0.7,
+        "utility": 1.7,
+        "secondary": 0,
+        "role": "damage",
+        "score": 8.3,
+        "tags": [
+          "damage",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · debuff"
+      },
+      "officialPairings": [
+        {
+          "partner": "archimedes",
+          "name": "The Queen and the Mathematician",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Siege",
+          "description": "Mary I's Iron Fist and Archimedes's Moment of Force help this team deal large amounts of ranged skill damage."
+        }
+      ]
+    },
+    {
+      "id": "matthias-i",
+      "name": "Matthias I",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Garnison",
+        "Attaque"
+      ],
+      "role": "Tank / garnison",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Let Others Make War » (active) à 5 en premier, puis « Black Army » → « Bibliotheca Corviniana » → « Shield of Hungary », enfin « Matthias the Just » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Matthias I is a legendary commander with the Leadership, Garrison and Attack talent trees. The talent trees are not tied to one troop type. Typical use: garrison, field.",
+      "pairings": [],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Let Others Make War",
+          "type": "Active"
+        },
+        {
+          "name": "Black Army",
+          "type": "Passive"
+        },
+        {
+          "name": "Bibliotheca Corviniana",
+          "type": "Passive"
+        },
+        {
+          "name": "Shield of Hungary",
+          "type": "Passive"
+        },
+        {
+          "name": "Matthias the Just",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "matthias-i",
+      "grades": {
+        "overall": "B",
+        "field": "B+",
+        "rally": "A",
+        "garrison": "S+",
+        "canyon": "B+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        7,
+        12
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 15,
+        "selfDefense": 15,
+        "selfHealth": 10,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 0,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "",
+        "tags": [
+          "tank",
+          "garnison"
+        ],
+        "summary": "buff attaque · tank · garnison"
+      },
+      "combat": {
+        "damage": 2.8,
+        "tank": 6.5,
+        "support": 1.5,
+        "utility": 0,
+        "secondary": 0,
+        "role": "tank",
+        "score": 9.8,
+        "tags": [
+          "tank",
+          "garnison"
+        ],
+        "summary": "buff attaque · tank · garnison"
+      }
+    },
+    {
+      "id": "moctezuma-i",
+      "name": "Moctezuma I",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Maintien de la paix",
+        "Compétence"
+      ],
+      "role": "Farm barbares",
+      "tier": "D",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Land of the Prickly » (active) à 5 en premier, puis « Flower War » → « Jaguar Warrior » → « Triple Alliance », enfin « Worship the Divine » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Moctezuma I is a legendary commander with the Leadership, Peacekeeping and Skill talent trees. The talent trees are not tied to one troop type. Typical use: barbarians, field.",
+      "pairings": [],
+      "usage": [
+        "barbares",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Land of the Prickly",
+          "type": "Active"
+        },
+        {
+          "name": "Flower War",
+          "type": "Passive"
+        },
+        {
+          "name": "Jaguar Warrior",
+          "type": "Passive"
+        },
+        {
+          "name": "Triple Alliance",
+          "type": "Passive"
+        },
+        {
+          "name": "Worship the Divine",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "moctezuma-i",
+      "grades": {
+        "overall": "D",
+        "field": "D+",
+        "rally": "D",
+        "garrison": "F",
+        "canyon": "C"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        8,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1400,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 700,
+        "selfAttack": 20,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 10,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Land of the Prickly",
+        "tags": [
+          "damage",
+          "heal",
+          "tank"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque"
+      },
+      "combat": {
+        "damage": 10.2,
+        "tank": 3.3,
+        "support": 2.5,
+        "utility": 0.7,
+        "secondary": 0,
+        "role": "damage",
+        "score": 15.4,
+        "tags": [
+          "damage",
+          "heal",
+          "tank"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque"
+      }
+    },
+    {
+      "id": "nebuchadnezzar-ii",
+      "name": "Nebuchadnezzar II",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Conquête",
+        "Compétence"
+      ],
+      "role": "Nuke archers",
+      "tier": "B",
+      "firstTalent": "Rapid Fire",
+      "trees": [
+        {
+          "name": "Archers",
+          "path": [
+            "Rapid Fire (3/3)",
+            "Razor Sharp (3/3)",
+            "Venomous Sting (4/4)",
+            "Armed And Armored (3/3)",
+            "Arrows Nocked (3/3)",
+            "Thumb Ring (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Babylonian » (active) à 5 en premier, puis « Chaldean Archers » → « Blessing of Marduk » → « Destroyer of Carchemish », enfin « King of Babylon » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Nebuchadnezzar II is a legendary commander with the Archer, Conquering and Skill talent trees. The preferred troop type is archers. Typical use: rally, field. In the game, Lilith recommends pairing with Gilgamesh.",
+      "pairings": [
+        "gilgamesh"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Babylonian",
+          "type": "Active"
+        },
+        {
+          "name": "Chaldean Archers",
+          "type": "Passive"
+        },
+        {
+          "name": "Blessing of Marduk",
+          "type": "Passive"
+        },
+        {
+          "name": "Destroyer of Carchemish",
+          "type": "Passive"
+        },
+        {
+          "name": "King of Babylon",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "nebuchadnezzar-ii",
+      "grades": {
+        "overall": "B+",
+        "field": "A+",
+        "rally": "A+",
+        "garrison": "F",
+        "canyon": "A+"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        6,
+        11
+      ],
+      "build": {
+        "id": "official-38",
+        "name": "Nebuchadnezzar II Conquest",
+        "points": {
+          "201": 1,
+          "202": 2,
+          "203": 2,
+          "205": 3,
+          "206": 3,
+          "207": 3,
+          "208": 3,
+          "209": 1,
+          "211": 2,
+          "212": 3,
+          "213": 3,
+          "216": 1,
+          "217": 1,
+          "219": 4,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1500,
+        "aoe": true,
+        "targets": 5,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 15,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 30,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Babylonian",
+        "tags": [
+          "damage",
+          "aoe",
+          "tank"
+        ],
+        "summary": "dégâts AoE · tank"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 5.3,
+        "support": 1.5,
+        "utility": 1,
+        "secondary": 0,
+        "role": "damage",
+        "score": 18.4,
+        "tags": [
+          "damage",
+          "aoe",
+          "tank"
+        ],
+        "summary": "dégâts AoE · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "gilgamesh",
+          "name": "Nebuchadnezzar II Conquest",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Archers",
+          "description": "The Blood Craving effect inflicted by Gilgamesh's Enkidu's Path and Demigod allows him to easily contain healing-focused garrison commanders like Zenobia, Constantine I, and Choe Yeong."
+        }
+      ]
+    },
+    {
+      "id": "pelagius-legendary",
+      "name": "Pelagius (Legendary)",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Garnison",
+        "Soutien"
+      ],
+      "role": "Tank / garnison",
+      "tier": "B",
+      "firstTalent": "Undying Fury",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Undying Fury (2/3)",
+            "Dragon Saber (3/3)",
+            "Galea (3/3)",
+            "Emblazoned Shield (4/4)",
+            "Charge (1/3)"
+          ]
+        },
+        {
+          "name": "Garnison",
+          "path": [
+            "Impregnable (3/3)",
+            "Impenetrable Fortifications (3/3)",
+            "Empty Fortress Stratagem (3/3)"
+          ]
+        },
+        {
+          "name": "Soutien",
+          "path": [
+            "Loose Formation (3/3)",
+            "Emergency Protection (3/3)",
+            "Hasty Departure (3/3)",
+            "Burning Blood (3/3)",
+            "Rejuvenate (2/3)",
+            "Elixir (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Reconquista » (active) à 5 en premier, puis « Mountain Monarch » → « Rough Terrain » → « Covadonga Victory », enfin « Reclaimed Soil » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Pelagius (Legendary) is a legendary commander with the Cavalry, Garrison and Support talent trees. The preferred troop type is cavalry. Typical use: garrison, field. In the game, Lilith recommends pairing with Minamoto no Yoshitsune.",
+      "pairings": [
+        "minamoto"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Reconquista",
+          "type": "Active"
+        },
+        {
+          "name": "Mountain Monarch",
+          "type": "Passive"
+        },
+        {
+          "name": "Rough Terrain",
+          "type": "Passive"
+        },
+        {
+          "name": "Covadonga Victory",
+          "type": "Passive"
+        },
+        {
+          "name": "Reclaimed Soil",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "pelagius-legendary",
+      "grades": {
+        "overall": "B+",
+        "field": "n/a",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        7,
+        14
+      ],
+      "build": {
+        "id": "official-122",
+        "name": "Pelagius Garrison",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "307": 1,
+          "308": 3,
+          "309": 1,
+          "310": 3,
+          "311": 1,
+          "314": 2,
+          "316": 2,
+          "318": 4,
+          "701": 1,
+          "703": 3,
+          "704": 2,
+          "705": 3,
+          "706": 1,
+          "710": 3,
+          "1401": 1,
+          "1402": 3,
+          "1403": 3,
+          "1404": 3,
+          "1405": 3,
+          "1406": 3,
+          "1407": 3,
+          "1408": 2,
+          "1411": 2,
+          "1412": 1,
+          "1415": 1,
+          "1416": 2,
+          "1417": 2,
+          "1418": 2,
+          "1419": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1000,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 20,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 20,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 50,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Reconquista",
+        "tags": [
+          "damage",
+          "aoe",
+          "tank",
+          "rage",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · tank · rage · garnison"
+      },
+      "combat": {
+        "damage": 10.4,
+        "tank": 4,
+        "support": 1.5,
+        "utility": 1.6,
+        "secondary": 0,
+        "role": "damage",
+        "score": 16,
+        "tags": [
+          "damage",
+          "aoe",
+          "tank",
+          "rage",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · tank · rage · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "minamoto-no-yoshitsune",
+          "name": "Pelagius Garrison",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Cavalry",
+          "description": "One of the few garrison-focused Legendary cavalry commanders obtainable early on in the game, Pelagius can combine garrison talents and his Rough Terrain skill to effectively defend strongholds with cavalry units."
+        }
+      ]
+    },
+    {
+      "id": "pepin-iii",
+      "name": "Pepin III",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Récolte",
+        "Soutien"
+      ],
+      "role": "Récolte",
+      "tier": "B",
+      "firstTalent": "Call of the Pack",
+      "trees": [
+        {
+          "name": "Intégration",
+          "path": [
+            "Call of the Pack (3/3)",
+            "Defensive Formation (3/3)",
+            "Fresh Recruits (3/3)",
+            "Armored To The Teeth (4/4)"
+          ]
+        },
+        {
+          "name": "Récolte",
+          "path": [
+            "Gathering Mastery (Wood) (3/3)",
+            "Gathering Mastery (Food) (3/3)",
+            "Gathering Mastery (Stone) (3/3)",
+            "Gathering Mastery (Gold) (3/3)",
+            "Modified Axle (3/3)",
+            "Tourniquet (3/3)",
+            "Armed Convoy (3/3)",
+            "The More The Better (3/3)",
+            "Superior Tools (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Papal Anointment » (active) à 5 en premier, puis « First Carolingian » → « Lombard Expedition » → « Patricius Romanorum », enfin « Donation of Pepin » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Pepin III is a legendary commander with the Integration, Gathering and Support talent trees. The talent trees are not tied to one troop type. Typical use: gathering, field. In the game, Lilith recommends pairing with Queen Tamar of Georgia.",
+      "pairings": [
+        "queen-tamar-of-georgia"
+      ],
+      "usage": [
+        "recolte",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Papal Anointment",
+          "type": "Active"
+        },
+        {
+          "name": "First Carolingian",
+          "type": "Passive"
+        },
+        {
+          "name": "Lombard Expedition",
+          "type": "Passive"
+        },
+        {
+          "name": "Patricius Romanorum",
+          "type": "Passive"
+        },
+        {
+          "name": "Donation of Pepin",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "pepin-iii",
+      "grades": {
+        "overall": "G",
+        "field": "n/a",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Coiffe de moissonneur",
+        "Robe de moissonneur",
+        "Sceptre du gardien de la forêt",
+        "Gants de moissonneur",
+        "Pantalon de moissonneur",
+        "Bottes de moissonneur"
+      ],
+      "treeIds": [
+        4,
+        9,
+        14
+      ],
+      "build": {
+        "id": "official-104",
+        "name": "Lumberjacks",
+        "points": {
+          "401": 1,
+          "402": 3,
+          "403": 3,
+          "404": 3,
+          "405": 3,
+          "408": 3,
+          "409": 2,
+          "410": 3,
+          "414": 1,
+          "416": 4,
+          "901": 1,
+          "902": 2,
+          "903": 2,
+          "904": 3,
+          "905": 3,
+          "906": 3,
+          "907": 3,
+          "908": 2,
+          "909": 1,
+          "910": 3,
+          "911": 3,
+          "912": 1,
+          "913": 1,
+          "914": 2,
+          "915": 1,
+          "916": 3,
+          "917": 3,
+          "918": 3,
+          "919": 3,
+          "920": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1200,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 40,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": true,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Papal Anointment",
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · tank"
+      },
+      "combat": {
+        "damage": 6,
+        "tank": 8.2,
+        "support": 1.5,
+        "utility": 0,
+        "secondary": 0,
+        "role": "tank",
+        "score": 14.6,
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "queen-tamar-of-georgia",
+          "name": "Lumberjacks",
+          "role": "primary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "If you're in need of materials for your next building project, this pair gains huge bonuses to Wood Gathering Speed."
+        }
+      ]
+    },
+    {
+      "id": "philip-ii",
+      "name": "Philip II",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Polyvalence",
+        "Soutien"
+      ],
+      "role": "Soutien",
+      "tier": "A",
+      "firstTalent": "Armed To The Teeth",
+      "trees": [
+        {
+          "name": "Leadership",
+          "path": [
+            "Armed To The Teeth (2/3)",
+            "Hidden Wrath (3/3)",
+            "Steely Soul (3/3)",
+            "Healing Herbs (3/3)",
+            "Armored To The Teeth (3/3)",
+            "Strategic Prowess (4/4)",
+            "Fresh Recruits (3/3)"
+          ]
+        },
+        {
+          "name": "Soutien",
+          "path": [
+            "Loose Formation (3/3)",
+            "Emergency Protection (2/3)",
+            "Hasty Departure (3/3)",
+            "Burning Blood (3/3)",
+            "Rejuvenate (2/3)",
+            "Elixir (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Macedonian Phalanx » (active) à 5 en premier, puis « Sarissa » → « League of Corinth » → « Conqueror of Chaeronea », enfin « Vergina Sun » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Philip II is a legendary commander with the Leadership, Versatility and Support talent trees. The talent trees are not tied to one troop type. Typical use: field. In the game, Lilith recommends pairing with Trajan, Zhuge Liang.",
+      "pairings": [
+        "trajan",
+        "zhuge-liang"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Macedonian Phalanx",
+          "type": "Active"
+        },
+        {
+          "name": "Sarissa",
+          "type": "Passive"
+        },
+        {
+          "name": "League of Corinth",
+          "type": "Passive"
+        },
+        {
+          "name": "Conqueror of Chaeronea",
+          "type": "Passive"
+        },
+        {
+          "name": "Vergina Sun",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "philip-ii",
+      "grades": {
+        "overall": "A+",
+        "field": "S",
+        "rally": "A",
+        "garrison": "A",
+        "canyon": "S"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        10,
+        14
+      ],
+      "build": {
+        "id": "official-52",
+        "name": "Philip II Field",
+        "points": {
+          "501": 1,
+          "502": 3,
+          "503": 2,
+          "504": 2,
+          "505": 3,
+          "506": 3,
+          "507": 3,
+          "508": 3,
+          "509": 3,
+          "510": 3,
+          "511": 2,
+          "512": 2,
+          "513": 2,
+          "515": 2,
+          "517": 4,
+          "1001": 1,
+          "1003": 2,
+          "1401": 1,
+          "1402": 3,
+          "1403": 3,
+          "1404": 3,
+          "1405": 3,
+          "1406": 3,
+          "1407": 3,
+          "1408": 2,
+          "1411": 2,
+          "1412": 1,
+          "1415": 1,
+          "1416": 2,
+          "1417": 2,
+          "1418": 2,
+          "1419": 2
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 800,
+        "aoe": true,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 30,
+        "healFactor": 0,
+        "selfAttack": 35,
+        "selfDefense": 35,
+        "selfHealth": 35,
+        "selfDamageReduction": 15,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 0,
+        "teamAttack": 20,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 10,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Macedonian Phalanx",
+        "tags": [
+          "damage",
+          "aoe",
+          "support",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buffs d’équipe · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 10,
+        "support": 4.4,
+        "utility": 1.3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 23.2,
+        "tags": [
+          "damage",
+          "aoe",
+          "support",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buffs d’équipe · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "trajan",
+          "name": "Philip II Field",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Multi",
+          "description": "Philip II's multi-unit damage reduction perfectly complements Trajan's multi-unit damage bonus."
+        },
+        {
+          "partner": "zhuge-liang",
+          "name": "Feint East, Strike West",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Philip II's Vergina Sun skill already makes him a great fit with most commanders, and the damage reduction from his Macedonian Phalanx greatly improves Zhuge Liang's survivability."
+        }
+      ]
+    },
+    {
+      "id": "qin-shi-huang",
+      "name": "Qin Shi Huang",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Nuke archers",
+      "tier": "S",
+      "firstTalent": "Rapid Fire",
+      "trees": [
+        {
+          "name": "Archers",
+          "path": [
+            "Rapid Fire (3/3)",
+            "Razor Sharp (3/3)",
+            "Venomous Sting (4/4)",
+            "Armed And Armored (3/3)",
+            "Arrows Nocked (3/3)",
+            "Thumb Ring (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« One Conquers Six » (active) à 5 en premier, puis « Iron Pierces Bronze » → « Thunder Shakes Earth » → « Valor Bests Despair », enfin « Seal Governs All » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Qin Shi Huang is a legendary commander with the Archer, Versatility and Skill talent trees. The preferred troop type is archers. Typical use: field. In the game, Lilith recommends pairing with Zhuge Liang, Hector.",
+      "pairings": [
+        "zhuge-liang",
+        "hector"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "One Conquers Six",
+          "type": "Active"
+        },
+        {
+          "name": "Iron Pierces Bronze",
+          "type": "Passive"
+        },
+        {
+          "name": "Thunder Shakes Earth",
+          "type": "Passive"
+        },
+        {
+          "name": "Valor Bests Despair",
+          "type": "Passive"
+        },
+        {
+          "name": "Seal Governs All",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "qin-shi-huang",
+      "grades": {
+        "overall": "S+",
+        "field": "S+",
+        "rally": "B+",
+        "garrison": "n/a",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        10,
+        11
+      ],
+      "build": {
+        "id": "official-94",
+        "name": "Qin and Han",
+        "points": {
+          "201": 1,
+          "202": 2,
+          "203": 2,
+          "205": 3,
+          "206": 3,
+          "207": 3,
+          "208": 3,
+          "209": 1,
+          "211": 2,
+          "212": 3,
+          "213": 3,
+          "216": 1,
+          "217": 1,
+          "219": 4,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 250,
+        "aoe": true,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 30,
+        "selfHealth": 20,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 500,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": true,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "One Conquers Six",
+        "tags": [
+          "aoe",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts AoE · tank · rage"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 7.1,
+        "support": 0,
+        "utility": 7.6,
+        "secondary": 0,
+        "role": "damage",
+        "score": 20.2,
+        "tags": [
+          "aoe",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts AoE · tank · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "zhuge-liang",
+          "name": "Qin and Han",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Zhuge Liang's Chu Shi Biao helps his troop maintain a healthy supply of Rage, fueling the constant Rage expenditure of Qin Shi Huang's Iron Pierces Bronze and Seal Governs All."
+        },
+        {
+          "partner": "hector",
+          "name": "Why So Mad?",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "The Rage drain from Qin Shi Huang's Seal Governs All and the Rage reduction from Hector allows them to greatly inhibit enemy troops' ability to cast active skills."
+        }
+      ]
+    },
+    {
+      "id": "ragnar-lodbrok-prime",
+      "name": "Ragnar Lodbrok (Prime)",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Nuke infanterie",
+      "tier": "A",
+      "firstTalent": "Snare of Thorns",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Snare of Thorns (4/4)",
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (2/3)",
+            "Hold The Line (4/4)",
+            "Elite Soldiers (1/5)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Clarity (2/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Raven's Call » (active) à 5 en premier, puis « Ride the Whale-Road » → « Sea-King » → « In Odin's Hall », enfin « Raven's Fury » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Ragnar Lodbrok (Prime) is a legendary commander with the Infantry, Versatility and Skill talent trees. The preferred troop type is infantry. Typical use: field. In the game, Lilith recommends pairing with Scipio Africanus (Prime).",
+      "pairings": [
+        "scipio"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Raven's Call",
+          "type": "Active"
+        },
+        {
+          "name": "Ride the Whale-Road",
+          "type": "Passive"
+        },
+        {
+          "name": "Sea-King",
+          "type": "Passive"
+        },
+        {
+          "name": "In Odin's Hall",
+          "type": "Passive"
+        },
+        {
+          "name": "Raven's Fury",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "ragnar-lodbrok-prime",
+      "grades": {
+        "overall": "A+",
+        "field": "S",
+        "rally": "B+",
+        "garrison": "B+",
+        "canyon": "S+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        10,
+        11
+      ],
+      "build": {
+        "id": "official-41",
+        "name": "Prime Ragnar Lodbrok Field",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 2,
+          "113": 2,
+          "114": 1,
+          "115": 2,
+          "118": 4,
+          "119": 4,
+          "1001": 1,
+          "1003": 2,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1113": 2,
+          "1114": 2,
+          "1116": 2,
+          "1117": 3,
+          "1119": 2
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 2200,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 40,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 10,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Raven's Call",
+        "tags": [
+          "damage",
+          "aoe",
+          "tank"
+        ],
+        "summary": "dégâts AoE · tank"
+      },
+      "combat": {
+        "damage": 11.5,
+        "tank": 5.8,
+        "support": 0,
+        "utility": 0.7,
+        "secondary": 0,
+        "role": "damage",
+        "score": 17,
+        "tags": [
+          "damage",
+          "aoe",
+          "tank"
+        ],
+        "summary": "dégâts AoE · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "scipio-africanus-prime",
+          "name": "Prime Ragnar Lodbrok Field",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "The AoE damage of Prime Ragnar Lodbrok and Prime Scipio Africanus make them a fantastic pair for clearing crowded battlefields."
+        }
+      ]
+    },
+    {
+      "id": "ramesses-ii",
+      "name": "Ramesses II",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Polyvalence",
+        "Attaque"
+      ],
+      "role": "Dégâts archers",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Ceremony of Karnak » (active) à 5 en premier, puis « The Poem of Pentaur » → « Army of Amun » → « Nefertari's Companionship », enfin « King of Kings » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Ramesses II is a legendary commander with the Archer, Versatility and Attack talent trees. The preferred troop type is archers. Typical use: field. In the game, Lilith recommends pairing with Cyrus the Great.",
+      "pairings": [
+        "cyrus"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Ceremony of Karnak",
+          "type": "Active"
+        },
+        {
+          "name": "The Poem of Pentaur",
+          "type": "Passive"
+        },
+        {
+          "name": "Army of Amun",
+          "type": "Passive"
+        },
+        {
+          "name": "Nefertari's Companionship",
+          "type": "Passive"
+        },
+        {
+          "name": "King of Kings",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "ramesses-ii",
+      "grades": {
+        "overall": "B",
+        "field": "A",
+        "rally": "B+",
+        "garrison": "F",
+        "canyon": "B+"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        10,
+        12
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1000,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 500,
+        "selfAttack": 40,
+        "selfDefense": 40,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 40,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Ceremony of Karnak",
+        "tags": [
+          "damage",
+          "heal",
+          "tank"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 10.6,
+        "tank": 6.3,
+        "support": 0.7,
+        "utility": 2.7,
+        "secondary": 0,
+        "role": "damage",
+        "score": 18.1,
+        "tags": [
+          "damage",
+          "heal",
+          "tank"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "cyrus-the-great",
+          "name": "Cyrus the Great Field",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Cyrus the Great's The Immortals skill increases an enemy's additional damage received, which in turn enhances the damage of Ramesses II's Ceremony of Karnak skill."
+        }
+      ]
+    },
+    {
+      "id": "sargon-the-great",
+      "name": "Sargon the Great",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Nuke infanterie",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Sar Kissatim » (active) à 5 en premier, puis « Standing Army » → « Conqueror of Sumer » → « Anu's Fury », enfin « Enlil's Blessings » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Sargon the Great is a legendary commander with the Infantry, Versatility and Skill talent trees. The preferred troop type is infantry. Typical use: field. In the game, Lilith recommends pairing with Liu Che.",
+      "pairings": [
+        "liu-che"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Sar Kissatim",
+          "type": "Active"
+        },
+        {
+          "name": "Standing Army",
+          "type": "Passive"
+        },
+        {
+          "name": "Conqueror of Sumer",
+          "type": "Passive"
+        },
+        {
+          "name": "Anu's Fury",
+          "type": "Passive"
+        },
+        {
+          "name": "Enlil's Blessings",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "sargon-the-great",
+      "grades": {
+        "overall": "B+",
+        "field": "A+",
+        "rally": "A+",
+        "garrison": "B+",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        10,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1000,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 3,
+        "selfDamageBonus": 10,
+        "healFactor": 0,
+        "selfAttack": 10,
+        "selfDefense": 10,
+        "selfHealth": 20,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": true,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Sar Kissatim",
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 8.4,
+        "tank": 6.8,
+        "support": 0,
+        "utility": 1,
+        "secondary": 0,
+        "role": "damage",
+        "score": 15.1,
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "liu-che",
+          "name": "Liu Che Field",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Multi",
+          "description": "Liu Che's combo attacks can trigger Sargon's Sar Kissatim skill. The Slow effect from Glory of Shizong keeps enemies from running too far, ensuring Sar Kissatim can deal as much damage as possible."
+        }
+      ]
+    },
+    {
+      "id": "scipio-aemilianus",
+      "name": "Scipio Aemilianus",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Conquête",
+        "Smite"
+      ],
+      "role": "Polyvalent",
+      "tier": "B",
+      "firstTalent": "Undying Fury",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (2/3)",
+            "Hold The Line (4/4)"
+          ]
+        },
+        {
+          "name": "Smite",
+          "path": [
+            "Thunderous Smite (5/5)",
+            "An Eye for an Eye (3/3)",
+            "Killing Blow (3/3)",
+            "Ambitious (3/3)",
+            "Enhanced Smite (3/3)",
+            "Thick Skin (3/3)",
+            "Fight or Flight (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Africanus » (active) à 5 en premier, puis « Huntmaster » → « Dawn of Rome » → « Salt the Earth », enfin « Tit for Tat » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Scipio Aemilianus is a legendary commander with the Infantry, Conquering and Smite talent trees. The preferred troop type is infantry. Typical use: rally, field. In the game, Lilith recommends pairing with Tariq ibn Ziyad, Ivar.",
+      "pairings": [
+        "tariq-ibn-ziyad",
+        "ivar"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Africanus",
+          "type": "Active"
+        },
+        {
+          "name": "Huntmaster",
+          "type": "Passive"
+        },
+        {
+          "name": "Dawn of Rome",
+          "type": "Passive"
+        },
+        {
+          "name": "Salt the Earth",
+          "type": "Passive"
+        },
+        {
+          "name": "Tit for Tat",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "scipio-aemilianus",
+      "grades": {
+        "overall": "B+",
+        "field": "A",
+        "rally": "S",
+        "garrison": "B",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        6,
+        17
+      ],
+      "build": {
+        "id": "official-44",
+        "name": "Scipio Aemilianus Conquest",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 1,
+          "111": 2,
+          "112": 2,
+          "113": 2,
+          "118": 4,
+          "1701": 1,
+          "1702": 3,
+          "1703": 3,
+          "1704": 3,
+          "1705": 1,
+          "1706": 2,
+          "1708": 1,
+          "1709": 2,
+          "1711": 2,
+          "1712": 3,
+          "1713": 1,
+          "1714": 2,
+          "1715": 3,
+          "1716": 1,
+          "1717": 1,
+          "1718": 3,
+          "1719": 3,
+          "1720": 2,
+          "1721": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 2700,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 20,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 30,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 20,
+        "enemyAttackDown": 25,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": true,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": true,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Africanus",
+        "tags": [
+          "damage",
+          "support",
+          "debuff"
+        ],
+        "summary": "dégâts monocible · buffs d’équipe · debuff · contrôle"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 0.8,
+        "support": 7.2,
+        "utility": 4.5,
+        "secondary": 0,
+        "role": "damage",
+        "score": 18.7,
+        "tags": [
+          "damage",
+          "support",
+          "debuff"
+        ],
+        "summary": "dégâts monocible · buffs d’équipe · debuff · contrôle"
+      },
+      "officialPairings": [
+        {
+          "partner": "tariq-ibn-ziyad",
+          "name": "Scipio Aemilianus Conquest",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Infantry",
+          "description": "Both these commanders take greatly reduced normal damage when attacking cities."
+        },
+        {
+          "partner": "ivar",
+          "name": "Southern Longing",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Infantry",
+          "description": "Scipio Aemilianus and Ivar can form a smite damage duo, dealing large amounts of damage during rally attacks on strongholds and cities."
+        }
+      ]
+    },
+    {
+      "id": "scipio-africanus-prime",
+      "name": "Scipio Africanus (Prime)",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Polyvalence",
+        "Soutien"
+      ],
+      "role": "Soutien",
+      "tier": "A",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Unmatched Strength » (active) à 5 en premier, puis « All-Conquering » → « Strategic Pressure » → « Testudo Formation », enfin « Fiery Rage » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Scipio Africanus (Prime) is a legendary commander with the Infantry, Versatility and Support talent trees. The preferred troop type is infantry. Typical use: field. In the game, Lilith recommends pairing with Ragnar Lodbrok (Prime), Guan Yu.",
+      "pairings": [
+        "ragnar",
+        "guan-yu"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Unmatched Strength",
+          "type": "Active"
+        },
+        {
+          "name": "All-Conquering",
+          "type": "Passive"
+        },
+        {
+          "name": "Strategic Pressure",
+          "type": "Passive"
+        },
+        {
+          "name": "Testudo Formation",
+          "type": "Passive"
+        },
+        {
+          "name": "Fiery Rage",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "scipio-africanus-prime",
+      "grades": {
+        "overall": "A+",
+        "field": "S",
+        "rally": "A",
+        "garrison": "B+",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        10,
+        14
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 2000,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 10,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 40,
+        "selfDefense": 0,
+        "selfHealth": 20,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": true,
+        "shield": true,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Unmatched Strength",
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · contrôle"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 5.6,
+        "support": 3,
+        "utility": 3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 18.9,
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · contrôle"
+      },
+      "officialPairings": [
+        {
+          "partner": "ragnar-lodbrok-prime",
+          "name": "Prime Ragnar Lodbrok Field",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "The AoE damage of Prime Ragnar Lodbrok and Prime Scipio Africanus make them a fantastic pair for clearing crowded battlefields."
+        },
+        {
+          "partner": "guan-yu",
+          "name": "Silent Fury",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "The Silence effect from Guan Yu's Saint of War keeps Scipio Africanus's Fiery Rage reliably active, allowing this pair to gain Rage faster and throw out more active skills."
+        }
+      ]
+    },
+    {
+      "id": "selim-i",
+      "name": "Selim I",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Garnison",
+        "Défense"
+      ],
+      "role": "Tank / garnison",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Prince of Trebizond » (active) à 5 en premier, puis « Bloodsworn Sovereign » → « Fall of the Mamluks » → « Servant of Holy Cities », enfin « Heavy Is the Crown » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Selim I is a legendary commander with the Infantry, Garrison and Defense talent trees. The preferred troop type is infantry. Typical use: garrison, field. In the game, Lilith recommends pairing with Tokugawa Ieyasu. Note: according to rokstats only available from 9 Nov 2026, announced as of today.",
+      "pairings": [
+        "tokugawa-ieyasu"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Prince of Trebizond",
+          "type": "Active"
+        },
+        {
+          "name": "Bloodsworn Sovereign",
+          "type": "Passive"
+        },
+        {
+          "name": "Fall of the Mamluks",
+          "type": "Passive"
+        },
+        {
+          "name": "Servant of Holy Cities",
+          "type": "Passive"
+        },
+        {
+          "name": "Heavy Is the Crown",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "selim-i",
+      "grades": {
+        "overall": "B+",
+        "field": "B+",
+        "rally": "B",
+        "garrison": "S",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        7,
+        13
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 2400,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 30,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": true,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Prince of Trebizond",
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · debuff · garnison"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 3.8,
+        "support": 2,
+        "utility": 3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 16.5,
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · debuff · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "tokugawa-ieyasu",
+          "name": "Crown of Iron Will",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Infantry",
+          "description": "Selim I and Tokugawa Ieyasu can frequently obtain shields and quickly stack up Reign, continuously enhancing counterattack damage and shield effects. When hit with basic attacks, the pair can also trigger powerful shields to counter enemies."
+        }
+      ]
+    },
+    {
+      "id": "shajar-al-durr",
+      "name": "Shajar al-Durr",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Nuke archers",
+      "tier": "A",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Tree of Life » (active) à 5 en premier, puis « Strength of the Sultana » → « Dew of Devotion » → « Braving the Danger », enfin « Pearlescent Heart » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Shajar al-Durr is a legendary commander with the Archer, Versatility and Skill talent trees. The preferred troop type is archers. Typical use: field, garrison. In the game, Lilith recommends pairing with Choe Yeong, Alp Arslan.",
+      "pairings": [
+        "choe-yeong",
+        "alp-arslan"
+      ],
+      "usage": [
+        "pvp",
+        "garnison"
+      ],
+      "skills": [
+        {
+          "name": "Tree of Life",
+          "type": "Active"
+        },
+        {
+          "name": "Strength of the Sultana",
+          "type": "Passive"
+        },
+        {
+          "name": "Dew of Devotion",
+          "type": "Passive"
+        },
+        {
+          "name": "Braving the Danger",
+          "type": "Passive"
+        },
+        {
+          "name": "Pearlescent Heart",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "shajar-al-durr",
+      "grades": {
+        "overall": "A",
+        "field": "A+",
+        "rally": "B",
+        "garrison": "B+",
+        "canyon": "S+"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        10,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 5000,
+        "selfAttack": 0,
+        "selfDefense": 10,
+        "selfHealth": 35,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 40,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 0,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "",
+        "tags": [
+          "heal",
+          "support",
+          "tank"
+        ],
+        "summary": "soin · buffs d’équipe · tank"
+      },
+      "combat": {
+        "damage": 2.3,
+        "tank": 10,
+        "support": 10,
+        "utility": 1.3,
+        "secondary": 0,
+        "role": "tank",
+        "score": 19.9,
+        "tags": [
+          "heal",
+          "support",
+          "tank"
+        ],
+        "summary": "soin · buffs d’équipe · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "choe-yeong",
+          "name": "Choe Yeong True Damage",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Archers",
+          "description": "Circle formation enhances the healing of both these commanders, which in turn increases the true damage they can deal."
+        },
+        {
+          "partner": "alp-arslan",
+          "name": "Sultan's Bloodpact",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Alp Arslan's Two-Headed Eagle skill allows true damage to trigger healing. When paired with Shajar al-Durr, the highly compatible duo can effectively manage substantial heals while dealing true damage."
+        }
+      ]
+    },
+    {
+      "id": "shapur-i",
+      "name": "Shapur I",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Conquête",
+        "Compétence"
+      ],
+      "role": "Nuke archers",
+      "tier": "B",
+      "firstTalent": "Rapid Fire",
+      "trees": [
+        {
+          "name": "Archers",
+          "path": [
+            "Rapid Fire (3/3)",
+            "Razor Sharp (3/3)",
+            "Venomous Sting (4/4)",
+            "Armed And Armored (3/3)",
+            "Arrows Nocked (3/3)",
+            "Thumb Ring (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Might of the Shahanshah » (active) à 5 en premier, puis « Humiliation of Rome » → « Blessed By the Atash » → « Stout Walls of Bishapur », enfin « Waking the Storm » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Shapur I is a legendary commander with the Archer, Conquering and Skill talent trees. The preferred troop type is archers. Typical use: rally, field. In the game, Lilith recommends pairing with Ashurbanipal.",
+      "pairings": [
+        "ashurbanipal"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Might of the Shahanshah",
+          "type": "Active"
+        },
+        {
+          "name": "Humiliation of Rome",
+          "type": "Passive"
+        },
+        {
+          "name": "Blessed By the Atash",
+          "type": "Passive"
+        },
+        {
+          "name": "Stout Walls of Bishapur",
+          "type": "Passive"
+        },
+        {
+          "name": "Waking the Storm",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "shapur-i",
+      "grades": {
+        "overall": "B+",
+        "field": "B+",
+        "rally": "S+",
+        "garrison": "n/a",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        6,
+        11
+      ],
+      "build": {
+        "id": "official-95",
+        "name": "Masters of Mesopotamia",
+        "points": {
+          "201": 1,
+          "202": 2,
+          "203": 2,
+          "205": 3,
+          "206": 3,
+          "207": 3,
+          "208": 3,
+          "209": 1,
+          "211": 2,
+          "212": 3,
+          "213": 3,
+          "216": 1,
+          "217": 1,
+          "219": 4,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 800,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 30,
+        "selfDefense": 0,
+        "selfHealth": 20,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 500,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 100,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": true,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Might of the Shahanshah",
+        "tags": [
+          "damage",
+          "support",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · rage"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 4.8,
+        "support": 2.5,
+        "utility": 8.8,
+        "secondary": 0,
+        "role": "damage",
+        "score": 22.8,
+        "tags": [
+          "damage",
+          "support",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "ashurbanipal",
+          "name": "Masters of Mesopotamia",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Archers",
+          "description": "Ashurbanipal's high skill damage can also trigger Shapur I's Blessed By the Atash, allowing this pair to easily contain stout infantry garrisons."
+        }
+      ]
+    },
+    {
+      "id": "siyaj-k-ak",
+      "name": "Siyaj K'ak'",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Conquête",
+        "Compétence"
+      ],
+      "role": "Nuke archers",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Flameborn » (active) à 5 en premier, puis « Golden Feathers » → « Herald of the Owl » → « Obsidian Light », enfin « Hunter's Patience » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Siyaj K'ak' is a legendary commander with the Archer, Conquering and Skill talent trees. The preferred troop type is archers. Typical use: rally, field. In the game, Lilith recommends pairing with El Cid.",
+      "pairings": [
+        "el-cid"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Flameborn",
+          "type": "Active"
+        },
+        {
+          "name": "Golden Feathers",
+          "type": "Passive"
+        },
+        {
+          "name": "Herald of the Owl",
+          "type": "Passive"
+        },
+        {
+          "name": "Obsidian Light",
+          "type": "Passive"
+        },
+        {
+          "name": "Hunter's Patience",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "siyaj-k-ak",
+      "grades": {
+        "overall": "B+",
+        "field": "B+",
+        "rally": "S",
+        "garrison": "B",
+        "canyon": "A"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        6,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1000,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 10,
+        "selfDamageBonus": 0,
+        "healFactor": 500,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 5,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Flameborn",
+        "tags": [
+          "damage",
+          "heal",
+          "debuff"
+        ],
+        "summary": "dégâts monocible · soin · debuff"
+      },
+      "combat": {
+        "damage": 8.1,
+        "tank": 1.3,
+        "support": 2.5,
+        "utility": 0.5,
+        "secondary": 0,
+        "role": "damage",
+        "score": 11.5,
+        "tags": [
+          "damage",
+          "heal",
+          "debuff"
+        ],
+        "summary": "dégâts monocible · soin · debuff"
+      },
+      "officialPairings": [
+        {
+          "partner": "el-cid",
+          "name": "El Cid Control",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Archers",
+          "description": "The Silence and Disarm effects from El Cid's Famous Warrior gives his troop an edge in units remaining over his opponent, triggering the effects of Siyaj K'ak's Herald of the Owl."
+        }
+      ]
+    },
+    {
+      "id": "stephen-iii",
+      "name": "Stephen III",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Engineering",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Nuke polyvalent",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Victor of Vaslui » (active) à 5 en premier, puis « No Rest for the Righteous » → « Defender of Lipnic » → « All Men Must Serve », enfin « Cosmin Forest » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Stephen III is a legendary commander with the Engineering, Versatility and Skill talent trees. The preferred troop type is siege. Typical use: field. In the game, Lilith recommends pairing with John Hunyadi.",
+      "pairings": [
+        "john-hunyadi"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Victor of Vaslui",
+          "type": "Active"
+        },
+        {
+          "name": "No Rest for the Righteous",
+          "type": "Passive"
+        },
+        {
+          "name": "Defender of Lipnic",
+          "type": "Passive"
+        },
+        {
+          "name": "All Men Must Serve",
+          "type": "Passive"
+        },
+        {
+          "name": "Cosmin Forest",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "stephen-iii",
+      "grades": {
+        "overall": "B+",
+        "field": "n/a",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        16,
+        10,
+        11
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 800,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 300,
+        "selfAttack": 2,
+        "selfDefense": 35,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Victor of Vaslui",
+        "tags": [
+          "damage",
+          "aoe",
+          "heal",
+          "tank"
+        ],
+        "summary": "dégâts AoE · soin · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 8.2,
+        "tank": 6.6,
+        "support": 0.4,
+        "utility": 1.3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 15.1,
+        "tags": [
+          "damage",
+          "aoe",
+          "heal",
+          "tank"
+        ],
+        "summary": "dégâts AoE · soin · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "john-hunyadi",
+          "name": "John Hunyadi Ranged",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Siege",
+          "description": "While in ranged mode, John Hunyadi's bonuses to ranged skill damage and his Glory Eternal skill greatly enhance the damage and frequency of this duo's active skills."
+        }
+      ]
+    },
+    {
+      "id": "subutai",
+      "name": "Subutai",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Conquête",
+        "Combo"
+      ],
+      "role": "Polyvalent",
+      "tier": "B",
+      "firstTalent": "Dragon Saber",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Dragon Saber (3/3)",
+            "Charge (3/3)",
+            "Galea (3/3)",
+            "Undying Fury (3/3)"
+          ]
+        },
+        {
+          "name": "Combo",
+          "path": [
+            "No Quarter (3/3)",
+            "Force of Nature (3/3)",
+            "Colossus (3/3)",
+            "Dragon Saber (3/3)",
+            "A Good Day to Die (3/3)",
+            "Walk in the Park (3/3)",
+            "Blizzard of Blows (3/3)",
+            "Impenetrable (3/3)",
+            "Iron and Steel (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Thundering Hooves » (active) à 5 en premier, puis « Circling Vultures » → « Wherever the Whip Points » → « Daring Raid », enfin « Hound of Temujin » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Subutai is a legendary commander with the Cavalry, Conquering and Combo talent trees. The preferred troop type is cavalry. Typical use: rally, field. In the game, Lilith recommends pairing with Achilles, Arthur Pendragon, Attila.",
+      "pairings": [
+        "achilles",
+        "arthur-pendragon",
+        "attila",
+        "william-marshal"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Thundering Hooves",
+          "type": "Active"
+        },
+        {
+          "name": "Circling Vultures",
+          "type": "Passive"
+        },
+        {
+          "name": "Wherever the Whip Points",
+          "type": "Passive"
+        },
+        {
+          "name": "Daring Raid",
+          "type": "Passive"
+        },
+        {
+          "name": "Hound of Temujin",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "subutai",
+      "grades": {
+        "overall": "B+",
+        "field": "A+",
+        "rally": "S+",
+        "garrison": "C+",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        6,
+        18
+      ],
+      "build": {
+        "id": "official-110",
+        "name": "City Sackers",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "307": 3,
+          "308": 3,
+          "310": 3,
+          "311": 1,
+          "314": 2,
+          "316": 3,
+          "601": 1,
+          "602": 1,
+          "1801": 1,
+          "1802": 3,
+          "1803": 3,
+          "1804": 3,
+          "1805": 3,
+          "1806": 3,
+          "1807": 3,
+          "1808": 1,
+          "1809": 2,
+          "1810": 2,
+          "1811": 1,
+          "1812": 3,
+          "1813": 3,
+          "1814": 3,
+          "1815": 3,
+          "1816": 1,
+          "1817": 1,
+          "1818": 2,
+          "1819": 2,
+          "1820": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1000,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 20,
+        "teamDefense": 30,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 15,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Thundering Hooves",
+        "tags": [
+          "damage",
+          "support"
+        ],
+        "summary": "dégâts monocible · buffs d’équipe"
+      },
+      "combat": {
+        "damage": 5.8,
+        "tank": 0,
+        "support": 5.7,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 10.3,
+        "tags": [
+          "damage",
+          "support"
+        ],
+        "summary": "dégâts monocible · buffs d’équipe"
+      },
+      "officialPairings": [
+        {
+          "partner": "achilles",
+          "name": "City Sackers",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Cavalry",
+          "description": "When faced with a tough garrison that doesn't deal smite damage, Subutai and Achilles can convert the damage they receive into high damage output."
+        },
+        {
+          "partner": "arthur-pendragon",
+          "name": "King Arthur Thrasher",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "King Arthur and Subutai's active skills allow them to unleash a long chain of devastating combo attacks, further enhanced by the Delta formation inscription Thrasher."
+        },
+        {
+          "partner": "attila",
+          "name": "Steppe Brothers",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Cavalry",
+          "description": "Subutai's combo attack damage counts as a type of normal damage, which means it gains a huge boost from Attila's King of the Huns and The Scourge of God."
+        },
+        {
+          "partner": "william-marshal",
+          "name": "Crushing Cavalry",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Cavalry",
+          "description": "William Marshal can quickly accumulate stacks of Unwavering Spirit through launching or getting hit with basic attacks during rallies, thus gaining Defense and triggering AoE combo attacks. At the same time, Subutai improves the rally capabilities and damage output of cavalry units, so that the troop has considerable damage as well as survivability."
+        }
+      ]
+    },
+    {
+      "id": "suleiman-i",
+      "name": "Suleiman I",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Conquête",
+        "Attaque"
+      ],
+      "role": "Dégâts polyvalent",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Magnificent Sultan » (active) à 5 en premier, puis « Annexation » → « The Siege of Vienna » → « Janissary », enfin « Master of Europe » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Suleiman I is a legendary commander with the Leadership, Conquering and Attack talent trees. The talent trees are not tied to one troop type. Typical use: rally, field. In the game, Lilith recommends pairing with Honda Tadakatsu.",
+      "pairings": [
+        "honda-tadakatsu"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Magnificent Sultan",
+          "type": "Active"
+        },
+        {
+          "name": "Annexation",
+          "type": "Passive"
+        },
+        {
+          "name": "The Siege of Vienna",
+          "type": "Passive"
+        },
+        {
+          "name": "Janissary",
+          "type": "Passive"
+        },
+        {
+          "name": "Master of Europe",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "suleiman-i",
+      "grades": {
+        "overall": "D+",
+        "field": "C",
+        "rally": "D+",
+        "garrison": "F",
+        "canyon": "B"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        6,
+        12
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1300,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 15,
+        "selfDefense": 15,
+        "selfHealth": 0,
+        "selfDamageReduction": 10,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 50,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 30,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Magnificent Sultan ",
+        "tags": [
+          "damage",
+          "debuff",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · debuff · rage"
+      },
+      "combat": {
+        "damage": 9.8,
+        "tank": 3.5,
+        "support": 3.5,
+        "utility": 3.6,
+        "secondary": 0,
+        "role": "damage",
+        "score": 17.6,
+        "tags": [
+          "damage",
+          "debuff",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · debuff · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "honda-tadakatsu",
+          "name": "Honda Tadakatsu Conquest",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Multi",
+          "description": "When leading a troop with multiple unit types, Suleiman's Janissary skill enhances the damage of Honda Tadakatsu's Dragonfly Cutter active skill."
+        }
+      ]
+    },
+    {
+      "id": "sun-tzu-prime",
+      "name": "Sun Tzu (Prime)",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Polyvalence",
+        "Smite"
+      ],
+      "role": "Polyvalent",
+      "tier": "S",
+      "firstTalent": "Undying Fury",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (1/3)",
+            "Hold The Line (3/4)"
+          ]
+        },
+        {
+          "name": "Smite",
+          "path": [
+            "Thunderous Smite (5/5)",
+            "An Eye for an Eye (3/3)",
+            "Killing Blow (3/3)",
+            "Ambitious (3/3)",
+            "Enhanced Smite (3/3)",
+            "Thick Skin (3/3)",
+            "Fight or Flight (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Fluid Formation » (active) à 5 en premier, puis « War for Peace » → « Surprise Strike » → « Myriad Maneuvers », enfin « Tactician's Tome » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Sun Tzu (Prime) is a legendary commander with the Infantry, Versatility and Smite talent trees. The preferred troop type is infantry. Typical use: field. In the game, Lilith recommends pairing with Bai Qi, William Wallace.",
+      "pairings": [
+        "bai-qi",
+        "william-wallace"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Fluid Formation",
+          "type": "Active"
+        },
+        {
+          "name": "War for Peace",
+          "type": "Passive"
+        },
+        {
+          "name": "Surprise Strike",
+          "type": "Passive"
+        },
+        {
+          "name": "Myriad Maneuvers",
+          "type": "Passive"
+        },
+        {
+          "name": "Tactician's Tome",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "sun-tzu-prime",
+      "grades": {
+        "overall": "S+",
+        "field": "S+",
+        "rally": "A+",
+        "garrison": "A",
+        "canyon": "S+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        10,
+        17
+      ],
+      "build": {
+        "id": "official-6",
+        "name": "Maximum Malice",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 1,
+          "113": 2,
+          "115": 1,
+          "118": 3,
+          "1701": 1,
+          "1702": 3,
+          "1703": 3,
+          "1704": 3,
+          "1705": 1,
+          "1706": 2,
+          "1708": 1,
+          "1709": 2,
+          "1711": 2,
+          "1712": 3,
+          "1713": 1,
+          "1714": 2,
+          "1715": 3,
+          "1716": 1,
+          "1717": 1,
+          "1718": 3,
+          "1719": 3,
+          "1720": 2,
+          "1721": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 3000,
+        "aoe": true,
+        "targets": 2,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 2,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 20,
+        "selfHealth": 0,
+        "selfDamageReduction": 10,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 25,
+        "selfRage": 20,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 900,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Fluid Formation",
+        "tags": [
+          "damage",
+          "aoe",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts AoE · tank · rage"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 4.9,
+        "support": 0,
+        "utility": 1.9,
+        "secondary": 0,
+        "role": "damage",
+        "score": 15.4,
+        "tags": [
+          "damage",
+          "aoe",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts AoE · tank · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "bai-qi",
+          "name": "Maximum Malice",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "The low Rage consumption of Prime Sun Tzu's active skill and the extra Rage gains from Myriad Maneuvers can help Bai Qi use his active skill faster, thereby gaining more Malice stacks."
+        },
+        {
+          "partner": "william-wallace",
+          "name": "Mighty Duo",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "Unleash massive damage quickly by pairing Prime Sun Tzu's active skill with William Wallace's Lion of the North."
+        }
+      ]
+    },
+    {
+      "id": "tariq-ibn-ziyad",
+      "name": "Tariq ibn Ziyad",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Conquête",
+        "Défense"
+      ],
+      "role": "Tank / garnison",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Victory or Death » (active) à 5 en premier, puis « Bane of the Visigoths » → « Gate Crasher » → « Battle of Guadalete », enfin « Keen Berber Blade » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Tariq ibn Ziyad is a legendary commander with the Infantry, Conquering and Defense talent trees. The preferred troop type is infantry. Typical use: rally, field. In the game, Lilith recommends pairing with Scipio Aemilianus.",
+      "pairings": [
+        "scipio-aemilianus"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Victory or Death",
+          "type": "Active"
+        },
+        {
+          "name": "Bane of the Visigoths",
+          "type": "Passive"
+        },
+        {
+          "name": "Gate Crasher",
+          "type": "Passive"
+        },
+        {
+          "name": "Battle of Guadalete",
+          "type": "Passive"
+        },
+        {
+          "name": "Keen Berber Blade",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "tariq-ibn-ziyad",
+      "grades": {
+        "overall": "B",
+        "field": "A",
+        "rally": "A+",
+        "garrison": "B",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        6,
+        13
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 2500,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 15,
+        "healFactor": 0,
+        "selfAttack": 40,
+        "selfDefense": 30,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 10,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Victory or Death",
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 6,
+        "support": 1.5,
+        "utility": 0.7,
+        "secondary": 0,
+        "role": "damage",
+        "score": 16.9,
+        "tags": [
+          "damage",
+          "tank"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "scipio-aemilianus",
+          "name": "Scipio Aemilianus Conquest",
+          "role": "secondary",
+          "scenario": "Conquest",
+          "troop": "Infantry",
+          "description": "Both these commanders take greatly reduced normal damage when attacking cities."
+        }
+      ]
+    },
+    {
+      "id": "theodora",
+      "name": "Theodora",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Garnison",
+        "Défense"
+      ],
+      "role": "Tank / garnison",
+      "tier": "C",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Byzantine Empress » (active) à 5 en premier, puis « Keeper Of Secrets » → « Co-Ruler » → « Royal Power », enfin « Honor to the Last » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Theodora is a legendary commander with the Leadership, Garrison and Defense talent trees. The talent trees are not tied to one troop type. Typical use: garrison, field. In the game, Lilith recommends pairing with Yi Sun-sin.",
+      "pairings": [
+        "yi-sun-sin"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Byzantine Empress",
+          "type": "Active"
+        },
+        {
+          "name": "Keeper Of Secrets",
+          "type": "Passive"
+        },
+        {
+          "name": "Co-Ruler",
+          "type": "Passive"
+        },
+        {
+          "name": "Royal Power",
+          "type": "Passive"
+        },
+        {
+          "name": "Honor to the Last",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "theodora",
+      "grades": {
+        "overall": "C+",
+        "field": "F",
+        "rally": "F",
+        "garrison": "A",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        7,
+        13
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1700,
+        "aoe": true,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 10,
+        "healFactor": 0,
+        "selfAttack": 10,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Byzantine Empress",
+        "tags": [
+          "damage",
+          "aoe",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · buff attaque · garnison"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 1.5,
+        "support": 1.5,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 12.6,
+        "tags": [
+          "damage",
+          "aoe",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · buff attaque · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "yi-sun-sin",
+          "name": "Yi Sun-sin Garrison",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Multi",
+          "description": "High bonuses to damage paired with AoE active skills can wreak havoc on enemy troops trying to join a rally."
+        }
+      ]
+    },
+    {
+      "id": "thutmose-iii",
+      "name": "Thutmose III",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Polyvalence",
+        "Soutien"
+      ],
+      "role": "Soutien",
+      "tier": "C",
+      "firstTalent": "Rapid Fire",
+      "trees": [
+        {
+          "name": "Archers",
+          "path": [
+            "Rapid Fire (3/3)",
+            "Phoenix-Tail Arrows (4/4)",
+            "Razor Sharp (2/3)",
+            "Venomous Sting (4/4)",
+            "Armed And Armored (3/3)",
+            "Arrows Nocked (3/3)",
+            "Thumb Ring (3/3)",
+            "Whistling Arrows (2/5)"
+          ]
+        },
+        {
+          "name": "Soutien",
+          "path": [
+            "Loose Formation (3/3)",
+            "Emergency Protection (3/3)",
+            "Hasty Departure (3/3)",
+            "Burning Blood (3/3)",
+            "Rejuvenate (2/3)",
+            "Elixir (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Brave Ruler » (active) à 5 en premier, puis « Empire Builder » → « Conquest of Mitanni » → « Vast Territory », enfin « Might of Thebes » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Thutmose III is a legendary commander with the Archer, Versatility and Support talent trees. The preferred troop type is archers. Typical use: field. In the game, Lilith recommends pairing with Yi Seong-Gye, Mehmed II.",
+      "pairings": [
+        "yi-seong-gye",
+        "mehmed"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Brave Ruler",
+          "type": "Active"
+        },
+        {
+          "name": "Empire Builder",
+          "type": "Passive"
+        },
+        {
+          "name": "Conquest of Mitanni",
+          "type": "Passive"
+        },
+        {
+          "name": "Vast Territory",
+          "type": "Passive"
+        },
+        {
+          "name": "Might of Thebes",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "thutmose-iii",
+      "grades": {
+        "overall": "C+",
+        "field": "B+",
+        "rally": "D",
+        "garrison": "D",
+        "canyon": "B"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        10,
+        14
+      ],
+      "build": {
+        "id": "official-12",
+        "name": "Double AoE",
+        "points": {
+          "201": 1,
+          "202": 2,
+          "203": 2,
+          "205": 3,
+          "206": 3,
+          "207": 3,
+          "208": 3,
+          "209": 1,
+          "211": 3,
+          "212": 3,
+          "213": 2,
+          "214": 1,
+          "215": 1,
+          "216": 1,
+          "217": 1,
+          "218": 4,
+          "219": 4,
+          "220": 2,
+          "1401": 1,
+          "1402": 3,
+          "1403": 3,
+          "1404": 3,
+          "1405": 3,
+          "1406": 3,
+          "1407": 3,
+          "1408": 2,
+          "1411": 2,
+          "1412": 1,
+          "1415": 1,
+          "1416": 2,
+          "1417": 2,
+          "1418": 2,
+          "1419": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1000,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 15,
+        "healFactor": 0,
+        "selfAttack": 15,
+        "selfDefense": 10,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 10,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 5,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Brave Ruler",
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · debuff"
+      },
+      "combat": {
+        "damage": 10.8,
+        "tank": 2.8,
+        "support": 1.8,
+        "utility": 1.2,
+        "secondary": 0,
+        "role": "damage",
+        "score": 15.3,
+        "tags": [
+          "damage",
+          "aoe",
+          "debuff",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank · debuff"
+      },
+      "officialPairings": [
+        {
+          "partner": "yi-seong-gye",
+          "name": "Double AoE",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Yi Seong-Gye's bonus to skill damage greatly increases the AoE skill he and Thutmose III deal."
+        },
+        {
+          "partner": "mehmed-ii",
+          "name": "Pharoah and Sultan",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Thutmose III's Brave Ruler and Mehmed II's Ottoman Cannons both deal AoE skill damage. Pair them with the skill damage bonus from Lord of Land and Sea for an extra splash."
+        }
+      ]
+    },
+    {
+      "id": "tokugawa-ieyasu",
+      "name": "Tokugawa Ieyasu",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Garnison",
+        "Smite"
+      ],
+      "role": "Tank / garnison",
+      "tier": "B",
+      "firstTalent": "Call of the Pack",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (1/3)"
+          ]
+        },
+        {
+          "name": "Garnison",
+          "path": [
+            "Impenetrable Fortifications (3/3)",
+            "Empty Fortress Stratagem (3/3)",
+            "City Guardian (3/3)",
+            "Impregnable (3/3)",
+            "King's Guard (3/3)"
+          ]
+        },
+        {
+          "name": "Smite",
+          "path": [
+            "Killing Blow (3/3)",
+            "Ambitious (3/3)",
+            "An Eye for an Eye (3/3)",
+            "Enhanced Smite (3/3)",
+            "Thick Skin (3/3)",
+            "Fight or Flight (3/3)",
+            "Thunderous Smite (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Aoi Over Sekigahara » (active) à 5 en premier, puis « Mikawa Bushi » → « Nikkō Tōshō » → « Nagashino Gambit », enfin « Orderly Retreat » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Tokugawa Ieyasu is a legendary commander with the Infantry, Garrison and Smite talent trees. The preferred troop type is infantry. Typical use: garrison, field. In the game, Lilith recommends pairing with Selim I, Gorgo.",
+      "pairings": [
+        "selim-i",
+        "gorgo"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Aoi Over Sekigahara",
+          "type": "Active"
+        },
+        {
+          "name": "Mikawa Bushi",
+          "type": "Passive"
+        },
+        {
+          "name": "Nikkō Tōshō",
+          "type": "Passive"
+        },
+        {
+          "name": "Nagashino Gambit",
+          "type": "Passive"
+        },
+        {
+          "name": "Orderly Retreat",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "tokugawa-ieyasu",
+      "grades": {
+        "overall": "B+",
+        "field": "B+",
+        "rally": "B",
+        "garrison": "S+",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        7,
+        17
+      ],
+      "build": {
+        "id": "official-127",
+        "name": "Crown of Iron Will",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "104": 3,
+          "105": 1,
+          "701": 1,
+          "703": 3,
+          "704": 2,
+          "705": 3,
+          "706": 1,
+          "708": 3,
+          "710": 3,
+          "711": 2,
+          "712": 2,
+          "713": 2,
+          "718": 3,
+          "1701": 1,
+          "1702": 3,
+          "1703": 3,
+          "1704": 3,
+          "1705": 1,
+          "1706": 2,
+          "1708": 1,
+          "1709": 2,
+          "1711": 2,
+          "1712": 3,
+          "1713": 1,
+          "1714": 2,
+          "1715": 3,
+          "1716": 1,
+          "1717": 1,
+          "1718": 3,
+          "1719": 3,
+          "1720": 2,
+          "1721": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 2400,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 30,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": true,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Aoi Over Sekigahara",
+        "tags": [
+          "damage",
+          "aoe",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · buff attaque · garnison"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 5.3,
+        "support": 0,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 14.7,
+        "tags": [
+          "damage",
+          "aoe",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts AoE · buff attaque · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "selim-i",
+          "name": "Crown of Iron Will",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Infantry",
+          "description": "Selim I and Tokugawa Ieyasu can frequently obtain shields and quickly stack up Reign, continuously enhancing counterattack damage and shield effects. When hit with basic attacks, the pair can also trigger powerful shields to counter enemies."
+        },
+        {
+          "partner": "gorgo",
+          "name": "Sunrise Eagle",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Infantry",
+          "description": "Both Gorgo's With Your Shield, Or On It and Tokugawa Ieyasu's Nikkō Tōshō increase infantry Health, making them a tough opponent to take down when garrisoned."
+        }
+      ]
+    },
+    {
+      "id": "trajan",
+      "name": "Trajan",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Polyvalence",
+        "Soutien"
+      ],
+      "role": "Soutien",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Trajan's Column » (active) à 5 en premier, puis « Expanding Borders » → « Great Expeditions » → « Battle of Tapae », enfin « Five Good Emperors » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Trajan is a legendary commander with the Leadership, Versatility and Support talent trees. The talent trees are not tied to one troop type. Typical use: field. In the game, Lilith recommends pairing with Philip II.",
+      "pairings": [
+        "philip-ii"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Trajan's Column",
+          "type": "Active"
+        },
+        {
+          "name": "Expanding Borders",
+          "type": "Passive"
+        },
+        {
+          "name": "Great Expeditions",
+          "type": "Passive"
+        },
+        {
+          "name": "Battle of Tapae",
+          "type": "Passive"
+        },
+        {
+          "name": "Five Good Emperors",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "trajan",
+      "grades": {
+        "overall": "B",
+        "field": "A+",
+        "rally": "C+",
+        "garrison": "F",
+        "canyon": "S"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        10,
+        14
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 400,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 30,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 20,
+        "selfHealth": 20,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 25,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 50,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Trajan's Column",
+        "tags": [
+          "damage",
+          "support",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · buffs d’équipe · tank · rage"
+      },
+      "combat": {
+        "damage": 4.5,
+        "tank": 5.8,
+        "support": 4.1,
+        "utility": 0.6,
+        "secondary": 0,
+        "role": "tank",
+        "score": 13.3,
+        "tags": [
+          "damage",
+          "support",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · buffs d’équipe · tank · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "philip-ii",
+          "name": "Philip II Field",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Multi",
+          "description": "Philip II's multi-unit damage reduction perfectly complements Trajan's multi-unit damage bonus."
+        }
+      ]
+    },
+    {
+      "id": "vercingetorix",
+      "name": "Vercingetorix",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Polyvalence",
+        "Soutien"
+      ],
+      "role": "Soutien",
+      "tier": "A",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Alesia Fortifications » (active) à 5 en premier, puis « Battle of Gergovia » → « Uniter of Tribes » → « Cornered Beast », enfin « Heart of Gaul » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Vercingetorix is a legendary commander with the Leadership, Versatility and Support talent trees. The talent trees are not tied to one troop type. Typical use: field. In the game, Lilith recommends pairing with Arthur Pendragon, Liu Che, Alp Arslan.",
+      "pairings": [
+        "arthur-pendragon",
+        "liu-che",
+        "alp-arslan"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Alesia Fortifications",
+          "type": "Active"
+        },
+        {
+          "name": "Battle of Gergovia",
+          "type": "Passive"
+        },
+        {
+          "name": "Uniter of Tribes",
+          "type": "Passive"
+        },
+        {
+          "name": "Cornered Beast",
+          "type": "Passive"
+        },
+        {
+          "name": "Heart of Gaul",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "vercingetorix",
+      "grades": {
+        "overall": "A",
+        "field": "A+",
+        "rally": "B+",
+        "garrison": "C",
+        "canyon": "A"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        10,
+        14
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 2500,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 25,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 30,
+        "selfDamageReduction": 20,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 100,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 100,
+        "teamSpeed": 0,
+        "enemyAttackDown": 30,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 40,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": true,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 2
+        },
+        "active": "Alesia Fortifications",
+        "tags": [
+          "damage",
+          "support",
+          "debuff",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · tank · debuff · rage"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 9.8,
+        "support": 4.5,
+        "utility": 10,
+        "secondary": 2,
+        "role": "damage",
+        "score": 28.5,
+        "tags": [
+          "damage",
+          "support",
+          "debuff",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · tank · debuff · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "arthur-pendragon",
+          "name": "Oath of Sword and Shield",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "King Arthur's Rage reduction and combo attacks can effectively trigger Vercingetorix's skills, making the two an excellent pair. Vercingetorix's powerful shields and defensive attributes also allow King Arthur to safely deal damage."
+        },
+        {
+          "partner": "liu-che",
+          "name": "Earth Shaker",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "As an infantry commander who mainly relies on smite damage and combo attack damage for damage output, Liu Che can fully utilize Vercingetorix's buffs to normal damage, smite damage, and combo attack damage."
+        },
+        {
+          "partner": "alp-arslan",
+          "name": "Two-Headed Fury",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Vercingetorix's multi-target debuffs and massive buffs can frequently trigger Alp Arslan's key skill Two-Headed Eagle. As secondary commander, Vercingetorix can also buff active skill damage, boosting the additional damage from Alp Arslan's Heroic Lion skill."
+        }
+      ]
+    },
+    {
+      "id": "william-i",
+      "name": "William I",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Polyvalence",
+        "Attaque"
+      ],
+      "role": "Dégâts cavalerie",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« Hidden Bloodline » (active) à 5 en premier, puis « Charge of Hastings » → « Norman Conquest » → « Scourge of the North », enfin « Judgement Day » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "William I is a legendary commander with the Cavalry, Versatility and Attack talent trees. The preferred troop type is cavalry. Typical use: field. In the game, Lilith recommends pairing with Xiang Yu, Alexander Nevsky.",
+      "pairings": [
+        "xiang-yu",
+        "alexander-nevsky"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Hidden Bloodline",
+          "type": "Active"
+        },
+        {
+          "name": "Charge of Hastings",
+          "type": "Passive"
+        },
+        {
+          "name": "Norman Conquest",
+          "type": "Passive"
+        },
+        {
+          "name": "Scourge of the North",
+          "type": "Passive"
+        },
+        {
+          "name": "Judgement Day",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "william-i",
+      "grades": {
+        "overall": "B+",
+        "field": "S",
+        "rally": "A",
+        "garrison": "D+",
+        "canyon": "S"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        10,
+        12
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1500,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 10,
+        "healFactor": 0,
+        "selfAttack": 30,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 20,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 50,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Hidden Bloodline",
+        "tags": [
+          "damage",
+          "aoe",
+          "support",
+          "rage"
+        ],
+        "summary": "dégâts AoE · buffs d’équipe · buff attaque · rage"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 0,
+        "support": 2.2,
+        "utility": 1.6,
+        "secondary": 0,
+        "role": "damage",
+        "score": 14.5,
+        "tags": [
+          "damage",
+          "aoe",
+          "support",
+          "rage"
+        ],
+        "summary": "dégâts AoE · buffs d’équipe · buff attaque · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "xiang-yu",
+          "name": "Xiang Yu Field",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "The low Rage requirement for Xiang Yu's active skill pairs nicely with the extra Rage from William I's Scourge of the North, allowing them to rapidly fire off their active skills."
+        },
+        {
+          "partner": "alexander-nevsky",
+          "name": "Pincer Princes",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "The Norman Conquest, Hero of Peipus, and Guard of the Republic skills all benefit from surrounding an enemy. Team up with your allies to swarm hapless stragglers."
+        }
+      ]
+    },
+    {
+      "id": "william-marshal",
+      "name": "William Marshal",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Conquête",
+        "Combo"
+      ],
+      "role": "Polyvalent",
+      "tier": "S",
+      "firstTalent": "Dragon Saber",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Dragon Saber (3/3)",
+            "Charge (3/3)",
+            "Galea (3/3)",
+            "Undying Fury (3/3)"
+          ]
+        },
+        {
+          "name": "Combo",
+          "path": [
+            "No Quarter (3/3)",
+            "Force of Nature (3/3)",
+            "Colossus (3/3)",
+            "Dragon Saber (3/3)",
+            "A Good Day to Die (3/3)",
+            "Walk in the Park (3/3)",
+            "Blizzard of Blows (3/3)",
+            "Impenetrable (3/3)",
+            "Iron and Steel (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Reigning Champion » (active) à 5 en premier, puis « Le Mans Legend » → « The King's Regent » → « Earl Marshal », enfin « Knight Templar » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "William Marshal is a legendary commander with the Cavalry, Conquering and Combo talent trees. The preferred troop type is cavalry. Typical use: rally, field. In the game, Lilith recommends pairing with Subutai.",
+      "pairings": [
+        "subutai"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Reigning Champion",
+          "type": "Active"
+        },
+        {
+          "name": "Le Mans Legend",
+          "type": "Passive"
+        },
+        {
+          "name": "The King's Regent",
+          "type": "Passive"
+        },
+        {
+          "name": "Earl Marshal",
+          "type": "Passive"
+        },
+        {
+          "name": "Knight Templar",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "william-marshal",
+      "grades": {
+        "overall": "S",
+        "field": "A+",
+        "rally": "S+",
+        "garrison": "B",
+        "canyon": "S"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        6,
+        18
+      ],
+      "build": {
+        "id": "official-125",
+        "name": "Crushing Cavalry",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "307": 3,
+          "308": 3,
+          "310": 3,
+          "311": 1,
+          "314": 2,
+          "316": 3,
+          "601": 1,
+          "602": 1,
+          "1801": 1,
+          "1802": 3,
+          "1803": 3,
+          "1804": 3,
+          "1805": 3,
+          "1806": 3,
+          "1807": 3,
+          "1808": 1,
+          "1809": 2,
+          "1810": 2,
+          "1811": 1,
+          "1812": 3,
+          "1813": 3,
+          "1814": 3,
+          "1815": 3,
+          "1816": 1,
+          "1817": 1,
+          "1818": 2,
+          "1819": 2,
+          "1820": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1000,
+        "aoe": true,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 25,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 10,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 30,
+        "teamAttack": 35,
+        "teamDefense": 20,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 20,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Reigning Champion",
+        "tags": [
+          "damage",
+          "aoe",
+          "support",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts AoE · buffs d’équipe · tank · rage"
+      },
+      "combat": {
+        "damage": 9.6,
+        "tank": 3.2,
+        "support": 6.1,
+        "utility": 0.4,
+        "secondary": 0,
+        "role": "damage",
+        "score": 17.5,
+        "tags": [
+          "damage",
+          "aoe",
+          "support",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts AoE · buffs d’équipe · tank · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "subutai",
+          "name": "Crushing Cavalry",
+          "role": "primary",
+          "scenario": "Conquest",
+          "troop": "Cavalry",
+          "description": "William Marshal can quickly accumulate stacks of Unwavering Spirit through launching or getting hit with basic attacks during rallies, thus gaining Defense and triggering AoE combo attacks. At the same time, Subutai improves the rally capabilities and damage output of cavalry units, so that the troop has considerable damage as well as survivability."
+        }
+      ]
+    },
+    {
+      "id": "william-wallace",
+      "name": "William Wallace",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Polyvalence",
+        "Smite"
+      ],
+      "role": "Polyvalent",
+      "tier": "A",
+      "firstTalent": "Undying Fury",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (1/3)",
+            "Hold The Line (3/4)"
+          ]
+        },
+        {
+          "name": "Smite",
+          "path": [
+            "Thunderous Smite (5/5)",
+            "An Eye for an Eye (3/3)",
+            "Killing Blow (3/3)",
+            "Ambitious (3/3)",
+            "Enhanced Smite (3/3)",
+            "Thick Skin (3/3)",
+            "Fight or Flight (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Bas Agus Buaidh » (active) à 5 en premier, puis « Scots Wha Hae » → « Lion of the North » → « Battle of Stirling Bridge », enfin « Pro Libertate » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "William Wallace is a legendary commander with the Infantry, Versatility and Smite talent trees. The preferred troop type is infantry. Typical use: field. In the game, Lilith recommends pairing with Liu Che, Hector, Sun Tzu (Prime).",
+      "pairings": [
+        "liu-che",
+        "hector",
+        "sun-tzu"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Bas Agus Buaidh",
+          "type": "Active"
+        },
+        {
+          "name": "Scots Wha Hae",
+          "type": "Passive"
+        },
+        {
+          "name": "Lion of the North",
+          "type": "Passive"
+        },
+        {
+          "name": "Battle of Stirling Bridge",
+          "type": "Passive"
+        },
+        {
+          "name": "Pro Libertate",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "william-wallace",
+      "grades": {
+        "overall": "A",
+        "field": "S",
+        "rally": "A",
+        "garrison": "A",
+        "canyon": "B"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        10,
+        17
+      ],
+      "build": {
+        "id": "official-42",
+        "name": "William Wallace Smite",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 1,
+          "113": 2,
+          "115": 1,
+          "118": 3,
+          "1701": 1,
+          "1702": 3,
+          "1703": 3,
+          "1704": 3,
+          "1705": 1,
+          "1706": 2,
+          "1708": 1,
+          "1709": 2,
+          "1711": 2,
+          "1712": 3,
+          "1713": 1,
+          "1714": 2,
+          "1715": 3,
+          "1716": 1,
+          "1717": 1,
+          "1718": 3,
+          "1719": 3,
+          "1720": 2,
+          "1721": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 2400,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": true,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Bas Agus Buaidh",
+        "tags": [
+          "damage",
+          "aoe",
+          "tank"
+        ],
+        "summary": "dégâts AoE"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 2.3,
+        "support": 0,
+        "utility": 0,
+        "secondary": 0,
+        "role": "damage",
+        "score": 12,
+        "tags": [
+          "damage",
+          "aoe",
+          "tank"
+        ],
+        "summary": "dégâts AoE"
+      },
+      "officialPairings": [
+        {
+          "partner": "liu-che",
+          "name": "William Wallace Smite",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "William Wallace's Smite talent tree, when combined with Arch formation, greatly enhances the smite damage of Liu Che's Glory of Shizong."
+        },
+        {
+          "partner": "hector",
+          "name": "Invader's Bane",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "William Wallace's Lion of the North and Hector's Favored of Apollo ramp up the damage of Wallace's active skill."
+        },
+        {
+          "partner": "sun-tzu-prime",
+          "name": "Mighty Duo",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "Unleash massive damage quickly by pairing Prime Sun Tzu's active skill with William Wallace's Lion of the North."
+        }
+      ]
+    },
+    {
+      "id": "xiang-yu",
+      "name": "Xiang Yu",
+      "rarity": "legendaire",
+      "troops": "cavalerie",
+      "specialities": [
+        "Cavalerie",
+        "Conquête",
+        "Compétence"
+      ],
+      "role": "Nuke cavalerie",
+      "tier": "A",
+      "firstTalent": "Undying Fury",
+      "trees": [
+        {
+          "name": "Cavalerie",
+          "path": [
+            "Undying Fury (3/3)",
+            "Dragon Saber (3/3)",
+            "Galea (3/3)",
+            "Emblazoned Shield (3/4)",
+            "Charge (3/3)",
+            "Halberd (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Warlord's Courage » (active) à 5 en premier, puis « Snow-hooved Stallion » → « Conqueror of All » → « Forceful Spearhead », enfin « Unbeatable Warlord » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set cavalerie selon la troupe.",
+      "notes": "Xiang Yu is a legendary commander with the Cavalry, Conquering and Skill talent trees. The preferred troop type is cavalry. Typical use: rally, field, barbarians. In the game, Lilith recommends pairing with William I, Chandragupta Maurya.",
+      "pairings": [
+        "william-i",
+        "chandragupta-maurya"
+      ],
+      "usage": [
+        "pvp",
+        "barbares"
+      ],
+      "skills": [
+        {
+          "name": "Warlord's Courage",
+          "type": "Active"
+        },
+        {
+          "name": "Snow-hooved Stallion",
+          "type": "Passive"
+        },
+        {
+          "name": "Conqueror of All",
+          "type": "Passive"
+        },
+        {
+          "name": "Forceful Spearhead",
+          "type": "Passive"
+        },
+        {
+          "name": "Unbeatable Warlord",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "xiang-yu",
+      "grades": {
+        "overall": "A",
+        "field": "S",
+        "rally": "S",
+        "garrison": "D+",
+        "canyon": "S"
+      },
+      "gear": [
+        "Casque Windswept",
+        "Plastron Windswept",
+        "Hallebarde d’avant-garde",
+        "Brassards Windswept",
+        "Jambières d’avant-garde",
+        "Bottes Windswept"
+      ],
+      "treeIds": [
+        3,
+        6,
+        11
+      ],
+      "build": {
+        "id": "official-27",
+        "name": "Xiang Yu Field",
+        "points": {
+          "301": 1,
+          "302": 2,
+          "303": 1,
+          "304": 2,
+          "305": 3,
+          "306": 3,
+          "307": 3,
+          "308": 3,
+          "309": 2,
+          "310": 3,
+          "311": 1,
+          "314": 2,
+          "315": 1,
+          "316": 3,
+          "318": 3,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 2,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1700,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 10,
+        "selfDamageBonus": 5,
+        "healFactor": 0,
+        "selfAttack": 40,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 25,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 900,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Warlord's Courage",
+        "tags": [
+          "damage",
+          "aoe"
+        ],
+        "summary": "dégâts AoE · buff attaque"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 0,
+        "support": 1.5,
+        "utility": 1.7,
+        "secondary": 0,
+        "role": "damage",
+        "score": 14,
+        "tags": [
+          "damage",
+          "aoe"
+        ],
+        "summary": "dégâts AoE · buff attaque"
+      },
+      "officialPairings": [
+        {
+          "partner": "william-i",
+          "name": "Xiang Yu Field",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Cavalry",
+          "description": "The low Rage requirement for Xiang Yu's active skill pairs nicely with the extra Rage from William I's Scourge of the North, allowing them to rapidly fire off their active skills."
+        },
+        {
+          "partner": "chandragupta-maurya",
+          "name": "Mega Blessed",
+          "role": "primary",
+          "scenario": "Peacekeeping",
+          "troop": "Cavalry",
+          "description": "Xiang Yu's low-Rage active skill helps Chandragupta Maurya build up stacks of Blessed faster, allowing this pair to deal massive direct damage."
+        }
+      ]
+    },
+    {
+      "id": "yahya-ibn-khalid",
+      "name": "Yahya ibn Khalid",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Récolte",
+        "Mobilité"
+      ],
+      "role": "Récolte",
+      "tier": "B",
+      "firstTalent": "Call of the Pack",
+      "trees": [
+        {
+          "name": "Intégration",
+          "path": [
+            "Call of the Pack (3/3)",
+            "Defensive Formation (3/3)",
+            "Fresh Recruits (3/3)",
+            "Armored To The Teeth (4/4)"
+          ]
+        },
+        {
+          "name": "Récolte",
+          "path": [
+            "Gathering Mastery (Wood) (3/3)",
+            "Gathering Mastery (Food) (3/3)",
+            "Gathering Mastery (Stone) (3/3)",
+            "Gathering Mastery (Gold) (3/3)",
+            "Modified Axle (3/3)",
+            "Tourniquet (3/3)",
+            "Armed Convoy (3/3)",
+            "The More The Better (3/3)",
+            "Superior Tools (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Reign of the Barmakids » (active) à 5 en premier, puis « Empire's Lost Treasures » → « Age of Translation » → « Across Seas of Sand », enfin « Cradle of Two Rivers » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Yahya ibn Khalid is a legendary commander with the Integration, Gathering and Mobility talent trees. The talent trees are not tied to one troop type. Typical use: gathering, field. In the game, Lilith recommends pairing with Seondeok.",
+      "pairings": [
+        "seondeok"
+      ],
+      "usage": [
+        "recolte",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Reign of the Barmakids",
+          "type": "Active"
+        },
+        {
+          "name": "Empire's Lost Treasures",
+          "type": "Passive"
+        },
+        {
+          "name": "Age of Translation",
+          "type": "Passive"
+        },
+        {
+          "name": "Across Seas of Sand",
+          "type": "Passive"
+        },
+        {
+          "name": "Cradle of Two Rivers",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "yahya-ibn-khalid",
+      "grades": {
+        "overall": "G",
+        "field": "n/a",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "n/a"
+      },
+      "gear": [
+        "Coiffe de moissonneur",
+        "Robe de moissonneur",
+        "Sceptre du gardien de la forêt",
+        "Gants de moissonneur",
+        "Pantalon de moissonneur",
+        "Bottes de moissonneur"
+      ],
+      "treeIds": [
+        4,
+        9,
+        15
+      ],
+      "build": {
+        "id": "official-123",
+        "name": "Yahya ibn Khalid Gathering",
+        "points": {
+          "401": 1,
+          "402": 3,
+          "403": 3,
+          "404": 3,
+          "405": 3,
+          "408": 3,
+          "409": 2,
+          "410": 3,
+          "414": 1,
+          "416": 4,
+          "901": 1,
+          "902": 2,
+          "903": 2,
+          "904": 3,
+          "905": 3,
+          "906": 3,
+          "907": 3,
+          "908": 2,
+          "909": 1,
+          "910": 3,
+          "911": 3,
+          "912": 1,
+          "913": 1,
+          "914": 2,
+          "915": 1,
+          "916": 3,
+          "917": 3,
+          "918": 3,
+          "919": 3,
+          "920": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 50,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 15,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 20,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Reign of the Barmakids",
+        "tags": [
+          "support",
+          "debuff",
+          "tank"
+        ],
+        "summary": "buffs d’équipe · tank · debuff"
+      },
+      "combat": {
+        "damage": 0,
+        "tank": 2.5,
+        "support": 1,
+        "utility": 1.6,
+        "secondary": 0,
+        "role": "farming",
+        "score": 3.9,
+        "tags": [
+          "support",
+          "debuff",
+          "tank"
+        ],
+        "summary": "buffs d’équipe · tank · debuff"
+      },
+      "officialPairings": [
+        {
+          "partner": "seondeok",
+          "name": "Yahya ibn Khalid Gathering",
+          "role": "primary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "This pair gains huge bonuses to Gold Gathering Speed, making them a powerful boon to a developing governor."
+        }
+      ]
+    },
+    {
+      "id": "yi-sun-sin",
+      "name": "Yi Sun-sin",
+      "rarity": "legendaire",
+      "troops": "polyvalent",
+      "specialities": [
+        "Leadership",
+        "Garnison",
+        "Défense"
+      ],
+      "role": "Tank / garnison",
+      "tier": "C",
+      "firstTalent": "Armed To The Teeth",
+      "trees": [
+        {
+          "name": "Leadership",
+          "path": [
+            "Armed To The Teeth (1/3)",
+            "Hidden Wrath (3/3)",
+            "Steely Soul (1/3)",
+            "Healing Herbs (3/3)",
+            "Armored To The Teeth (2/3)",
+            "Strategic Prowess (4/4)",
+            "Fresh Recruits (3/3)"
+          ]
+        },
+        {
+          "name": "Garnison",
+          "path": [
+            "Empty Fortress Stratagem (3/3)"
+          ]
+        },
+        {
+          "name": "Défense",
+          "path": [
+            "Spiked Armor (3/3)",
+            "Master Armorer (3/3)",
+            "Medicinal Supplies (3/3)",
+            "Burning Blood (3/3)",
+            "Balance (3/3)",
+            "No Weaknesses (3/3)",
+            "Loose Formation (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Duke of Loyalty and Warfare » (active) à 5 en premier, puis « Battle of Myeongnyang » → « Geobukseon » → « Winged Formation », enfin « Broken Moon » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Yi Sun-sin is a legendary commander with the Leadership, Garrison and Defense talent trees. The talent trees are not tied to one troop type. Typical use: garrison, field. In the game, Lilith recommends pairing with Theodora.",
+      "pairings": [
+        "theodora"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Duke of Loyalty and Warfare",
+          "type": "Active"
+        },
+        {
+          "name": "Battle of Myeongnyang",
+          "type": "Passive"
+        },
+        {
+          "name": "Geobukseon",
+          "type": "Passive"
+        },
+        {
+          "name": "Winged Formation",
+          "type": "Passive"
+        },
+        {
+          "name": "Broken Moon",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "yi-sun-sin",
+      "grades": {
+        "overall": "C+",
+        "field": "F",
+        "rally": "F",
+        "garrison": "A+",
+        "canyon": "D"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        5,
+        7,
+        13
+      ],
+      "build": {
+        "id": "official-49",
+        "name": "Yi Sun-sin Garrison",
+        "points": {
+          "501": 1,
+          "502": 3,
+          "503": 2,
+          "504": 2,
+          "505": 3,
+          "506": 3,
+          "507": 1,
+          "508": 3,
+          "509": 3,
+          "510": 2,
+          "512": 2,
+          "513": 1,
+          "515": 2,
+          "517": 4,
+          "701": 1,
+          "704": 2,
+          "705": 3,
+          "715": 1,
+          "1301": 1,
+          "1302": 3,
+          "1303": 3,
+          "1304": 3,
+          "1305": 3,
+          "1306": 3,
+          "1307": 3,
+          "1308": 3,
+          "1310": 2,
+          "1311": 3,
+          "1312": 1,
+          "1314": 3,
+          "1315": 1,
+          "1317": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 20,
+        "healFactor": 0,
+        "selfAttack": 20,
+        "selfDefense": 30,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 0,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "",
+        "tags": [
+          "tank",
+          "garnison"
+        ],
+        "summary": "buff attaque · tank · garnison"
+      },
+      "combat": {
+        "damage": 3.3,
+        "tank": 5.3,
+        "support": 1.5,
+        "utility": 0,
+        "secondary": 0,
+        "role": "tank",
+        "score": 9.3,
+        "tags": [
+          "tank",
+          "garnison"
+        ],
+        "summary": "buff attaque · tank · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "theodora",
+          "name": "Yi Sun-sin Garrison",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Multi",
+          "description": "High bonuses to damage paired with AoE active skills can wreak havoc on enemy troops trying to join a rally."
+        }
+      ]
+    },
+    {
+      "id": "yi-to",
+      "name": "Yi To",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Polyvalence",
+        "Smite"
+      ],
+      "role": "Polyvalent",
+      "tier": "S",
+      "firstTalent": "Undying Fury",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (1/3)",
+            "Hold The Line (3/4)"
+          ]
+        },
+        {
+          "name": "Smite",
+          "path": [
+            "Thunderous Smite (5/5)",
+            "An Eye for an Eye (3/3)",
+            "Killing Blow (3/3)",
+            "Ambitious (3/3)",
+            "Enhanced Smite (3/3)",
+            "Thick Skin (3/3)",
+            "Fight or Flight (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Fortified Kingdom » (active) à 5 en premier, puis « Quick March » → « Impenetrable Borders » → « Unite and Shatter », enfin « Sustained Momentum » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Yi To is a legendary commander with the Infantry, Versatility and Smite talent trees. The preferred troop type is infantry. Typical use: field. In the game, Lilith recommends pairing with Liu Che. Note: according to rokstats only available from 9 Nov 2026, announced as of today.",
+      "pairings": [
+        "liu-che"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Fortified Kingdom",
+          "type": "Active"
+        },
+        {
+          "name": "Quick March",
+          "type": "Passive"
+        },
+        {
+          "name": "Impenetrable Borders",
+          "type": "Passive"
+        },
+        {
+          "name": "Unite and Shatter",
+          "type": "Passive"
+        },
+        {
+          "name": "Sustained Momentum",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "yi-to",
+      "grades": {
+        "overall": "S+",
+        "field": "S+",
+        "rally": "A",
+        "garrison": "A",
+        "canyon": "S+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        10,
+        17
+      ],
+      "build": {
+        "id": "official-126",
+        "name": "Conquest of Kings",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 1,
+          "113": 2,
+          "115": 1,
+          "118": 3,
+          "1701": 1,
+          "1702": 3,
+          "1703": 3,
+          "1704": 3,
+          "1705": 1,
+          "1706": 2,
+          "1708": 1,
+          "1709": 2,
+          "1711": 2,
+          "1712": 3,
+          "1713": 1,
+          "1714": 2,
+          "1715": 3,
+          "1716": 1,
+          "1717": 1,
+          "1718": 3,
+          "1719": 3,
+          "1720": 2,
+          "1721": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 2700,
+        "aoe": true,
+        "targets": 3,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 5,
+        "healFactor": 0,
+        "selfAttack": 35,
+        "selfDefense": 0,
+        "selfHealth": 25,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 15,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 30,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": true,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Fortified Kingdom",
+        "tags": [
+          "damage",
+          "aoe",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank"
+      },
+      "combat": {
+        "damage": 10,
+        "tank": 6.4,
+        "support": 0,
+        "utility": 4,
+        "secondary": 0,
+        "role": "damage",
+        "score": 17.8,
+        "tags": [
+          "damage",
+          "aoe",
+          "tank"
+        ],
+        "summary": "dégâts AoE · buff attaque · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "liu-che",
+          "name": "Conquest of Kings",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Infantry",
+          "description": "Yi To accumulates Shatter through basic attacks and can trigger periodic AoE smite damage when paired with Liu Che. Yi To's counterattack mechanics can also benefit from Liu Che's bonuses to normal damage, further amplifying the duo's consistent damage output."
+        }
+      ]
+    },
+    {
+      "id": "zenobia",
+      "name": "Zenobia",
+      "rarity": "legendaire",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Garnison",
+        "Soutien"
+      ],
+      "role": "Tank / garnison",
+      "tier": "C",
+      "firstTalent": "Snare of Thorns",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Snare of Thorns (4/4)",
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (3/3)",
+            "Hold The Line (4/4)",
+            "Elite Soldiers (4/5)"
+          ]
+        },
+        {
+          "name": "Soutien",
+          "path": [
+            "Loose Formation (3/3)",
+            "Hasty Departure (3/3)",
+            "Burning Blood (3/3)",
+            "Counterattack (2/3)",
+            "Rejuvenate (2/3)",
+            "Elixir (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Queen of Palmyra » (active) à 5 en premier, puis « Unmatched Beauty » → « Conqueror's Ambition » → « Pluralistic Reign », enfin « Ascending Augusta » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Zenobia is a legendary commander with the Infantry, Garrison and Support talent trees. The preferred troop type is infantry. Typical use: garrison, field. In the game, Lilith recommends pairing with Flavius Aetius.",
+      "pairings": [
+        "flavius-aetius"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Queen of Palmyra",
+          "type": "Active"
+        },
+        {
+          "name": "Unmatched Beauty",
+          "type": "Passive"
+        },
+        {
+          "name": "Conqueror's Ambition",
+          "type": "Passive"
+        },
+        {
+          "name": "Pluralistic Reign",
+          "type": "Passive"
+        },
+        {
+          "name": "Ascending Augusta",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "zenobia",
+      "grades": {
+        "overall": "C+",
+        "field": "D+",
+        "rally": "F",
+        "garrison": "A",
+        "canyon": "C"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        7,
+        14
+      ],
+      "build": {
+        "id": "official-47",
+        "name": "Zenobia Garrison",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 3,
+          "113": 2,
+          "114": 4,
+          "115": 2,
+          "118": 4,
+          "119": 4,
+          "1401": 1,
+          "1402": 3,
+          "1403": 3,
+          "1404": 3,
+          "1405": 3,
+          "1406": 3,
+          "1407": 3,
+          "1408": 2,
+          "1410": 1,
+          "1411": 1,
+          "1412": 1,
+          "1414": 2,
+          "1416": 2,
+          "1418": 2
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 0,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 20,
+        "teamDefense": 0,
+        "teamHealth": 20,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 0,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "",
+        "tags": [
+          "support",
+          "garnison"
+        ],
+        "summary": "buffs d’équipe · garnison"
+      },
+      "combat": {
+        "damage": 0,
+        "tank": 2.3,
+        "support": 4.8,
+        "utility": 0,
+        "secondary": 0,
+        "role": "support",
+        "score": 5.9,
+        "tags": [
+          "support",
+          "garnison"
+        ],
+        "summary": "buffs d’équipe · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "flavius-aetius",
+          "name": "Zenobia Garrison",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Infantry",
+          "description": "This duo grants huge bonuses to infantry and takes significantly less normal damage, making them a great counter to combo-focused cavalry troops."
+        }
+      ]
+    },
+    {
+      "id": "zhuge-liang",
+      "name": "Zhuge Liang",
+      "rarity": "legendaire",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Nuke archers",
+      "tier": "S",
+      "firstTalent": "Rapid Fire",
+      "trees": [
+        {
+          "name": "Archers",
+          "path": [
+            "Rapid Fire (3/3)",
+            "Razor Sharp (3/3)",
+            "Venomous Sting (4/4)",
+            "Armed And Armored (3/3)",
+            "Arrows Nocked (3/3)",
+            "Thumb Ring (3/3)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Rejuvenate (3/3)",
+            "Feral Nature (5/5)",
+            "Clarity (3/3)",
+            "Burning Blood (3/3)",
+            "Tactical Mastery (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Burning of Xinye » (active) à 5 en premier, puis « Borrowing Arrows » → « Longzhong Plan » → « Marquis Zhongwu », enfin « Chu Shi Biao » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Zhuge Liang is a legendary commander with the Archer, Versatility and Skill talent trees. The preferred troop type is archers. Typical use: field. In the game, Lilith recommends pairing with Hermann (Prime), Philip II, Yi Seong-Gye.",
+      "pairings": [
+        "hermann",
+        "philip-ii",
+        "yi-seong-gye",
+        "ashurbanipal"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Burning of Xinye",
+          "type": "Active"
+        },
+        {
+          "name": "Borrowing Arrows",
+          "type": "Passive"
+        },
+        {
+          "name": "Longzhong Plan",
+          "type": "Passive"
+        },
+        {
+          "name": "Marquis Zhongwu",
+          "type": "Passive"
+        },
+        {
+          "name": "Chu Shi Biao",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "zhuge-liang",
+      "grades": {
+        "overall": "S",
+        "field": "S",
+        "rally": "B+",
+        "garrison": "B+",
+        "canyon": "A+"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        10,
+        11
+      ],
+      "build": {
+        "id": "official-34",
+        "name": "Chain Stratagems",
+        "points": {
+          "201": 1,
+          "202": 2,
+          "203": 2,
+          "205": 3,
+          "206": 3,
+          "207": 3,
+          "208": 3,
+          "209": 1,
+          "211": 2,
+          "212": 3,
+          "213": 3,
+          "216": 1,
+          "217": 1,
+          "219": 4,
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1112": 2,
+          "1113": 2,
+          "1114": 2,
+          "1115": 3,
+          "1116": 2,
+          "1117": 3,
+          "1118": 5,
+          "1119": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 2000,
+        "aoe": true,
+        "targets": 1,
+        "skillDamageBonus": 20,
+        "selfDamageBonus": 5,
+        "healFactor": 0,
+        "selfAttack": 50,
+        "selfDefense": 0,
+        "selfHealth": 30,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 30,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 15,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 2
+        },
+        "active": "Burning of Xinye",
+        "tags": [
+          "damage",
+          "aoe",
+          "support",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts AoE · buffs d’équipe · buff attaque · tank · rage"
+      },
+      "combat": {
+        "damage": 12,
+        "tank": 5,
+        "support": 1.9,
+        "utility": 0.4,
+        "secondary": 2,
+        "role": "damage",
+        "score": 19.2,
+        "tags": [
+          "damage",
+          "aoe",
+          "support",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts AoE · buffs d’équipe · buff attaque · tank · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "hermann-prime",
+          "name": "Chain Stratagems",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Prime Hermann supplements Zhuge Liang's lack of March Speed bonuses. In addition, his Alpha Wolf and Poison effects greatly boost the damage of Burning of Xinye and Marquis Zhongwu."
+        },
+        {
+          "partner": "philip-ii",
+          "name": "Feint East, Strike West",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Philip II's Vergina Sun skill already makes him a great fit with most commanders, and the damage reduction from his Macedonian Phalanx greatly improves Zhuge Liang's survivability."
+        },
+        {
+          "partner": "yi-seong-gye",
+          "name": "Power Hitters",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Zhuge Liang and Yi Seong-Gye can deal a ton of AoE skill damage, but do be aware that neither have any March Speed buffs. Positioning and timing will be key if you want to get the most use out of them."
+        },
+        {
+          "partner": "ashurbanipal",
+          "name": "Four Corners and Three Kingdoms",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Ashurbanipal's Hawk-Eyed more than makes up for Zhuge Liang's lack of March Speed buffs. Combine the duo with Wedge formation to enhance the AoE skill damage of From the Nile to the Tigris, Burning of Xinye, and Marquis Zhongwu."
+        },
+        {
+          "partner": "qin-shi-huang",
+          "name": "Qin and Han",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Zhuge Liang's Chu Shi Biao helps his troop maintain a healthy supply of Rage, fueling the constant Rage expenditure of Qin Shi Huang's Iron Pierces Bronze and Seal Governs All."
+        }
+      ]
+    },
+    {
+      "id": "catherine-de-medici",
+      "name": "Catherine de' Medici",
+      "rarity": "epique",
+      "troops": "polyvalent",
+      "specialities": [
+        "Engineering",
+        "Polyvalence",
+        "Compétence"
+      ],
+      "role": "Nuke polyvalent",
+      "tier": "A",
+      "firstTalent": "Well Fortified",
+      "trees": [
+        {
+          "name": "Engineering",
+          "path": [
+            "Well Fortified (3/3)",
+            "Reinforced Firepower (3/3)",
+            "Will to Power (3/3)",
+            "Strength in Unity (3/3)",
+            "Swift Maneuvers (3/3)",
+            "Defensive Maneuvers (4/4)",
+            "Cornered Fox Technique (4/4)",
+            "Forbearance (5/5)"
+          ]
+        },
+        {
+          "name": "Compétence",
+          "path": [
+            "Burning Blood (3/3)",
+            "Heraldic Shield (3/3)",
+            "All For One (3/3)",
+            "Tactical Mastery (3/3)",
+            "Rejuvenate (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Veiled Threat » (active) à 5 en premier, puis « Star Scryer » → « Lethal Concoction » → « Royal Banquet », enfin « Shadow of the Throne » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Catherine de' Medici is an epic commander with the Engineering, Versatility and Skill talent trees. The preferred troop type is siege. Typical use: field. In the game, Lilith recommends pairing with Narses.",
+      "pairings": [
+        "narses"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Veiled Threat",
+          "type": "Active"
+        },
+        {
+          "name": "Star Scryer",
+          "type": "Passive"
+        },
+        {
+          "name": "Lethal Concoction",
+          "type": "Passive"
+        },
+        {
+          "name": "Royal Banquet",
+          "type": "Passive"
+        },
+        {
+          "name": "Shadow of the Throne",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "catherine-de-medici",
+      "grades": {
+        "overall": "A",
+        "field": "A",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "B+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        16,
+        10,
+        11
+      ],
+      "build": {
+        "id": "official-66",
+        "name": "Ruthless Ambition",
+        "points": {
+          "1101": 1,
+          "1102": 3,
+          "1103": 3,
+          "1104": 3,
+          "1106": 1,
+          "1107": 3,
+          "1108": 3,
+          "1109": 1,
+          "1111": 2,
+          "1113": 2,
+          "1114": 2,
+          "1117": 3,
+          "1601": 1,
+          "1602": 2,
+          "1603": 2,
+          "1604": 2,
+          "1605": 3,
+          "1606": 3,
+          "1607": 3,
+          "1608": 3,
+          "1609": 1,
+          "1610": 2,
+          "1611": 1,
+          "1612": 2,
+          "1613": 3,
+          "1614": 2,
+          "1616": 2,
+          "1617": 2,
+          "1618": 4,
+          "1619": 4,
+          "1620": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 900,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 15,
+        "healFactor": 0,
+        "selfAttack": 15,
+        "selfDefense": 0,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 10,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Veiled Threat",
+        "tags": [
+          "damage"
+        ],
+        "summary": "dégâts monocible · buff attaque"
+      },
+      "combat": {
+        "damage": 8.5,
+        "tank": 0,
+        "support": 0,
+        "utility": 0.7,
+        "secondary": 0,
+        "role": "damage",
+        "score": 8.8,
+        "tags": [
+          "damage"
+        ],
+        "summary": "dégâts monocible · buff attaque"
+      },
+      "officialPairings": [
+        {
+          "partner": "narses",
+          "name": "Ruthless Ambition",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Siege",
+          "description": "These Epic Engineering commanders can use their range advantage to take on more powerful opponents."
+        }
+      ]
+    },
+    {
+      "id": "imhotep",
+      "name": "Imhotep",
+      "rarity": "epique",
+      "troops": "archers",
+      "specialities": [
+        "Archers",
+        "Garnison",
+        "Soutien"
+      ],
+      "role": "Tank / garnison",
+      "tier": "S",
+      "firstTalent": "Rapid Fire",
+      "trees": [
+        {
+          "name": "Archers",
+          "path": [
+            "Rapid Fire (3/3)",
+            "Phoenix-Tail Arrows (4/4)",
+            "Razor Sharp (2/3)",
+            "Venomous Sting (4/4)",
+            "Armed And Armored (3/3)",
+            "Arrows Nocked (3/3)",
+            "Thumb Ring (3/3)",
+            "Whistling Arrows (2/5)"
+          ]
+        },
+        {
+          "name": "Soutien",
+          "path": [
+            "Loose Formation (3/3)",
+            "Emergency Protection (3/3)",
+            "Hasty Departure (3/3)",
+            "Burning Blood (3/3)",
+            "Rejuvenate (2/3)",
+            "Elixir (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« The High Priest » (active) à 5 en premier, puis « Talented Vizier » → « God of Medicine » → « Sage of Peace », enfin « Stairway to Heaven » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set archers selon la troupe.",
+      "notes": "Imhotep is an epic commander with the Archer, Garrison and Support talent trees. The preferred troop type is archers. Typical use: garrison, field. In the game, Lilith recommends pairing with Æthelflæd.",
+      "pairings": [
+        "aethelflaed"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "The High Priest",
+          "type": "Active"
+        },
+        {
+          "name": "Talented Vizier",
+          "type": "Passive"
+        },
+        {
+          "name": "God of Medicine",
+          "type": "Passive"
+        },
+        {
+          "name": "Sage of Peace",
+          "type": "Passive"
+        },
+        {
+          "name": "Stairway to Heaven",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "imhotep",
+      "grades": {
+        "overall": "S",
+        "field": "S",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "S"
+      },
+      "gear": [
+        "Arc du Souffle du Dragon",
+        "Tassettes du Souffle du Dragon",
+        "Casque du Souffle du Dragon",
+        "Bracelets du Souffle du Dragon",
+        "Plastron du Souffle du Dragon",
+        "Bottes du Souffle du Dragon"
+      ],
+      "treeIds": [
+        2,
+        7,
+        14
+      ],
+      "build": {
+        "id": "official-15",
+        "name": "Imhotep Debuff",
+        "points": {
+          "201": 1,
+          "202": 2,
+          "203": 2,
+          "205": 3,
+          "206": 3,
+          "207": 3,
+          "208": 3,
+          "209": 1,
+          "211": 3,
+          "212": 3,
+          "213": 2,
+          "214": 1,
+          "215": 1,
+          "216": 1,
+          "217": 1,
+          "218": 4,
+          "219": 4,
+          "220": 2,
+          "1401": 1,
+          "1402": 3,
+          "1403": 3,
+          "1404": 3,
+          "1405": 3,
+          "1406": 3,
+          "1407": 3,
+          "1408": 2,
+          "1411": 2,
+          "1412": 1,
+          "1415": 1,
+          "1416": 2,
+          "1417": 2,
+          "1418": 2,
+          "1419": 3
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 15,
+        "selfDefense": 15,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 20,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": true,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 30,
+          "attack": 0,
+          "support": 2
+        },
+        "active": "The High Priest",
+        "tags": [
+          "support",
+          "tank",
+          "garnison",
+          "secondary"
+        ],
+        "summary": "buffs d’équipe · buff attaque · tank · garnison · bonus en secondaire"
+      },
+      "combat": {
+        "damage": 2,
+        "tank": 3.4,
+        "support": 3.2,
+        "utility": 0,
+        "secondary": 5,
+        "role": "tank",
+        "score": 10.1,
+        "tags": [
+          "support",
+          "tank",
+          "garnison",
+          "secondary"
+        ],
+        "summary": "buffs d’équipe · buff attaque · tank · garnison · bonus en secondaire"
+      },
+      "officialPairings": [
+        {
+          "partner": "aethelflaed",
+          "name": "Imhotep Debuff",
+          "role": "primary",
+          "scenario": "Field",
+          "troop": "Archers",
+          "description": "Both Imhotep and Æthelflæd have active skills that can inflict huge AoE debuffs, making the pair a fantastic support option for larger battles."
+        }
+      ]
+    },
+    {
+      "id": "narses",
+      "name": "Narses",
+      "rarity": "epique",
+      "troops": "polyvalent",
+      "specialities": [
+        "Engineering",
+        "Polyvalence",
+        "Défense"
+      ],
+      "role": "Tank / garnison",
+      "tier": "B",
+      "firstTalent": "",
+      "trees": [],
+      "skillOrder": "« All-Knowing » (active) à 5 en premier, puis « Wheeler Dealer » → « Western Wall of the Empire » → « Ambition is Divine », enfin « Conqueror of the Sunset » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Narses is an epic commander with the Engineering, Versatility and Defense talent trees. The preferred troop type is siege. Typical use: field. In the game, Lilith recommends pairing with Catherine de' Medici.",
+      "pairings": [
+        "catherine-de-medici"
+      ],
+      "usage": [
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "All-Knowing",
+          "type": "Active"
+        },
+        {
+          "name": "Wheeler Dealer",
+          "type": "Passive"
+        },
+        {
+          "name": "Western Wall of the Empire",
+          "type": "Passive"
+        },
+        {
+          "name": "Ambition is Divine",
+          "type": "Passive"
+        },
+        {
+          "name": "Conqueror of the Sunset",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": false,
+      "slug": "narses",
+      "grades": {
+        "overall": "B+",
+        "field": "B+",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "C+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        16,
+        10,
+        13
+      ],
+      "build": null,
+      "skillProfile": {
+        "damageFactor": 1000,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 400,
+        "selfAttack": 5,
+        "selfDefense": 25,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 60,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "All-Knowing",
+        "tags": [
+          "damage",
+          "heal",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque · tank · rage"
+      },
+      "combat": {
+        "damage": 6,
+        "tank": 5.6,
+        "support": 0.6,
+        "utility": 0.8,
+        "secondary": 0,
+        "role": "damage",
+        "score": 11.9,
+        "tags": [
+          "damage",
+          "heal",
+          "tank",
+          "rage"
+        ],
+        "summary": "dégâts monocible · soin · buff attaque · tank · rage"
+      },
+      "officialPairings": [
+        {
+          "partner": "catherine-de-medici",
+          "name": "Ruthless Ambition",
+          "role": "secondary",
+          "scenario": "Field",
+          "troop": "Siege",
+          "description": "These Epic Engineering commanders can use their range advantage to take on more powerful opponents."
+        }
+      ]
+    },
+    {
+      "id": "pericles",
+      "name": "Pericles",
+      "rarity": "epique",
+      "troops": "infanterie",
+      "specialities": [
+        "Infanterie",
+        "Garnison",
+        "Soutien"
+      ],
+      "role": "Tank / garnison",
+      "tier": "B",
+      "firstTalent": "Snare of Thorns",
+      "trees": [
+        {
+          "name": "Infanterie",
+          "path": [
+            "Snare of Thorns (4/4)",
+            "Undying Fury (3/3)",
+            "Iron Spear (3/3)",
+            "Call of the Pack (3/3)",
+            "Double-Headed Axe (3/3)",
+            "Strong of Body (3/3)",
+            "Hold The Line (4/4)",
+            "Elite Soldiers (4/5)"
+          ]
+        },
+        {
+          "name": "Soutien",
+          "path": [
+            "Loose Formation (3/3)",
+            "Hasty Departure (3/3)",
+            "Burning Blood (3/3)",
+            "Counterattack (2/3)",
+            "Rejuvenate (2/3)",
+            "Elixir (3/3)"
+          ]
+        }
+      ],
+      "skillOrder": "« Glory of Greece » (active) à 5 en premier, puis « Battlefield Orator » → « First Citizen » → « Call for Peace », enfin « Golden Age of Athens » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set infanterie selon la troupe.",
+      "notes": "Pericles is an epic commander with the Infantry, Garrison and Support talent trees. The preferred troop type is infantry. Typical use: garrison, field. In the game, Lilith recommends pairing with Richard I, Sun Tzu.",
+      "pairings": [
+        "richard",
+        "sun-tzu"
+      ],
+      "usage": [
+        "garnison",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Glory of Greece",
+          "type": "Active"
+        },
+        {
+          "name": "Battlefield Orator",
+          "type": "Passive"
+        },
+        {
+          "name": "First Citizen",
+          "type": "Passive"
+        },
+        {
+          "name": "Call for Peace",
+          "type": "Passive"
+        },
+        {
+          "name": "Golden Age of Athens",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "pericles",
+      "grades": {
+        "overall": "B+",
+        "field": "B+",
+        "rally": "n/a",
+        "garrison": "A",
+        "canyon": "B+"
+      },
+      "gear": [
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
+      ],
+      "treeIds": [
+        1,
+        7,
+        14
+      ],
+      "build": {
+        "id": "official-10",
+        "name": "Pericles Sustain",
+        "points": {
+          "101": 1,
+          "102": 2,
+          "103": 2,
+          "104": 3,
+          "105": 3,
+          "106": 3,
+          "107": 3,
+          "108": 2,
+          "109": 2,
+          "110": 2,
+          "111": 2,
+          "112": 3,
+          "113": 2,
+          "114": 4,
+          "115": 2,
+          "118": 4,
+          "119": 4,
+          "1401": 1,
+          "1402": 3,
+          "1403": 3,
+          "1404": 3,
+          "1405": 3,
+          "1406": 3,
+          "1407": 3,
+          "1408": 2,
+          "1410": 1,
+          "1411": 1,
+          "1412": 1,
+          "1414": 2,
+          "1416": 2,
+          "1418": 2
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 1000,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 0,
+        "selfAttack": 10,
+        "selfDefense": 10,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 20,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": true,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": true,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Glory of Greece",
+        "tags": [
+          "damage",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · garnison"
+      },
+      "combat": {
+        "damage": 5.8,
+        "tank": 5,
+        "support": 1.5,
+        "utility": 1.3,
+        "secondary": 0,
+        "role": "damage",
+        "score": 12.2,
+        "tags": [
+          "damage",
+          "tank",
+          "garnison"
+        ],
+        "summary": "dégâts monocible · buff attaque · tank · garnison"
+      },
+      "officialPairings": [
+        {
+          "partner": "richard-i",
+          "name": "Pericles Sustain",
+          "role": "primary",
+          "scenario": "Garrison",
+          "troop": "Infantry",
+          "description": "Pericles's Golden Age of Athens increases healing received, boosting the effects of Richard I's Soul of the Crusaders."
+        },
+        {
+          "partner": "sun-tzu",
+          "name": "Brilliant Minds",
+          "role": "secondary",
+          "scenario": "Garrison",
+          "troop": "Infantry",
+          "description": "With Sun Tzu's Philosophy of War and Pericles's First Citizen, any garrison led by this duo will hit harder and last longer."
+        }
+      ]
+    },
+    {
+      "id": "queen-tamar-of-georgia",
+      "name": "Queen Tamar of Georgia",
+      "rarity": "epique",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Récolte",
+        "Soutien"
+      ],
+      "role": "Récolte",
+      "tier": "B",
+      "firstTalent": "Call of the Pack",
+      "trees": [
+        {
+          "name": "Intégration",
+          "path": [
+            "Call of the Pack (3/3)",
+            "Defensive Formation (3/3)",
+            "Fresh Recruits (3/3)",
+            "Armored To The Teeth (4/4)"
+          ]
+        },
+        {
+          "name": "Récolte",
+          "path": [
+            "Gathering Mastery (Wood) (3/3)",
+            "Gathering Mastery (Food) (3/3)",
+            "Gathering Mastery (Stone) (3/3)",
+            "Gathering Mastery (Gold) (3/3)",
+            "Modified Axle (3/3)",
+            "Tourniquet (3/3)",
+            "Armed Convoy (3/3)",
+            "The More The Better (3/3)",
+            "Superior Tools (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Ode to Freedom » (active) à 5 en premier, puis « Age of Plenty » → « Tadzreuli Strike » → « One Heart, One Mind », enfin « Glory of Faith » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Queen Tamar of Georgia is an epic commander with the Integration, Gathering and Support talent trees. The talent trees are not tied to one troop type. Typical use: gathering, field. In the game, Lilith recommends pairing with Constance, Wak Chanil Ajaw, Pepin III.",
+      "pairings": [
+        "constance",
+        "wak-chanil-ajaw",
+        "pepin-iii"
+      ],
+      "usage": [
+        "recolte",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Ode to Freedom",
+          "type": "Active"
+        },
+        {
+          "name": "Age of Plenty",
+          "type": "Passive"
+        },
+        {
+          "name": "Tadzreuli Strike",
+          "type": "Passive"
+        },
+        {
+          "name": "One Heart, One Mind",
+          "type": "Passive"
+        },
+        {
+          "name": "Glory of Faith",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "queen-tamar-of-georgia",
+      "grades": {
+        "overall": "G",
+        "field": "D",
+        "rally": "n/a",
+        "garrison": "n/a",
+        "canyon": "D"
+      },
+      "gear": [
+        "Coiffe de moissonneur",
+        "Robe de moissonneur",
+        "Sceptre du gardien de la forêt",
+        "Gants de moissonneur",
+        "Pantalon de moissonneur",
+        "Bottes de moissonneur"
+      ],
+      "treeIds": [
+        4,
+        9,
+        14
+      ],
+      "build": {
+        "id": "official-58",
+        "name": "Queen Tamar Gathering",
+        "points": {
+          "401": 1,
+          "402": 3,
+          "403": 3,
+          "404": 3,
+          "405": 3,
+          "408": 3,
+          "409": 2,
+          "410": 3,
+          "414": 1,
+          "416": 4,
+          "901": 1,
+          "902": 2,
+          "903": 2,
+          "904": 3,
+          "905": 3,
+          "906": 3,
+          "907": 3,
+          "908": 2,
+          "909": 1,
+          "910": 3,
+          "911": 3,
+          "912": 1,
+          "913": 1,
+          "914": 2,
+          "915": 1,
+          "916": 3,
+          "917": 3,
+          "918": 3,
+          "919": 3,
+          "920": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 0,
+        "aoe": false,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 350,
+        "selfAttack": 0,
+        "selfDefense": 15,
+        "selfHealth": 0,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 20,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Ode to Freedom",
+        "tags": [
+          "heal",
+          "support",
+          "tank"
+        ],
+        "summary": "soin · buffs d’équipe · tank"
+      },
+      "combat": {
+        "damage": 0,
+        "tank": 2.8,
+        "support": 3.7,
+        "utility": 0,
+        "secondary": 0,
+        "role": "support",
+        "score": 5.4,
+        "tags": [
+          "heal",
+          "support",
+          "tank"
+        ],
+        "summary": "soin · buffs d’équipe · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "constance",
+          "name": "Queen Tamar Gathering",
+          "role": "primary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "This pair gains huge bonuses to Wood Gathering Speed, making them a powerful boon to a developing governor."
+        },
+        {
+          "partner": "wak-chanil-ajaw",
+          "name": "Wak Chanil Ajaw Gathering",
+          "role": "secondary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "This pair gains huge bonuses to Food and Wood Gathering Speed, making them a powerful boon to a governor's development."
+        },
+        {
+          "partner": "pepin-iii",
+          "name": "Lumberjacks",
+          "role": "secondary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "If you're in need of materials for your next building project, this pair gains huge bonuses to Wood Gathering Speed."
+        }
+      ]
+    },
+    {
+      "id": "wak-chanil-ajaw",
+      "name": "Wak Chanil Ajaw",
+      "rarity": "epique",
+      "troops": "polyvalent",
+      "specialities": [
+        "Intégration",
+        "Récolte",
+        "Défense"
+      ],
+      "role": "Récolte",
+      "tier": "B",
+      "firstTalent": "Call of the Pack",
+      "trees": [
+        {
+          "name": "Intégration",
+          "path": [
+            "Call of the Pack (3/3)",
+            "Defensive Formation (3/3)",
+            "Fresh Recruits (3/3)",
+            "Armored To The Teeth (4/4)"
+          ]
+        },
+        {
+          "name": "Récolte",
+          "path": [
+            "Gathering Mastery (Wood) (3/3)",
+            "Gathering Mastery (Food) (3/3)",
+            "Gathering Mastery (Stone) (3/3)",
+            "Gathering Mastery (Gold) (3/3)",
+            "Modified Axle (3/3)",
+            "Tourniquet (3/3)",
+            "Armed Convoy (3/3)",
+            "The More The Better (3/3)",
+            "Superior Tools (5/5)"
+          ]
+        }
+      ],
+      "skillOrder": "« Wayeb' » (active) à 5 en premier, puis « Dance of the Maize God » → « By Grace of the Stars » → « Revival of Wak Kab'nal », enfin « Blessed By the Divine Cosmos » (expertise). Ordre 5-1-1-1 avant les étoiles, puis 5-5-5-5.",
+      "equipment": "Set polyvalent selon la troupe.",
+      "notes": "Wak Chanil Ajaw is an epic commander with the Integration, Gathering and Defense talent trees. The talent trees are not tied to one troop type. Typical use: gathering, field. In the game, Lilith recommends pairing with Queen Tamar of Georgia.",
+      "pairings": [
+        "queen-tamar-of-georgia"
+      ],
+      "usage": [
+        "recolte",
+        "pvp"
+      ],
+      "skills": [
+        {
+          "name": "Wayeb'",
+          "type": "Active"
+        },
+        {
+          "name": "Dance of the Maize God",
+          "type": "Passive"
+        },
+        {
+          "name": "By Grace of the Stars",
+          "type": "Passive"
+        },
+        {
+          "name": "Revival of Wak Kab'nal",
+          "type": "Passive"
+        },
+        {
+          "name": "Blessed By the Divine Cosmos",
+          "type": "Expertise"
+        }
+      ],
+      "source": "rokbuilder.com",
+      "dataUpdatedAt": "2026-11-08",
+      "verified": true,
+      "slug": "wak-chanil-ajaw",
+      "grades": {
+        "overall": "G",
+        "field": "C",
+        "rally": "D",
+        "garrison": "D",
+        "canyon": "D"
+      },
+      "gear": [
+        "Coiffe de moissonneur",
+        "Robe de moissonneur",
+        "Sceptre du gardien de la forêt",
+        "Gants de moissonneur",
+        "Pantalon de moissonneur",
+        "Bottes de moissonneur"
+      ],
+      "treeIds": [
+        4,
+        9,
+        13
+      ],
+      "build": {
+        "id": "official-56",
+        "name": "Wak Chanil Ajaw Gathering",
+        "points": {
+          "401": 1,
+          "402": 3,
+          "403": 3,
+          "404": 3,
+          "405": 3,
+          "408": 3,
+          "409": 2,
+          "410": 3,
+          "414": 1,
+          "416": 4,
+          "901": 1,
+          "902": 2,
+          "903": 2,
+          "904": 3,
+          "905": 3,
+          "906": 3,
+          "907": 3,
+          "908": 2,
+          "909": 1,
+          "910": 3,
+          "911": 3,
+          "912": 1,
+          "913": 1,
+          "914": 2,
+          "915": 1,
+          "916": 3,
+          "917": 3,
+          "918": 3,
+          "919": 3,
+          "920": 5
+        }
+      },
+      "skillProfile": {
+        "damageFactor": 350,
+        "aoe": true,
+        "targets": 1,
+        "skillDamageBonus": 0,
+        "selfDamageBonus": 0,
+        "healFactor": 500,
+        "selfAttack": 0,
+        "selfDefense": 10,
+        "selfHealth": 10,
+        "selfDamageReduction": 0,
+        "selfDefensePenalty": 0,
+        "selfSpeed": 0,
+        "selfRage": 0,
+        "teamAttack": 0,
+        "teamDefense": 0,
+        "teamHealth": 0,
+        "teamDamageReduction": 0,
+        "teamRage": 0,
+        "teamSpeed": 0,
+        "enemyAttackDown": 0,
+        "enemyDefenseDown": 0,
+        "enemySpeedDown": 0,
+        "enemyDamageDown": 0,
+        "enemyDamageTaken": 0,
+        "control": false,
+        "shield": false,
+        "counter": false,
+        "garrison": false,
+        "barbarianBonus": 0,
+        "activeRage": 1000,
+        "garrisonOnly": false,
+        "secondaryOnly": false,
+        "primaryOnly": false,
+        "secondary": {
+          "skillDamage": 0,
+          "damage": 0,
+          "attack": 0,
+          "support": 0
+        },
+        "active": "Wayeb'",
+        "tags": [
+          "aoe",
+          "heal",
+          "tank"
+        ],
+        "summary": "dégâts AoE · soin · tank"
+      },
+      "combat": {
+        "damage": 3.3,
+        "tank": 5.7,
+        "support": 0.7,
+        "utility": 0,
+        "secondary": 0,
+        "role": "tank",
+        "score": 8.9,
+        "tags": [
+          "aoe",
+          "heal",
+          "tank"
+        ],
+        "summary": "dégâts AoE · soin · tank"
+      },
+      "officialPairings": [
+        {
+          "partner": "queen-tamar-of-georgia",
+          "name": "Wak Chanil Ajaw Gathering",
+          "role": "primary",
+          "scenario": "Gathering",
+          "troop": "Multi",
+          "description": "This pair gains huge bonuses to Food and Wood Gathering Speed, making them a powerful boon to a governor's development."
+        }
+      ]
+    }
+  ]
+}
+;
