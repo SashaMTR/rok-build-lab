@@ -4,7 +4,7 @@ window.ROK_CONTENT = {
     "updatedAt": "2026-11-08"
   },
   "codes": {
-    "verifiedAt": "2026-11-08",
+    "verifiedAt": "2026-11-10",
     "source": "Discord (salon 1568802000748150865)",
     "note": "Codes synchronisés depuis ton salon Discord #codes. Les codes sans expiration connue restent à tester.",
     "items": [
@@ -25,7 +25,7 @@ window.ROK_CONTENT = {
       {
         "code": "aqivmzp65q",
         "rewards": "Code Discord",
-        "status": "active",
+        "status": "expired",
         "added": "2026-11-08",
         "expires": "2026-11-09T15:59:59.000Z"
       },
