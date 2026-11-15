@@ -1,12 +1,12 @@
 {
   "meta": {
-    "version": "2026.11.08",
-    "updatedAt": "2026-11-08",
+    "version": "2026.11.15",
+    "updatedAt": "2026-11-15",
     "gameVersion": "Rise of Kingdoms — dataset communautaire",
     "source": "Dataset local (RoK Build Lab)",
     "disclaimer": "Builds indicatifs : la méta évolue à chaque mise à jour. Les entrées marquées non vérifiées sont des recommandations par rôle, à confirmer selon ta version du jeu.",
     "dataSource": "rokbuilder.com",
-    "dataUpdatedAt": "2026-11-08"
+    "dataUpdatedAt": "2026-11-15"
   },
   "commanders": [
     {
@@ -88,7 +88,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "minamoto-no-yoshitsune",
       "grades": {
         "overall": "A",
@@ -232,8 +232,8 @@
     {
       "id": "cao-cao",
       "name": "Cao Cao",
-      "rarity": "legendaire",
-      "troops": "cavalerie",
+      "rarity": "epique",
+      "troops": "polyvalent",
       "specialities": [
         "Cavalerie",
         "Maintien de la paix",
@@ -313,7 +313,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "cao-cao",
       "grades": {
         "overall": "C",
@@ -323,12 +323,12 @@
         "canyon": "B"
       },
       "gear": [
-        "Casque Windswept",
-        "Plastron Windswept",
-        "Hallebarde d’avant-garde",
-        "Brassards Windswept",
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
         "Jambières d’avant-garde",
-        "Bottes Windswept"
+        "Bottes du Phénix"
       ],
       "treeIds": [
         3,
@@ -542,7 +542,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "sun-tzu",
       "grades": {
         "overall": "S",
@@ -747,7 +747,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "joan-of-arc",
       "grades": {
         "overall": "S",
@@ -896,7 +896,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "boudica",
       "grades": {
         "overall": "C",
@@ -1042,7 +1042,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "tomoe-gozen",
       "grades": {},
       "gear": [
@@ -1207,7 +1207,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "lancelot",
       "grades": {},
       "gear": [
@@ -1383,7 +1383,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "city-keeper",
       "grades": {},
       "gear": [
@@ -1534,7 +1534,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "markswoman",
       "grades": {},
       "gear": [
@@ -1712,7 +1712,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "dragon-lancer",
       "grades": {},
       "gear": [
@@ -1877,7 +1877,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "lohar",
       "grades": {
         "overall": "D",
@@ -2059,7 +2059,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "belisarius",
       "grades": {
         "overall": "A",
@@ -2222,7 +2222,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "eulji-mundeok",
       "grades": {
         "overall": "B",
@@ -2395,7 +2395,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "scipio-africanus",
       "grades": {
         "overall": "C",
@@ -2528,7 +2528,7 @@
       "id": "hermann",
       "name": "Hermann le Chérusque",
       "rarity": "epique",
-      "troops": "archers",
+      "troops": "polyvalent",
       "specialities": [
         "Archers",
         "Garnison",
@@ -2596,7 +2596,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "hermann",
       "grades": {
         "overall": "A",
@@ -2606,12 +2606,12 @@
         "canyon": "B+"
       },
       "gear": [
-        "Arc du Souffle du Dragon",
-        "Tassettes du Souffle du Dragon",
-        "Casque du Souffle du Dragon",
-        "Bracelets du Souffle du Dragon",
-        "Plastron du Souffle du Dragon",
-        "Bottes du Souffle du Dragon"
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
       ],
       "treeIds": [
         2,
@@ -2780,7 +2780,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "kusunoki-masashige",
       "grades": {
         "overall": "B+",
@@ -2959,7 +2959,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "pelagius",
       "grades": {
         "overall": "B",
@@ -3167,7 +3167,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "bjorn-ironside",
       "grades": {
         "overall": "A",
@@ -3377,7 +3377,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "keira",
       "grades": {
         "overall": "A",
@@ -3567,7 +3567,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "diaochan",
       "grades": {
         "overall": "C",
@@ -3740,7 +3740,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "charles-martel",
       "grades": {
         "overall": "C+",
@@ -3972,7 +3972,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "richard-i",
       "grades": {
         "overall": "C",
@@ -4211,7 +4211,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "alexander-the-great",
       "grades": {
         "overall": "B+",
@@ -4399,7 +4399,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "leonidas-i",
       "grades": {
         "overall": "B",
@@ -4571,7 +4571,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "constantine-i",
       "grades": {
         "overall": "D+",
@@ -4767,7 +4767,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "yi-seong-gye",
       "grades": {
         "overall": "A+",
@@ -4953,7 +4953,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "tomyris",
       "grades": {
         "overall": "C+",
@@ -5119,7 +5119,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "edward-of-woodstock",
       "grades": {
         "overall": "D+",
@@ -5320,7 +5320,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "cyrus-the-great",
       "grades": {
         "overall": "B",
@@ -5553,7 +5553,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "genghis-khan",
       "grades": {
         "overall": "D+",
@@ -5725,7 +5725,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "saladin",
       "grades": {
         "overall": "B",
@@ -5917,7 +5917,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "takeda-shingen",
       "grades": {
         "overall": "B",
@@ -6092,7 +6092,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "attila",
       "grades": {
         "overall": "B",
@@ -6308,7 +6308,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "julius-caesar",
       "grades": {
         "overall": "C",
@@ -6494,7 +6494,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "frederick-i",
       "grades": {
         "overall": "C",
@@ -6666,7 +6666,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "aethelflaed",
       "grades": {
         "overall": "C+",
@@ -6898,7 +6898,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "cleopatra-vii",
       "grades": {
         "overall": "G",
@@ -7103,7 +7103,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "seondeok",
       "grades": {
         "overall": "G",
@@ -7316,7 +7316,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "sarka",
       "grades": {},
       "gear": [
@@ -7477,7 +7477,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "centurion",
       "grades": {},
       "gear": [
@@ -7607,7 +7607,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "constance",
       "grades": {},
       "gear": [
@@ -7733,7 +7733,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "gaius-marius",
       "grades": {},
       "gear": [
@@ -7867,7 +7867,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "matilda-of-flanders",
       "grades": {
         "overall": "G",
@@ -8009,7 +8009,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "osman-i",
       "grades": {
         "overall": "B",
@@ -8106,7 +8106,7 @@
       "id": "baibars",
       "name": "Baïbars",
       "rarity": "epique",
-      "troops": "cavalerie",
+      "troops": "polyvalent",
       "specialities": [
         "Cavalerie",
         "Conquête",
@@ -8173,7 +8173,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "baibars",
       "grades": {
         "overall": "A+",
@@ -8183,12 +8183,12 @@
         "canyon": "B+"
       },
       "gear": [
-        "Casque Windswept",
-        "Plastron Windswept",
-        "Hallebarde d’avant-garde",
-        "Brassards Windswept",
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
         "Jambières d’avant-garde",
-        "Bottes Windswept"
+        "Bottes du Phénix"
       ],
       "treeIds": [
         3,
@@ -8380,7 +8380,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "ishida-mitsunari",
       "grades": {
         "overall": "G",
@@ -8582,7 +8582,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "mulan",
       "grades": {
         "overall": "D+",
@@ -8761,7 +8761,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "hannibal-barca",
       "grades": {
         "overall": "D+",
@@ -8942,7 +8942,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "mehmed-ii",
       "grades": {
         "overall": "B",
@@ -9144,7 +9144,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "charlemagne",
       "grades": {
         "overall": "D",
@@ -9285,7 +9285,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "wu-zetian",
       "grades": {
         "overall": "C+",
@@ -9353,7 +9353,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "artemisia-i",
       "grades": {
         "overall": "B",
@@ -9533,7 +9533,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "slug": "el-cid",
       "grades": {
         "overall": "C",
@@ -9736,7 +9736,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "notes": "Guan Yu is a legendary commander with the Infantry, Conquering and Skill talent trees. The preferred troop type is infantry. Typical use: rally, field. In the game, Lilith recommends pairing with Leonidas I, Scipio Africanus (Prime), Mehmed II.",
       "slug": "guan-yu",
       "grades": {
@@ -9893,8 +9893,8 @@
     {
       "id": "pyrrhus",
       "name": "Pyrrhus",
-      "rarity": "legendaire",
-      "troops": "infanterie",
+      "rarity": "epique",
+      "troops": "polyvalent",
       "specialities": [
         "Infanterie",
         "Polyvalence",
@@ -9963,7 +9963,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "notes": "Pyrrhus is a legendary commander with the Infantry, Versatility and Defense talent trees. The preferred troop type is infantry. Typical use: field. In the game, Lilith recommends pairing with Alexander the Great, Richard I.",
       "slug": "pyrrhus",
       "grades": {
@@ -10149,7 +10149,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "notes": "Ragnar Lodbrok is a legendary commander with the Leadership, Conquering and Attack talent trees. The talent trees are not tied to one troop type. Typical use: rally, field. In the game, Lilith recommends pairing with Scipio Africanus.",
       "slug": "ragnar-lodbrok",
       "grades": {
@@ -10292,7 +10292,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "achilles",
       "grades": {
@@ -10477,7 +10477,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "afonso-de-albuquerque",
       "grades": {
@@ -10695,7 +10695,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "alexander-nevsky",
       "grades": {
@@ -10918,7 +10918,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "alp-arslan",
       "grades": {
@@ -11140,7 +11140,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "amanitore",
       "grades": {
@@ -11322,7 +11322,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "archimedes",
       "grades": {
@@ -11491,7 +11491,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "arthur-pendragon",
       "grades": {
@@ -11727,7 +11727,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "ashurbanipal",
       "grades": {
@@ -11924,7 +11924,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "babur",
       "grades": {
@@ -12101,7 +12101,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "bai-qi",
       "grades": {
@@ -12295,7 +12295,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "belisarius-prime",
       "grades": {
@@ -12479,7 +12479,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "bertrand-du-guesclin",
       "grades": {
@@ -12688,7 +12688,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "boudica-prime",
       "grades": {
@@ -12901,7 +12901,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "casimir-iii",
       "grades": {
@@ -13077,7 +13077,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "chandragupta-maurya",
       "grades": {
@@ -13243,7 +13243,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "cheok-jun-gyeong",
       "grades": {
@@ -13460,7 +13460,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "choe-yeong",
       "grades": {
@@ -13682,7 +13682,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "david-iv",
       "grades": {
@@ -13865,7 +13865,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "dido",
       "grades": {
@@ -14006,7 +14006,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "eleanor-of-aquitaine",
       "grades": {
@@ -14073,7 +14073,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "elizabeth-i",
       "grades": {
@@ -14218,7 +14218,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "flavius-aetius",
       "grades": {
@@ -14356,7 +14356,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "gajah-mada",
       "grades": {
@@ -14447,7 +14447,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "gang-gamchan",
       "grades": {
@@ -14627,7 +14627,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "gilgamesh",
       "grades": {
@@ -14763,7 +14763,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "gonzalo-de-cordoba",
       "grades": {
@@ -14858,7 +14858,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "gorgo",
       "grades": {
@@ -15055,7 +15055,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "harald-sigurdsson",
       "grades": {
@@ -15154,8 +15154,8 @@
     {
       "id": "hayam-wuruk",
       "name": "Hayam Wuruk",
-      "rarity": "legendaire",
-      "troops": "archers",
+      "rarity": "epique",
+      "troops": "polyvalent",
       "specialities": [
         "Archers",
         "Garnison",
@@ -15223,7 +15223,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "hayam-wuruk",
       "grades": {
@@ -15234,12 +15234,12 @@
         "canyon": "B+"
       },
       "gear": [
-        "Arc du Souffle du Dragon",
-        "Tassettes du Souffle du Dragon",
-        "Casque du Souffle du Dragon",
-        "Bracelets du Souffle du Dragon",
-        "Plastron du Souffle du Dragon",
-        "Bottes du Souffle du Dragon"
+        "Casque du Phénix",
+        "Plastron d’infanterie",
+        "Lame bénie",
+        "Brassards du Phénix",
+        "Jambières d’avant-garde",
+        "Bottes du Phénix"
       ],
       "treeIds": [
         2,
@@ -15415,7 +15415,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "hector",
       "grades": {
@@ -15587,7 +15587,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "henry-v",
       "grades": {
@@ -15730,7 +15730,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "heraclius",
       "grades": {
@@ -15875,7 +15875,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "hermann-prime",
       "grades": {
@@ -16053,7 +16053,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "honda-tadakatsu",
       "grades": {
@@ -16258,7 +16258,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "huo-qubing",
       "grades": {
@@ -16453,7 +16453,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "ivan-iv",
       "grades": {
@@ -16601,7 +16601,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "ivar",
       "grades": {
@@ -16744,7 +16744,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "jadwiga",
       "grades": {
@@ -16903,7 +16903,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "jan-zizka",
       "grades": {
@@ -17074,7 +17074,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "joan-of-arc-prime",
       "grades": {
@@ -17246,7 +17246,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "john-hunyadi",
       "grades": {
@@ -17454,7 +17454,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "justinian-i",
       "grades": {
@@ -17674,7 +17674,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "k-inich-janaab-pakal",
       "grades": {
@@ -17849,7 +17849,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "lapulapu",
       "grades": {
@@ -17944,7 +17944,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "liu-che",
       "grades": {
@@ -18195,7 +18195,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "lu-bu",
       "grades": {
@@ -18399,7 +18399,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "margaret-i",
       "grades": {
@@ -18603,7 +18603,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "mary-i",
       "grades": {},
@@ -18776,7 +18776,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "matthias-i",
       "grades": {
@@ -18907,7 +18907,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "moctezuma-i",
       "grades": {
@@ -19065,7 +19065,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "nebuchadnezzar-ii",
       "grades": {
@@ -19276,7 +19276,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "pelagius-legendary",
       "grades": {
@@ -19488,7 +19488,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "pepin-iii",
       "grades": {
@@ -19690,7 +19690,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "philip-ii",
       "grades": {
@@ -19906,7 +19906,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "qin-shi-huang",
       "grades": {
@@ -20119,7 +20119,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "ragnar-lodbrok-prime",
       "grades": {
@@ -20301,7 +20301,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "ramesses-ii",
       "grades": {
@@ -20445,7 +20445,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "sargon-the-great",
       "grades": {
@@ -20612,7 +20612,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "scipio-aemilianus",
       "grades": {
@@ -20803,7 +20803,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "scipio-africanus-prime",
       "grades": {
@@ -20958,7 +20958,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "selim-i",
       "grades": {
@@ -21108,7 +21108,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "shajar-al-durr",
       "grades": {
@@ -21284,7 +21284,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "shapur-i",
       "grades": {
@@ -21466,7 +21466,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "siyaj-k-ak",
       "grades": {
@@ -21610,7 +21610,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "stephen-iii",
       "grades": {
@@ -21783,7 +21783,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "subutai",
       "grades": {
@@ -21987,7 +21987,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "suleiman-i",
       "grades": {
@@ -22158,7 +22158,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "sun-tzu-prime",
       "grades": {
@@ -22351,7 +22351,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "tariq-ibn-ziyad",
       "grades": {
@@ -22494,7 +22494,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "theodora",
       "grades": {
@@ -22664,7 +22664,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "thutmose-iii",
       "grades": {
@@ -22888,7 +22888,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "tokugawa-ieyasu",
       "grades": {
@@ -23081,7 +23081,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "trajan",
       "grades": {
@@ -23229,7 +23229,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "vercingetorix",
       "grades": {
@@ -23394,7 +23394,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "william-i",
       "grades": {
@@ -23572,7 +23572,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "william-marshal",
       "grades": {
@@ -23784,7 +23784,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "william-wallace",
       "grades": {
@@ -24009,7 +24009,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "xiang-yu",
       "grades": {
@@ -24221,7 +24221,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "yahya-ibn-khalid",
       "grades": {
@@ -24432,7 +24432,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "yi-sun-sin",
       "grades": {
@@ -24568,8 +24568,8 @@
     {
       "id": "yi-to",
       "name": "Yi To",
-      "rarity": "legendaire",
-      "troops": "infanterie",
+      "rarity": "epique",
+      "troops": "polyvalent",
       "specialities": [
         "Infanterie",
         "Polyvalence",
@@ -24635,7 +24635,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "yi-to",
       "grades": {
@@ -24844,7 +24844,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "zenobia",
       "grades": {
@@ -25049,7 +25049,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "zhuge-liang",
       "grades": {
@@ -25289,7 +25289,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "catherine-de-medici",
       "grades": {
@@ -25491,7 +25491,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "imhotep",
       "grades": {
@@ -25675,7 +25675,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": false,
       "slug": "narses",
       "grades": {
@@ -25848,7 +25848,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "pericles",
       "grades": {
@@ -26063,7 +26063,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "queen-tamar-of-georgia",
       "grades": {
@@ -26283,7 +26283,7 @@
         }
       ],
       "source": "rokbuilder.com",
-      "dataUpdatedAt": "2026-11-08",
+      "dataUpdatedAt": "2026-11-15",
       "verified": true,
       "slug": "wak-chanil-ajaw",
       "grades": {
